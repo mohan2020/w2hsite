@@ -1,0 +1,22 @@
+<!-- Circle Mini Features >
+<div class="row items-push text-center push-50">
+{{ range .logos }}
+    <div class="col-xs-4 col-md-2 visibility-hidden" data-toggle="appear" data-class="animated bounceIn">
+        <div class="item item-circle bg-white border push-10">
+            <i class="si si-{{.logo}} text-default"></i>
+        </div>
+        <div class="font-w600" style="color: white">{{ .organizationName }}</div>
+    </div>
+{{ end }}    
+</div>
+<!-- END Circle Mini Features -->
+
+<div class="col-xs-6 col-sm-4 col-lg-2">
+    <div class="block text-center">
+        <div class="block-content block-content-full">
+            <!--i style="color: white" class="si si-{{.logo}} fa-4x text-primary-darker"></i-->
+            <img src="{{ .logo }}">
+            <div class="font-w600 push-15-t">{{ .organizationName }}</div>
+        </div>
+    </div>
+</div>        

@@ -1,23 +1,13 @@
 {{ partial "header" .}}
 
     <!-- Main Container -->
-    <main id="about">
-	{{ partial "hero" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }} Abot
+<main id="about">
+	{{ partial "hero" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-        <!-- Mini Stats -->
-        <div class="bg-white">
-            <section class="content content-boxed">
-                <!-- Section Content -->
-            {{ with .Params.stats }}
-                <div class="row items-push push-20-t push-20 text-center"> 
-                {{ range .highlights }}        
-                    {{ partial "mstats" . }}
-                {{ end }}
-                </div>
-            {{ end }}
-            </section>
-        </div>
-        <!-- END Mini Stats -->
-    </main>
-
+    <div class="content bg-white">
+        <section class="content content-boxed">
+            <p class="lead">{{ .Params.introduction }}</p>
+        </section>
+    </div>
+</main>
 {{ partial "footer" .}}

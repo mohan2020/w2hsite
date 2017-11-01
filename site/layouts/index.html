@@ -25,6 +25,8 @@
             <section class="content content-boxed overflow-hidden">
                 <!-- Section Content -->
                 <div class="row items-push-2x push-50-t nice-copy">
+            <!--h3 class="h3 push-20 visibility-hidden" style="color: white"  data-toggle="appear">What we do</h3-->
+            <p class="lead">{{ .Params.summary }}</p>                    
             {{ with .Params.research }}
                 <h3 class="h3 push-20 visibility-hidden" style="color: white"  data-toggle="appear">{{ .title }}</h3>
                 {{ range .blurbs }}            

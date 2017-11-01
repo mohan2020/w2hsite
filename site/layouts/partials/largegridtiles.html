@@ -1,0 +1,22 @@
+<div class="col-md-6 visibility-hidden" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
+    <div class="block">
+        <div class="block-header">
+            <ul class="block-options">
+                <li>
+                    <button type="button" data-toggle="tooltip" title="Twitter"><a href="https://twitter.com/{{.twitter}}"><i class="fa fa-twitter"></i></a></button>
+                </li>
+                <li>
+                    <button type="button" data-toggle="tooltip" title="Linked In"><a href="https://linkedin.com/{{.linkedin}}"><i class="fa fa-linkedin"></i></a></button>
+                </li>
+            </ul>
+            <h2 class="block-title"><strong>{{.name}}</strong></h2>
+            <h5 class="block-title">{{.title}}</h5>
+        </div>
+            <div class="block-content block-content-full text-center bg-image" style="background-image: url('{{.bgpic}}');">
+                <img class="img-avatar img-avatar-thumb img-avatar200" src="{{.pic}}" alt="">
+            </div>
+            <div class="block-content">
+                <p>{{.text | markdownify }}</p>
+            </div>
+    </div>
+</div>

@@ -40,12 +40,21 @@
                 </div>
             </section>
         </div>
+        <div class="bg-primary">
+            <section class="content content-full content-boxed">
+                <!-- Section Content -->
+                <div class="push-20-t push-20 text-center">
+                    <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Learn more</a>
+                </div>
+                <!-- END Section Content -->
+            </section>
+        </div>        
         <!-- END Classic Features #1 -->
 
         <div class="content bg-white">
             <!-- Icon Tiles -->
         {{ with .Params.customers }}             
-            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">{{ .title }}</h3>
+            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">{{ .title }}</h2>
             <div class="content-grid push-50">               
                 <div class="row">
                 {{ range .logos }}                    
@@ -67,16 +76,42 @@
 
         <!-- Get Started -->
         <div class="bg-gray-lighter">
+            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Sample case studies</h2>
+            <section class="content content-boxed overflow-hidden">
+                <h3 class="h2 font-w600 push-50">Clinical</h3>
+        {{ with .Params.clinicalhighlights}}
+                <div class="row push-20-t push-20">               
+                <!-- Section Content -->
+                {{ range .studies}}
+                    {{ partial "4by1cards" . }}
+                {{ end }}
+            {{ end }}
+                <!-- END Section Content -->
+                </div>
+            </section>
+            <section class="content content-boxed overflow-hidden">
+                <h3 class="h2 font-w600 push-50">Research</h3>
+        {{ with .Params.researchhighlights}}
+                <div class="row push-20-t push-20">               
+                <!-- Section Content -->
+                {{ range .studies}}
+                    {{ partial "4by1cards" . }}
+                {{ end }}
+            {{ end }}
+                <!-- END Section Content -->
+                </div>
+            </section>            
+        </div>
+        <div class="bg-gray-lighter">
             <section class="content content-full content-boxed">
                 <!-- Section Content -->
                 <div class="push-20-t push-20 text-center">
-                    <h3 class="h4 push-20 visibility-hidden" data-toggle="appear">Clean design in one powerful package. It was made for your next awesome project.</h3>
-                    <a class="btn btn-rounded btn-noborder btn-lg btn-success visibility-hidden" data-toggle="appear" data-class="animated bounceIn" href="frontend_pricing.html">Get Started Today</a>
+                    <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Learn more</a>
                 </div>
                 <!-- END Section Content -->
             </section>
         </div>
-        <!-- END Get Started -->
+
     </main>
     <!-- END Main Container -->
 

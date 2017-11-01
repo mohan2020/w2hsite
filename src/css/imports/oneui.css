@@ -7027,6 +7027,14 @@ a.block.block-link-hover3:active {
   width: 128px;
   height: 128px;
 }
+.img-avatar.img-avatar200 {
+  width: 200px;
+  height: 200px;
+}
+.img-avatar.img-avatar256 {
+  width: 256px;
+  height: 256px;
+}
 .img-avatar-thumb {
   margin: 5px;
   -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);

@@ -4,7 +4,7 @@ image: /img/photos/photo28@2x.jpg
 subtitle: Research new and apply scientifically proven personalized engagement strategies in your patient population
 summary: Way to Health is a web-based platform that enables and automates research into healthy behavior interventions. Once interventions are found to be successful, they can quickly be applied to various populations and rolled out at scale quickly.
 research:
-  title: Key Capabilities
+  title: Key Capabilities - Would like to replace this with the problem and the solution
   blurbs:
     - icon: rocket
       header: Study Creation & Management
@@ -42,7 +42,7 @@ stats:
     - title: Peer Reviewed Publications
       metric: 38
 customers:
-  title: Trusted by leading research and clinical organizations
+  title: TRUSTED BY LEADING RESEARCH AND CLINICAL ORGANIZATIONS
   logos:
     - logo: /img/logos/penn.png
       organizationName: The University Of Pennsylvania
@@ -123,5 +123,26 @@ researchhighlights:
       feature1: Device integration
       feature2: Leader boards
       feature3: Multi-arm study
-      feature4: Integration with Redcap      
+      feature4: Integration with Redcap
+whydosomething:
+  intro: Patient engagement has been called the [blockbuster drug of the 21st century](http://healthstandards.com/blog/2012/08/28/drug-of-the-century/). But it continues to elude a solution and in the meantime, the problem continues to grow. 
+  problems:
+    - problem: Eighty-six percent of the nation’s $2.7 trillion annual health care expenditures are for people with chronic and mental health conditions.
+      graphic:
+      source:
+    - problem: Medication adherence continues to be challenge even post fill. 
+      graphic:
+      source: Test [Truven Health Analytics-NPR Health Poll](https://truvenhealth.com/media-room/press-releases/detail/prid/209/truven-health-analytics-npr-health-poll-finds-cost-is-top-cause-of-unfilled-prescriptions)
+    - problem: Patient engagement is the key to prevention
+      graphic:
+      source: 
+whyus:
+  intro: 
+  solutions:
+    - solution:
+      description:
+    - solution:
+      description:
+    - solution:
+      description:
 ---

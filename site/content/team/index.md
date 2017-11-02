@@ -14,6 +14,22 @@ team:
       text: >
         Mohan currently leads the Way to Health team. He is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities. <br><br>
         He has substantial experience in multiple domains such as supply chain management, master data management, oncology, revenue cycle management, mobile technologies, cloud based software, cybersecurity and compliance. He is a YCombinator Summer 2012 alum.
+    - name: Mike Kopinsky
+      title: Engineering Lead
+      twitter: 
+      linkedin: 
+      bgpic: /img/bg/photo3.jpg
+      pic: /img/team/kopinsky.jpg
+      text: >
+        Michael Kopinsky is a senior software developer at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics.  Specifically, Michael works to expand the reach of Way to Health platform while reducing cost and increasing quality.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania.
+    - name: Christianne Sevinc
+      title: Operations Lead
+      twitter: 
+      linkedin: 
+      bgpic: /img/bg/photo8.jpg
+      pic: /img/team/sevinc.jpg
+      text: >
+        Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. Working closely with the development team, Christianne identifies and prioritizes enhancements and manages project timelines.  She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
     - name: John Bergandino
       title: Software Developer
       twitter: 
@@ -29,15 +45,7 @@ team:
       bgpic: /img/bg/photo10.jpg
       pic: /img/team/brown.jpeg
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum ut urna sollicitudin placerat. Donec at ante ac massa scelerisque ultricies. Nam sodales faucibus pretium. Suspendisse sit amet tortor vitae leo congue dictum. Sed aliquet, metus at finibus venenatis, nulla lectus maximus purus, vel suscipit massa orci eu orci. Curabitur accumsan nisi et erat pulvinar pulvinar. <br><br>uspendisse sodales, turpis eu pharetra laoreet, ante diam tempus augue, nec convallis est sem nec justo. Quisque tincidunt a purus sit amet fermentum. Nunc finibus, ipsum sit amet mattis suscipit, dolor nunc feugiat sapien, eu sodales enim arcu at lacus. 
-    - name: Mike Kopinsky
-      title: Senior Software Developer
-      twitter: 
-      linkedin: 
-      bgpic: /img/bg/photo3.jpg
-      pic: /img/team/kopinsky.jpg
-      text: >
-        Michael Kopinsky is a senior software developer at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics.  Specifically, Michael works to expand the reach of Way to Health platform while reducing cost and increasing quality.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum ut urna sollicitudin placerat. Donec at ante ac massa scelerisque ultricies. <br><br>uspendisse sodales, turpis eu pharetra laoreet, ante diam tempus augue, nec convallis est sem nec justo. Quisque tincidunt a purus sit amet fermentum. Nunc finibus, 
     - name: Aaron Leitner
       title: Associate Software Developer
       twitter: 
@@ -61,7 +69,7 @@ team:
       bgpic: /img/bg/photo6.jpg
       pic: /img/team/mcgrogan.jpg
       text: >
-        In hendrerit imperdiet fringilla. Sed rutrum id leo ultricies hendrerit. Quisque tincidunt, lorem in tristique ullamcorper, eros augue pretium sapien, vitae sodales odio ipsum ut ex. Nullam ultricies, ante ut dapibus iaculis, risus tellus posuere libero, sed auctor nibh elit vitae eros. Phasellus aliquet nibh varius placerat fermentum. Curabitur iaculis venenatis imperdiet. Aliquam lacinia nisi et sapien placerat sagittis. <br><br> Duis cursus interdum ornare. Quisque volutpat dictum turpis ut fermentum. Proin finibus accumsan lectus, eget bibendum ipsum finibus a. Sed justo ipsum, vulputate interdum pharetra vitae, scelerisque id urna. Phasellus vel felis non nibh cursus vehicula nec et diam. Sed vitae sem erat. 
+        In hendrerit imperdiet fringilla. Sed rutrum id leo ultricies hendrerit. Quisque tincidunt, lorem in tristique ullamcorper, eros augue pretium sapien, vitae sodales odio ipsum ut ex. Nullam ultricies, ante ut dapibus iaculis, risus tellus posuere libero, sed auctor nibh elit vitae eros.  <br><br> Duis cursus interdum ornare. Quisque volutpat dictum turpis ut fermentum. Proin finibus accumsan lectus, eget bibendum ipsum finibus a. Sed justo ipsum, vulputate interdum pharetra vitae, scelerisque id urna. Phasellus vel felis non nibh cursus vehicula nec et diam. Sed vitae sem erat. 
     - name: Benjamin Rosenbach
       title: Software Developer
       twitter: 
@@ -70,14 +78,6 @@ team:
       pic: /img/team/rosenbach.jpg
       text: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum ut urna sollicitudin placerat. Donec at ante ac massa scelerisque ultricies. Nam sodales faucibus pretium. Suspendisse sit amet tortor vitae leo congue dictum. Sed aliquet, metus at finibus venenatis, nulla lectus maximus purus, vel suscipit massa orci eu orci. Curabitur accumsan nisi et erat pulvinar pulvinar. Suspendisse sodales, turpis eu pharetra laoreet, ante diam tempus augue, nec convallis est sem nec justo. <br><br>Qullamcorper dui nec sem viverra, in maximus nisi luctus. Integer cursus, felis vel aliquet hendrerit, sapien odio commodo odio, eget tincidunt neque ante sit amet sapien. 
-    - name: Christianne Sevinc
-      title: Operations Lead
-      twitter: 
-      linkedin: 
-      bgpic: /img/bg/photo8.jpg
-      pic: /img/team/sevinc.jpg
-      text: >
-        Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. Working closely with the development team, Christianne identifies and prioritizes enhancements and manages project timelines.  She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
     - name: Devon Taylor
       title: Research Operations
       twitter: 

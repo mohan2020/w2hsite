@@ -5,7 +5,7 @@
 	{{ partial "hero" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
         <!-- Mini Stats -->
-        <div class="bg-white">
+        <div class="bg-primary">
             <section class="content content-boxed">
                 <!-- Section Content -->
             {{ with .Params.stats }}
@@ -21,31 +21,31 @@
 
         <!-- Classic Features #1 -->
         <!-- Grid Features -->
-        <div class="bg-primary">
-            <section class="content content-boxed overflow-hidden">
+        <div class="bg-gray-lighter">
+            <section class="content content-boxed">
+                <p class="lead">{{ .Params.summary }}</p>                 
                 <!-- Section Content -->
-                <div class="row items-push-2x push-50-t nice-copy">
+                <div class="row items-push-3x push-50-t nice-copy">
             <!--h3 class="h3 push-20 visibility-hidden" style="color: white"  data-toggle="appear">What we do</h3-->
-            <p class="lead">{{ .Params.summary }}</p>                    
-            {{ with .Params.research }}
-                <h3 class="h3 push-20 visibility-hidden" style="color: white"  data-toggle="appear">{{ .title }}</h3>
-                {{ range .blurbs }}            
-                    {{ partial "grid" . }}
-                {{ end }}
-            {{ end }}
-            {{ with .Params.clinical }}
-                <h3 class="h3 push-20 visibility-hidden" style="color: white"  data-toggle="appear">{{ .title }}</h3>
-                {{ range .blurbs }}            
-                    {{ partial "grid" . }}
-                {{ end }}
-            {{ end }}            
-                </div>
+                    {{ with .Params.research }}
+                        <h3 class="h3 font-w600 push-50 text-uppercase push-10 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
+                        {{ range .blurbs }}            
+                            {{ partial "grid" . }}
+                        {{ end }}
+                    {{ end }}
+                    {{ with .Params.clinical }}
+                        <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
+                        {{ range .blurbs }}            
+                            {{ partial "grid" . }}
+                        {{ end }}
+                    {{ end }}            
+                        </div>
             </section>
         </div>
         <div class="bg-primary">
             <section class="content content-full content-boxed">
                 <!-- Section Content -->
-                <div class="push-20-t push-20 text-center">
+                <div class="push-20-t push-50">
                     <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Learn more</a>
                 </div>
                 <!-- END Section Content -->
@@ -56,7 +56,7 @@
         <div class="content bg-white">
             <!-- Icon Tiles -->
         {{ with .Params.customers }}             
-            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">{{ .title }}</h2>
+            <h2 class="h2 push-50 visibility-hidden" data-toggle="appear">{{ .title }}</h2>
             <div class="content-grid push-50">               
                 <div class="row">
                 {{ range .logos }}                    
@@ -76,42 +76,42 @@
         </div>
         <!-- End Logos -->
 
-        <!-- Get Started -->
+        <!-- Case studies -->
         <div class="bg-gray-lighter">
             <br/><br/>
-            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">SAMPLE CASE STUDIES</h2>
             <section class="content content-boxed overflow-hidden">
+            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY HIGHLIGHTS</h2>                
                 <h3 class="h2 font-w600 push-50">Clinical</h3>
         {{ with .Params.clinicalhighlights}}
                 <div class="row push-20-t push-20">               
-                <!-- Section Content -->
+                <!-- Clinical Case Studies Content -->
                 {{ range .studies}}
                     {{ partial "4by1cards" . }}
                 {{ end }}
             {{ end }}
-                <!-- END Section Content -->
+                <!-- END Clinical Case Studies Section Content -->
                 </div>
             </section>
             <section class="content content-boxed overflow-hidden">
                 <h3 class="h2 font-w600 push-50">Research</h3>
         {{ with .Params.researchhighlights}}
                 <div class="row push-20-t push-20">               
-                <!-- Section Content -->
+                <!-- Research case studies Section Content -->
                 {{ range .studies}}
                     {{ partial "4by1cards" . }}
                 {{ end }}
             {{ end }}
-                <!-- END Section Content -->
+                <!-- END Research Case Studies Section Content -->
                 </div>
             </section>            
         </div>
         <div class="bg-gray-lighter">
             <section class="content content-full content-boxed">
-                <!-- Section Content -->
+                <!-- CTA Content -->
                 <div class="push-20-t push-20 text-center">
                     <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Learn more</a>
                 </div>
-                <!-- END Section Content -->
+                <!-- END CTA Content -->
             </section>
         </div>
 

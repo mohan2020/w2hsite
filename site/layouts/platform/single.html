@@ -1,0 +1,145 @@
+{{ partial "header" .}}
+
+<main id="platform">
+    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+
+    <div class="content bg-white">
+        <section class="content content-boxed">    
+            <!-- Justified Tabs -->
+            <p class="lead">{{.Params.introduction}}</p>
+            <div class="row">
+                <!-- Block Tabs Justified Alternative Style -->
+                <div class="block">
+                    <ul class="nav nav-tabs nav-tabs-alt nav-justified" data-toggle="tabs">
+                        <li class="active">
+                            <a href="#btabs-researchers"><h3 class="font-w600 push-15">Researchers</h3></a>
+                        </li>
+                        <li>
+                            <a href="#btabs-healthsystems"><h3 class="font-w600 push-15">Health Systems</h3></a>
+                        </li>
+                        <li>
+                            <a href="#btabs-healthplans"><h3 class="font-w600 push-15">Health Plans</h3></a>
+                        </li>                        
+                    </ul>
+                    <div class="block-content tab-content">
+                        <div class="tab-pane active" id="btabs-researchers">
+                            <div class="bg-white">
+                                <section class="content content-boxed overflow-hidden">
+                                    <!-- Section Content -->
+                                    <div class="row">
+                                        <h4 class="font-w600 push-15">Key Research Challenges</h4>
+                                            <p class="lead">{{.Params.researchchallenges}}</p>
+                                        {{ with .Params.researchers }}
+                                            {{ range .challenges }}                      
+                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
+                                                {{ partial "grid" . }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <h4 class="font-w600 push-15">Solution</h4>
+                                            <p class="lead">{{.Params.researchsolutions}}</p>
+                                        {{ with .Params.researchfeatures }}
+                                            {{ range .researchcapabilities }}
+                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
+                                                {{ partial "grid" . }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                </section>
+                                <div class="bg-gray-lighter">
+                                    <section class="content content-full content-boxed">
+                                        <!-- Section Content -->
+                                        <div class="push-20-t push-20 text-center">
+                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
+                                        </div>
+                                        <!-- END Section Content -->
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="btabs-healthsystems">
+                            <div class="bg-white">
+                                <section class="content content-boxed overflow-hidden">
+                                    <!-- Section Content -->
+                                    <div class="row">
+                                        <h4 class="font-w600 push-15">Key Health System Challenges</h4>
+                                            <p class="lead">{{.Params.healthsystemschallenges}}</p>
+                                        {{ with .Params.healthsystems }}
+                                            {{ range .challenges }}                                         
+                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
+                                                {{ partial "grid" . }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <h4 class="font-w600 push-15">Solution</h4>
+                                            <p class="lead">{{.Params.healthsystemssolutions}}</p>
+                                        {{ with .Params.healthsystemsfeatures }}
+                                            {{ range .healthsystemscapabilities }}
+                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
+                                                {{ partial "grid" . }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                </section>
+                                <div class="bg-gray-lighter">
+                                    <section class="content content-full content-boxed">
+                                        <!-- Section Content -->
+                                        <div class="push-20-t push-20 text-center">
+                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
+                                        </div>
+                                        <!-- END Section Content -->
+                                    </section>
+                                </div>
+                            </div>                          
+                        </div>
+                        <div class="tab-pane" id="btabs-healthplans">
+                            <div class="bg-white">
+                                <section class="content content-boxed overflow-hidden">
+                                    <!-- Section Content -->
+                                    <div class="row">
+                                        <h4 class="font-w600 push-15">Key Health Plan Challenges</h4>
+                                            <p class="lead">{{.Params.healthplanschallenges}}</p>
+                                        {{ with .Params.healthplans }}
+                                            {{ range .challenges }}                                         
+                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
+                                                {{ partial "grid" . }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <h4 class="font-w600 push-15">Solution</h4>
+                                            <p class="lead">{{.Params.healthplanssolutions}}</p>
+                                        {{ with .Params.healthplansfeatures }}
+                                            {{ range .healthplanscapabilities }}
+                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
+                                                {{ partial "grid" . }}
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                </section>
+                                <div class="bg-gray-lighter">
+                                    <section class="content content-full content-boxed">
+                                        <!-- Section Content -->
+                                        <div class="push-20-t push-20 text-center">
+                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
+                                        </div>
+                                        <!-- END Section Content -->
+                                    </section>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <!-- END Block Tabs Justified Default Style -->
+            </div>
+            <!-- END Justified Tabs -->
+        </section>
+    </div>
+</main>
+
+{{ partial "footer" .}}

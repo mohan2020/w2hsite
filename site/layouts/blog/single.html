@@ -1,0 +1,23 @@
+{{ partial "header" . }}
+
+<main id="main-container">
+                {{ range .Data.Pages }}
+{{ partial "hero" . }}
+
+    <div class="bg-gray-lighter">
+        <br/><br/>
+        <section class="content content-boxed overflow-hidden">
+        <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY HIGHLIGHTS</h2>                
+            <h3 class="h2 font-w600 push-50">Clinical</h3>
+    <!--{{ with .Params.clinicalhighlights}} -->
+            <div class="row push-20-t push-20">               
+            <!-- Clinical Case Studies Content -->
+        <!--{{ end }} -->
+            <!-- END Clinical Case Studies Section Content -->
+            </div>
+        </section>
+    </div>
+            {{ end }}    
+</main>
+
+{{ partial "footer" . }}

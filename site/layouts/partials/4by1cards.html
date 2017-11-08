@@ -5,7 +5,7 @@
             <h3 class="block-title" style="color: white">{{ .tag}}</h3>
         </div>
         <div class="block-content block-content-full bg-gray-lighter">
-            <div class="h1 font-w700 push-10">{{ .title}}</div>
+            <div class="h4 font-w700 push-10">{{ .title}}</div>
         </div>
         <div class="block-content">
             <table class="table table-borderless table-condensed">
@@ -17,26 +17,19 @@
             </table>
         </div>
         <div class="block-header">
-            <h3 class="block-title">Key Features</h3>
+            <h3 class="block-title">Capabilities Leveraged</h3>
         </div> 
-        <!--div class="block-content">
+        <div class="block-content">
             <table class="table table-borderless table-condensed">
                 <tbody>
+                    {{ range .features}}
                     <tr>
-                        <td><strong>{{ .feature1 }}</strong></td>
+                        <td><strong>{{ .feature }}</strong></td>
                     </tr>
-                    <tr>
-                        <td><strong>{{ .feature2 }}</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>{{ .feature3 }}</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>{{ .feature4 }}</strong></td>
-                    </tr>
+                    {{ end }}
                 </tbody>
             </table>
-        </div-->                            
+        </div>                            
     </a>
     <!-- END Developer Plan -->
 </div>

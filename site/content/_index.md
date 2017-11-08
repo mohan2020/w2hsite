@@ -74,62 +74,70 @@ clinicalhighlights:
     - title: Heart Safe Motherhood
       tag: Women's Health
       summary: Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines
-      feature1: 2 way texting
-      feature2: Blood pressure cuff
-      feature3: Automated alerts
-      feature4: Epic integration
+      features:
+        - feature: 2 way texting
+        - feature: Blood pressure cuff
+        - feature: Automated alerts
+        - feature: Epic integration.
     - title: Superutilizers
       tag: ER Cost Management
       summary: Lower cost by reducing unnecessary utilization of outpatient, inpatient and emergency room care while improving patient outcome
-      feature1: Automated enrollment
-      feature2: Patient triaging
-      feature3: Integration with Agent and Epic
-      feature4: 2 way texting
+      features:
+        - feature: Automated enrollment
+        - feature: Patient triaging
+        - feature: Integration with Agent and Epic
+        - feature: 2 way texting
     - title: Engaged Recovery at Penn
       tag: Reduced Re-admissions
       summary: Reduce readmissions after surgery with colorectal surgery patients (pre and post-op), and OB/GYN surgery patients pre-op 
-      feature1: Surveys
-      feature2: Epic integration
-      feature3: Education
-      feature4: Text based alerts
+      features:
+        - feature: Surveys
+        - feature: Epic integration
+        - feature: Education
+        - feature: Text based alerts
     - title: LivBetter
       tag: Hepatology
       summary: Reduce the rate of readmissions in cirrhotic and post liver transplant patients using telehealth monitoring 
-      feature1: 2 way texting
-      feature2: Automated alerts
-      feature3: Automated reminders
-      feature4: BP, Weight monitoring
+      features:
+        - feature: 2 way texting
+        - feature: Automated alerts
+        - feature: Automated reminders
+        - feature: BP, Weight monitoring
 researchhighlights:
   group: Research
   studies:
     - title: EMPOWER
       tag: Chronic Heart Failure (CHF)
       summary: Avoiding unplanned ER visits and readmissions among heart failure patients
-      feature1: Device Integrations
-      feature2: Automated alerting
-      feature3: Randomization
-      feature4: Multiple arms
+      features:
+        - feature: Device Integrations
+        - feature: Automated alerting
+        - feature: Randomization
+        - feature: Multiple arms
     - title: Way 2 Text
       tag: Hypertension
       summary: Reduce blood pressure for hypertensive patients. Tracking and improving medication adherence via device and / or patient initiated texts.
-      feature1: 2 way texting
-      feature2: Pill Bottle
-      feature3: Efficacy
-      feature4: Randomized Clinical Trial
+      features:
+        - feature: 2 way texting
+        - feature: Pill Bottle
+        - feature: Efficacy
+        - feature: Randomized Clinical Trial
     - title: Processes vs. Outcomes
       tag: Cardiovascular disease (CVD)
       summary: Improve cholesterol levels in high risk CVD patients using pill bottle and with financial incentives
-      feature1: Device integration
-      feature2: Financial incentives
-      feature3: Targeted reminders
-      feature4: Auto scheduling
+      features:
+        - feature: Device integration
+        - feature: Financial incentives
+        - feature: Targeted reminders
+        - feature: Auto scheduling
     - title: Diabetes Gamification
       tag: Diabetes
       summary: Tracking (via Fitbit and other devices) and gamifying physical activity to improve management of diabetes.
-      feature1: Device integration
-      feature2: Leader boards
-      feature3: Multi-arm study
-      feature4: Integration with Redcap
+      features:
+        - feature: Device integration
+        - feature: Leader boards
+        - feature: Multi-arm study
+        - feature: Integration with Redcap
 whydosomething:
   intro: Patient engagement has been called the [blockbuster drug of the 21st century](http://healthstandards.com/blog/2012/08/28/drug-of-the-century/). But it continues to elude a solution and in the meantime, the problem continues to grow. 
   problems:

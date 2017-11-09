@@ -15,6 +15,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"} #title of the case study
       - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
       - {label: "Study Type", name: "area", widget: "string"} # Clinical or research area
-      - {label: "Subdomain", name: "Clinical Domain", widget: "string"} # Specific clinical or ops area
+      - {label: "Clinical Domain", name: "subdomain", widget: "string"} # Specific clinical or ops area
       - {label: "Summary", name: "summary", widget: "string"} # summary of the study
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study

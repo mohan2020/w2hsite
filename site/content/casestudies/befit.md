@@ -1,16 +1,16 @@
 ---
-title: Heart Safe Motherhood
-date: 2017-01-04
+title: Be Fit
+date: 2017-01-05
 subdomain: Womens Health
 area: Clinical
 summary: >-
   Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines
 authors:
-  - name: Sindhu Srinivas, MD, MSCE
-    image: /img/team/srinivas.jpg
+  - name: Mitesh Patel, MD, MSCE
+    image: /img/team/patel.jpg
     role: Clinical Lead
-  - name: Katy Mahraj, MSI
-    image: /img/team/mahraj.jpg
+  - name: Devon Taylor, MSI
+    image: /img/team/taylor.jpg
     role: Innovation Manager
 results:
   - result: Reduced readmission from 30% to 5%

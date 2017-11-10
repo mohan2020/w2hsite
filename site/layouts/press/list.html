@@ -16,21 +16,17 @@
                                 <div class="block-content">
                                     <div class="row items-push">
                                         <div class="col-md-4">
-                                            <a href="{{.Permalink}}">
+                                            <a href="{{.Params.source}}">
                                             <img class="img-responsive" src="{{.Params.image}}" alt="">
                                             </a>
                                         </div> 
-                                        <div class="col-md-8">
+                                        <div class="col-md-8 ">
                                             <div class="font-s12 push-10">
                                                 <em class="pull-right">10 min</em>
                                                 By {{.Params.authorname}} on {{ .Date.Format "Mon Jan 2, 2006" }}
                                             </div>
-                                            <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Permalink}}">{{.Params.title}}</a></h4>
+                                            <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Params.source}}">{{.Params.title}}</a></h4>
                                             <p class="push-20">{{.Params.summary}}</p>
-                                            <div class="btn-group btn-group-sm">
-                                                <!--a class="btn btn-default" href="javascript:void(0)"><i class="fa fa-share-alt push-5-r"></i> Share</a-->
-                                                <a class="btn btn-default" href="{{.Params.source}}" target="_blank">View Source</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

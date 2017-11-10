@@ -1,0 +1,36 @@
+{{ partial "header" . }}
+
+<main id="blog">
+    {{ partial "hero" (dict "imageUrl" "/img/photos/photo18@2x.jpg" "title" "Peer reviewed publications using the Way To Health platform" "subtitle" "Innovative research and evidence based publications") }}
+
+    <div class="bg-gray-lighter">
+        <br/><br/>
+        <section class="content content-boxed">
+{{ range .Data.Pages }}
+            <!-- List Content -->
+                <!-- Section Content -->
+                <div class="push-50-t push-50">
+                    <div class="row">
+                        <!-- Story -->
+                        <div class="block">
+                            <div class="block-content">
+                                <div class="row items-push"> 
+                                    <div class="font-s12 push-10">
+                                        <em class="pull-right">{{ .Date.Format "Jan, 2006" }}</em>
+                                        {{.Params.authors}}
+                                    </div>
+                                    <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Params.source}}">{{.Params.title}}</a></h4>
+                                    <p class="push-20">{{.Params.summary}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Story -->
+                    </div>
+                </div>
+{{ end }} 
+{{ template "_internal/pagination.html" . }}
+        </section>
+    </div>
+</main>
+
+{{ partial "footer" . }}

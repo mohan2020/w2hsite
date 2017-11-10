@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "New W2H Site"
+title = "Way To Health"
 
 [params]
 description = "Way To Health is a platform for researching, developing and deploying evidence based patient engagement strategies"

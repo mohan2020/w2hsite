@@ -1,0 +1,48 @@
+{{ partial "header" . }}
+
+<main id="blog">
+    {{ partial "hero" (dict "imageUrl" "/img/photos/photo18@2x.jpg" "title" "The Way to Health Blog" "subtitle" "Thoughts, opinions and conversations on patient engagement from the trenches") }}
+
+    <div class="bg-gray-lighter">
+        <br/><br/>
+        <section class="content content-boxed">
+{{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
+            <!-- List Content -->
+                <!-- Section Content -->
+                <div class="push-50-t push-50">
+                    <div class="row">
+                            <!-- Story -->
+                            <div class="block">
+                                <div class="block-content">
+                                    <div class="row items-push">
+                                        <div class="col-md-4">
+                                            <a href="{{.Permalink}}">
+                                            <img class="img-responsive" src="{{.Params.image}}" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="col-md-8">
+                                            <div class="font-s12 push-10">
+                                                <em class="pull-right">10 min</em>
+                                                By {{.Params.authorname}} on {{ .Date.Format "Mon Jan 2, 2006" }}
+                                            </div>
+                                            <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Permalink}}">{{.Params.title}}</a></h4>
+                                            <p class="push-20">{{.Params.summary}}</p>
+                                            <div class="btn-group btn-group-sm">
+                                                <!--a class="btn btn-default" href="javascript:void(0)"><i class="fa fa-share-alt push-5-r"></i> Share</a-->
+                                                <a class="btn btn-default" href="{{.Permalink}}">Continue Reading..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END Story -->
+                    </div>
+                </div>
+{{ end }} 
+
+{{ template "_internal/pagination.html" . }}
+        </section>
+    </div>
+</main>
+
+{{ partial "footer" . }}

@@ -6,12 +6,12 @@ area: Clinical
 summary: >-
   Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines
 authors:
-  - name: Mitesh Patel, MD, MSCE
-    image: /img/team/patel.jpg
-    role: Clinical Lead
-  - name: Devon Taylor, MSI
-    image: /img/team/taylor.jpg
-    role: Innovation Manager
+  - authorname: Mitesh Patel, MD, MSCE
+    authorimage: /img/team/patel.jpg
+    authorrole: Clinical Lead
+  - authorname: Devon Taylor, MSI
+    authorimage: /img/team/taylor.jpg
+    authorrole: Innovation Manager
 results:
   - result: Reduced readmission from 30% to 5%
   - result: Improved adherence by 50%

@@ -72,7 +72,7 @@ clinicalhighlights:
   group: Clinical
   studies:
     - title: Heart Safe Motherhood
-      tag: Women's Health
+      subdomain: Women's Health
       summary: Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines
       features:
         - feature: 2 way texting
@@ -80,7 +80,7 @@ clinicalhighlights:
         - feature: Automated alerts
         - feature: Epic integration.
     - title: Superutilizers
-      tag: ER Cost Management
+      subdomain: ER Cost Management
       summary: Lower cost by reducing unnecessary utilization of outpatient, inpatient and emergency room care while improving patient outcome
       features:
         - feature: Automated enrollment
@@ -88,7 +88,7 @@ clinicalhighlights:
         - feature: Integration with Agent and Epic
         - feature: 2 way texting
     - title: Engaged Recovery at Penn
-      tag: Reduced Re-admissions
+      subdomain: Reduced Re-admissions
       summary: Reduce readmissions after surgery with colorectal surgery patients (pre and post-op), and OB/GYN surgery patients pre-op 
       features:
         - feature: Surveys
@@ -96,7 +96,7 @@ clinicalhighlights:
         - feature: Education
         - feature: Text based alerts
     - title: LivBetter
-      tag: Hepatology
+      subdomain: Hepatology
       summary: Reduce the rate of readmissions in cirrhotic and post liver transplant patients using telehealth monitoring 
       features:
         - feature: 2 way texting
@@ -107,7 +107,7 @@ researchhighlights:
   group: Research
   studies:
     - title: EMPOWER
-      tag: Chronic Heart Failure (CHF)
+      subdomain: Chronic Heart Failure (CHF)
       summary: Avoiding unplanned ER visits and readmissions among heart failure patients
       features:
         - feature: Device Integrations
@@ -115,7 +115,7 @@ researchhighlights:
         - feature: Randomization
         - feature: Multiple arms
     - title: Way 2 Text
-      tag: Hypertension
+      subdomain: Hypertension
       summary: Reduce blood pressure for hypertensive patients. Tracking and improving medication adherence via device and / or patient initiated texts.
       features:
         - feature: 2 way texting
@@ -123,7 +123,7 @@ researchhighlights:
         - feature: Efficacy
         - feature: Randomized Clinical Trial
     - title: Processes vs. Outcomes
-      tag: Cardiovascular disease (CVD)
+      subdomain: Cardiovascular disease (CVD)
       summary: Improve cholesterol levels in high risk CVD patients using pill bottle and with financial incentives
       features:
         - feature: Device integration
@@ -131,7 +131,7 @@ researchhighlights:
         - feature: Targeted reminders
         - feature: Auto scheduling
     - title: Diabetes Gamification
-      tag: Diabetes
+      subdomain: Diabetes
       summary: Tracking (via Fitbit and other devices) and gamifying physical activity to improve management of diabetes.
       features:
         - feature: Device integration

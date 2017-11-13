@@ -18,7 +18,8 @@ collections:
       - {label: "Clinical Domain", name: "subdomain", widget: "string"} # Specific clinical or ops area
       - {label: "Authors (minimum of two required)", name: "authors", widget: "list", fields: [{label: "PI Name", name: "authorname", widget: "string"},{label: "PI image", name: "authorimage", widget: "image"},{label: "Role", name: "authorrole", widget: "string"}]} #Author Name
       - {label: "Summary", name: "summary", widget: "string"} # summary of the study
-      - {label: "Outcomes (minimum of two required)", name: "result", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}]} #outcome 1
+      - {label: "Outcomes (minimum of two required)", name: "results", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}]}
+      - {label: "Features Used (minimum of two required)", name: "features", widget: "list", fields: [{label: "Feature", name: "feature", widget: "string"}]}
       - {label: "Spotlight (yes to show on main page and will have a dedicated details page, no if not)", name: "spotlight", widget: "boolean" }
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study
   - name: "blog" # Used in routes, e.g., /admin/collections/blog

@@ -9,9 +9,12 @@
 {{ range .Data.Pages }}
 <div class="col-sm-6 col-lg-3">
     <!-- Developer Plan -->    
-    <div class="block block-bordered block-link-hover3 text-center" href="javascript:void(0)">
+    <div class="block text-center">
+        <div class="block-header bg-success">
+            <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
+        </div>        
         <div class="block-content block-content-full bg-gray-lighter">
-            <div class="h1 font-w700 push-10">{{ .Title}}</div>
+            <div class="h4 font-w700 push-10">{{ .Title}}</div>
         </div>
         <div class="block-content">
             <table class="table table-borderless table-condensed">
@@ -20,11 +23,13 @@
                         <td style="text-align: left;">{{ .Params.Summary }} </td>
                     </tr>
                 </tbody>
-            </table>           
-        </div> 
+            </table>
+        {{ if .Params.spotlight }}
                 <div class="push-20-t push-20 text-center">
-                    <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="{{ .Permalink }}">Learn more</a>
-                </div>         
+                    <a class="btn btn-rounded btn-noborder btn-md btn-success" href="{{ .Permalink }}">Learn more</a>
+                </div> 
+        {{ end }}             
+        </div>        
     </div>
     <!-- END Developer Plan -->   
 </div>

@@ -16,6 +16,11 @@ results:
   - result: Reduced readmission from 30% to 5%
   - result: Improved adherence by 50%
 spotlight: true
+features:
+  - feature: 2 way texting
+  - feature: Pill Bottle
+  - feature: Efficacy
+  - feature: Randomized Clinical Trial
 ---
 
 ## The Challenge

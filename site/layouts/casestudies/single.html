@@ -10,9 +10,9 @@
             <div class="row items-push-2x text-center" style="display: flex; justify-content: space-between;">
             	{{range .Params.authors}}
                 <div class="col-sm-4">
-                    <img class="img-avatar img-avatar-thumb" src="{{.image}}" alt="">
-                    <div class="h4 text-white-op push-10-t push-5">{{.name}}</div>
-                    <div class="h6 text-gray">{{.role}}</div>
+                    <img class="img-avatar img-avatar-thumb" src="{{.authorimage}}" alt="">
+                    <div class="h4 text-white-op push-10-t push-5">{{.authorname}}</div>
+                    <div class="h6 text-gray">{{.authorrole}}</div>
                 </div>
                 {{end}}              
             </div>

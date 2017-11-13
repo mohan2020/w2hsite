@@ -16,18 +16,9 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
       - {label: "Study Type", name: "area", widget: "string"} # Clinical or research area
       - {label: "Clinical Domain", name: "subdomain", widget: "string"} # Specific clinical or ops area
-      - {label: "PI Name", name: "name", widget: "string"} #Author Name
-      - {label: "PI image", name: "image", widget: "image"} # pic image
-      - {label: "Role", name: "role", widget: "string"} #Role in study      
-      - {label: "Co-PI Name", name: "name", widget: "string"} #Author Name
-      - {label: "Co-PI image", name: "image", widget: "image"} # pic image
-      - {label: "Role", name: "role", widget: "string"} #Role in study      
-      - {label: "Other Name", name: "name", widget: "string"} #Author Name
-      - {label: "Other image", name: "image", widget: "image"} # pic image
-      - {label: "Role", name: "role", widget: "string"} #Role in study
+      - {label: "Authors", name: "authors", widget: "list", fields: [{label: "PI Name", name: "authorname", widget: "string"},{label: "PI image", name: "authorimage", widget: "image"},{label: "Role", name: "authorrole", widget: "string"}]} #Author Name
       - {label: "Summary", name: "summary", widget: "string"} # summary of the study
-      - {label: "Outcome 1", name: "result", widget: "string"} #outcome 1
-      - {label: "Outcome 2", name: "result", widget: "string"} #outcome 2      
+      - {label: "Outcomes", name: "result", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}]} #outcome 1    
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Company blog" # Used in the UI

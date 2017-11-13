@@ -21,6 +21,7 @@ summary: >-
 result:
   - result: Test 1 outcome by 30%
   - result: Test2 outcome by 40$
+spotlight: true
 ---
 # Lorem ipsum ullamco dolore ullamco
 

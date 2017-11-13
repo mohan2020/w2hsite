@@ -15,6 +15,7 @@ authors:
 results:
   - result: Reduced readmission from 30% to 5%
   - result: Improved adherence by 50%
+spotlight: true
 ---
 
 ## The Challenge

@@ -1,7 +1,12 @@
 <div class="col-sm-6 col-lg-3 visibility-hidden" data-toggle="appear" data-offset="50" data-class="animated fadeInUp">
     <!-- Developer Plan -->
-    <a class="block text-center" {{ if .Params.spotlight }} href="{{.Permalink}}" {{end}}>
-        <div class="block-header bg-success">
+     {{ if .Params.spotlight }}
+    <a class="block text-center" href="{{.Permalink}}">
+        <div class="block-header bg-success"> 
+    {{ else }}
+    <a class="block text-center" href="">            
+        <div class="block-header bg-primary">  
+    {{ end }}
             <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
         </div>
         <div class="block-content block-content-full bg-gray-lighter">

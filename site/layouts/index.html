@@ -82,11 +82,18 @@
             <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY SPOTLIGHTS</h2>
             <p class="lead text-center">Click on any of the cards below to learn more</p>
                 <div class="row push-20-t push-20"> 
-                {{ range where .Data.Pages "Section" "casestudies" }} 
+                <!--{{ range where .Data.Pages "Section" "casestudies" }} 
                     {{ if .Params.spotlight  }} 
                             {{ partial "4by1cards" . }} 
                     {{ end }}
-                {{ end }}           
+                {{ end }}  -->
+            {{ $v1 := where .Data.Pages "Section" "casestudies" }}
+            {{ $v2 := where .Data.Pages "Params.spotlight" true }}
+            {{ $filtered := $v1 | intersect $v2 }}
+            {{ range first 8 $filtered }}
+             {{ partial "4by1cards" . }} 
+            {{ end }}
+
                 </div>
             </section>         
             <div class="bg-primary">

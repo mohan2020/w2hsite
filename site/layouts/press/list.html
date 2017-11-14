@@ -1,12 +1,12 @@
 {{ partial "header" . }}
 
 <main id="blog">
-    {{ partial "hero" (dict "imageUrl" "/img/photos/photo18@2x.jpg" "title" "Media Resources: Company Info, Press Coverage and more" "subtitle" "Thought leadership in the press") }}
+    {{ partial "hero" (dict "imageUrl" "/img/photos/photo18@2x.jpg" "title" "Media Resources: Company Info, Press Coverage and more" "subtitle" "Behavioral Economics, Patient Engagement and Thought leadership in the press") }}
 
     <div class="bg-gray-lighter">
         <br/><br/>
         <section class="content content-boxed">
-{{ range .Data.Pages }}
+{{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
             <!-- List Content -->
                 <!-- Section Content -->
                 <div class="push-50-t push-50">
@@ -23,7 +23,7 @@
                                         <div class="col-md-8 ">
                                             <div class="font-s12 push-10">
                                                 <em class="pull-right">10 min</em>
-                                                By {{.Params.authorname}} on {{ .Date.Format "Mon Jan 2, 2006" }}
+                                               {{ .Date.Format "Mon Jan 2, 2006" }}
                                             </div>
                                             <h4 class="text-uppercase push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.title}}</a></h4>
                                             <p class="push-20">{{.Params.summary}}</p>

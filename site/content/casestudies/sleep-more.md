@@ -1,16 +1,16 @@
 ---
-title: Heart Safe Motherhood
-date: 2017-01-04
-subdomain: Womens Health
-area: clinical
+title: Test 4
+date: 2017-01-05
+subdomain: Sleep
+area: research
 summary: >-
   Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines
 authors:
-  - authorname: Sindhu Srinivas, MD, MSCE
-    authorimage: /img/team/srinivas.jpg
+  - authorname: Mitesh Patel, MD, MSCE
+    authorimage: /img/team/patel.jpg
     authorrole: Clinical Lead
-  - authorname: Katy Mahraj, MSI
-    authorimage: /img/team/mahraj.jpg
+  - authorname: Devon Taylor, MSI
+    authorimage: /img/team/taylor.jpg
     authorrole: Innovation Manager
 results:
   - result: Reduced readmission from 30% to 5%
@@ -18,9 +18,9 @@ results:
 spotlight: true
 features:
   - feature: 2 way texting
-  - feature: Blood pressure cuff
-  - feature: Automated alerts
-  - feature: Epic integration
+  - feature: Pill Bottle
+  - feature: Efficacy
+  - feature: Randomized Clinical Trial
 ---
 
 ## The Challenge

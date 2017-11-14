@@ -80,62 +80,25 @@
             <br/><br/>
             <section class="content content-boxed overflow-hidden">
             <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY SPOTLIGHTS</h2>
-
-{{ range where .Data.Pages "Type" "casestudies" }}
-        {{ if .Params.spotlight }} 
-<div class="col-sm-6 col-lg-3">
-    <!-- Developer Plan -->    
-    <div class="block text-center">
-        <div class="block-header bg-success">
-            <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
-        </div>        
-        <div class="block-content block-content-full bg-gray-lighter">
-            <div class="h4 font-w700 push-10">{{ .Title}}</div>
-        </div>
-        <div class="block-content">
-            <table class="table table-borderless table-condensed">
-                <tbody>
-                    <tr>
-                        <td style="text-align: left;">{{ .Params.Summary }} </td>
-                    </tr>
-                </tbody>
-            </table>           
-        </div>        
-    </div>
-    <!-- END Developer Plan -->   
-</div>
-        {{ end }}  
-{{ end }}
-                <!--h3 class="h2 font-w600 push-50">Clinical</h3>
-        {{ with .Params.clinicalhighlights}}
-                <div class="row push-20-t push-20">
-                {{ range .studies}}
-                    {{ partial "4by1cards" . }}
-                {{ end }}
-            {{ end }}
+            <p class="lead text-center">Click on any of the cards below to learn more</p>
+                <div class="row push-20-t push-20"> 
+                {{ range where .Data.Pages "Section" "casestudies" }} 
+                    {{ if .Params.spotlight  }} 
+                            {{ partial "4by1cards" . }} 
+                    {{ end }}
+                {{ end }}           
                 </div>
-            </section>
-            <section class="content content-boxed overflow-hidden">
-                <h3 class="h2 font-w600 push-50">Research</h3>
-        {{ with .Params.researchhighlights}}
-                <div class="row push-20-t push-20">
-                {{ range .studies}}
-                    {{ partial "4by1cards" . }}
-                {{ end }}
-            {{ end }}
-                </div-->
-            </section>            
+            </section>         
+            <div class="bg-primary">
+                <section class="content content-full content-boxed">
+                    <!-- CTA Content -->
+                    <div class="push-20-t push-20 text-center">
+                        <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies">View more case studies</a>
+                    </div>
+                    <!-- END CTA Content -->
+                </section>
+            </div>
         </div>
-        <div class="bg-primary">
-            <section class="content content-full content-boxed">
-                <!-- CTA Content -->
-                <div class="push-20-t push-20 text-center">
-                    <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies">Learn more</a>
-                </div>
-                <!-- END CTA Content -->
-            </section>
-        </div>
-
     </main>
     <!-- END Main Container -->
 

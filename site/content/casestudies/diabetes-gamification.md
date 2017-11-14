@@ -1,7 +1,7 @@
 ---
-title: Engaged Recovery At Penn
+title: DiGam
 date: 2017-01-04
-subdomain: ER Admissions
+subdomain: Diabetes
 area: research
 summary: >-
   Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines

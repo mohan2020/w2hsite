@@ -1,35 +1,43 @@
 <div class="col-sm-6 col-lg-3 visibility-hidden" data-toggle="appear" data-offset="50" data-class="animated fadeInUp">
     <!-- Developer Plan -->
-    <a class="block text-center">
+    <a class="block text-center" {{ if .Params.spotlight }} href="{{.Permalink}}" {{end}}>
         <div class="block-header bg-success">
-            <h3 class="block-title" style="color: white">{{ .subdomain}}</h3>
+            <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
         </div>
         <div class="block-content block-content-full bg-gray-lighter">
-            <div class="h4 font-w700 push-10">{{ .title}}</div>
+            <div class="h4 font-w700 push-10">{{ .Title}}</div>
         </div>
+            <div class="row text-center" style="display: flex; justify-content: space-between;">
+                {{range first 2 .Params.authors}}
+                <div class="col-sm-4">
+                    <img class="img-avatar img-avatar-thumb" src="{{.authorimage}}" alt="">
+                    <div class="h6 push-10-t push-5">{{.authorname}}</div>
+                </div>
+                {{end}}              
+            </div>        
         <div class="block-content">
             <table class="table table-borderless table-condensed">
                 <tbody>
                     <tr>
-                        <td style="text-align: left;">{{ .summary }} </td>
+                        <td style="text-align: left;">{{ .Params.summary }} </td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <div class="block-header">
-            <h3 class="block-title">Capabilities Leveraged</h3>
+            <h3 class="block-title">Outcomes</h3>
         </div> 
         <div class="block-content">
             <table class="table table-borderless table-condensed">
                 <tbody>
-                    {{ range .features}}
+                    {{ range .Params.results}}
                     <tr>
-                        <td><strong>{{ .feature }}</strong></td>
+                        <td><strong>{{ .result }}</strong></td>
                     </tr>
                     {{ end }}
                 </tbody>
             </table>
         </div>                            
-    </a>
+    </a>      
     <!-- END Developer Plan -->
 </div>

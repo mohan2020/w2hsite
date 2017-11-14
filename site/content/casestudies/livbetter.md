@@ -1,7 +1,7 @@
 ---
-title: Test 2 via UI
+title: LivBetter
 date: 2017-11-13T20:38:23.603Z
-subdomain: Cardiovascular Disease
+subdomain: Hepatology
 area: clinical
 authors:
   - authorimage: /img/uploads/balachandran.png

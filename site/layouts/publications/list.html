@@ -6,7 +6,7 @@
     <div class="bg-gray-lighter">
         <br/><br/>
         <section class="content content-boxed">
-{{ range .Data.Pages }}
+{{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
             <!-- List Content -->
                 <!-- Section Content -->
                 <div class="push-50-t push-50">
@@ -19,7 +19,7 @@
                                         <em class="pull-right">{{ .Date.Format "Jan, 2006" }}</em>
                                         {{.Params.authors}}
                                     </div>
-                                    <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Params.source}}">{{.Params.title}}</a></h4>
+                                    <h4 class="text-uppercase push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.title}}</a></h4>
                                     <p class="push-20">{{.Params.summary}}</p>
                                 </div>
                             </div>

@@ -1,6 +1,7 @@
 ---
 title: Evidence Based Patient Engagement
-image: /img/photos/photo28@2x.jpg
+bgcolor: "#2e376b"
+image: 
 subtitle: Research new and apply scientifically proven personalized engagement strategies in your patient population
 summary: Way to Health is a web-based platform that enables and automates research into healthy behavior interventions. Once interventions are found to be successful, they can quickly be applied to various populations and rolled out at scale quickly.
 research:
@@ -22,7 +23,7 @@ research:
       text: >
         Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa.
 clinical:
-  title: 
+  title: Clinical Problems
   blurbs:
     - icon: commenting-o
       iconcolor: gray    

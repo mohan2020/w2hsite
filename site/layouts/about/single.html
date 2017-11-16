@@ -2,7 +2,7 @@
 
     <!-- Main Container -->
 <main id="about">
-	{{ partial "hero" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+	{{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
 
     <div class="content bg-gray-lighter">
         <section class="content content-boxed">

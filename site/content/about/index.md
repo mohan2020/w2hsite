@@ -1,6 +1,7 @@
 ---
 title: We were the first to apply behavioral economics to healthcare
 image: /img/photos/photo1@2x.jpg
+bgcolor: 
 subtitle: And we're out to apply lessons learnt to improve patient engagement
 introduction: Faculty and researchers from across the University of Pennsylvania and other renowned institutions have conducted and continue to research direct patient engagement and behavioral economics based interventions aimed at reducing the disease burden from major U.S. public health problems. Way to Health was born from their frustration around the lack of a platform to quickly develop, test and scale out their ideas.
 mission:

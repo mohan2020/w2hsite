@@ -1,7 +1,7 @@
 {{ partial "header" .}}
 
 <main id="platform">
-    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+    {{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
 
     <div class="content bg-white">
         <section class="content content-boxed">    

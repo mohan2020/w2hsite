@@ -5,8 +5,8 @@
 	{{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
         <!-- Mini Stats -->
         <div class="bg-white">
-            <section class="content content-boxed">
-                <p class="lead">{{ .Params.summary }}</p>
+            <section class="content content-boxed text-center">
+                <h2 class="h2 push-50 text-center">{{ .Params.summary }}</h2>
                 <!-- Section Content -->
             {{ with .Params.stats }}
                 <div class="row items-push push-20-t push-20 text-center"> 
@@ -21,7 +21,7 @@
         <div class="content bg-white">
             <!-- Icon Tiles -->
         {{ with .Params.customers }}             
-            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">{{ .title }}</h2>
+            <h2 class="h3 push-50 visibility-hidden text-center" data-toggle="appear">{{ .title }}</h2>
             <div class="content-grid push-50">               
                 <div class="row">
                 {{ range .logos }}                    
@@ -34,58 +34,51 @@
 
         <!-- Classic Features #1 -->
         <!-- Grid Features -->
-        <div class="angle--top-left"  style="background-color: #366dff; color: white;">
+        <div class="angle--top-left"  style="background-color: #49A078; color: white;">
             <section class="content content-boxed push-100-t">
                 <div class="row">
                     <h1 class="text-center">Do more with Way to Health</h1><br/>
                     <p class="lead text-center">Mix and match modules from Way To Health's suite to solve your exact use case</p>
+                    <br/><br/>
                <p class="lead">The problem is that patients don't do what they're supposed to. In other words, interventions need to be personalized. This in turn, requires a mix and match approach i.e. use a combination of capabilities to address your specific need.</p>
+               <br/>
                 <!-- Block Tabs Justified Alternative Style -->
                 <div class="block" style="background-color: transparent;">
                     <ul class="nav nav-tabs nav-tabs-alt nav-justified" data-toggle="tabs">
                         <li class="active">
-                            <a href="#btabs-ptcomm"><h5 class="font-w400 push-15">Patient Communication</h3></a>
+                            <a href="#btabs-ptcomm"><h4 class="font-w400 push-15">Patient Communication</h4></a>
                         </li>
                         <li>
-                            <a href="#btabs-devices"><h5 class="font-w400 push-15">Device Integrations</h3></a>
+                            <a href="#btabs-devices"><h4 class="font-w400 push-15">Device Integrations</h4></a>
                         </li>
                         <li>
-                            <a href="#btabs-rct"><h5 class="font-w400 push-15">Controlled Trials</h3></a>
+                            <a href="#btabs-rct"><h4 class="font-w400 push-15">Controlled Trials</h4></a>
                         </li>
                         <li>
-                            <a href="#btabs-be"><h5 class="font-w400 push-15">Behavioral Economics</h3></a>
+                            <a href="#btabs-be"><h4 class="font-w400 push-15">Behavioral Economics</h4></a>
                         </li>
                         <li>
-                            <a href="#btabs-rules"><h5 class="font-w400 push-15">Rules Engine</h3></a>
+                            <a href="#btabs-rules"><h4 class="font-w400 push-15">Rules Engine</h4></a>
                         </li>
                     </ul>
-                    <div class="block-content tab-content">
-                        <div class="tab-pane active" id="btabs-researchers">
-                            <div>
-                                <section class="content content-boxed overflow-hidden">
-                                    <!-- Section Content -->
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Key Research Challenges</h4>
-                                            <p class="lead">{{.Params.researchchallenges}}</p>
-                                        {{ with .Params.researchers }}
-                                            {{ range .challenges }}                      
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
+                    <div class="block-content tab-content" >
+                        <div class="tab-pane active" id="btabs-ptcomm">
+                            <section class="content content-boxed">               
+                                <div class="row items-push-2x nice-copy">
+                                    {{ with .Params.patientcommunication }}
+                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
+                                        {{ range .blurbs }}            
+                                            {{ partial "grid" . }}
                                         {{ end }}
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Solution</h4>
-                                            <p class="lead">{{.Params.researchsolutions}}</p>
-                                        {{ with .Params.researchfeatures }}
-                                            {{ range .researchcapabilities }}
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
+                                    {{ end }}
+                                    {{ with .Params.clinical }}
+                                       <h3 class="h3 font-w600 push-50 text-uppercase push-10 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
+                                        {{ range .blurbs }}            
+                                            {{ partial "grid" . }}
                                         {{ end }}
-                                    </div>
-                                </section>
+                                    {{ end }}            
+                                        </div>                     
+                            </section> 
                                 <!--div>
                                     <section class="content content-full content-boxed">
                                         <div class="push-20-t push-20 text-center">
@@ -94,7 +87,6 @@
                                     </section>
                                 </div-->
                             </div>
-                        </div>
                         <div class="tab-pane" id="btabs-healthsystems">
                             <div>
                                 <section class="content content-boxed overflow-hidden">

@@ -1,6 +1,6 @@
 ---
 title: ' Patient Engagement - Use social connections to boost patient, team engagement'
-date: 2017-11-14T18:03:58.438Z
+date: 4/14/2017
 summary: >-
   Humans are social animals, and providers can use those social connections as a
   driving force for better patient engagement.  Peer support and coaching

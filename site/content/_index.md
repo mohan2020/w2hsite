@@ -9,44 +9,97 @@ patientcommunication:
   title: Communication with patients and / or study participants is key to engaging them in their health. You can choose from a variety of communication techniques or combine them in interesting ways tailored to a patient's behavior.
   blurbs:
     - icon: commenting-o
-      iconcolor: black    
+      iconcolor: "#49A078"    
       header: Two way Texting
       text: >
-        Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget 
+        Texting (SMS) has been shown repeatedly to be a very effective way of communicating with patients since it works irrespective of the kind of phone the patient has. Texts can be sent out based on set schedules and / or rules. These configuration rules can be as simple as responding with a personalized "Great job, John Appleseed" or as complex as evaluating blood pressure values and responding with an provider or nurse alert.
     - icon: list-alt
-      iconcolor: black
+      iconcolor: "#49A078"
       header: Integrated Survey Management
       text: >
-        Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac.
-    - icon: list-alt
-      iconcolor: black
-      header: Integrated Survey Management
+        In cases where more data needs to be collected where a form or a survey makes more sense - demographics, symptoms etc., the system offers that ability too. You can either integrate with Qualtrics or create your own surveys from scratch using the built-in survey creation and deployment tool. These surveys can be sent out to patients based on specific schedules and simple or complex rules.
+    - icon: mobile
+      iconcolor: "#49A078"
+      header: Web or mobile app
       text: >
-        Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac.        
+        In other cases, patients might not have smart phones or at the other extreme, might prefer a native app. We have you covered in both cases. Patients can access their data through any modern browser on desktops as well as mobile devices. Alternately, they can install an iOS or Android native app. In this latter case, study or program specific download and installation links can be automatically sent out on enrollment. 
 
-clinical:
-  title: Clinical Problems
+deviceintegration:
+  title: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices including Electronic Health Records (EHRs) so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into your system, enabling scalable, integrated and personalized initiatives.
+  blurbs:
+    - icon: heartbeat
+      iconcolor: "#49A078"
+      header: Vitals Monitoring
+      text: >
+        Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa.  
+    - icon: bar-chart
+      iconcolor: "#49A078"
+      header: Activity Tracking
+      text: >
+        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.  
+    - icon: medkit
+      iconcolor: "#49A078"
+      header: EHR Integrations
+      text: > 
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing.
+
+rct:
+  title: There are plenty of clinical trials management software (CTMS) solutions out there. However, they are either built for pharmaceutical / drug discovery (Velos, Oncore etc.) or are very general purpose (e.g. Redcap). Way To Health is a tool purpose built to design and deploy behavioral change and interventional (bedside to home) research . 
   blurbs:
     - icon: hdd-o
-      iconcolor: black
+      iconcolor: "#49A078"
+      header: NIH and Grant Reputation
+      text: >
+        Way to Health has demonstrated its value as a research platform in this domain by supporting over 80 trials and $45 million in funding.  The platform, past and current Principal Investigators (PIs) and its uses have credibility among the research and funding communities.
+    - icon: rocket
+      iconcolor: "#49A078"
+      header: Automated Randomization
+      text: >
+        The Way To Health platform offers multiple computerized randomization of participants, including the configurable choices for stratified, blocked, weighted, and adaptive randomization strategies  
+    - icon: exchange
+      iconcolor: "#49A078"
+      header: Enrollment & Participant Management
+      text: > 
+        Online and mobile participant enrollment and associated survey administration is available out of the box. Additionally, ongoing patient / participant management is offered through a "triage" view that allows for rapid exception based management, contextual information and data capture. 
+
+be:
+  title: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into your system, enabling scalable, integrated and personalized initiatives.
+  blurbs:
+    - icon: hdd-o
+      iconcolor: "#49A078"
       header: Device Integrations
       text: >
         Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa.  
     - icon: rocket
-      iconcolor: black
+      iconcolor: "#49A078"
       header: Study Creation & Management
       text: >
         Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.  
     - icon: exchange
-      iconcolor: black
+      iconcolor: "#49A078"
       header: EHR Integration
       text: > 
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing.
-    - icon: bell
-      iconcolor: black
-      header: Alerts & Notifications
+
+rulesengine:
+  title: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into your system, enabling scalable, integrated and personalized initiatives.
+  blurbs:
+    - icon: hdd-o
+      iconcolor: "#49A078"
+      header: Device Integrations
+      text: >
+        Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa.  
+    - icon: rocket
+      iconcolor: "#49A078"
+      header: Study Creation & Management
+      text: >
+        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.  
+    - icon: exchange
+      iconcolor: "#49A078"
+      header: EHR Integration
       text: > 
-        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing.
+
 stats:
   highlights:
     - title: Supported Projects

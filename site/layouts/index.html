@@ -6,7 +6,7 @@
         <!-- Mini Stats -->
         <div class="bg-white">
             <section class="content content-boxed text-center">
-                <h2 class="h2 push-50 text-center">{{ .Params.summary }}</h2>
+                <h2 class="h2 push-50 text-center">{{ .Params.summary | markdownify}}</h2>
                 <!-- Section Content -->
             {{ with .Params.stats }}
                 <div class="row items-push push-20-t push-20 text-center"> 
@@ -66,102 +66,66 @@
                             <section class="content content-boxed">               
                                 <div class="row items-push-2x nice-copy">
                                     {{ with .Params.patientcommunication }}
-                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
+                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title }}</p>
                                         {{ range .blurbs }}            
                                             {{ partial "grid" . }}
                                         {{ end }}
-                                    {{ end }}
-                                    {{ with .Params.clinical }}
-                                       <h3 class="h3 font-w600 push-50 text-uppercase push-10 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
-                                        {{ range .blurbs }}            
-                                            {{ partial "grid" . }}
-                                        {{ end }}
-                                    {{ end }}            
-                                        </div>                     
-                            </section> 
-                                <!--div>
-                                    <section class="content content-full content-boxed">
-                                        <div class="push-20-t push-20 text-center">
-                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
-                                        </div>
-                                    </section>
-                                </div-->
-                            </div>
-                        <div class="tab-pane" id="btabs-healthsystems">
-                            <div>
-                                <section class="content content-boxed overflow-hidden">
-                                    <!-- Section Content -->
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Key Health System Challenges</h4>
-                                            <p class="lead">{{.Params.healthsystemschallenges}}</p>
-                                        {{ with .Params.healthsystems }}
-                                            {{ range .challenges }}                                         
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Solution</h4>
-                                            <p class="lead">{{.Params.healthsystemssolutions}}</p>
-                                        {{ with .Params.healthsystemsfeatures }}
-                                            {{ range .healthsystemscapabilities }}
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                </section>
-                                <!--div >
-                                    <section class="content content-full content-boxed">
-                                        <div class="push-20-t push-20 text-center">
-                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
-                                        </div>
-                                    </section>
-                                </div-->
-                            </div>                          
+                                    {{ end }}           
+                                </div>             
+                            </section>
                         </div>
-                        <div class="tab-pane" id="btabs-healthplans">
-                            <div>
-                                <section class="content content-boxed overflow-hidden">
-                                    <!-- Section Content -->
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Key Health Plan Challenges</h4>
-                                            <p class="lead">{{.Params.healthplanschallenges}}</p>
-                                        {{ with .Params.healthplans }}
-                                            {{ range .challenges }}                                         
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
+                        <div class="tab-pane" id="btabs-devices">
+                            <section class="content content-boxed">               
+                                <div class="row items-push-2x nice-copy">
+                                    {{ with .Params.deviceintegration }}
+                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title }}</p>
+                                        {{ range .blurbs }}            
+                                            {{ partial "grid" . }}
                                         {{ end }}
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Solution</h4>
-                                            <p class="lead">{{.Params.healthplanssolutions}}</p>
-                                        {{ with .Params.healthplansfeatures }}
-                                            {{ range .healthplanscapabilities }}
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
+                                    {{ end }}           
+                                </div>             
+                            </section>
+                        </div>
+                        <div class="tab-pane" id="btabs-rct">
+                            <section class="content content-boxed">               
+                                <div class="row items-push-2x nice-copy">
+                                    {{ with .Params.rct }}
+                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title }}</p>
+                                        {{ range .blurbs }}            
+                                            {{ partial "grid" . }}
                                         {{ end }}
-                                    </div>
-                                </section>
-                                <!--div>
-                                    <section class="content content-full content-boxed">
-                                        <div class="push-20-t push-20 text-center">
-                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
-                                        </div>
-                                    </section>
-                                </div-->
-                            </div>  
+                                    {{ end }}           
+                                </div>             
+                            </section>
+                        </div>
+                        <div class="tab-pane" id="btabs-be">
+                            <section class="content content-boxed">               
+                                <div class="row items-push-2x nice-copy">
+                                    {{ with .Params.be }}
+                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title }}</p>
+                                        {{ range .blurbs }}            
+                                            {{ partial "grid" . }}
+                                        {{ end }}
+                                    {{ end }}           
+                                </div>             
+                            </section>
+                        </div>
+                        <div class="tab-pane" id="btabs-rules">
+                            <section class="content content-boxed">               
+                                <div class="row items-push-2x nice-copy">
+                                    {{ with .Params.rulesengine }}
+                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title }}</p>
+                                        {{ range .blurbs }}            
+                                            {{ partial "grid" . }}
+                                        {{ end }}
+                                    {{ end }}           
+                                </div>             
+                            </section>
                         </div>
                     </div>
                 </div>
-                <!-- END Block Tabs Justified Default Style -->
             </div>
-            </section>
+        </section>
             <!--section class="content content-boxed">               
                 <div class="row items-push-3x push-50-t nice-copy">
                     {{ with .Params.research }}
@@ -180,8 +144,8 @@
             </section-->             
             <section class="content content-full content-boxed">
                 <!-- CTA Content -->
-                <div class="text-center push-100-t">
-                    <a class="btn btn-rounded btn-noborder btn-lg" style="background-color: #7effcd; color: white" href="platform">Learn more</a>
+                <div class="text-center">
+                    <a class="btn btn-rounded btn-noborder btn-lg" style="background-color: white; color: #49A078" href="platform">Learn more</a>
                 </div>
                 <!-- END CTA Content -->
             </section>            

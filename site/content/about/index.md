@@ -1,47 +1,47 @@
 ---
 title: We were the first to apply behavioral economics to healthcare
-image: /img/photos/photo1@2x.jpg
-bgcolor: 
+image: 
+bgcolor: "#4F6D7A"
 subtitle: And we're out to apply lessons learnt to improve patient engagement
 introduction: Faculty and researchers from across the University of Pennsylvania and other renowned institutions have conducted and continue to research direct patient engagement and behavioral economics based interventions aimed at reducing the disease burden from major U.S. public health problems. Way to Health was born from their frustration around the lack of a platform to quickly develop, test and scale out their ideas.
 mission:
   blurbs:
-    - title: Our mission
+    - title: Improving healthcare outcomes needs purpose built research tools
       description: > 
-        Commodo labore ea in veniam culpa in sint excepteur dolor minim quis labore officia elit quis fugiat reprehenderit dolore.
-    - title: How we do it
+        Technology assisted motivation & human behavior change is the key to advancing health outcomes. The healthcare system needs a purpose built tool that allows for scale and to engage with people in their existing journeys. Way to Health has demonstrated its value as a research platform in this domain.  The platform, its developers, and its uses have credibility among the research community. 
+    - title: Successes derived from research should be easily translated into practice
       description: >
-        Est incididunt dolore nulla occaecat excepteur nulla labore eu nostrud veniam eiusmod deserunt occaecat aute duis laborum do deserunt nostrud enim labore enim nulla nostrud deserunt ullamco exercitation officia.
-    - title: Our commitment
+        Even as more research and successes are published, its application in the real world still lags as systems and plans don’t quite know how to apply it in their context. THe goal is to reduce the time it takes for interventional research to be applied in specific patient contexts as short as possible. We want to take a leadership position in tactical research and deployment of evidence based research.
+    - title: EHRs should an integral part of any patient or provider engagement strategy
       description: >
-        Quis excepteur labore voluptate magna id aute ea nostrud fugiat proident cillum adipisicing est incididunt sint fugiat voluptate do qui sunt officia aute in in velit in officia elit ad ad exercitation laboris sint excepteur fugiat ea consequat exercitation.
+        Good technology must join not just patient and physician journeys, but also their existing technology, such as legacy EHR systems i.e. be available  in the context of their life and their “workflow”. Tighter integration with EHRs is necessary. Health systems have spent millions deploying and customizing EHRs. They are looking for ways to maximize the ROI. This will be a platform available to all irrespective of the EHR of choice.
 timeline:
   milestones:
     - date: July 2016
       icon: comments-o
       iconcolor: green
-      milestone: 85 studies and 28 peer reviewed publications.
-      text: Lorem ipsum non in ut reprehenderit.
+      milestone: 85 studies and 28 peer reviewed publications. 
+      text: Successes continue to pile up and the platform continues to evolve as more and more capabilties are needed - gamification, device integrations, text messaging and many more. 
     - date: July 2015
       icon: thumbs-o-up
-      iconcolor: yellow
+      iconcolor: blue
       milestone: 50 study milestone is hit
-      text: Lorem ipsum non in ut reprehenderit.
+      text: Way To Health continues to gain wider adoption with zero marketing. This is major milestone as it represents studies across multiple domains - CHF, Diabetes, Wellness, Adolescents and Children and many more
     - date: Jan 2014
       icon: universal-access
       iconcolor: green
       milestone: Way to Health is now used as a default platform for BE studies at UPenn and in other institutions
-      text: Lorem ipsum non in ut reprehenderit.
+      text: Behavioral economics based research continues to show promise and this purpose built tool increasingly becomes the go-to choice for researchers. Kevin and David institute grants to give young researchers a way to quickly try out innovative ideas.
     - date: July 2013
       icon: user-md
       iconcolor: blue
       milestone: Way to Health begins to grow it's team
-      text: Lorem ipsum non in ut reprehenderit.
+      text: In the true "invest when necessary" mould, Way to Health begins to grow its internal engineering, product and implementation teams.
     - date: Jan 2012
       icon: flash
       iconcolor: red
       milestone: Way to Health supports 25 studies
-      text: Lorem ipsum non in ut reprehenderit.
+      text: Way To Health continues to evolve as more and more researchers within Penn use the platform to set up and deploy small and large scale studies.
     - date: Jan 2011
       icon: bell-o
       iconcolor: green
@@ -51,5 +51,5 @@ timeline:
       icon: snowflake-o
       iconcolor: blue
       milestone: Way to Health is born
-      text: Lorem ipsum non in ut reprehenderit.
+      text: David Asch and Kevin Volpp come up with the idea of building a software platform to simplify and automate all the steps needed to set up and manage interventional clinical trials with a specific focus on behavioral economics
 ---

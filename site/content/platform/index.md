@@ -1,7 +1,7 @@
 ---
 title: Design, build, and manage personalized interventions all in one platform
-image: /img/photos/photo2@2x.jpg
-bgcolor: 
+image: 
+bgcolor: "#242F40"
 subtitle: And draw from a library of evidenced based protocols as your starting point
 
 introduction: >

@@ -25,80 +25,80 @@ patientcommunication:
         In other cases, patients might not have smart phones or at the other extreme, might prefer a native app. We have you covered in both cases. Patients can access their data through any modern browser on desktops as well as mobile devices. Alternately, they can install an iOS or Android native app. In this latter case, study or program specific download and installation links can be automatically sent out on enrollment. 
 
 deviceintegration:
-  title: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices including Electronic Health Records (EHRs) so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into your system, enabling scalable, integrated and personalized initiatives.
+  title: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices including Electronic Health Records (EHRs) so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into our system, enabling scalable, integrated and personalized initiatives. 
   blurbs:
     - icon: heartbeat
       iconcolor: "#49A078"
       header: Vitals Monitoring
       text: >
-        Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa.  
+        The platform integrates directly with a number of biomedical devices to capture vitals directly from the patient / participant. The kinds of vitals captured include blood pressure, medication adherence, sleep tracking, weight, blood glucose and many more continue to be added. Additional devices are added quickly on request.
     - icon: bar-chart
       iconcolor: "#49A078"
       header: Activity Tracking
       text: >
-        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.  
+        Similar to vitals, the platform also integrates with a number of consumer physical activity devices such as Fitbit, Nokia (Withings), Moves, Misfit. Data captured includes daily, minute level and intensity data.
     - icon: medkit
       iconcolor: "#49A078"
       header: EHR Integrations
       text: > 
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing.
+        It is our belief that EHRs should be the system of record for all patient data. Additionally, any provider action needed should also be done via the EHR. With this in mind, the platform provides bi-directional integration currently with Epic (and additional EHRs on request).
 
 rct:
   title: There are plenty of clinical trials management software (CTMS) solutions out there. However, they are either built for pharmaceutical / drug discovery (Velos, Oncore etc.) or are very general purpose (e.g. Redcap). Way To Health is a tool purpose built to design and deploy behavioral change and interventional (bedside to home) research . 
   blurbs:
-    - icon: hdd-o
+    - icon: flag-checkered
       iconcolor: "#49A078"
       header: NIH and Grant Reputation
       text: >
         Way to Health has demonstrated its value as a research platform in this domain by supporting over 80 trials and $45 million in funding.  The platform, past and current Principal Investigators (PIs) and its uses have credibility among the research and funding communities.
-    - icon: rocket
+    - icon: code-fork
       iconcolor: "#49A078"
-      header: Automated Randomization
+      header: Arms & Randomization
       text: >
-        The Way To Health platform offers multiple computerized randomization of participants, including the configurable choices for stratified, blocked, weighted, and adaptive randomization strategies  
-    - icon: exchange
+        Setup multiple arms for studies, including of course, the control arm. The platform also offers multiple computerized randomization of participants, including the configurable choices for stratified, blocked, weighted, and adaptive randomization strategies  
+    - icon: tachometer
       iconcolor: "#49A078"
       header: Enrollment & Participant Management
       text: > 
         Online and mobile participant enrollment and associated survey administration is available out of the box. Additionally, ongoing patient / participant management is offered through a "triage" view that allows for rapid exception based management, contextual information and data capture. 
 
 be:
-  title: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into your system, enabling scalable, integrated and personalized initiatives.
+  title: We believe technology assisted motivation & human behavior change is the key to advancing health outcomes. Behavioral economics is one of the most promising methods to change behavior. Various social and financial incentives are pre-built and available in the platform. 
   blurbs:
-    - icon: hdd-o
+    - icon: random
       iconcolor: "#49A078"
-      header: Device Integrations
+      header: Loss or gain framing
       text: >
-        Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa.  
-    - icon: rocket
+        Different strokes for different folks.A gain-frame is when you frame a choice focused on the positive outcome.  A loss-frame is when you focus on the costs or the loss, such as opportunity cost. Both are available in the platform.
+    - icon: money
       iconcolor: "#49A078"
-      header: Study Creation & Management
+      header: Lotteries
       text: >
-        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.  
-    - icon: exchange
+        "So you're saying I have a chance?" Lottery based incentives can be easily applied to activities - steps, weighings, pretty much any data gathered by the platform from any data source. Lotteries have been shown to be successful when continuous "check-ins" are required. 
+    - icon: trophy
       iconcolor: "#49A078"
-      header: EHR Integration
+      header: Gamification & Social
       text: > 
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing.
+        Given recent trends, it is safe to assume that games and social media are significant drivers of human behavior. The platform allows patients to earn points, level up, use lifelines and more. Now combine this with peers or support partners and the results can be eye-opening. 
 
 rulesengine:
-  title: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into your system, enabling scalable, integrated and personalized initiatives.
+  title: In the research context, interventions are invariably unique. In the clinical context, interventions need to be targeted and personalized to be effective. The Way To Health platform provides a flexible rules engine with easy configuration driven by data captured from patients via communications or devices.
   blurbs:
-    - icon: hdd-o
+    - icon: bell
       iconcolor: "#49A078"
-      header: Device Integrations
+      header: Event based
       text: >
-        Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa.  
-    - icon: rocket
+        Think of events as data driven triggers. Based on the trigger specific tasks can be kicked off. An simple example would be to send a congratulatory SMS when the patient hits their medication adherence or activity goal. Researchers have used the engine to create much more complex rules driven by raw and calculated data.
+    - icon: calendar
       iconcolor: "#49A078"
-      header: Study Creation & Management
+      header: Schedule driven
       text: >
-        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.  
-    - icon: exchange
+        Repetition is the key to success. All interventions tend to require recurrence based on a defined period - hours, days, weeks or months. Research studies or clinical deployments both require this to be further tailored by each arm or participant. The platform has been designed to support these use cases and more. 
+    - icon: exclamation
       iconcolor: "#49A078"
-      header: EHR Integration
+      header: Alerts & Incidents
       text: > 
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing.
+        Pay attention to only exceptions and only when you are alerted about them. The Way To Health platform allows for the creation of incidents whenever certain criteria are met and additionally also allows for the configuration of notifications depending on the user's role - patient, participant, admin, provider, research coordinator...
 
 stats:
   highlights:

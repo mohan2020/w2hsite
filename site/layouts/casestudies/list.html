@@ -1,12 +1,12 @@
 {{ partial "header" . }}
 
 <main id="casestudies">
-    {{ partial "hero-splash" (dict "imageUrl" "/img/photos/photo17@2x.jpg" "title" "Successes and Spotlights" "subtitle" "Read more about how innovators use Way To Health to achieve measurable outcomes" "bgcolor" "") }}
+    {{ partial "hero-splash" (dict "imageUrl" "" "title" "Successes and Spotlights" "subtitle" "Read more about how innovators use Way To Health to achieve measurable outcomes" "bgcolor" "#6145ca") }}
 
         <div class="bg-dark">
             <br/><br/>
             <section class="content content-boxed overflow-hidden">
-                <p class="lead text-center text-white">Some of the studies referenced below are still ongoing. As you can imagine, details for those cannot be provided at this time. Completed or published studies have a lot more detail and can be accessed by clicking on the card itself.</p>
+                <p class="lead text-center">Some of the studies referenced below are still ongoing. As you can imagine, details for those cannot be provided at this time. Completed or published studies have a lot more detail and can be accessed by clicking on the card itself.</p>
                 <br/>
 {{ range .Data.Pages }}
 {{ partial "4by1cards" . }}

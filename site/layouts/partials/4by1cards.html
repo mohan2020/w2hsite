@@ -4,7 +4,7 @@
     <a class="block text-center" href="{{.Permalink}}">
         <div class="block-header bg-success"> 
     {{ else }}
-    <a class="block text-center" href="">            
+    <a class="block text-center block-bordered" href="">            
         <div class="block-header bg-primary">  
     {{ end }}
             <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
@@ -27,10 +27,11 @@
                         <td style="text-align: left;">{{ .Params.summary }} </td>
                     </tr>
                 </tbody>
-            </table>
+            </table>            
         </div>
         <div class="block-header">
             <h3 class="block-title">Outcomes</h3>
+            <hr/>
         </div> 
         <div class="block-content">
             <table class="table table-borderless table-condensed">

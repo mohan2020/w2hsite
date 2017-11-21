@@ -34,13 +34,13 @@
 
         <!-- Classic Features #1 -->
         <!-- Grid Features -->
-        <div class="angle--top-left"  style="background-color: #49A078; color: white;">
+        <div class="angle--both-left-left"  style="background-color: #49A078; color: white;">
             <section class="content content-boxed push-100-t">
                 <div class="row">
                     <h1 class="text-center">Do more with Way to Health</h1><br/>
                     <p class="lead text-center">Mix and match modules from Way To Health's suite to solve your exact use case</p>
-                    <br/><br/>
-               <p class="lead">The problem is that patients don't do what they're supposed to. In other words, interventions need to be personalized. This in turn, requires a mix and match approach i.e. use a combination of capabilities to address your specific need.</p>
+                    <hr/><br/>
+               <p class="text-center lead">The problem is that patients don't do what they're supposed to. In other words, interventions need to be personalized. This in turn, requires a mix and match approach i.e. use a combination of capabilities to address your specific need.</p>
                <br/>
                 <!-- Block Tabs Justified Alternative Style -->
                 <div class="block" style="background-color: transparent;">
@@ -63,7 +63,7 @@
                     </ul>
                     <div class="block-content tab-content" >
                         <div class="tab-pane active" id="btabs-ptcomm">
-                            <section class="content content-boxed">               
+                            <section class="content content-boxed">
                                 <div class="row items-push-2x nice-copy">
                                     {{ with .Params.patientcommunication }}
                                         <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title | markdownify }}</p>
@@ -125,24 +125,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-            <!--section class="content content-boxed">               
-                <div class="row items-push-3x push-50-t nice-copy">
-                    {{ with .Params.research }}
-                        <h3 class="h3 font-w600 push-50 text-uppercase push-10 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
-                        {{ range .blurbs }}            
-                            {{ partial "grid" . }}
-                        {{ end }}
-                    {{ end }}
-                    {{ with .Params.clinical }}
-                       <h3 class="h3 font-w600 push-50 text-uppercase push-10 visibility-hidden" data-toggle="appear">{{ .title }}</h3>
-                        {{ range .blurbs }}            
-                            {{ partial "grid" . }}
-                        {{ end }}
-                    {{ end }}            
-                        </div>                     
-            </section-->             
-            <section class="content content-full content-boxed">
+        </section>         
+            <section class="content content-full content-boxed push-50">
                 <!-- CTA Content -->
                 <div class="text-center">
                     <a class="btn btn-rounded btn-noborder btn-lg" style="background-color: white; color: #49A078" href="platform">Learn more</a>
@@ -150,49 +134,48 @@
                 <!-- END CTA Content -->
             </section>            
         </div>
-        <!-- END Classic Features #1 -->
-
-            <!-- END Icon Tiles -->
-        <!-- Logos >
-        <div class="bg-success">
-            <section class="content content-full content-boxed">
-                <h2 class="h2 push-50 visibility-hidden text-center" style="color: white"  data-toggle="appear">Trusted by leading research and clinical organizations</h3>                
-                {{ partial "6by1mini" .Params.intro }}
-            </section>
-        </div>
-        <!-- End Logos -->
         <!-- Case studies -->
 {{ $v1 := where .Data.Pages "Section" "casestudies" }}
 {{ $v2 := where .Data.Pages "Params.spotlight" true }}
 {{ $v3 := where .Data.Pages "Params.area" "clinical"}}
 {{ $v4 := where .Data.Pages "Params.area" "research"}}
 {{ $filteredclinical := $v1 | intersect $v2 | intersect $v3 }}
-{{ $filteredresearch := $v1 | intersect $v2 | intersect $v4 }}        
+{{ $filteredresearch := $v1 | intersect $v2 | intersect $v4 }}
         <!--div style="background-color: #6145ca; color: white;"-->
         <div>
             <br/><br/>
             <section class="content content-boxed overflow-hidden">
             <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY SPOTLIGHTS</h2>
-            <p class="lead text-center">Click on any of the cards below to learn more</p>
-                <div class="row push-20-t push-20"> 
-                <!--{{ range where .Data.Pages "Section" "casestudies" }} 
-                    {{ if .Params.spotlight  }} 
-                            {{ partial "4by1cards" . }} 
-                    {{ end }}
-                {{ end }}  -->
-                    <h2>Clinical Highlights</h2></br></br>
-                        {{ range first 4 $filteredclinical }}
-                         {{ partial "4by1cards" . }} 
-                        {{ end }}
+            <!--p class="lead text-center">Click on any of the cards below to learn more</p-->
+                <div class="row">
+                    <div class="btn-group btn-group-justified" id="filters">
+                        <div class="btn-group">
+                            <button class="btn btn-default active">All</button>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-default" data-filter=".research">Research</button>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-default" data-filter=".clinical">Clinical</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="row push-20-t push-20"> 
-                     <h2>Research Highlights</h2></br></br>
-                        {{ range first 4 $filteredresearch }}
-                         {{ partial "4by1cards" . }} 
-                        {{ end }} 
-                </div>
+                <div class="row push-20-t push-20">
+                    <div class="grid">
+                        <!--h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Clinical Highlights</h2><br/><br/-->
+                            {{ range first 4 $filteredclinical }}
+                             {{ partial "4by1cards" . }} 
+                            {{ end }}
+                    <!--/div>
+                    <div class="row push-20-t push-20"> 
+                         <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Research Highlights</h2><br/><br/-->
+                            {{ range first 4 $filteredresearch }}
+                             {{ partial "4by1cards" . }} 
+                            {{ end }} 
+                    </div>
+                </div> 
             </section>         
-            <div>
+        <div>
                 <section class="content content-full content-boxed">
                     <!-- CTA Content -->
                     <div class="push-20-t push-20 text-center">

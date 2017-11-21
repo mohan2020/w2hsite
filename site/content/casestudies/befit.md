@@ -1,7 +1,7 @@
 ---
 title: Be Fit
 date: 2017-01-05
-subdomain: Womens Health
+subdomain: Fitness Tracking
 area: research
 summary: >-
   Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines

@@ -2,7 +2,7 @@
 title: DiGam
 date: 2017-01-04
 subdomain: Diabetes
-area: research
+area: research 
 summary: >-
   Reduced 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet new ACOG guidelines
 authors:

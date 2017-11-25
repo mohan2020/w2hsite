@@ -3,27 +3,27 @@
 <main id="platform">
     {{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
 
-    <div class="content bg-white">
-        <section class="content content-boxed">    
+    <div class="content" style="background-color: #2980b9; color: white; margin-top: -150px;">
+        <section class="content content-boxed push-150-t">    
             <!-- Justified Tabs -->
             <p class="lead">{{.Params.introduction}}</p>
             <div class="row">
                 <!-- Block Tabs Justified Alternative Style -->
-                <div class="block">
-                    <ul class="nav nav-tabs nav-tabs-alt nav-justified" data-toggle="tabs">
+                <div class="block bg-success" style="background-color: transparent; text-align: center;">
+                    <ul class="nav nav-tabs nav-tabs-alt" data-toggle="tabs" style="display: inline-block;">
                         <li class="active">
                             <a href="#btabs-researchers"><h3 class="font-w600 push-15">Researchers</h3></a>
                         </li>
                         <li>
-                            <a href="#btabs-healthsystems"><h3 class="font-w600 push-15">Health Systems</h3></a>
+                            <a href="#btabs-healthsystems"><h3 class="font-w600 push-15">Hospitals</h3></a>
                         </li>
                         <li>
-                            <a href="#btabs-healthplans"><h3 class="font-w600 push-15">Health Plans</h3></a>
+                            <a href="#btabs-healthplans"><h3 class="font-w600 push-15">Plans</h3></a>
                         </li>                        
                     </ul>
-                    <div class="block-content tab-content">
+                    <div class="block-content tab-content" style="background-color: transparent;">
                         <div class="tab-pane active" id="btabs-researchers">
-                            <div class="bg-white">
+                            <div>
                                 <section class="content content-boxed overflow-hidden">
                                     <!-- Section Content -->
                                     <div class="row">
@@ -48,7 +48,7 @@
                                         {{ end }}
                                     </div>
                                 </section>
-                                <div class="bg-gray-lighter">
+                                <div>
                                     <section class="content content-full content-boxed">
                                         <!-- Section Content -->
                                         <div class="push-20-t push-20 text-center">
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="btabs-healthsystems">
-                            <div class="bg-white">
+                            <div >
                                 <section class="content content-boxed overflow-hidden">
                                     <!-- Section Content -->
                                     <div class="row">
@@ -85,7 +85,7 @@
                                         {{ end }}
                                     </div>
                                 </section>
-                                <div class="bg-gray-lighter">
+                                <div>
                                     <section class="content content-full content-boxed">
                                         <!-- Section Content -->
                                         <div class="push-20-t push-20 text-center">
@@ -97,7 +97,7 @@
                             </div>                          
                         </div>
                         <div class="tab-pane" id="btabs-healthplans">
-                            <div class="bg-white">
+                            <div>
                                 <section class="content content-boxed overflow-hidden">
                                     <!-- Section Content -->
                                     <div class="row">
@@ -122,7 +122,7 @@
                                         {{ end }}
                                     </div>
                                 </section>
-                                <div class="bg-gray-lighter">
+                                <div class="bg-success">
                                     <section class="content content-full content-boxed">
                                         <!-- Section Content -->
                                         <div class="push-20-t push-20 text-center">

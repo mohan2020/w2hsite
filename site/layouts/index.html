@@ -34,102 +34,26 @@
 
         <!-- Classic Features #1 -->
         <!-- Grid Features -->
-        <div class="angle--both-left-left"  style="background-color: #49A078; color: white;">
-            <section class="content content-boxed push-100-t">
-                <div class="row">
-                    <h1 class="text-center">Do more with Way to Health</h1><br/>
-                    <p class="lead text-center">Mix and match modules from Way To Health's suite to solve your exact use case</p>
-                    <hr/><br/>
-               <p class="text-center lead">The problem is that patients don't do what they're supposed to. In other words, interventions need to be personalized. This in turn, requires a mix and match approach i.e. use a combination of capabilities to address your specific need.</p>
-               <br/>
-                <!-- Block Tabs Justified Alternative Style -->
-                <div class="block text-center" style="background-color: transparent; text-align: center;">
-                    <ul class="nav nav-tabs nav-tabs-alt" data-toggle="tabs" style="display: inline-block;">
-                        <li class="active" style="display: inline">
-                            <a href="#btabs-ptcomm"><h4 class="font-w400 push-15">Patient Communication</h4></a>
-                        </li>
-                        <li>
-                            <a href="#btabs-devices"><h4 class="font-w400 push-15">Devices & EHRs</h4></a>
-                        </li>
-                        <li>
-                            <a href="#btabs-rct"><h4 class="font-w400 push-15">Controlled Trials</h4></a>
-                        </li>
-                        <li>
-                            <a href="#btabs-be"><h4 class="font-w400 push-15">Behavioral Economics</h4></a>
-                        </li>
-                        <li>
-                            <a href="#btabs-rules"><h4 class="font-w400 push-15">Rules Engine</h4></a>
-                        </li>
-                    </ul>
-                    <div class="block-content tab-content" >
-                        <div class="tab-pane active" id="btabs-ptcomm">
-                            <section class="content content-boxed">
-                                <div class="row items-push-2x nice-copy">
-                                    {{ with .Params.patientcommunication }}
-                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title | markdownify }}</p>
-                                        {{ range .blurbs }}            
-                                            {{ partial "grid" . }}
-                                        {{ end }}
-                                    {{ end }}           
-                                </div>             
-                            </section>
-                        </div>
-                        <div class="tab-pane" id="btabs-devices">
-                            <section class="content content-boxed">               
-                                <div class="row items-push-2x nice-copy">
-                                    {{ with .Params.deviceintegration }}
-                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title | markdownify }}</p>
-                                        {{ range .blurbs }}            
-                                            {{ partial "grid" . }}
-                                        {{ end }}
-                                    {{ end }}           
-                                </div>             
-                            </section>
-                        </div>
-                        <div class="tab-pane" id="btabs-rct">
-                            <section class="content content-boxed">               
-                                <div class="row items-push-2x nice-copy">
-                                    {{ with .Params.rct }}
-                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title | markdownify }}</p>
-                                        {{ range .blurbs }}            
-                                            {{ partial "grid" . }}
-                                        {{ end }}
-                                    {{ end }}           
-                                </div>             
-                            </section>
-                        </div>
-                        <div class="tab-pane" id="btabs-be">
-                            <section class="content content-boxed">               
-                                <div class="row items-push-2x nice-copy">
-                                    {{ with .Params.be }}
-                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title | markdownify }}</p>
-                                        {{ range .blurbs }}            
-                                            {{ partial "grid" . }}
-                                        {{ end }}
-                                    {{ end }}           
-                                </div>             
-                            </section>
-                        </div>
-                        <div class="tab-pane" id="btabs-rules">
-                            <section class="content content-boxed">               
-                                <div class="row items-push-2x nice-copy">
-                                    {{ with .Params.rulesengine }}
-                                        <p class="lead push-50 push-10 visibility-hidden" data-toggle="appear">{{ .title | markdownify }}</p>
-                                        {{ range .blurbs }}            
-                                            {{ partial "grid" . }}
-                                        {{ end }}
-                                    {{ end }}           
-                                </div>             
-                            </section>
-                        </div>
-                    </div>
+        <div class="angle--top-left col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="background-color: #3F51B5; color: white; text-align: center;">
+            <section class="content content-boxed push-100-t ">
+                <div class="row ">
+                    <h1>Do more with Way to Health</h1><br/>
+                     <h3 class="h3 font-w400 text-center push-10">Mix and match modules from Way To Health's suite to solve your exact use case</h3>
+                    <br/><hr/><br/>
+               <p class="lead text-center">The problem is that patients don't do what they're supposed to. In other words, interventions need to be personalized. This in turn, requires a mix and match approach i.e. use a combination of capabilities to address the specific need.</p>
                 </div>
-            </div>
-        </section>         
-            <section class="content content-full content-boxed push-50">
+                <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 items-push-3x push-50-t nice-copy">
+                    {{ with .Params.keyfeatures }}
+                                {{ range .blurbs }}            
+                                    {{ partial "grid" . }}
+                                {{ end }}
+                    {{ end }}
+                </div>
+            </section>       
+            <section class="content content-full content-boxed push-50" style="background-color: #3F51B5; color: white;">
                 <!-- CTA Content -->
                 <div class="text-center">
-                    <a class="btn btn-rounded btn-noborder btn-lg" style="background-color: white; color: #49A078" href="platform">Learn more</a>
+                    <a class="btn btn-rounded btn-noborder btn-lg" style="background-color: white; color: #3F51B5" href="platform">Learn more</a>
                 </div>
                 <!-- END CTA Content -->
             </section>            
@@ -142,7 +66,7 @@
 {{ $filteredclinical := $v1 | intersect $v2 | intersect $v3 }}
 {{ $filteredresearch := $v1 | intersect $v2 | intersect $v4 }}
         <!--div style="background-color: #6145ca; color: white;"-->
-        <div>
+        <div >
             <br/><br/>
             <section class="content content-boxed overflow-hidden">
             <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY SPOTLIGHTS</h2>

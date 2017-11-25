@@ -1,10 +1,14 @@
 <div class="col-sm-4 nice-copy">
-    <div class="text-center push">
+    <!--div class="text-center push-30">
         <span class="fa-stack fa-3x">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-{{.icon}} fa-stack-1x" style="color: {{.iconcolor}}"></i>
-        </span>
-    </div>
+        </span-->
+        <div class="text-center push-30">
+            <span class="item item-2x item-circle border">
+                <i class="fa fa-{{.icon}}" style="color: {{.iconcolor}}" ></i>
+            </span>       
+    	</div>
     <h3 class="h5 font-w400 text-uppercase text-center push-10">{{ .header }}</h3>
     <p class="font-w400">{{ .text}}</p>                
 </div>

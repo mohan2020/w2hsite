@@ -3,142 +3,119 @@
 <main id="platform">
     {{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
 
-    <div class="content" style="background-color: #2980b9; color: white; margin-top: -150px;">
+    <div class="content text-center" style="background-color: #ffffff; margin-top: -150px;">
         <section class="content content-boxed push-150-t">    
-            <!-- Justified Tabs -->
             <p class="lead">{{.Params.introduction}}</p>
-            <div class="row">
-                <!-- Block Tabs Justified Alternative Style -->
-                <div class="block bg-success" style="background-color: transparent; text-align: center;">
-                    <ul class="nav nav-tabs nav-tabs-alt" data-toggle="tabs" style="display: inline-block;">
-                        <li class="active">
-                            <a href="#btabs-researchers"><h3 class="font-w600 push-15">Researchers</h3></a>
-                        </li>
-                        <li>
-                            <a href="#btabs-healthsystems"><h3 class="font-w600 push-15">Hospitals</h3></a>
-                        </li>
-                        <li>
-                            <a href="#btabs-healthplans"><h3 class="font-w600 push-15">Plans</h3></a>
-                        </li>                        
-                    </ul>
-                    <div class="block-content tab-content" style="background-color: transparent;">
-                        <div class="tab-pane active" id="btabs-researchers">
-                            <div>
-                                <section class="content content-boxed overflow-hidden">
-                                    <!-- Section Content -->
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Key Research Challenges</h4>
-                                            <p class="lead">{{.Params.researchchallenges}}</p>
-                                        {{ with .Params.researchers }}
-                                            {{ range .challenges }}                      
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Solution</h4>
-                                            <p class="lead">{{.Params.researchsolutions}}</p>
-                                        {{ with .Params.researchfeatures }}
-                                            {{ range .researchcapabilities }}
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                </section>
-                                <div>
-                                    <section class="content content-full content-boxed">
-                                        <!-- Section Content -->
-                                        <div class="push-20-t push-20 text-center">
-                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
-                                        </div>
-                                        <!-- END Section Content -->
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="btabs-healthsystems">
-                            <div >
-                                <section class="content content-boxed overflow-hidden">
-                                    <!-- Section Content -->
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Key Health System Challenges</h4>
-                                            <p class="lead">{{.Params.healthsystemschallenges}}</p>
-                                        {{ with .Params.healthsystems }}
-                                            {{ range .challenges }}                                         
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Solution</h4>
-                                            <p class="lead">{{.Params.healthsystemssolutions}}</p>
-                                        {{ with .Params.healthsystemsfeatures }}
-                                            {{ range .healthsystemscapabilities }}
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                </section>
-                                <div>
-                                    <section class="content content-full content-boxed">
-                                        <!-- Section Content -->
-                                        <div class="push-20-t push-20 text-center">
-                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
-                                        </div>
-                                        <!-- END Section Content -->
-                                    </section>
-                                </div>
-                            </div>                          
-                        </div>
-                        <div class="tab-pane" id="btabs-healthplans">
-                            <div>
-                                <section class="content content-boxed overflow-hidden">
-                                    <!-- Section Content -->
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Key Health Plan Challenges</h4>
-                                            <p class="lead">{{.Params.healthplanschallenges}}</p>
-                                        {{ with .Params.healthplans }}
-                                            {{ range .challenges }}                                         
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <h4 class="font-w600 push-15">Solution</h4>
-                                            <p class="lead">{{.Params.healthplanssolutions}}</p>
-                                        {{ with .Params.healthplansfeatures }}
-                                            {{ range .healthplanscapabilities }}
-                                            <!--h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .heading }}</h3-->
-                                                {{ partial "grid" . }}
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                </section>
-                                <div class="bg-success">
-                                    <section class="content content-full content-boxed">
-                                        <!-- Section Content -->
-                                        <div class="push-20-t push-20 text-center">
-                                            <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies.html">Explore case studies</a>
-                                        </div>
-                                        <!-- END Section Content -->
-                                    </section>
-                                </div>
-                            </div>  
+        </section>
+        <br/><br/>
+    </div>
+        <div class="content" style="background-color: #03A9F4; color: white;">
+            <section class="content content-boxed overflow-hidden">
+                <!-- Section Content -->
+                <div class="row items-push nice-copy">
+                    {{ with .Params.patientcommunication}}
+                    <div class="col-lg-5 visible-lg">
+                        <div class="push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInLeft">
+                            <h3 class="h3 font-w600 text-uppercase push-5"><i class="fa fa-{{.featureicon}} push-5-r"></i>{{.featureset}}</h3>
+                        </div>                                
+                        <img class="img-responsive visibility-hidden" data-toggle="appear" data-offset="-300" data-class="animated fadeInLeft" src="{{.featureimage}}" alt="">
+                    </div>
+                        {{ range .blurbs}}
+                    <div class="col-lg-5 col-lg-offset-2">
+                        <div class="push-50-t visibility-hidden" data-toggle="appear" data-class="animated fadeInRight">
+                            <h3 class="h5 font-w600 text-uppercase push-5"> {{.feature}}</h3>
+                            <h4 class="h3 font-w300 push-10">{{.header}}</h4>
+                            <p>{{.text}}</p>
                         </div>
                     </div>
+                        {{ end }}
+                    {{ end }}
                 </div>
-                <!-- END Block Tabs Justified Default Style -->
-            </div>
-            <!-- END Justified Tabs -->
-        </section>
+            </section>
+        </div>
+        <div class="content" style="background-color: #2980b9; color: white;">
+            <section class="content content-boxed overflow-hidden">
+                <!-- Section Content -->
+                <div class="row items-push nice-copy">
+                    {{ with .Params.deviceintegration}}                    
+                        <div class="push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInLeft">
+                            <h3 class="h3 font-w600 text-uppercase push-5"><i class="fa fa-{{.featureicon}} push-5-r"></i>{{.featureset}}</h3>
+                        </div> 
+                    <div class="col-lg-5 visibility-hidden" data-toggle="appear" data-class="animated fadeInLeft">
+                        {{ range .blurbs}}
+                        <div class="push-50-t">
+                            <h3 class="h5 font-w600 text-uppercase push-5">{{.feature}}</h3>
+                            <h4 class="h3 font-w300 push-10">{{.header}}</h4>
+                            <p>{{.text}}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 visible-lg">                               
+                        <img class="img-responsive visibility-hidden" data-toggle="appear" data-offset="-300" data-class="animated fadeInRight" src="{{.featureimage}}" alt="">
+                    </div>                        
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+        <div class="content" style="background-color: #03A9F4; color: white;">
+            <section class="content content-boxed overflow-hidden">
+                <!-- Section Content -->
+                <div class="row items-push nice-copy">
+                    {{ with .Params.rct}}
+                    <div class="col-lg-5 visible-lg">
+                        <div class="push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInLeft">
+                            <h3 class="h3 font-w600 text-uppercase push-5"><i class="fa fa-{{.featureicon}} push-5-r"></i>{{.featureset}}</h3>
+                        </div>                                
+                        <img class="img-responsive visibility-hidden" data-toggle="appear" data-offset="-300" data-class="animated fadeInLeft" src="{{.featureimage}}" alt="">
+                    </div>
+                        {{ range .blurbs}}
+                    <div class="col-lg-5 col-lg-offset-2">
+                        <div class="push-50-t visibility-hidden" data-toggle="appear" data-class="animated fadeInRight">
+                            <h3 class="h5 font-w600 text-uppercase push-5"> {{.feature}}</h3>
+                            <h4 class="h3 font-w300 push-10">{{.header}}</h4>
+                            <p>{{.text}}</p>
+                        </div>
+                    </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+        <div class="content" style="background-color: #2980b9; color: white;">
+            <section class="content content-boxed overflow-hidden">
+                <!-- Section Content -->
+                <div class="row items-push nice-copy">
+                    {{ with .Params.be}}                    
+                        <div class="push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInLeft">
+                            <h3 class="h3 font-w600 text-uppercase push-5"><i class="fa fa-{{.featureicon}} push-5-r"></i>{{.featureset}}</h3>
+                        </div> 
+                    <div class="col-lg-5 visibility-hidden" data-toggle="appear" data-class="animated fadeInLeft">
+                        {{ range .blurbs}}
+                        <div class="push-50-t">
+                            <h3 class="h5 font-w600 text-uppercase push-5">{{.feature}}</h3>
+                            <h4 class="h3 font-w300 push-10">{{.header}}</h4>
+                            <p>{{.text}}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 visible-lg">                               
+                        <img class="img-responsive visibility-hidden" data-toggle="appear" data-offset="-300" data-class="animated fadeInRight" src="{{.featureimage}}" alt="">
+                    </div>                        
+                    {{ end }}
+                </div>
+            </section>
+        </div>
+        <div>
+            <section class="content content-full content-boxed">
+                <!-- CTA Content -->
+                <div class="push-20-t push-20 text-center">
+                    <p class="lead">Explore how innovators have applied these features successfully</p>
+                    <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies">View case studies</a>
+                </div>
+                <!-- END CTA Content -->
+            </section>
+        </div>
+
     </div>
 </main>
 

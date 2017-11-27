@@ -26,7 +26,7 @@
                                                {{ .Date.Format "Mon Jan 2, 2006" }}
                                             </div>
                                             <h4 class="text-uppercase push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.title}}</a></h4>
-                                            <p class="push-20">{{.Params.summary}}</p>
+                                            <p class="push-20">{{.Params.summary | markdownify}}</p>
                                         </div>
                                     </div>
                                 </div>

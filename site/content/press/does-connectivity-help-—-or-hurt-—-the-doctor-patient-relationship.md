@@ -1,6 +1,6 @@
 ---
 title: Does Connectivity Help — or Hurt — the Doctor-Patient Relationship?
-date: 2017-11-14T17:26:10.239Z
+date: 2017-09-26T12:26:10-04:00
 summary: >-
   Christian Terwiesch, a Wharton professor of operations, information and
   decisions, has co-authored two new studies related to technology and health

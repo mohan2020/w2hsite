@@ -1,7 +1,5 @@
 ---
-title: >-
-  Effect of Fin Incentives on Glucose Monitoring Adherence and Glycemic Control
-  Among Adolescents and Young Adults With Type 1 Diabetes
+title: Be In Control
 date: 2017-11-27T20:11:43.450Z
 area: Research
 subdomain: Diabetes Management

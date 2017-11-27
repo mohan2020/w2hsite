@@ -1,6 +1,6 @@
 ---
 title: 'Smart Pill Bottles Aren''t Always Enough To Help The Medicine Go Down '
-date: 08/22/2017
+date: 2017-08-22T00:00:00-04:00
 summary: >-
   Still, Volpp remains optimistic about pill bottle technology — he just thinks
   the high-tech strategy needs to be paired with social interventions. In his

@@ -1,14 +1,14 @@
 ---
 title: Be In Control
-date: 2017-11-27T20:11:43.450Z
-area: Research
+date: 2017-11-27
+area: research
 subdomain: Diabetes Management
 authors:
   - authorimage: /img/uploads/wong.jpg
-    authorname: 'Charlene Wong, MD, MSHP'
+    authorname: Charlene Wong, MD, MSHP
     authorrole: Principal Investigator
   - authorimage: /img/uploads/Alexander_Morris.jpg
-    authorname: 'Alexander Morris, BS'
+    authorname: Alexander Morris, BS
     authorrole: Research Coordinator
 summary: >-
   To determine the effect of daily financial incentives on glucose monitoring
@@ -17,8 +17,9 @@ summary: >-
 results:
   - result: Showed effectiveness of financial incentives in adolescents
   - result: Improved glucose monitoring from 18.9% to 50% vs control group
-spotlight: 'false'
+spotlight: false
 ---
+
 ## The challenge
 Glycemic control often deteriorates during adolescence and the transition to young adulthood for patients with type 1 diabetes. The inability to manage type 1 diabetes effectively during these years is associated with poor glycemic control and complications from diabetes in adult life.
 
@@ -29,5 +30,7 @@ Objective was to determine the effect of daily financial incentives on glucose m
 The primary outcome was change in HbA1c levels at 3 months. Secondary outcomes included adherence to glucose monitoring and change in HbA1c levels at 6 months. All analyses were by intention to treat.
 
 ## Results / Outcomes
+
 **Effectiveness of financial incentives**:This area shows promise in the adolescent population which has been traditionally difficult to target.
+
 **Improved glucose monitoring**: from 18.9% to 50% vs control group

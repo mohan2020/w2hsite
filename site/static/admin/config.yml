@@ -13,7 +13,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"} #title of the case study
-      - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
+      - {label: "Publish Date", name: "date", "datetime", format: "MM-DD-YYYY"} # date of publication / creation
       - {label: "Study Type", name: "area", widget: "string"} # Clinical or research area
       - {label: "Clinical Domain", name: "subdomain", widget: "string"} # Specific clinical or ops area
       - {label: "Authors (minimum of two required)", name: "authors", widget: "list", fields: [{label: "PI Name", name: "authorname", widget: "string"},{label: "PI image", name: "authorimage", widget: "image"},{label: "Role", name: "authorrole", widget: "string"}]} #Author Name
@@ -29,7 +29,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
+      - {label: "Publish Date", name: "date", "datetime", format: "MM-DD-YYYY"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
       - {label: "Splash image", name: "image", widget: "image"} # background image
       - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
@@ -42,7 +42,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
+      - {label: "Publish Date", name: "date", "datetime", format: "MM-DD-YYYY"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
       - {label: "Splash image", name: "image", widget: "image"} # background image
       - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
@@ -55,7 +55,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
+      - {label: "Publish Date", name: "date", "datetime", format: "MM-DD-YYYY"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
       - {label: "Splash image", name: "image", widget: "image"} # background image
       - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
@@ -67,8 +67,8 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "markdown"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
+      - {label: "Title", name: "title", widget: "string"} #title of the blog post
+      - {label: "Publish Date", name: "date", widget: "date"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "markdown"} # summary of the post
       - {label: "Splash image", name: "image", widget: "image"} # background image
       - {label: "Source", name: "source", widget: "string"} #Author Name
@@ -78,8 +78,9 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "markdown"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "datetime"} # date of publication / creation
+      - {label: "Study Name", name: "studyname", widget: "string"} #title of the blog post
+      - {label: "Title", name: "title", widget: "string"} #title of the blog post
+      - {label: "Publish Date", name: "date", widget: "date"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "markdown"} # summary of the post
       - {label: "Authors", name: "authors", widget: "string"} # publication authors
       - {label: "Source", name: "source", widget: "string"} #Author Name      

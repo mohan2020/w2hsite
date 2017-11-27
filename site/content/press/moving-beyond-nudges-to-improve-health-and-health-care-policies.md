@@ -1,6 +1,6 @@
 ---
 title: Moving beyond nudges to improve health and health care policies
-date: 2017-11-14T17:59:50.523Z
+date: 08/16/2017
 summary: >-
   With countries around the world struggling to deliver quality health care and
   contain costs, a team of behavioral economists believes it's time to apply

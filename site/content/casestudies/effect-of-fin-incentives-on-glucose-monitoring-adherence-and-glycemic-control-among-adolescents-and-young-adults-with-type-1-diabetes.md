@@ -5,10 +5,10 @@ area: Research
 subdomain: Diabetes Management
 authors:
   - authorimage: /img/uploads/wong.jpg
-    authorname: Charlene Wong
+    authorname: 'Charlene Wong, MD, MSHP'
     authorrole: Principal Investigator
   - authorimage: /img/uploads/Alexander_Morris.jpg
-    authorname: Alexander Morris
+    authorname: 'Alexander Morris, BS'
     authorrole: Research Coordinator
 summary: >-
   To determine the effect of daily financial incentives on glucose monitoring

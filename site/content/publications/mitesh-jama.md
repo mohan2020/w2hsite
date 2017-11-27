@@ -1,6 +1,6 @@
 ---
-studyname: Mitesh Jama
-title: >-
+title: Mitesh Jama
+articlename: >-
   Accuracy of Smartphone Applications and Wearable Devices for Tracking Physical
   Activity Data
 date: 2015-02-10T00:00:00.000Z

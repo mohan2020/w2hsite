@@ -8,8 +8,8 @@
         <section class="content content-full content-boxed overflow-hidden">
             <!-- Section Content -->
             <div class="push-200-t push-200 text-center">
-                {{ if .IsHome }}
-                <img src="/img/logos/w2h-ShieldwWhitetext.png">
+                {{ if .biglogo }}
+                <img src="{{.biglogo}}">
                 {{ end }}
                 <h1 class=" text-white push-50 push-50-t visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">{{.title}}</h1>
                 {{ if .subtitle}}

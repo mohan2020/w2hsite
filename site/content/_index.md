@@ -2,41 +2,48 @@
 title: Evidence Based Patient Engagement
 bgcolor: "#2e376b"
 image:
-subtitle:
+biglogo: /img/logos/w2h-ShieldwWhitetext.png 
+ssubtitle: Research new and apply scientifically proven personalized engagement strategies in your patient population
 summary: Way to Health is a web-based platform that enables and automates research into healthy behavior interventions. Interventions found to be successful can be applied to various populations and rolled out at scale quickly.
 
 keyfeatures:
   blurbs:
     - icon: comments
-      iconcolor: white
+      iconcolor: white 
+      bgcolor: 
       header: Patient Communication
       text: >
-        Choose from a variety of communication techniques or combine them in interesting ways tailored to a patient's behavior including texting 
+        Choose from a variety of communication techniques or combine them in interesting ways tailored to a patient's behavior e.g. SMS
     - icon: heartbeat
-      iconcolor: white
+      iconcolor: white 
+      bgcolor: 
       header: Device Integration
       text: >
         Capture remotely collected health data simply and seamlessly into our system, enabling scalable, integrated and personalized initiatives.
     - icon: code-fork
-      iconcolor: white
+      iconcolor: white 
+      bgcolor: 
       header: Clinical Trials
       text: >
          Way To Health is a tool purpose built to design and deploy behavioral change and interventional (bedside to home) research.
     - icon: money
-      iconcolor: white    
+      iconcolor: white 
+      bgcolor: 
       header: Behavioral Economics
       text: >
-        Various social and financial incentives are pre-built and available in the platform.
+         Various Behavioral economics based tools w.g. social and financial incentives are pre-built and available in the platform.
     - icon: trophy
-      iconcolor: white
+      iconcolor: white 
+      bgcolor: 
       header: Gamification
       text: >
-        The platform allows patients to earn points, level up, use lifelines and more. Now combine this with peers or support partners and the results can be eye-opening. 
+        The platform allows patients to earn points, level up, use lifelines and more. Combine with peers or support partners and be amazed. 
     - icon: random
-      iconcolor: white
+      iconcolor: white 
+      bgcolor: 
       header: Rules Engine
       text: >
-        The Way To Health platform provides a flexible rules engine with easy configuration driven by data captured from patients via communications or devices.
+        Use the flexible rules engine with easy configuration driven by data captured from patients via communications or devices.
 
 stats:
   highlights:

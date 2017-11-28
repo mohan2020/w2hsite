@@ -5,7 +5,7 @@ bgcolor: "#242F40"
 subtitle: And draw from a library of evidenced based protocols as your starting point
 
 introduction: >
-  Patient and provider engagement is the blockbuster drug of the 21st century. Current solutions are sorely lacking. Way to Health is designed with the intent to discover and subsequently deploy new ways of engaging patients and providers at scale. Way to Health provides a number of features that can be mixed-and-matched to provide a personalized intervention tailored to the specific patient population and even a specific patient. 
+  Patient and provider engagement is the blockbuster drug of the 21st century. Way to Health is designed with the intent to discover and deploy new ways of engaging patients and providers at scale. The platform provides a number of features that can be combined in various ways to design and deploy personalized patient engagement strategies.
 
 patientcommunication:
   featureset: Patient Communication

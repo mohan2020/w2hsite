@@ -31,11 +31,11 @@ enim dolore laborum dolor dolore eiusmod sed ea enim commodo et adipisicing ulla
 
 ## Results / Outcomes
 
-**Reduced readmissions**
+- **Reduced readmissions**
 Lorem ipsum officia magna dolore do et sed sit incididunt deserunt fugiat ex ad fugiat ut quis cillum aliqua id enim occaecat aute sunt in id esse consectetur.
  
-**Reduced 2**
+- **Reduced 2**
 Id eu voluptate occaecat eiusmod dolor nulla veniam laboris exercitation nulla exercitation exercitation id in nisi laboris ad tempor reprehenderit et consectetur elit esse ex culpa aliquip cillum sed proident id irure eiusmod consequat.
 
-**Reduced 3**
+- **Reduced 3**
 Lorem ipsum sunt occaecat consequat in dolore est ex elit laborum culpa exercitation est veniam laboris aliquip cupidatat consectetur ea.

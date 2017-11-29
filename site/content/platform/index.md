@@ -11,7 +11,7 @@ patientcommunication:
   featureset: Patient Communication
   header: Communication with patients and / or study participants is key to engaging them in their health. You can choose from a variety of communication techniques or combine them in interesting ways tailored to a patient's behavior.
   featureicon: comments
-  featureimage: /img/various/promo3.jpg
+  featureimage: /img/various/handy.svg
   blurbs:
     - icon: commenting-o
       iconcolor: "#49A078"    

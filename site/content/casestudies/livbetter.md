@@ -1,12 +1,12 @@
 ---
 title: LivBetter
-date: 2017-11-13T20:38:23.603Z
+date: 2017-11-13
 subdomain: Cirrhosis & Transplants
 area: clinical
 authors:
   - authorimage: /img/uploads/khungar-vandana.jpg
     authorname: Vandana Khungar, MD, MSc
-    authorrole: PI
+    authorrole: Clinical Lead
   - authorimage: /img/team/brown.jpeg
     authorname: Stephanie Brown, BA
     authorrole: Implementation Lead
@@ -33,7 +33,7 @@ The initial pilot tested a remote monitoring approach in which a 90 day teleheal
 
 Way to Health was then utilized as the solution to automate the above process. An automated SMS based solution was designed and tested to engage patients post discharge and monitor their weight, temperature and medication adherence. The platform allowed the clinical team to build in algorithms to flag patients with maximum risk, thereby improving the staff’s efficiency.
 
-<img class="center" src="/img/peng/livbetter.png"  data-offset="300" />
+<img class="center" src="/img/peng/livbetter.png" />
 
 The LivBetter program utilizes Way To Health for:
 

@@ -1,6 +1,6 @@
 ---
 title: Patient Engagement is the blockbuster drug of the century
-date: 2017-01-04T15:04:10.000Z
+date: 2017-11-28
 summary: >-
   Actually, it’s surprising that it has taken us this long to focus on patient engagement because the results we have thus far are nothing short of astounding. If patient engagement were a drug, it would be the blockbuster drug of the century and malpractice not to use it. 
 image: /img/photos/photo39@2x.jpg

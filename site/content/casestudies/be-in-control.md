@@ -11,13 +11,11 @@ authors:
     authorname: Alexander Morris, BS
     authorrole: Research Coordinator
 summary: >-
-  To determine the effect of daily financial incentives on glucose monitoring
-  adherence and glycemic control in adolescents and young adults with type 1
-  diabetes.
+  Effectiveness of daily financial incentives on glucose monitoring adherence and glycemic control in adolescents & young adults with type 1 diabetes.
 results:
-  - result: Showed effectiveness of financial incentives in adolescents
-  - result: Improved glucose monitoring from 18.9% to 50% vs control group
-spotlight: false
+  - result: Effectiveness of financial incentives
+  - result: Improved glucose monitoring by 62%
+spotlight: true
 ---
 
 ## The challenge

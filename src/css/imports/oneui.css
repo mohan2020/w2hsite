@@ -12039,3 +12039,9 @@ header h1 {
   text-align: center;
   padding: 10% 0;
 }
+
+img.center {
+    display: block;
+    margin: auto;
+    width: 40%;
+}

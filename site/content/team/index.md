@@ -6,7 +6,7 @@ team:
   role: Core Team
   member:
     - name: Mohan Balachandran
-      title: CEO
+      title: COO
       twitter: mohan2020
       linkedin: mohanbalachandran
       bgpic: /img/bg/photo1.jpg
@@ -29,7 +29,7 @@ team:
       bgpic: /img/bg/photo8.jpg
       pic: /img/team/sevinc.jpg
       text: >
-        Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. Working closely with the development team, Christianne identifies and prioritizes enhancements and manages project timelines.  She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
+        Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
     - name: John Bergandino
       title: Software Developer
       twitter: 
@@ -53,7 +53,7 @@ team:
       bgpic: /img/bg/photo4.jpg
       pic: /img/team/leitner.jpg
       text: >
-        Aaron Leitner is an associate software developer at the Penn Medicine Center for Health Care Innovation.  In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor's degree in environmental studies from Ursinus College.
+        Aaron Leitner is a software developer at the Penn Medicine Center for Health Care Innovation.  In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor's degree in environmental studies from Ursinus College.
     - name: Conor Lydon
       title: Software Developer
       twitter: 
@@ -61,7 +61,7 @@ team:
       bgpic: /img/bg/photo5.jpg
       pic: /img/team/lydon.jpg
       text: >
-        Duis cursus interdum ornare. Quisque volutpat dictum turpis ut fermentum. Proin finibus accumsan lectus, eget bibendum ipsum finibus a. Sed justo ipsum, vulputate interdum pharetra vitae, scelerisque id urna. Phasellus vel felis non nibh cursus vehicula nec et diam. Sed vitae sem erat. Curabitur ullamcorper dui nec sem viverra, in maximus nisi luctus. Integer cursus, felis vel aliquet hendrerit, sapien odio commodo odio, eget tincidunt neque ante sit amet sapien. Cras efficitur dui sed diam vestibulum malesuada. Nullam tortor justo, tempor ac malesuada non, commodo at tortor. Sed nisl enim, elementum eu sodales ut, vestibulum id magna.
+        Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. <br><br>Notably in one of his past career ventures, Conor was a driving force in bringing a travel company which was once only printed media into a modern and competitive online presence
     - name: Kyle McGrogan
       title: Software Developer
       twitter: 
@@ -69,7 +69,7 @@ team:
       bgpic: /img/bg/photo6.jpg
       pic: /img/team/mcgrogan.jpg
       text: >
-        In hendrerit imperdiet fringilla. Sed rutrum id leo ultricies hendrerit. Quisque tincidunt, lorem in tristique ullamcorper, eros augue pretium sapien, vitae sodales odio ipsum ut ex. Nullam ultricies, ante ut dapibus iaculis, risus tellus posuere libero, sed auctor nibh elit vitae eros.  <br><br> Duis cursus interdum ornare. Quisque volutpat dictum turpis ut fermentum. Proin finibus accumsan lectus, eget bibendum ipsum finibus a. Sed justo ipsum, vulputate interdum pharetra vitae, scelerisque id urna. Phasellus vel felis non nibh cursus vehicula nec et diam. Sed vitae sem erat. 
+        Kyle McGrogan is a software developer for the Way to Health team.  In this role, he works to maintain and improve the platform through the use and adoption of best practices and interesting technologies.  He has a bachelor’s degree in software engineering from Shippensburg University of Pennsylvania, and has worked for multiple organizations in the healthcare space. 
     - name: Benjamin Rosenbach
       title: Software Developer
       twitter: 

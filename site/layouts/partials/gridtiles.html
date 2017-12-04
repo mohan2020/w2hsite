@@ -2,12 +2,16 @@
     <div class="block">
         <div class="block-header">
             <ul class="block-options">
+                {{ if .twitter }}
                 <li>
                     <button type="button" data-toggle="tooltip" title="Twitter"><a href="https://twitter.com/{{.twitter}}"><i class="fa fa-twitter"></i></a></button>
                 </li>
+                {{end}}
+                {{ if .linkedin }}
                 <li>
                     <button type="button" data-toggle="tooltip" title="Linked In"><a href="https://linkedin.com/in/{{.linkedin}}"><i class="fa fa-linkedin"></i></a></button>
                 </li>
+                {{end }}
             </ul>
             <h2 class="block-title"><strong>{{.name}}</strong></h2>
             <h5 class="block-title">{{.title}}</h5>

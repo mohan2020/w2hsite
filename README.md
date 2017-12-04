@@ -7,6 +7,8 @@ Netlify CMS is also integrated.
 ## TO DOs
 
 - [ ] Add page for device and other integrations - under Platform
+- [ ] Need a 404 page
+- [ ] Need a 500 page
 - [ ] Create images for each section of platform page
 - [ ] Add images and ensure views are responsive
 - [ ] Add content for ABC
@@ -19,7 +21,7 @@ Netlify CMS is also integrated.
 - [ ] Re-design case studies view for research
 - [x] Add all publications - Done. Pulled from SF primarily.
 - [x] Add press references - Done. Pulled from multiple sources
-- [ ] Add search to case studies
+- [x] Add search to case studies
 - [ ] Add search to publications
 - [ ] Add preview to content editor
 - [ ] Migrate to actual domain name

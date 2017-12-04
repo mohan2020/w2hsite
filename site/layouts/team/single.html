@@ -4,10 +4,10 @@
     {{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" "") }}    
     <!-- Hero Content -->
     <!-- END Hero Content -->
-
     <!-- leadership -->
     <div class="bg-gray-lighter">
         <section class="content content-boxed">
+        <p class="lead">Leadership</p>
     {{ with .Params.leadership }}            
         <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .role }}</h3>            
             <!-- Section Content -->
@@ -26,6 +26,7 @@
     <!-- implementation -->
     <div class="bg-gray-lighter">
         <section class="content content-boxed">
+        <p class="lead">Implementation</p>
     {{ with .Params.implementation }}            
         <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .role }}</h3>            
             <!-- Section Content -->
@@ -44,6 +45,7 @@
     <!-- engineering -->
     <div class="bg-gray-lighter">
         <section class="content content-boxed">
+        <p class="lead">Engineering</p>            
     {{ with .Params.engineering }}            
         <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .role }}</h3>            
             <!-- Section Content -->

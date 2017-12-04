@@ -15,8 +15,8 @@ leadership:
         He has substantial experience in multiple domains such as supply chain management, master data management, oncology, revenue cycle management, mobile technologies, cloud based software, cybersecurity and compliance. He is a YCombinator Summer 2012 alum.
     - name: Mike Kopinsky
       title: Engineering Lead
-      twitter: 
-      linkedin: 
+      twitter: mkopinsky
+      linkedin: mkopinsky
       bgpic: /img/bg/photo3.jpg
       pic: /img/team/kopinsky.jpg
       text: >
@@ -57,8 +57,8 @@ engineering:
         Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. <br><br>Notably in one of his past career ventures, Conor was a driving force in bringing a travel company which was once only printed media into a modern and competitive online presence
     - name: Kyle McGrogan
       title: Software Developer
-      twitter: 
-      linkedin: 
+      twitter: mcgrogan91
+      linkedin: kylemcgrogan
       bgpic: /img/bg/photo6.jpg
       pic: /img/team/mcgrogan.jpg
       text: >
@@ -88,14 +88,14 @@ implementation:
       bgpic: /img/bg/photo10.jpg
       pic: /img/team/brown.jpeg
       text: >
-        Stephanie is the Way to Health Clinical Operations Specialist at the Center for Health Initiatives and Behavioral Economics. She is responsible for collaborating with clinical project teams to develop protocols geared towards increasing positive clinical outcomes and leads teams through the building and testing of the Way to Health platform. Before joining the way to health team, Stephanie worked in both private and public practice clinical settings addressing health disparities as a program assistant, chronic disease care manager and patient-centered medical home coordinator. <br/> Stephanie received her bachelor’s degree in psychology, with a minor in biology and corporate and public relations from Drexel University and is currently pursuing a Master’s of Public Health from the University of Pennsylvania.        
+        Stephanie is the Way to Health Clinical Operations Specialist at the Center for Health Initiatives and Behavioral Economics. She is responsible for collaborating with clinical project teams to develop protocols geared towards increasing positive clinical outcomes and leads teams. Stephanie has worked in both private and public practice clinical settings addressing health disparities as a program assistant, chronic disease care manager and patient-centered medical home coordinator. <br/> <br/>Stephanie received her bachelor’s degree in psychology, with a minor in biology and corporate and public relations from Drexel University and is currently pursuing a Master’s in Public Health from the University of Pennsylvania.        
 advisory:
   role: Advisory Board
   member:
     - name: David Asch, MD, MBA
       title: Executive Director, Center for Healthcare Innovation
       twitter:
-      linkedin: 
+      linkedin: david-asch-390a378
       bgpic: /img/bg/photo11.jpg
       pic: /img/team/asch.jpg
       text: >
@@ -103,7 +103,7 @@ advisory:
     - name: Kevin Volpp, MD, PhD
       title: Director, Center for Healthcare Incentives & Behavioral Economics
       twitter:
-      linkedin:
+      linkedin: kevin-volpp-3b8a1448
       bgpic: /img/bg/photo12.jpg
       pic: /img/team/volpp.jpg
       text: >
@@ -111,7 +111,7 @@ advisory:
     - name: Roy Rosin, MBA
       title: Chief Innovation Officer, Penn Medicine
       twitter:
-      linkedin:
+      linkedin: royrosin
       bgpic: /img/bg/photo12.jpg
       pic: /img/team/rosin.jpg
       text: >
@@ -119,7 +119,7 @@ advisory:
     - name: Shivan Mehta, MD, MBA, MSHP
       title: Associate Chief Innovation Officer, Penn Medicine
       twitter:
-      linkedin:
+      linkedin: shivanjmehta
       bgpic: /img/bg/photo13.jpg
       pic: /img/team/mehta.jpg
       text: >
@@ -127,7 +127,7 @@ advisory:
     - name: Mitesh Patel, MD, MBA, MS
       title: Director, Nudge Unit
       twitter:
-      linkedin:
+      linkedin: miteshspatel
       bgpic: /img/bg/photo14.jpg
       pic: /img/team/patel.jpg
       text: >

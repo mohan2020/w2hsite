@@ -19,6 +19,10 @@ results:
   - result: Increased activity achievement by 50%
   - result: Post study activity increased by 27%
 spotlight: true
+keywords:
+  - keyword: diabetes
+  - keyword: gamification
+  - keyword: activity
 ---
 
 ## Aim and key question

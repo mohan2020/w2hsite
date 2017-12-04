@@ -2,8 +2,7 @@
 title: Meet the team
 image: /img/photos/photo29@2x.jpg
 subtitle: The team guiding and delivering Way To Health's vision and execution
-team:
-  role: Core Team
+leadership:
   member:
     - name: Mohan Balachandran
       title: COO
@@ -30,6 +29,8 @@ team:
       pic: /img/team/sevinc.jpg
       text: >
         Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
+engineering:
+  member:
     - name: John Bergandino
       title: Software Developer
       twitter: 
@@ -38,14 +39,6 @@ team:
       pic: /img/team/bergandino.jpg
       text: >
         John is a software developer. He collaborates with the department’s faculty and research staff to build cutting-edge technical features on a multitude of medical research projects. Prior to joining the University of Pennsylvania, John spent 6 months backpacking throughout Australia and a few years working in the Fortune 500 global supply chain industry.
-    - name: Stephanie Brown 
-      title: Clinical Operations
-      twitter: 
-      linkedin: 
-      bgpic: /img/bg/photo10.jpg
-      pic: /img/team/brown.jpeg
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum ut urna sollicitudin placerat. Donec at ante ac massa scelerisque ultricies. <br><br>uspendisse sodales, turpis eu pharetra laoreet, ante diam tempus augue, nec convallis est sem nec justo. Quisque tincidunt a purus sit amet fermentum. Nunc finibus, 
     - name: Aaron Leitner
       title: Associate Software Developer
       twitter: 
@@ -77,7 +70,9 @@ team:
       bgpic: /img/bg/photo7.jpg
       pic: /img/team/rosenbach.jpg
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum ut urna sollicitudin placerat. Donec at ante ac massa scelerisque ultricies. Nam sodales faucibus pretium. Suspendisse sit amet tortor vitae leo congue dictum. Sed aliquet, metus at finibus venenatis, nulla lectus maximus purus, vel suscipit massa orci eu orci. Curabitur accumsan nisi et erat pulvinar pulvinar. Suspendisse sodales, turpis eu pharetra laoreet, ante diam tempus augue, nec convallis est sem nec justo. <br><br>Qullamcorper dui nec sem viverra, in maximus nisi luctus. Integer cursus, felis vel aliquet hendrerit, sapien odio commodo odio, eget tincidunt neque ante sit amet sapien. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum ut urna sollicitudin placerat. Donec at ante ac massa scelerisque ultricies. Nam sodales faucibus pretium. Suspendisse sit amet tortor vitae leo congue dictum. Sed aliquet, metus at finibus venenatis, nulla lectus maximus purus, vel suscipit massa orci eu orci. Curabitur accumsan nisi et erat pulvinar pulvinar. Suspendisse sodales, turpis eu pharetra laoreet, ante diam tempus augue, nec convallis est sem nec justo. 
+implementation:
+  member:
     - name: Devon Taylor
       title: Research Operations
       twitter: 
@@ -85,7 +80,15 @@ team:
       bgpic: /img/bg/photo9.jpg
       pic: /img/team/taylor.jpg
       text: >
-        Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania. 
+        Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania.
+    - name: Stephanie Brown 
+      title: Clinical Operations
+      twitter: 
+      linkedin: 
+      bgpic: /img/bg/photo10.jpg
+      pic: /img/team/brown.jpeg
+      text: >
+        Stephanie is the Way to Health Clinical Operations Specialist at the Center for Health Initiatives and Behavioral Economics. She is responsible for collaborating with clinical project teams to develop protocols geared towards increasing positive clinical outcomes and leads teams through the building and testing of the Way to Health platform. Before joining the way to health team, Stephanie worked in both private and public practice clinical settings addressing health disparities as a program assistant, chronic disease care manager and patient-centered medical home coordinator. <br/> Stephanie received her bachelor’s degree in psychology, with a minor in biology and corporate and public relations from Drexel University and is currently pursuing a Master’s of Public Health from the University of Pennsylvania.        
 advisory:
   role: Advisory Board
   member:

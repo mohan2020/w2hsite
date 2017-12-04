@@ -5,10 +5,10 @@
     <!-- Hero Content -->
     <!-- END Hero Content -->
 
-    <!-- Team -->
+    <!-- leadership -->
     <div class="bg-gray-lighter">
         <section class="content content-boxed">
-    {{ with .Params.team }}            
+    {{ with .Params.leadership }}            
         <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .role }}</h3>            
             <!-- Section Content -->
             <div class="push-50-t push-50">
@@ -22,7 +22,43 @@
     {{ end }}
         </section>
     </div>
-    <!-- END Team -->
+    <!-- END leadership -->
+    <!-- implementation -->
+    <div class="bg-gray-lighter">
+        <section class="content content-boxed">
+    {{ with .Params.implementation }}            
+        <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .role }}</h3>            
+            <!-- Section Content -->
+            <div class="push-50-t push-50">
+                <div class="row">
+                    <!-- partial here -->
+                    {{ range .member }}
+                        {{ partial "gridtiles" . }}
+                    {{ end }}
+                </div>
+            </div>
+    {{ end }}
+        </section>
+    </div>
+    <!-- END implementation -->
+    <!-- engineering -->
+    <div class="bg-gray-lighter">
+        <section class="content content-boxed">
+    {{ with .Params.engineering }}            
+        <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .role }}</h3>            
+            <!-- Section Content -->
+            <div class="push-50-t push-50">
+                <div class="row">
+                    <!-- partial here -->
+                    {{ range .member }}
+                        {{ partial "gridtiles" . }}
+                    {{ end }}
+                </div>
+            </div>
+    {{ end }}
+        </section>
+    </div>
+    <!-- END engineering -->        
     <!-- Advisory -->
     <div class="bg-gray-lighter">
         <section class="content content-boxed">

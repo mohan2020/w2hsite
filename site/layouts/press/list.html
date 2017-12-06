@@ -3,7 +3,7 @@
 <main id="blog">
     {{ partial "hero-splash" (dict "imageUrl" "" "title" "Media Resources: Company Info, Press Coverage and more" "subtitle" "Behavioral Economics, Patient Engagement and Thought leadership in the press" "bgcolor" "#6CBEED") }}
 
-    <div class="bg-gray-lighter">
+    <div class="bg-white">
         <br/><br/>
         <section class="content content-boxed">
 {{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}

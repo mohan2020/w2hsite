@@ -1,6 +1,6 @@
 ---
 title: Meet the team
-image: /img/photos/photo29@2x.jpg
+image: /img/bg/philly1.jpg
 subtitle: The team guiding and delivering Way To Health's vision and execution
 leadership:
   member:
@@ -24,7 +24,7 @@ leadership:
     - name: Christianne Sevinc
       title: Operations Lead
       twitter: 
-      linkedin: 
+      linkedin: christianne-sevinc-0982b911 
       bgpic: /img/bg/photo8.jpg
       pic: /img/team/sevinc.jpg
       text: >
@@ -34,7 +34,7 @@ engineering:
     - name: John Bergandino
       title: Software Developer
       twitter: 
-      linkedin: 
+      linkedin: johnbergandino
       bgpic: /img/bg/photo2.jpg
       pic: /img/team/bergandino.jpg
       text: >
@@ -42,7 +42,7 @@ engineering:
     - name: Aaron Leitner
       title: Associate Software Developer
       twitter: 
-      linkedin: 
+      linkedin: aleitner 
       bgpic: /img/bg/photo4.jpg
       pic: /img/team/leitner.jpg
       text: >
@@ -50,7 +50,7 @@ engineering:
     - name: Conor Lydon
       title: Software Developer
       twitter: 
-      linkedin: 
+      linkedin: lydonc
       bgpic: /img/bg/photo5.jpg
       pic: /img/team/lydon.jpg
       text: >
@@ -62,21 +62,21 @@ engineering:
       bgpic: /img/bg/photo6.jpg
       pic: /img/team/mcgrogan.jpg
       text: >
-        Kyle McGrogan is a software developer for the Way to Health team.  In this role, he works to maintain and improve the platform through the use and adoption of best practices and interesting technologies.  He has a bachelor’s degree in software engineering from Shippensburg University of Pennsylvania, and has worked for multiple organizations in the healthcare space. 
+        Kyle McGrogan is a software developer for the Way to Health team.  In this role, he works to maintain and improve the platform through the use and adoption of best practices and interesting technologies.  He has a bachelors degree in software engineering from Shippensburg University of Pennsylvania, and has worked for multiple organizations in the healthcare space. 
     - name: Benjamin Rosenbach
       title: Software Developer
-      twitter: 
-      linkedin: 
+      twitter: FreshRegular
+      linkedin: ben-rosenbach-533b80a
       bgpic: /img/bg/photo7.jpg
       pic: /img/team/rosenbach.jpg
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum ut urna sollicitudin placerat. Donec at ante ac massa scelerisque ultricies. Nam sodales faucibus pretium. Suspendisse sit amet tortor vitae leo congue dictum. Sed aliquet, metus at finibus venenatis, nulla lectus maximus purus, vel suscipit massa orci eu orci. Curabitur accumsan nisi et erat pulvinar pulvinar. Suspendisse sodales, turpis eu pharetra laoreet, ante diam tempus augue, nec convallis est sem nec justo. 
+        Ben is a software engineer with a particular passion for web development. He believes it presents the greatest opportunity for new and unique ways of interaction with users. He feels that he is at his dream job because he's constantly challenged to be as creative as possible and also given an opportunity to explore new technologies. He has a bachelors degree in Computer Software Engineering from Drexel University ans has worked with multiple organizations in the software development and engineering space. 
 implementation:
   member:
     - name: Devon Taylor
       title: Research Operations
-      twitter: 
-      linkedin: 
+      twitter: devonhtaylor
+      linkedin: devon-taylor-mph-43b8177a
       bgpic: /img/bg/photo9.jpg
       pic: /img/team/taylor.jpg
       text: >
@@ -84,7 +84,7 @@ implementation:
     - name: Stephanie Brown 
       title: Clinical Operations
       twitter: 
-      linkedin: 
+      linkedin: snb42
       bgpic: /img/bg/photo10.jpg
       pic: /img/team/brown.jpeg
       text: >
@@ -102,7 +102,7 @@ advisory:
         David Asch is the executive director of the Penn Medicine Center for Health Care Innovation and the director of the Robert Wood Johnson Clinical Scholars Program and the National Clinician Scholars Program. He is the John Morgan professor of medicine and medical ethics and health policy at the Perelman School of Medicine, and a professor of health care management and operations, information and decisions at the Wharton School.<br><br>David's research aims to understand and improve how physicians and patients make medical choices, including the adoption of new pharmaceuticals or medical technologies, the purchase of health or life insurance, and personal health behaviors. His research combines elements of economic analysis with moral and psychological theory and marketing in the field now called behavioral economics. He is the author of more than 300 published papers. <br><br>Nationally, he has received best paper of the year awards from the Society for Medical Decision Making, the Society of General Internal Medicine, the American Risk and Insurance Association, the British Medical Journal, the American Journal of Public Health, and AcademyHealth.  Dr. Asch received the Alice Hersh New Investigator Award from AcademyHealth (1997), the Outstanding Investigator Award from the American Federation for Medical Research (1999), the Research Mentorship Award from the Society of General Internal Medicine (2004), the VA Under Secretary’s Award for Outstanding Achievement in Health Services Research (2008), the Alpha Omega Alpha Robert J. Glaser Distinguished Teacher Award from the Association of American Medical Colleges (2009), and the John M. Eisenberg National Award for Career Achievement in Research from the Society of General Internal Medicine (2010). He is an elected member of the Association of American Physicians and the National Academy of Medicine. <br><br>David received his bachelor’s degree from Harvard University, his medical degree from Weill-Cornell Medical College, and his MBA in health care management and decision sciences from the Wharton School. He was a resident in internal medicine and a Robert Wood Johnson Foundation Clinical Scholar at the University of Pennsylvania.
     - name: Kevin Volpp, MD, PhD
       title: Director, Center for Healthcare Incentives & Behavioral Economics
-      twitter:
+      twitter: kevin_volpp ‏
       linkedin: kevin-volpp-3b8a1448
       bgpic: /img/bg/photo12.jpg
       pic: /img/team/volpp.jpg
@@ -118,7 +118,7 @@ advisory:
         Roy Rosin is the chief innovation officer at Penn Medicine, where he works with thought leaders from across the health system to turn ideas into measurable impact in the areas of health outcomes, patient experience, and new revenue streams. <br><br>Previously, Roy served as the first vice president of innovation for Intuit, a leading software company best known for Quicken, QuickBooks and TurboTax.  In this role, he led changes in how Intuit manages new business creation, allowing small teams pursuing new opportunities to get to market and experiment rapidly.<br><br>Roy also built innovation programs that dramatically increased entrepreneurial activity, with annual new releases increasing from five per year to 30, while time to market decreased from one year to a few months. After five years of Intuit's new approach to growth, the company had delivered shareholder returns of three times Google and 33 times the S&P 500.<br><br>Roy received his MBA from the Stanford Graduate School of Business and graduated with honors from Harvard College.
     - name: Shivan Mehta, MD, MBA, MSHP
       title: Associate Chief Innovation Officer, Penn Medicine
-      twitter:
+      twitter: Shivan_Mehta
       linkedin: shivanjmehta
       bgpic: /img/bg/photo13.jpg
       pic: /img/team/mehta.jpg
@@ -126,7 +126,7 @@ advisory:
         Shivan Mehta is a gastroenterologist and the associate chief innovation officer at Penn Medicine. He is also an assistant professor of medicine at the Perelman School of Medicine, senior fellow at the Leonard Davis Institute of Health Economics, and affiliated faculty at the Center for Health Incentives and Behavioral Economics, all at the University of Pennsylvania.<br><br>Shivan leads the operating team at the Penn Medicine Center for Health Care Innovation to develop, test, and implement new health care delivery interventions across the University of Pennsylvania Health System (UPHS).  Shivan also conducts health services research looking at how health care systems can leverage behavioral economics, design thinking, and information technology to improve population health through medication adherence and cancer screening.<br><br>Shivan received his bachelor’s degree in economics from Yale University, his medical degree and master’s in health policy research from the University of Pennsylvania, and his MBA in health care management from the Wharton School. He was a resident in internal medicine at New York Presbyterian Hospital/Columbia and a fellow in gastroenterology at UPHS.
     - name: Mitesh Patel, MD, MBA, MS
       title: Director, Nudge Unit
-      twitter:
+      twitter: miteshspatel
       linkedin: miteshspatel
       bgpic: /img/bg/photo14.jpg
       pic: /img/team/patel.jpg

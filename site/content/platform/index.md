@@ -1,15 +1,15 @@
 ---
-title: Design, build, and manage personalized interventions all in one platform
+title: A unified platform for research and clinical deployments
 image: 
 bgcolor: "#242F40"
-subtitle: And draw from a library of evidenced based protocols as your starting point
+subtitle: Design, discover, and deploy personalized interventions at scale
 
 introduction: >
-  Patient and provider engagement is the blockbuster drug of the 21st century. Way to Health is designed with the intent to discover and deploy new ways of engaging patients and providers at scale. The platform provides a number of features that can be combined in various ways to design and deploy personalized patient engagement strategies.
+  Mix and match features to tailor interventions for desired outcomes
 
 patientcommunication:
   featureset: Patient Communication
-  header: Communication with patients and / or study participants is key to engaging them in their health. You can choose from a variety of communication techniques or combine them in interesting ways tailored to a patient's behavior.
+  header: Communication with patients and / or study participants is key to engaging them in their health. You can choose from a variety of communication techniques or combine them in interesting ways tailored to a patient's behavior
   featureicon: comments
   featureimage: /img/various/2way.sm.png
   blurbs:
@@ -17,18 +17,18 @@ patientcommunication:
       iconcolor: "#49A078"    
       feature: Two way Texting
       text: >
-        Texting (SMS) has been shown repeatedly to be a very effective way of communicating with patients since it works irrespective of the kind of phone the patient has. Texts can be sent out based on set schedules and / or rules. These configuration rules can be as simple as responding with a personalized "Great job, John Appleseed" or as complex as evaluating blood pressure values and responding with an provider or nurse alert.
+        Texting (SMS) has been shown repeatedly to be a very effective way of communicating with patients since it works irrespective of the kind of phone the patient has. Texts can be sent out based on set schedules and / or rules. These configuration rules can be as simple as responding with a personalized "Great job, John Appleseed" or as complex as evaluating blood pressure values and responding with an provider or nurse alert
     - icon: list-alt
       iconcolor: "#49A078"
       feature: Integrated Survey Management
       text: >
-        In cases where more data needs to be collected where a form or a survey makes more sense - demographics, symptoms etc., the system offers that ability too. You can either integrate with Qualtrics or create your own surveys from scratch using the built-in survey creation and deployment tool. These surveys can be sent out to patients based on specific schedules and simple or complex rules. 
+        In cases where more data needs to be collected where a form or a survey makes more sense - demographics, symptoms etc., the system offers that ability too. You can either integrate with Qualtrics or create your own surveys from scratch using the built-in survey creation and deployment tool. These surveys can be sent out to patients based on specific schedules and simple or complex rules
 
 deviceintegration:
   featureset: Device Integration
-  header: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices including Electronic Health Records (EHRs) so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into our system, enabling scalable, integrated and personalized initiatives. 
+  header: Healthcare data is overwhelming and complex. We provide direct integrations into a range of devices including Electronic Health Records (EHRs) so your team can focus on innovation, efficiency, and outcomes. We capture remotely collected health data simply and seamlessly into our system, enabling scalable, integrated and personalized initiatives 
   featureicon: medkit
-  featureimage: img/various/promo3.jpg
+  featureimage: img/peng/devices.png
   blurbs:
     - icon: heartbeat
       iconcolor: "#49A078"
@@ -45,7 +45,7 @@ rct:
   featureset: Randomized Control Trials
   header: There are plenty of clinical trials management software (CTMS) solutions out there. However, they are either built for pharmaceutical / drug discovery (Velos, Oncore etc.) or are very general purpose (e.g. Redcap). Way To Health is a tool purpose built to design and deploy behavioral change and interventional (bedside to home) research . 
   featureicon: code-fork
-  featureimage: img/various/promo3.jpg
+  featureimage: img/peng/rct.jpg
   blurbs:
     - icon: flag-checkered
       iconcolor: "#49A078"
@@ -62,13 +62,13 @@ be:
   featureset: Behavioral Economics
   header: We believe technology assisted motivation & human behavior change is the key to advancing health outcomes. Behavioral economics is one of the most promising methods to change behavior. Various social and financial incentives are pre-built and available in the platform. 
   featureicon: money
-  featureimage: img/various/promo3.jpg
+  featureimage: img/peng/chibe.png
   blurbs:
     - icon: money
       iconcolor: "#49A078"
       header: Financial Incentives
       text: >
-        "So you're saying I have a chance?" Lotteries, loss and gain framed incentives and much more can be easily applied to activities - steps, weighings, pretty much any data gathered by the platform from any data source. Apply different strategies to different populations and depending on the type of activity. 
+        Lotteries, loss and gain framed incentives and much more can be easily applied to activities - steps, weighings, pretty much any data gathered by the platform from any data source. Apply different strategies to different populations and depending on the type of activity. 
     - icon: trophy
       iconcolor: "#49A078"
       header: Gamification & Social
@@ -76,21 +76,19 @@ be:
         Given recent trends, it is safe to assume that games and social media are significant drivers of human behavior. The platform allows patients to earn points, level up, use lifelines and more. Now combine this with peers or support partners and the results can be eye-opening. 
 
 rulesengine:
-  title: In the research context, interventions are invariably unique. In the clinical context, interventions need to be targeted and personalized to be effective. The Way To Health platform provides a flexible rules engine with easy configuration driven by data captured from patients via communications or devices.
+  featureset: Rules Engine
+  header: Interventions need to be targeted and personalized to be effective. The Way To Health platform provides a flexible rules engine with easy configuration driven by data captured from patients via communications or devices. 
+  featureicon: random
+  featureimage: img/peng/rules3.png
   blurbs:
-    - icon: bell
-      iconcolor: "#49A078"
-      header: Event based
-      text: >
-        Think of events as data driven triggers. Based on the trigger specific tasks can be kicked off. An simple example would be to send a congratulatory SMS when the patient hits their medication adherence or activity goal. Researchers have used the engine to create much more complex rules driven by raw and calculated data.
     - icon: calendar
       iconcolor: "#49A078"
       header: Schedule driven
       text: >
-        Repetition is the key to success. All interventions tend to require recurrence based on a defined period - hours, days, weeks or months. Research studies or clinical deployments both require this to be further tailored by each arm or participant. The platform has been designed to support these use cases and more. 
+        All interventions require recurrence based on a defined period - hours, days, weeks or months. Research studies or clinical deployments both require this to be further tailored by each arm or patient. The platform has been designed to support these use cases and more.  
     - icon: exclamation
       iconcolor: "#49A078"
       header: Alerts & Incidents
       text: > 
-        Pay attention to only exceptions and only when you are alerted about them. The Way To Health platform allows for the creation of incidents whenever certain criteria are met and additionally also allows for the configuration of notifications depending on the user's role - patient, participant, admin, provider, research coordinator...  
+        Pay attention to only exceptions and only when you are alerted about them. The Way To Health platform allows for the creation of incidents whenever certain criteria are met. Configure notifications depending on the users role.
 ---

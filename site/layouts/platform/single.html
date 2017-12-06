@@ -6,7 +6,7 @@
         <div class="content angle--both-left-right" style="background-color: #03A9F4; color: white; margin-top: -150px;">
     <div class="content text-center">
         <section class="content content-boxed push-150-t">    
-            <p class="lead">{{.Params.introduction}}</p>
+            <h3 class="h2 font-w300 push-5">{{.Params.introduction | markdownify}}</h3>
         </section>
         <br/><br/>
     </div>            
@@ -82,7 +82,7 @@
             </section>
         </div>
         <div class="content angle--top-left" style="background-color: #2980b9; color: white; margin-top: -150px;">
-                    <section class="content content-boxed overflow-hidden push-150-t">
+                    <section class="content content-boxed overflow-hidden push-150 push-150-t">
                 <!-- Section Content -->
                 <div class="row items-push nice-copy">
                     {{ with .Params.be}}                    
@@ -105,6 +105,30 @@
                 </div>
             </section>
         </div>
+        <div class="content angle--both-left-right" style="background-color: #03A9F4; color: white; margin-top: -150px;">
+            <section class="content content-boxed overflow-hidden push-150-t push-150">
+                <!-- Section Content -->
+                <div class="row items-push nice-copy">
+                    {{ with .Params.rulesengine}}
+                    <div class="col-lg-5">
+                        <div class="push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInLeft">
+                            <h3 class="h3 font-w600 text-uppercase push-5"><i class="fa fa-{{.featureicon}} push-5-r"></i>{{.featureset}}</h3>
+                        </div>                                
+                        <img class="img-responsive visibility-hidden visible-lg" data-toggle="appear" data-offset="-300" data-class="animated fadeInLeft" src="{{.featureimage}}" alt="" style="height: 505px;">
+                    </div>
+                        {{ range .blurbs}}
+                    <div class="col-lg-5 col-lg-offset-2">
+                        <div class="push-50-t visibility-hidden" data-toggle="appear" data-class="animated fadeInRight">
+                            <h3 class="h5 font-w600 text-uppercase push-5"> {{.feature}}</h3>
+                            <h4 class="h3 font-w300 push-10">{{.header}}</h4>
+                            <p>{{.text}}</p>
+                        </div>
+                    </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </section>
+        </div>        
         <div >
             <section class="content content-full content-boxed">
                 <!-- CTA Content -->

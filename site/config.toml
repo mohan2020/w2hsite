@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-languageLang = "en"
+#languageLang = "en"
 title = "Way To Health"
 
 [params]

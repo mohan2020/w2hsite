@@ -2,7 +2,7 @@
 {{ if .imageUrl }}
 <div class="bg-image" style="background-image: url('{{.imageUrl}}');">
     {{else }}
-<div class="bg-image" style="background-color: #2e376b; color: white">
+<div class="bg-image" style="background-color: {{.bgcolor}}; color: white">
 {{ end }}
     <div>
         <section class="content content-full content-boxed overflow-hidden">

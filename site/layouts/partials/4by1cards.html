@@ -1,47 +1,51 @@
-<div class="grid-item {{.Params.area}} col-sm-6 col-lg-4">
-    <!-- Developer Plan -->
-     {{ if .Params.spotlight }}
-    <a class="block text-center block-bordered" href="{{.Permalink}}">
-        <div class="block-header bg-success"> 
-    {{ else }}
-    <a class="block text-center block-bordered" href="javascript:void(0)">
-        <div class="block-header bg-primary">  
-    {{ end }}
-            <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
-        </div>
-        <div class="block-content block-content-full ">
-            <div class="h4 font-w700 push-10">{{ .Title}}</div>
-        </div>
-            <div class="row text-center" style="display: flex; justify-content: space-between;">
-                {{range first 2 .Params.authors}}
-                <div class="col-sm-4">
-                    <img class="img-avatar img-avatar-thumb" src="{{.authorimage}}" alt="">
-                    <div class="h6 push-10-t push-5">{{.authorname}}</div>
+<!--div class="item"> 
+    <div class="item-content"-->
+        <div class="grid-item {{.Params.area}} col-sm-6 col-lg-4">
+            <!-- Developer Plan -->
+             {{ if .Params.spotlight }}
+            <a class="block text-center block-bordered" href="{{.Permalink}}">
+                <div class="block-header bg-success"> 
+            {{ else }}
+            <a class="block text-center block-bordered" href="javascript:void(0)">
+                <div class="block-header bg-primary">  
+            {{ end }}
+                    <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
                 </div>
-                {{end}}              
-            </div>        
-        <div class="block-content">
-            <table class="table table-borderless table-condensed">
-                <tbody>
-                    <tr>
-                        <td>{{ .Params.summary }} </td>
-                    </tr>
-                </tbody>
-            </table>            
+                <div class="block-content block-content-full ">
+                    <div class="h4 font-w700 push-10">{{ .Title}}</div>
+                </div>
+                    <div class="row text-center" style="display: flex; justify-content: space-between;">
+                        {{range first 2 .Params.authors}}
+                        <div class="col-sm-4">
+                            <img class="img-avatar img-avatar-thumb" src="{{.authorimage}}" alt="">
+                            <div class="h6 push-10-t push-5">{{.authorname}}</div>
+                        </div>
+                        {{end}}              
+                    </div>        
+                <div class="block-content">
+                    <table class="table table-borderless table-condensed">
+                        <tbody>
+                            <tr>
+                                <td>{{ .Params.summary }} </td>
+                            </tr>
+                        </tbody>
+                    </table>            
+                </div>
+                <div class="block-header">
+                    <h3 class="block-title">Outcomes</h3>
+                </div> 
+                <div class="block-content">
+                    <table class="table table-borderless table-condensed">
+                        <tbody>
+                            {{ range .Params.results}}
+                            <tr>
+                                <td><strong>{{ .result }}</strong></td>
+                            </tr>
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>                            
+            </a>
         </div>
-        <div class="block-header">
-            <h3 class="block-title">Outcomes</h3>
-        </div> 
-        <div class="block-content">
-            <table class="table table-borderless table-condensed">
-                <tbody>
-                    {{ range .Params.results}}
-                    <tr>
-                        <td><strong>{{ .result }}</strong></td>
-                    </tr>
-                    {{ end }}
-                </tbody>
-            </table>
-        </div>                            
-    </a>
-</div>
+<!--    </div>
+</div-->

@@ -8,7 +8,7 @@ authors:
     authorname: Vandana Khungar, MD, MSc
     authorrole: Clinical Lead
   - authorimage: /img/team/brown.jpeg
-    authorname: Stephanie Brown, BA
+    authorname: Stephanie Brown, BS
     authorrole: Implementation Lead
 summary: >-
   Reduce 30-day readmissions for cirrhosis and post-transplant patients by remotely monitoring weight, mental function, medication adherence and temperature

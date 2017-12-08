@@ -3,7 +3,7 @@ title: Evidence Based Patient Engagement
 bgcolor: "#2e376b"
 image:
 biglogo: /img/logos/w2h-ShieldwWhitetext.png 
-summary: Research and apply personalized engagement strategies to your patient population
+summary: Research and apply personalized engagement strategies to improve health outcomes
 oldsummary: Way to Health is a web-based platform that enables and automates research into healthy behavior interventions. Interventions found to be successful can be applied to various populations and rolled out at scale quickly.
 
 keyfeatures:
@@ -13,25 +13,25 @@ keyfeatures:
       bgcolor: 
       header: Patient Communication
       text: >
-        Choose from a variety of communication techniques or combine them in interesting ways tailored to a patient's behavior
+        Choose from a variety of communication mediums tailored to a patient's preference. Include peers or support partners. 
     - icon: heartbeat
       iconcolor: white 
       bgcolor: 
       header: Device Integration
       text: >
-        Capture remotely collected health data simply and seamlessly, enabling scalable, integrated and personalized initiatives.
+        Capture data from remote monitoring devices simply and seamlessly, enabling scalable, integrated and personalized initiatives.
     - icon: code-fork
       iconcolor: white 
       bgcolor: 
       header: Clinical Trials
       text: >
-         Use a purpose built solution to design and deploy behavioral change and interventional (bedside to home) research.
+         Use a purpose built solution to design and deploy behavioral change and interventional (automated hovering) research.
     - icon: money
       iconcolor: white 
       bgcolor: 
       header: Behavioral Economics
       text: >
-         Leverage a library of various Behavioral economics tools e.g. social and financial incentives to nudge or change behavior.
+         Leverage a library of various behavioral economics tools e.g. social and financial incentives to nudge or change behavior.
     - icon: trophy
       iconcolor: white 
       bgcolor: 
@@ -43,7 +43,7 @@ keyfeatures:
       bgcolor: 
       header: Rules Engine
       text: >
-        Configure the flexible rules engine to be triggered by time or data captured from patients via messages, devices or EHR data.
+        Configure the flexible rules engine quickly. Trigger actions by time or data captured from patients via messages, devices or EHR data.
 
 stats:
   highlights:

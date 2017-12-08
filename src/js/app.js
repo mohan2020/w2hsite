@@ -1,10 +1,3 @@
-/*
- *  Document   : app.js
- *  Author     : pixelcave
- *  Description: UI Framework Custom Functionality (available to all pages)
- *
- */
-
 var App = function() {
     // Helper variables - set in uiInit()
     var $lHtml, $lBody, $lPage, $lSidebar, $lSidebarScroll, $lSideOverlay, $lSideOverlayScroll, $lHeader, $lMain, $lFooter;
@@ -114,91 +107,91 @@ var App = function() {
     };
 
     // Handles sidebar and side overlay custom scrolling functionality
-    var uiHandleScroll = function($mode) {
-        var $windowW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    // var uiHandleScroll = function($mode) {
+    //     var $windowW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-        // Init scrolling
-        if ($mode === 'init') {
-            // Init scrolling only if required the first time
-            uiHandleScroll();
+    //     // Init scrolling
+    //     if ($mode === 'init') {
+    //         // Init scrolling only if required the first time
+    //         uiHandleScroll();
 
-            // Handle scrolling on resize or orientation change
-            var $sScrollTimeout;
+    //         // Handle scrolling on resize or orientation change
+    //         var $sScrollTimeout;
 
-            jQuery(window).on('resize orientationchange', function(){
-                clearTimeout($sScrollTimeout);
+    //         jQuery(window).on('resize orientationchange', function(){
+    //             clearTimeout($sScrollTimeout);
 
-                $sScrollTimeout = setTimeout(function(){
-                    uiHandleScroll();
-                }, 150);
-            });
-        } else {
-            // If screen width is greater than 991 pixels and .side-scroll is added to #page-container
-            if ($windowW > 991 && $lPage.hasClass('side-scroll')) {
-                // Turn scroll lock off (sidebar and side overlay - slimScroll will take care of it)
-                jQuery($lSidebar).scrollLock('disable');
-                jQuery($lSideOverlay).scrollLock('disable');
+    //             $sScrollTimeout = setTimeout(function(){
+    //                 uiHandleScroll();
+    //             }, 150);
+    //         });
+    //     } else {
+    //         // If screen width is greater than 991 pixels and .side-scroll is added to #page-container
+    //         if ($windowW > 991 && $lPage.hasClass('side-scroll')) {
+    //             // Turn scroll lock off (sidebar and side overlay - slimScroll will take care of it)
+    //             jQuery($lSidebar).scrollLock('disable');
+    //             jQuery($lSideOverlay).scrollLock('disable');
 
-                // If sidebar scrolling does not exist init it..
-                if ($lSidebarScroll.length && (!$lSidebarScroll.parent('.slimScrollDiv').length)) {
-                    $lSidebarScroll.slimScroll({
-                        height: $lSidebar.outerHeight(),
-                        color: '#fff',
-                        size: '5px',
-                        opacity : .35,
-                        wheelStep : 15,
-                        distance : '2px',
-                        railVisible: false,
-                        railOpacity: 1
-                    });
-                }
-                else { // ..else resize scrolling height
-                    $lSidebarScroll
-                        .add($lSidebarScroll.parent())
-                        .css('height', $lSidebar.outerHeight());
-                }
+    //             // If sidebar scrolling does not exist init it..
+    //             if ($lSidebarScroll.length && (!$lSidebarScroll.parent('.slimScrollDiv').length)) {
+    //                 $lSidebarScroll.slimScroll({
+    //                     height: $lSidebar.outerHeight(),
+    //                     color: '#fff',
+    //                     size: '5px',
+    //                     opacity : .35,
+    //                     wheelStep : 15,
+    //                     distance : '2px',
+    //                     railVisible: false,
+    //                     railOpacity: 1
+    //                 });
+    //             }
+    //             else { // ..else resize scrolling height
+    //                 $lSidebarScroll
+    //                     .add($lSidebarScroll.parent())
+    //                     .css('height', $lSidebar.outerHeight());
+    //             }
 
-                // If side overlay scrolling does not exist init it..
-                if ($lSideOverlayScroll.length && (!$lSideOverlayScroll.parent('.slimScrollDiv').length)) {
-                    $lSideOverlayScroll.slimScroll({
-                        height: $lSideOverlay.outerHeight(),
-                        color: '#000',
-                        size: '5px',
-                        opacity : .35,
-                        wheelStep : 15,
-                        distance : '2px',
-                        railVisible: false,
-                        railOpacity: 1
-                    });
-                }
-                else { // ..else resize scrolling height
-                    $lSideOverlayScroll
-                        .add($lSideOverlayScroll.parent())
-                        .css('height', $lSideOverlay.outerHeight());
-                }
-            } else {
-                // Turn scroll lock on (sidebar and side overlay)
-                jQuery($lSidebar).scrollLock('enable');
-                jQuery($lSideOverlay).scrollLock('enable');
+    //             // If side overlay scrolling does not exist init it..
+    //             if ($lSideOverlayScroll.length && (!$lSideOverlayScroll.parent('.slimScrollDiv').length)) {
+    //                 $lSideOverlayScroll.slimScroll({
+    //                     height: $lSideOverlay.outerHeight(),
+    //                     color: '#000',
+    //                     size: '5px',
+    //                     opacity : .35,
+    //                     wheelStep : 15,
+    //                     distance : '2px',
+    //                     railVisible: false,
+    //                     railOpacity: 1
+    //                 });
+    //             }
+    //             else { // ..else resize scrolling height
+    //                 $lSideOverlayScroll
+    //                     .add($lSideOverlayScroll.parent())
+    //                     .css('height', $lSideOverlay.outerHeight());
+    //             }
+    //         } else {
+    //             // Turn scroll lock on (sidebar and side overlay)
+    //             jQuery($lSidebar).scrollLock('enable');
+    //             jQuery($lSideOverlay).scrollLock('enable');
 
-                // If sidebar scrolling exists destroy it..
-                if ($lSidebarScroll.length && $lSidebarScroll.parent('.slimScrollDiv').length) {
-                    $lSidebarScroll
-                        .slimScroll({destroy: true});
-                    $lSidebarScroll
-                        .attr('style', '');
-                }
+    //             // If sidebar scrolling exists destroy it..
+    //             if ($lSidebarScroll.length && $lSidebarScroll.parent('.slimScrollDiv').length) {
+    //                 $lSidebarScroll
+    //                     .slimScroll({destroy: true});
+    //                 $lSidebarScroll
+    //                     .attr('style', '');
+    //             }
 
-                // If side overlay scrolling exists destroy it..
-                if ($lSideOverlayScroll.length && $lSideOverlayScroll.parent('.slimScrollDiv').length) {
-                    $lSideOverlayScroll
-                        .slimScroll({destroy: true});
-                    $lSideOverlayScroll
-                        .attr('style', '');
-                }
-            }
-        }
-    };
+    //             // If side overlay scrolling exists destroy it..
+    //             if ($lSideOverlayScroll.length && $lSideOverlayScroll.parent('.slimScrollDiv').length) {
+    //                 $lSideOverlayScroll
+    //                     .slimScroll({destroy: true});
+    //                 $lSideOverlayScroll
+    //                     .attr('style', '');
+    //             }
+    //         }
+    //     }
+    // };
 
     // Layout API
     var uiLayoutApi = function($mode) {
@@ -488,97 +481,97 @@ var App = function() {
         }
     };
 
-    // Material inputs helper
-    var uiForms = function() {
-        jQuery('.form-material.floating > .form-control').each(function(){
-            var $input  = jQuery(this);
-            var $parent = $input.parent('.form-material');
+    // // Material inputs helper
+    // var uiForms = function() {
+    //     jQuery('.form-material.floating > .form-control').each(function(){
+    //         var $input  = jQuery(this);
+    //         var $parent = $input.parent('.form-material');
 
-            setTimeout(function() {
-                if ($input.val() ) {
-                    $parent.addClass('open');
-                }
-            }, 150);
+    //         setTimeout(function() {
+    //             if ($input.val() ) {
+    //                 $parent.addClass('open');
+    //             }
+    //         }, 150);
 
-            $input.on('change', function(){
-                if ($input.val()) {
-                    $parent.addClass('open');
-                } else {
-                    $parent.removeClass('open');
-                }
-            });
-        });
-    };
+    //         $input.on('change', function(){
+    //             if ($input.val()) {
+    //                 $parent.addClass('open');
+    //             } else {
+    //                 $parent.removeClass('open');
+    //             }
+    //         });
+    //     });
+    // };
 
-    // Set active color themes functionality
-    var uiHandleTheme = function() {
-        var $cssTheme = jQuery('#css-theme');
-        var $cookies  = $lPage.hasClass('enable-cookies') ? true : false;
+    // // Set active color themes functionality
+    // var uiHandleTheme = function() {
+    //     var $cssTheme = jQuery('#css-theme');
+    //     var $cookies  = $lPage.hasClass('enable-cookies') ? true : false;
 
-        // If cookies are enabled
-        if ($cookies) {
-            var $theme = Cookies.get('colorTheme') || false;
+    //     // If cookies are enabled
+    //     if ($cookies) {
+    //         var $theme = Cookies.get('colorTheme') || false;
 
-            // Update color theme
-            if ($theme) {
-                if ($theme === 'default') {
-                    if ($cssTheme.length) {
-                        $cssTheme.remove();
-                    }
-                } else {
-                    if ($cssTheme.length) {
-                        $cssTheme.attr('href', $theme);
-                    } else {
-                        jQuery('#css-main')
-                            .after('<link rel="stylesheet" id="css-theme" href="' + $theme + '">');
-                    }
-                }
-            }
+    //         // Update color theme
+    //         if ($theme) {
+    //             if ($theme === 'default') {
+    //                 if ($cssTheme.length) {
+    //                     $cssTheme.remove();
+    //                 }
+    //             } else {
+    //                 if ($cssTheme.length) {
+    //                     $cssTheme.attr('href', $theme);
+    //                 } else {
+    //                     jQuery('#css-main')
+    //                         .after('<link rel="stylesheet" id="css-theme" href="' + $theme + '">');
+    //                 }
+    //             }
+    //         }
 
-            $cssTheme = jQuery('#css-theme');
-        }
+    //         $cssTheme = jQuery('#css-theme');
+    //     }
 
-        // Set the active color theme link as active
-        jQuery('[data-toggle="theme"][data-theme="' + ($cssTheme.length ? $cssTheme.attr('href') : 'default') + '"]')
-            .parent('li')
-            .addClass('active');
+    //     // Set the active color theme link as active
+    //     jQuery('[data-toggle="theme"][data-theme="' + ($cssTheme.length ? $cssTheme.attr('href') : 'default') + '"]')
+    //         .parent('li')
+    //         .addClass('active');
 
-        // When a color theme link is clicked
-        jQuery('[data-toggle="theme"]').on('click', function(){
-            var $this   = jQuery(this);
-            var $theme  = $this.data('theme');
+    //     // When a color theme link is clicked
+    //     jQuery('[data-toggle="theme"]').on('click', function(){
+    //         var $this   = jQuery(this);
+    //         var $theme  = $this.data('theme');
 
-            // Set this color theme link as active
-            jQuery('[data-toggle="theme"]')
-                .parent('li')
-                .removeClass('active');
+    //         // Set this color theme link as active
+    //         jQuery('[data-toggle="theme"]')
+    //             .parent('li')
+    //             .removeClass('active');
 
-            jQuery('[data-toggle="theme"][data-theme="' + $theme + '"]')
-                .parent('li')
-                .addClass('active');
+    //         jQuery('[data-toggle="theme"][data-theme="' + $theme + '"]')
+    //             .parent('li')
+    //             .addClass('active');
 
-            // Update color theme
-            if ($theme === 'default') {
-                if ($cssTheme.length) {
-                    $cssTheme.remove();
-                }
-            } else {
-                if ($cssTheme.length) {
-                    $cssTheme.attr('href', $theme);
-                } else {
-                    jQuery('#css-main')
-                        .after('<link rel="stylesheet" id="css-theme" href="' + $theme + '">');
-                }
-            }
+    //         // Update color theme
+    //         if ($theme === 'default') {
+    //             if ($cssTheme.length) {
+    //                 $cssTheme.remove();
+    //             }
+    //         } else {
+    //             if ($cssTheme.length) {
+    //                 $cssTheme.attr('href', $theme);
+    //             } else {
+    //                 jQuery('#css-main')
+    //                     .after('<link rel="stylesheet" id="css-theme" href="' + $theme + '">');
+    //             }
+    //         }
 
-            $cssTheme = jQuery('#css-theme');
+    //         $cssTheme = jQuery('#css-theme');
 
-            // If cookies are enabled, save the new active color theme
-            if ($cookies) {
-                Cookies.set('colorTheme', $theme, { expires: 7 });
-            }
-        });
-    };
+    //         // If cookies are enabled, save the new active color theme
+    //         if ($cookies) {
+    //             Cookies.set('colorTheme', $theme, { expires: 7 });
+    //         }
+    //     });
+    // };
 
     // Scroll to element animation helper
     var uiScrollTo = function() {
@@ -594,18 +587,18 @@ var App = function() {
         });
     };
 
-    // Toggle class helper
-    var uiToggleClass = function() {
-        jQuery('[data-toggle="class-toggle"]').on('click', function(){
-            var $this = jQuery(this);
+    // // Toggle class helper
+    // var uiToggleClass = function() {
+    //     jQuery('[data-toggle="class-toggle"]').on('click', function(){
+    //         var $this = jQuery(this);
 
-            jQuery($this.data('target').toString()).toggleClass($this.data('class').toString());
+    //         jQuery($this.data('target').toString()).toggleClass($this.data('class').toString());
 
-            if ($lHtml.hasClass('no-focus')) {
-                $this.blur();
-            }
-        });
-    };
+    //         if ($lHtml.hasClass('no-focus')) {
+    //             $this.blur();
+    //         }
+    //     });
+    // };
 
     // Add the correct copyright year
     var uiYearCopy = function() {
@@ -656,19 +649,19 @@ var App = function() {
      * App.initHelper('print-page');
      *
      */
-    var uiHelperPrint = function() {
-        // Store all #page-container classes
-        var $pageCls = $lPage.prop('class');
+    // var uiHelperPrint = function() {
+    //     // Store all #page-container classes
+    //     var $pageCls = $lPage.prop('class');
 
-        // Remove all classes from #page-container
-        $lPage.prop('class', '');
+    //     // Remove all classes from #page-container
+    //     $lPage.prop('class', '');
 
-        // Print the page
-        window.print();
+    //     // Print the page
+    //     window.print();
 
-        // Restore all #page-container classes
-        $lPage.prop('class', $pageCls);
-    };
+    //     // Restore all #page-container classes
+    //     $lPage.prop('class', $pageCls);
+    // };
 
     /*
      * Custom Table functionality such as section toggling or checkable rows
@@ -678,79 +671,79 @@ var App = function() {
      */
 
     // Table sections functionality
-    var uiHelperTableToolsSections = function(){
-        // For each table
-        jQuery('.js-table-sections').each(function(){
-            var $table = jQuery(this);
+    // var uiHelperTableToolsSections = function(){
+    //     // For each table
+    //     jQuery('.js-table-sections').each(function(){
+    //         var $table = jQuery(this);
 
-            // When a row is clicked in tbody.js-table-sections-header
-            jQuery('.js-table-sections-header > tr', $table).on('click', function(e) {
-                var $row    = jQuery(this);
-                var $tbody  = $row.parent('tbody');
+    //         // When a row is clicked in tbody.js-table-sections-header
+    //         jQuery('.js-table-sections-header > tr', $table).on('click', function(e) {
+    //             var $row    = jQuery(this);
+    //             var $tbody  = $row.parent('tbody');
 
-                if (! $tbody.hasClass('open')) {
-                    jQuery('tbody', $table).removeClass('open');
-                }
+    //             if (! $tbody.hasClass('open')) {
+    //                 jQuery('tbody', $table).removeClass('open');
+    //             }
 
-                $tbody.toggleClass('open');
-            });
-        });
-    };
+    //             $tbody.toggleClass('open');
+    //         });
+    //     });
+    // };
 
     // Checkable table functionality
-    var uiHelperTableToolsCheckable = function() {
-        // For each table
-        jQuery('.js-table-checkable').each(function(){
-            var $table = jQuery(this);
+    // var uiHelperTableToolsCheckable = function() {
+    //     // For each table
+    //     jQuery('.js-table-checkable').each(function(){
+    //         var $table = jQuery(this);
 
-            // When a checkbox is clicked in thead
-            jQuery('thead input:checkbox', $table).on('click', function() {
-                var $checkedStatus = jQuery(this).prop('checked');
+    //         // When a checkbox is clicked in thead
+    //         jQuery('thead input:checkbox', $table).on('click', function() {
+    //             var $checkedStatus = jQuery(this).prop('checked');
 
-                // Check or uncheck all checkboxes in tbody
-                jQuery('tbody input:checkbox', $table).each(function() {
-                    var $checkbox = jQuery(this);
+    //             // Check or uncheck all checkboxes in tbody
+    //             jQuery('tbody input:checkbox', $table).each(function() {
+    //                 var $checkbox = jQuery(this);
 
-                    $checkbox.prop('checked', $checkedStatus);
-                    uiHelperTableToolscheckRow($checkbox, $checkedStatus);
-                });
-            });
+    //                 $checkbox.prop('checked', $checkedStatus);
+    //                 uiHelperTableToolscheckRow($checkbox, $checkedStatus);
+    //             });
+    //         });
 
-            // When a checkbox is clicked in tbody
-            jQuery('tbody input:checkbox', $table).on('click', function() {
-                var $checkbox = jQuery(this);
+    //         // When a checkbox is clicked in tbody
+    //         jQuery('tbody input:checkbox', $table).on('click', function() {
+    //             var $checkbox = jQuery(this);
 
-                uiHelperTableToolscheckRow($checkbox, $checkbox.prop('checked'));
-            });
+    //             uiHelperTableToolscheckRow($checkbox, $checkbox.prop('checked'));
+    //         });
 
-            // When a row is clicked in tbody
-            jQuery('tbody > tr', $table).on('click', function(e) {
-                if (e.target.type !== 'checkbox'
-                        && e.target.type !== 'button'
-                        && e.target.tagName.toLowerCase() !== 'a'
-                        && !jQuery(e.target).parent('label').length) {
-                    var $checkbox       = jQuery('input:checkbox', this);
-                    var $checkedStatus  = $checkbox.prop('checked');
+    //         // When a row is clicked in tbody
+    //         jQuery('tbody > tr', $table).on('click', function(e) {
+    //             if (e.target.type !== 'checkbox'
+    //                     && e.target.type !== 'button'
+    //                     && e.target.tagName.toLowerCase() !== 'a'
+    //                     && !jQuery(e.target).parent('label').length) {
+    //                 var $checkbox       = jQuery('input:checkbox', this);
+    //                 var $checkedStatus  = $checkbox.prop('checked');
 
-                    $checkbox.prop('checked', ! $checkedStatus);
-                    uiHelperTableToolscheckRow($checkbox, ! $checkedStatus);
-                }
-            });
-        });
-    };
+    //                 $checkbox.prop('checked', ! $checkedStatus);
+    //                 uiHelperTableToolscheckRow($checkbox, ! $checkedStatus);
+    //             }
+    //         });
+    //     });
+    // };
 
     // Checkable table functionality helper - Checks or unchecks table row
-    var uiHelperTableToolscheckRow = function($checkbox, $checkedStatus) {
-        if ($checkedStatus) {
-            $checkbox
-                .closest('tr')
-                .addClass('active');
-        } else {
-            $checkbox
-                .closest('tr')
-                .removeClass('active');
-        }
-    };
+    // var uiHelperTableToolscheckRow = function($checkbox, $checkedStatus) {
+    //     if ($checkedStatus) {
+    //         $checkbox
+    //             .closest('tr')
+    //             .addClass('active');
+    //     } else {
+    //         $checkbox
+    //             .closest('tr')
+    //             .removeClass('active');
+    //     }
+    // };
 
     /*
      * jQuery Appear, for more examples you can check out https://github.com/bas2k/jquery.appear
@@ -841,29 +834,29 @@ var App = function() {
      * App.initHelper('magnific-popup');
      *
      */
-    var uiHelperMagnific = function(){
-        // Simple Gallery init
-        jQuery('.js-gallery').each(function(){
-            jQuery(this).magnificPopup({
-                delegate: 'a.img-link',
-                type: 'image',
-                gallery: {
-                    enabled: true
-                }
-            });
-        });
+    // var uiHelperMagnific = function(){
+    //     // Simple Gallery init
+    //     jQuery('.js-gallery').each(function(){
+    //         jQuery(this).magnificPopup({
+    //             delegate: 'a.img-link',
+    //             type: 'image',
+    //             gallery: {
+    //                 enabled: true
+    //             }
+    //         });
+    //     });
 
-        // Advanced Gallery init
-        jQuery('.js-gallery-advanced').each(function(){
-            jQuery(this).magnificPopup({
-                delegate: 'a.img-lightbox',
-                type: 'image',
-                gallery: {
-                    enabled: true
-                }
-            });
-        });
-    };
+    //     // Advanced Gallery init
+    //     jQuery('.js-gallery-advanced').each(function(){
+    //         jQuery(this).magnificPopup({
+    //             delegate: 'a.img-lightbox',
+    //             type: 'image',
+    //             gallery: {
+    //                 enabled: true
+    //             }
+    //         });
+    //     });
+    // };
 
     /*
      * CKEditor init, for more examples you can check out http://ckeditor.com/
@@ -871,20 +864,20 @@ var App = function() {
      * App.initHelper('ckeditor');
      *
      */
-    var uiHelperCkeditor = function(){
-        // Disable auto init when contenteditable property is set to true
-        CKEDITOR.disableAutoInline = true;
+    // var uiHelperCkeditor = function(){
+    //     // Disable auto init when contenteditable property is set to true
+    //     CKEDITOR.disableAutoInline = true;
 
-        // Init inline text editor
-        if (jQuery('#js-ckeditor-inline').length) {
-            CKEDITOR.inline('js-ckeditor-inline');
-        }
+    //     // Init inline text editor
+    //     if (jQuery('#js-ckeditor-inline').length) {
+    //         CKEDITOR.inline('js-ckeditor-inline');
+    //     }
 
-        // Init full text editor
-        if (jQuery('#js-ckeditor').length) {
-            CKEDITOR.replace('js-ckeditor');
-        }
-    };
+    //     // Init full text editor
+    //     if (jQuery('#js-ckeditor').length) {
+    //         CKEDITOR.replace('js-ckeditor');
+    //     }
+    // };
 
     /*
      * Summernote init, for more examples you can check out http://summernote.org/
@@ -892,19 +885,19 @@ var App = function() {
      * App.initHelper('summernote');
      *
      */
-    var uiHelperSummernote = function(){
-        // Init text editor in air mode (inline)
-        jQuery('.js-summernote-air').summernote({
-            airMode: true
-        });
+    // var uiHelperSummernote = function(){
+    //     // Init text editor in air mode (inline)
+    //     jQuery('.js-summernote-air').summernote({
+    //         airMode: true
+    //     });
 
-        // Init full text editor
-        jQuery('.js-summernote').summernote({
-            height: 350,
-            minHeight: null,
-            maxHeight: null
-        });
-    };
+    //     // Init full text editor
+    //     jQuery('.js-summernote').summernote({
+    //         height: 350,
+    //         minHeight: null,
+    //         maxHeight: null
+    //     });
+    // };
 
     /*
      * Slick init, for more examples you can check out http://kenwheeler.github.io/slick/
@@ -934,19 +927,19 @@ var App = function() {
      * App.initHelper('datepicker');
      *
      */
-    var uiHelperDatepicker = function(){
-        // Init datepicker (with .js-datepicker and .input-daterange class)
-        jQuery('.js-datepicker').add('.input-daterange').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperDatepicker = function(){
+    //     // Init datepicker (with .js-datepicker and .input-daterange class)
+    //     jQuery('.js-datepicker').add('.input-daterange').each(function(){
+    //         var $this = jQuery(this);
 
-            $this.datepicker({
-                weekStart: 1,
-                autoclose: true,
-                todayHighlight: true,
-                orientation: $this.data('orientation') || 'auto'
-            });
-        });
-    };
+    //         $this.datepicker({
+    //             weekStart: 1,
+    //             autoclose: true,
+    //             todayHighlight: true,
+    //             orientation: $this.data('orientation') || 'auto'
+    //         });
+    //     });
+    // };
 
     /*
      * Bootstrap Colorpicker init, for more examples you can check out http://mjolnic.com/bootstrap-colorpicker/
@@ -954,18 +947,18 @@ var App = function() {
      * App.initHelper('colorpicker');
      *
      */
-    var uiHelperColorpicker = function(){
-        // Get each colorpicker element (with .js-colorpicker class)
-        jQuery('.js-colorpicker').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperColorpicker = function(){
+    //     // Get each colorpicker element (with .js-colorpicker class)
+    //     jQuery('.js-colorpicker').each(function(){
+    //         var $this = jQuery(this);
 
-            // Init colorpicker
-            $this.colorpicker({
-                'format': $this.data('colorpicker-mode') || 'hex',
-                'inline': $this.data('colorpicker-inline') ? true : false
-            });
-        });
-    };
+    //         // Init colorpicker
+    //         $this.colorpicker({
+    //             'format': $this.data('colorpicker-mode') || 'hex',
+    //             'inline': $this.data('colorpicker-inline') ? true : false
+    //         });
+    //     });
+    // };
 
     /*
      * Masked Inputs, for more examples you can check out http://digitalbush.com/projects/masked-input-plugin/
@@ -973,20 +966,20 @@ var App = function() {
      * App.initHelper('masked-inputs');
      *
      */
-    var uiHelperMaskedInputs = function(){
-        // Init Masked Inputs
-        // a - Represents an alpha character (A-Z,a-z)
-        // 9 - Represents a numeric character (0-9)
-        // * - Represents an alphanumeric character (A-Z,a-z,0-9)
-        jQuery('.js-masked-date').mask('99/99/9999');
-        jQuery('.js-masked-date-dash').mask('99-99-9999');
-        jQuery('.js-masked-phone').mask('(999) 999-9999');
-        jQuery('.js-masked-phone-ext').mask('(999) 999-9999? x99999');
-        jQuery('.js-masked-taxid').mask('99-9999999');
-        jQuery('.js-masked-ssn').mask('999-99-9999');
-        jQuery('.js-masked-pkey').mask('a*-999-a999');
-        jQuery('.js-masked-time').mask('99:99');
-    };
+    // var uiHelperMaskedInputs = function(){
+    //     // Init Masked Inputs
+    //     // a - Represents an alpha character (A-Z,a-z)
+    //     // 9 - Represents a numeric character (0-9)
+    //     // * - Represents an alphanumeric character (A-Z,a-z,0-9)
+    //     jQuery('.js-masked-date').mask('99/99/9999');
+    //     jQuery('.js-masked-date-dash').mask('99-99-9999');
+    //     jQuery('.js-masked-phone').mask('(999) 999-9999');
+    //     jQuery('.js-masked-phone-ext').mask('(999) 999-9999? x99999');
+    //     jQuery('.js-masked-taxid').mask('99-9999999');
+    //     jQuery('.js-masked-ssn').mask('999-99-9999');
+    //     jQuery('.js-masked-pkey').mask('a*-999-a999');
+    //     jQuery('.js-masked-time').mask('99:99');
+    // };
 
     /*
      * Tags Inputs, for more examples you can check out https://github.com/xoxco/jQuery-Tags-Input
@@ -994,16 +987,16 @@ var App = function() {
      * App.initHelper('tags-inputs');
      *
      */
-    var uiHelperTagsInputs = function(){
-        // Init Tags Inputs (with .js-tags-input class)
-        jQuery('.js-tags-input').tagsInput({
-            height: '36px',
-            width: '100%',
-            defaultText: 'Add tag',
-            removeWithBackspace: true,
-            delimiter: [',']
-        });
-    };
+    // var uiHelperTagsInputs = function(){
+    //     // Init Tags Inputs (with .js-tags-input class)
+    //     jQuery('.js-tags-input').tagsInput({
+    //         height: '36px',
+    //         width: '100%',
+    //         defaultText: 'Add tag',
+    //         removeWithBackspace: true,
+    //         delimiter: [',']
+    //     });
+    // };
 
     /*
      * Select2, for more examples you can check out https://github.com/select2/select2
@@ -1011,10 +1004,10 @@ var App = function() {
      * App.initHelper('select2');
      *
      */
-    var uiHelperSelect2 = function(){
-        // Init Select2 (with .js-select2 class)
-        jQuery('.js-select2').select2();
-    };
+    // var uiHelperSelect2 = function(){
+    //     // Init Select2 (with .js-select2 class)
+    //     jQuery('.js-select2').select2();
+    // };
 
     /*
      * Highlight.js, for more examples you can check out https://highlightjs.org/usage/
@@ -1022,10 +1015,10 @@ var App = function() {
      * App.initHelper('highlightjs');
      *
      */
-    var uiHelperHighlightjs = function(){
-        // Init Highlight.js
-        hljs.initHighlightingOnLoad();
-    };
+    // var uiHelperHighlightjs = function(){
+    //     // Init Highlight.js
+    //     hljs.initHighlightingOnLoad();
+    // };
 
     /*
      * Bootstrap Notify, for more examples you can check out http://bootstrap-growl.remabledesigns.com/
@@ -1033,38 +1026,38 @@ var App = function() {
      * App.initHelper('notify');
      *
      */
-    var uiHelperNotify = function(){
-        // Init notifications (with .js-notify class)
-        jQuery('.js-notify').on('click', function(){
-            var $this = jQuery(this);
+    // var uiHelperNotify = function(){
+    //     // Init notifications (with .js-notify class)
+    //     jQuery('.js-notify').on('click', function(){
+    //         var $this = jQuery(this);
 
-            jQuery.notify({
-                    icon: $this.data('notify-icon') || '',
-                    message: $this.data('notify-message'),
-                    url: $this.data('notify-url') || ''
-                },
-                {
-                    element: 'body',
-                    type: $this.data('notify-type') || 'info',
-                    allow_dismiss: true,
-                    newest_on_top: true,
-                    showProgressbar: false,
-                    placement: {
-                        from: $this.data('notify-from') || 'top',
-                        align: $this.data('notify-align') || 'right'
-                    },
-                    offset: 20,
-                    spacing: 10,
-                    z_index: 1033,
-                    delay: 5000,
-                    timer: 1000,
-                    animate: {
-                        enter: 'animated fadeIn',
-                        exit: 'animated fadeOutDown'
-                    }
-                });
-        });
-    };
+    //         jQuery.notify({
+    //                 icon: $this.data('notify-icon') || '',
+    //                 message: $this.data('notify-message'),
+    //                 url: $this.data('notify-url') || ''
+    //             },
+    //             {
+    //                 element: 'body',
+    //                 type: $this.data('notify-type') || 'info',
+    //                 allow_dismiss: true,
+    //                 newest_on_top: true,
+    //                 showProgressbar: false,
+    //                 placement: {
+    //                     from: $this.data('notify-from') || 'top',
+    //                     align: $this.data('notify-align') || 'right'
+    //                 },
+    //                 offset: 20,
+    //                 spacing: 10,
+    //                 z_index: 1033,
+    //                 delay: 5000,
+    //                 timer: 1000,
+    //                 animate: {
+    //                     enter: 'animated fadeIn',
+    //                     exit: 'animated fadeOutDown'
+    //                 }
+    //             });
+    //     });
+    // };
 
     /*
      * Draggable items with jQuery, for more examples you can check out https://jqueryui.com/sortable/
@@ -1097,21 +1090,21 @@ var App = function() {
      * App.initHelper('easy-pie-chart');
      *
      */
-    var uiHelperEasyPieChart = function(){
-        // Init Easy Pie Charts (with .js-pie-chart class)
-        jQuery('.js-pie-chart').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperEasyPieChart = function(){
+    //     // Init Easy Pie Charts (with .js-pie-chart class)
+    //     jQuery('.js-pie-chart').each(function(){
+    //         var $this = jQuery(this);
 
-            $this.easyPieChart({
-                barColor: $this.data('bar-color') || '#777777',
-                trackColor: $this.data('track-color') || '#eeeeee',
-                lineWidth: $this.data('line-width') || 3,
-                size: $this.data('size') || '80',
-                animate: 750,
-                scaleColor: $this.data('scale-color') || false
-            });
-        });
-    };
+    //         $this.easyPieChart({
+    //             barColor: $this.data('bar-color') || '#777777',
+    //             trackColor: $this.data('track-color') || '#eeeeee',
+    //             lineWidth: $this.data('line-width') || 3,
+    //             size: $this.data('size') || '80',
+    //             animate: 750,
+    //             scaleColor: $this.data('scale-color') || false
+    //         });
+    //     });
+    // };
 
     /*
      * Bootstrap Maxlength, for more examples you can check out https://github.com/mimo84/bootstrap-maxlength
@@ -1119,23 +1112,23 @@ var App = function() {
      * App.initHelper('maxlength');
      *
      */
-    var uiHelperMaxlength = function(){
-        // Init Bootstrap Maxlength (with .js-maxlength class)
-        jQuery('.js-maxlength').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperMaxlength = function(){
+    //     // Init Bootstrap Maxlength (with .js-maxlength class)
+    //     jQuery('.js-maxlength').each(function(){
+    //         var $this = jQuery(this);
 
-            $this.maxlength({
-                alwaysShow: $this.data('always-show') ? true : false,
-                threshold: $this.data('threshold') || 10,
-                warningClass: $this.data('warning-class') || 'label label-warning',
-                limitReachedClass: $this.data('limit-reached-class') || 'label label-danger',
-                placement: $this.data('placement') || 'bottom',
-                preText: $this.data('pre-text') || '',
-                separator: $this.data('separator') || '/',
-                postText: $this.data('post-text') || ''
-            });
-        });
-    };
+    //         $this.maxlength({
+    //             alwaysShow: $this.data('always-show') ? true : false,
+    //             threshold: $this.data('threshold') || 10,
+    //             warningClass: $this.data('warning-class') || 'label label-warning',
+    //             limitReachedClass: $this.data('limit-reached-class') || 'label label-danger',
+    //             placement: $this.data('placement') || 'bottom',
+    //             preText: $this.data('pre-text') || '',
+    //             separator: $this.data('separator') || '/',
+    //             postText: $this.data('post-text') || ''
+    //         });
+    //     });
+    // };
 
     /*
      * Bootstrap Datetimepicker, for more examples you can check out https://github.com/Eonasdan/bootstrap-datetimepicker
@@ -1143,34 +1136,34 @@ var App = function() {
      * App.initHelper('datetimepicker');
      *
      */
-    var uiHelperDatetimepicker = function(){
-        // Init Bootstrap Datetimepicker (with .js-datetimepicker class)
-        jQuery('.js-datetimepicker').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperDatetimepicker = function(){
+    //     // Init Bootstrap Datetimepicker (with .js-datetimepicker class)
+    //     jQuery('.js-datetimepicker').each(function(){
+    //         var $this = jQuery(this);
 
-            $this.datetimepicker({
-                format: $this.data('format') || false,
-                useCurrent: $this.data('use-current') || false,
-                locale: moment.locale('' + ($this.data('locale') || '') +''),
-                showTodayButton: $this.data('show-today-button') || false,
-                showClear: $this.data('show-clear') || false,
-                showClose: $this.data('show-close') || false,
-                sideBySide: $this.data('side-by-side') || false,
-                inline: $this.data('inline') || false,
-                icons: {
-                    time: 'si si-clock',
-                    date: 'si si-calendar',
-                    up: 'si si-arrow-up',
-                    down: 'si si-arrow-down',
-                    previous: 'si si-arrow-left',
-                    next: 'si si-arrow-right',
-                    today: 'si si-size-actual',
-                    clear: 'si si-trash',
-                    close: 'si si-close'
-                }
-            });
-        });
-    };
+    //         $this.datetimepicker({
+    //             format: $this.data('format') || false,
+    //             useCurrent: $this.data('use-current') || false,
+    //             locale: moment.locale('' + ($this.data('locale') || '') +''),
+    //             showTodayButton: $this.data('show-today-button') || false,
+    //             showClear: $this.data('show-clear') || false,
+    //             showClose: $this.data('show-close') || false,
+    //             sideBySide: $this.data('side-by-side') || false,
+    //             inline: $this.data('inline') || false,
+    //             icons: {
+    //                 time: 'si si-clock',
+    //                 date: 'si si-calendar',
+    //                 up: 'si si-arrow-up',
+    //                 down: 'si si-arrow-down',
+    //                 previous: 'si si-arrow-left',
+    //                 next: 'si si-arrow-right',
+    //                 today: 'si si-size-actual',
+    //                 clear: 'si si-trash',
+    //                 close: 'si si-close'
+    //             }
+    //         });
+    //     });
+    // };
 
     /*
      * Ion Range Slider, for more examples you can check out https://github.com/IonDen/ion.rangeSlider
@@ -1178,16 +1171,16 @@ var App = function() {
      * App.initHelper('rangeslider');
      *
      */
-    var uiHelperRangeslider = function(){
-        // Init Ion Range Slider (with .js-rangeslider class)
-        jQuery('.js-rangeslider').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperRangeslider = function(){
+    //     // Init Ion Range Slider (with .js-rangeslider class)
+    //     jQuery('.js-rangeslider').each(function(){
+    //         var $this = jQuery(this);
 
-            $this.ionRangeSlider({
-                input_values_separator: ';'
-            });
-        });
-    };
+    //         $this.ionRangeSlider({
+    //             input_values_separator: ';'
+    //         });
+    //     });
+    // };
 
     /*
      * SimpleMDE init, for more examples you can check out https://github.com/NextStepWebs/simplemde-markdown-editor
@@ -1195,14 +1188,14 @@ var App = function() {
      * App.initHelper('simplemde');
      *
      */
-    var uiHelperSimpleMDE = function(){
-        // Init markdown editor (with .js-simplemde class)
-        jQuery('.js-simplemde').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperSimpleMDE = function(){
+    //     // Init markdown editor (with .js-simplemde class)
+    //     jQuery('.js-simplemde').each(function(){
+    //         var $this = jQuery(this);
 
-            new SimpleMDE({ element: $this[0] });
-        });
-    };
+    //         new SimpleMDE({ element: $this[0] });
+    //     });
+    // };
 
     /*
      * Masonry, for more examples you can check out https://github.com/desandro/masonry

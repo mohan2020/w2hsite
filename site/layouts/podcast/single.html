@@ -1,0 +1,26 @@
+{{ partial "header" .}}
+
+    <!-- Main Container -->
+<main id="about">
+	{{ partial "hero" (dict "imageUrl" .Params.image "title" .Title "bgcolor" .Params.bgcolor) }}
+        <div class="content content-boxed overflow-hidden animated fadeIn" style="background-color: {{.Params.bgcolor}};">
+            <div class="row text-center push">
+                <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+                    <div class="bg-black-op">
+                        <div class="block block-transparent">
+                            <div class="block-content block-content-full bg-black-op">
+                                <h1 class="text-white push-20-t push-5"><i class="fa fa-power-off text-warning"></i></h1>
+                                <h2 class="h4 text-gray push-20">Stay Tuned! We're working on it!</h2>
+                            </div>
+                            <div class="block-content block-content-full">
+                                <!-- Countdown.js (class is initialized in js/pages/base_pages_coming_soon.js), for more examples you can check out https://github.com/hilios/jQuery.countdown -->
+                                <div class="js-countdown"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
+
+{{ partial "footer" .}}

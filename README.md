@@ -5,16 +5,15 @@ Deployed via netlify.
 Netlify CMS is also integrated.
 
 ## TO DOs
-
-- [ ] Migrate to actual domain name
-- [ ] Add GA tags
-- [ ] Turn on indexing
-- [ ] Verify front-end checklist (https://github.com/thedaviddias/Front-End-Checklist)
 - [ ] Add page for device and other integrations - under Platform
 - [ ] Add content for ABC
 - [ ] Add FAQ page
 - [ ] Add content for company blog
 - [ ] Add content for engg blog or remove for now
+- [ ] Migrate to actual domain name
+- [ ] Add GA tags
+- [ ] Turn on indexing
+- [ ] Verify front-end checklist (https://github.com/thedaviddias/Front-End-Checklist)
 - [x] Add more case studies. This is an ongoing task. Added 4. Marking as complete for now
 - [x] ~~Create images for each section of platform page~~
 - [x] ~~Add images and ensure views are responsive~~

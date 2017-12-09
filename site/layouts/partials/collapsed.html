@@ -1,0 +1,16 @@
+<!-- Section -->
+<div id="{{.Params.itemset}}" class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#{{.itemset}}" href="#{{.itemid}}">{{.item}}</a>
+            </h3>
+        </div>
+        <div id="{{.itemid}}" class="panel-collapse collapse">
+            <div class="panel-body">
+                {{.text}}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END section -->

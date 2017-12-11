@@ -6,7 +6,7 @@
 	    <!-- Frequently Asked Questions -->
 	    <div class="block">
 	        <div class="block-content block-content-full block-content-narrow">
-	        	{{ with .Params.implementation}}
+	        	{{ with .Params.patientcommunication}}
 	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
 	        	<p>{{.intro}}</p>
 	        	{{ range .items }}
@@ -15,7 +15,7 @@
 	        	{{end}}
 	        </div>
 	        <div class="block-content block-content-full block-content-narrow">
-	        	{{ with .Params.patientcommunication}}
+	        	{{ with .Params.be}}
 	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
 	        	<p>{{.intro}}</p>
 	        	{{ range .items }}
@@ -42,7 +42,7 @@
 	        	{{end}}
 	        </div>
 	        <div class="block-content block-content-full block-content-narrow">
-	        	{{ with .Params.be}}
+	        	{{ with .Params.implementation}}
 	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
 	        	<p>{{.intro}}</p>
 	        	{{ range .items }}

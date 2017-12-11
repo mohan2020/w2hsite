@@ -83,6 +83,27 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
       - {label: "Authors", name: "authors", widget: "string"} # publication authors
-      - {label: "Source", name: "source", widget: "string"} #Author Name      
+      - {label: "Source", name: "source", widget: "string"} #Author Name
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "site/content/faq/index.md"
+        label: "FAQ Page"
+        name: "faq"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Type, name: type, widget: hidden, default: index}
+          - {label: Page, name: page, widget: hidden, default: "/faq.html"}
+          - {label: Image, name: image, widget: image, required: false}
+          - {label: Splash color (e.g. "#4F6D7A"), name: bgcolor, widget: string}
+          - {label: Introduction, name: introduction, widget: string}
+          - {label: Implementation FAQ, name: implementation, widget: object, fields: [{label: Implementation, name: itemset, widget: hidden}, {label: Summary, name: intro, widget: string}, {label: Questions, name: items, widget: list, fields: [{label: Question, name: item, widget: string}, {label: Question ID (make this random but unique), name: itemid, widget: string}, {label: Answer, name: text, widget: markdown}]}]}
+          - {label: Patient Communication FAQ, name: patientcommunication, widget: object, fields: [{label: patientcommunication, name: itemset, widget: hidden}, {label: Summary, name: intro, widget: string}, {label: Questions, name: items, widget: list, fields: [{label: Question, name: item, widget: string}, {label: Question ID (make this random but unique), name: itemid, widget: string}, {label: Answer, name: text, widget: markdown}]}]}
+          - {label: Device Integration FAQ, name: deviceintegration, widget: object, fields: [{label: deviceintegration, name: itemset, widget: hidden}, {label: Summary, name: intro, widget: string}, {label: Questions, name: items, widget: list, fields: [{label: Question, name: item, widget: string}, {label: Question ID (make this random but unique), name: itemid, widget: string}, {label: Answer, name: text, widget: markdown}]}]}
+          - {label: Rules Engine FAQ, name: deviceintegration, widget: object, fields: [{label: rulesengine, name: itemset, widget: hidden}, {label: Summary, name: intro, widget: string}, {label: Questions, name: items, widget: list, fields: [{label: Question, name: item, widget: string}, {label: Question ID (make this random but unique), name: itemid, widget: string}, {label: Answer, name: text, widget: markdown}]}]}
+          - {label: Behavioral Economics FAQ, name: be, widget: object, fields: [{label: be, name: itemset, widget: hidden}, {label: Summary, name: intro, widget: string}, {label: Questions, name: items, widget: list, fields: [{label: Question, name: item, widget: string}, {label: Question ID (make this random but unique), name: itemid, widget: string}, {label: Answer, name: text, widget: markdown}]}]}
+          - {label: Randomized Controlled Trials FAQ, name: rct, widget: object, fields: [{label: rct, name: itemset, widget: hidden}, {label: Summary, name: intro, widget: string}, {label: Questions, name: items, widget: list, fields: [{label: Question, name: item, widget: string}, {label: Question ID (make this random but unique), name: itemid, widget: string}, {label: Answer, name: text, widget: markdown}]}]}
+
+
 
 

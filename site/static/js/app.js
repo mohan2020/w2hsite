@@ -1097,21 +1097,21 @@ var App = function() {
      * App.initHelper('easy-pie-chart');
      *
      */
-    var uiHelperEasyPieChart = function(){
-        // Init Easy Pie Charts (with .js-pie-chart class)
-        jQuery('.js-pie-chart').each(function(){
-            var $this = jQuery(this);
+    // var uiHelperEasyPieChart = function(){
+    //     // Init Easy Pie Charts (with .js-pie-chart class)
+    //     jQuery('.js-pie-chart').each(function(){
+    //         var $this = jQuery(this);
 
-            $this.easyPieChart({
-                barColor: $this.data('bar-color') || '#777777',
-                trackColor: $this.data('track-color') || '#eeeeee',
-                lineWidth: $this.data('line-width') || 3,
-                size: $this.data('size') || '80',
-                animate: 750,
-                scaleColor: $this.data('scale-color') || false
-            });
-        });
-    };
+    //         $this.easyPieChart({
+    //             barColor: $this.data('bar-color') || '#777777',
+    //             trackColor: $this.data('track-color') || '#eeeeee',
+    //             lineWidth: $this.data('line-width') || 3,
+    //             size: $this.data('size') || '80',
+    //             animate: 750,
+    //             scaleColor: $this.data('scale-color') || false
+    //         });
+    //     });
+    // };
 
     /*
      * Bootstrap Maxlength, for more examples you can check out https://github.com/mimo84/bootstrap-maxlength

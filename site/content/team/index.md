@@ -54,7 +54,7 @@ engineering:
       bgpic: /img/bg/photo5.jpg
       pic: /img/team/lydon.jpg
       text: >
-        Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. <br><br>Notably in one of his past career ventures, Conor was a driving force in bringing a travel company which was once only printed media into a modern and competitive online presence
+        Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. 
     - name: Kyle McGrogan
       title: Software Developer
       twitter: mcgrogan91

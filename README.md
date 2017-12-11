@@ -5,8 +5,8 @@ Deployed via netlify.
 Netlify CMS is also integrated.
 
 ## TO DOs
-- [x] Add content for ABC. Place holder for now
-- [x] ~~Add content for company blog to kick us off~~
+- [ ] Add content for ABC
+- [ ] Add content for company blog
 - [x] ~~Add FAQ page~~
 - [ ] Migrate to actual domain name
 - [ ] Add GA tags

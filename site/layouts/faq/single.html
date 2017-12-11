@@ -6,32 +6,9 @@
 	    <!-- Frequently Asked Questions -->
 	    <div class="block">
 	        <div class="block-content block-content-full block-content-narrow">
-	        	{{ with .Params.implementation}}
-	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
-	        	{{ range .items }}
-	        	{{ partial "collapsed" . }}
-	        		{{end }}
-	        	{{end}}
-	        </div>
-	        <div class="block-content block-content-full block-content-narrow">
 	        	{{ with .Params.patientcommunication}}
 	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
-	        	{{ range .items }}
-	        	{{ partial "collapsed" . }}
-	        		{{end }}
-	        	{{end}}
-	        </div>
-	        <div class="block-content block-content-full block-content-narrow">
-	        	{{ with .Params.deviceintegration}}
-	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
-	        	{{ range .items }}
-	        	{{ partial "collapsed" . }}
-	        		{{end }}
-	        	{{end}}
-	        </div>
-	        <div class="block-content block-content-full block-content-narrow">
-	        	{{ with .Params.rct}}
-	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
+	        	<p>{{.intro}}</p>
 	        	{{ range .items }}
 	        	{{ partial "collapsed" . }}
 	        		{{end }}
@@ -40,6 +17,34 @@
 	        <div class="block-content block-content-full block-content-narrow">
 	        	{{ with .Params.be}}
 	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
+	        	<p>{{.intro}}</p>
+	        	{{ range .items }}
+	        	{{ partial "collapsed" . }}
+	        		{{end }}
+	        	{{end}}
+	        </div>
+	        <div class="block-content block-content-full block-content-narrow">
+	        	{{ with .Params.deviceintegration}}
+	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
+	        	<p>{{.intro}}</p>
+	        	{{ range .items }}
+	        	{{ partial "collapsed" . }}
+	        		{{end }}
+	        	{{end}}
+	        </div>
+	        <div class="block-content block-content-full block-content-narrow">
+	        	{{ with .Params.rct}}
+	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
+	        	<p>{{.intro}}</p>
+	        	{{ range .items }}
+	        	{{ partial "collapsed" . }}
+	        		{{end }}
+	        	{{end}}
+	        </div>
+	        <div class="block-content block-content-full block-content-narrow">
+	        	{{ with .Params.implementation}}
+	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
+	        	<p>{{.intro}}</p>
 	        	{{ range .items }}
 	        	{{ partial "collapsed" . }}
 	        		{{end }}
@@ -48,6 +53,7 @@
 	        <div class="block-content block-content-full block-content-narrow">
 	        	{{ with .Params.rulesengine}}
 	        	<h2 class="h3 font-w600 push-30-t push">{{.itemset}}</h2>
+	        	<p>{{.intro}}</p>
 	        	{{ range .items }}
 	        	{{ partial "collapsed" . }}
 	        		{{end }}

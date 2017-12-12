@@ -1,56 +1,45 @@
 ---
-title: Patient Engagement is the blockbuster drug of the century
-date: 2017-11-28
+title: Can Patient Engagement be the blockbuster drug of the century?
+date: 2017-12-11
 summary: >-
-  Actually, it’s surprising that it has taken us this long to focus on patient engagement because the results we have thus far are nothing short of astounding. If patient engagement were a drug, it would be the blockbuster drug of the century and malpractice not to use it. 
-image: /img/photos/photo39@2x.jpg
+  Over the course of the last several years, "patient engagement" has mushroomed into a lead topic for speakers, conferences, trade shows, pitch decks, analyst reports and countless headlines (now including this one). The trouble is, there is still no clear path forward to applying learnings at scale. 
+image: /img/bg/peng.blog.jpg
 authorname: Mohan Balachandran
 authorimage: /img/team/balachandran.png
 ---
 
-Leonard Kish said the above. Rarely has a single phrase so captured – and enraptured – the entire healthcare industry. The last time I recall this fervor was in the late '90's with "consumer directed healthcare." Not surprisingly, both phrases focus on all of us collectively as patients – which, of course, isn't accidental. In the ocean of healthcare currency and cost patients are often both the first and last wallet.
-Over the course of the last two years, "patient engagement" has mushroomed into a lead topic for speakers, conferences, trade shows, pitch decks, analyst reports and countless headlines (now including this one). But like much of our evolving experiment with healthcare's reformation, it's also cloaked in a nuanced, often contradictory (and now legally mandated) meaning. The trouble is, much like the phrase "consumer directed healthcare" before it, there's sufficient ambiguity to make it malleable and customizable to fit multiple constituents – and agendas.
+<blockquote>
+    <p>If patient engagement were a drug, it would be the blockbuster drug of the century and malpractice not to use it.</p>
+    <footer>Leonard Kish</footer>
+</blockquote>
 
-The good news is – we now have some very real metrics around what constitutes real patient engagement and Leonard highlighted two impressive examples.
 
-Kaiser Permanente HealthConnect™ / Collaborative Cardiac Care Case Study (here):
+True patient engagement should have metrics of demonstrable success – at scale – over time. Generally speaking, this is still lacking. The current model adopted seems to be one of outsourcing (for lack of a better term) i.e. shift a lot of the healthcare burden (either administrative, cost or actual service delivery) directly to patients. But data and metrics are being gathered and continue to prove that patient engagement can have significant value if done in a coordinated fashion. With the advent of devices to track activity, heart rate and much more, the rise of AI to predict health issues from that flood of data, automation to "hover" over patients and so on, we are on the cusp of putting patients where they belong - at the center of their own health (with some assistance).
 
-1) Prevented 135 deaths and 260 costly emergencies
 
-2) Patients meeting cholesterol goals went from 26% to 73%
+There have been earlier reports on the value created by coordinated care programs such as the [VA's Care Coordination/Home Telehealth program](https://www.ncbi.nlm.nih.gov/pubmed/19119835) which showed amazing results:
 
-3) Patients screened for cholesterol went from 55% to 97%
+- 19.74% reduction in hospital admissions
+- 25.31% reduction in bed days of care
+- 86% patient satisfaction
+- $1,600 average cost per patient per year, compared to $13,121 for primary care and $77,745 for nursing home care
+- 20% to 57% reduction in the need to be treated for the chronic diseases studied, including diabetes, COPD, heart failure, PTSD, and depression
 
-4) "Clinical care teams reduced overall mortality by 76 percent and cardiac mortality by 73 percent"
+And this study was run from 2003 to 2007! More than a decade ago but we're still waiting to see results like this more generally.
 
-VA Case Report: Care Coordination / Home Telehealth (here):
+The root cause seems to be two-fold:
 
-1) ~20% reduction in hospital admissions
+1. Alignment of incentives
 
-2) ~25% reduction in bed days of care
+2. Lack of resources / automation
 
-3) 86% patient satisfaction
+### Alignment of incentives
+This has always been a problem in healthcare. Why should I do something when someone else is likely to get the benefits? It is no surprise that the biggest such succeses we see come from systems that are aligned such as the VA or Kaiser. However, this is changing. With the rollout of the much maligned Accoutable Care Orghanization (ACO) model (and several other programs) by CMS, health plans and health systems are increasingly beginning to align around quality and cost. Innovative models are going to be the norm where more of the burden will begin to fall on health systems and providers with attendant profits. But that journey will require some changes
 
-4) 20% – 57% reduction in treatment need for diabetes, COPD, heart failure, PTSD and depression
+### Resources and automation
+It **is** possible to provide amazing care to any individual but it can come at a significant cost. Concierge care for all - sure, but at what cost and who will pay that price? This is where advances in technology and "automated hovering" will play an increasingly important role. We, at Way To Health, [have seen](/casestudies/livbetter) providers reduce automated hovering costs from over a $1000 per patient to less than $50 while still getting the same results **and** not increasing provider workloads.
 
-I'll add another one (often referenced by Don Berwick), the Nuka System of Care (here) as sponsored and managed by the Southcentral Foundation in Anchorage, Alaska.
 
-1) 40% Reduction in emergency room admissions
+Innovations will continue but it is critical that we all not only share our knowledge but also provide evidence that specific engagement models work. The VA results for example are great, but can you expect to see the same results if you read the paper and tried to apply it to your health system? Will you see the same results in Alabama, Pennsylvania and Northern California? It is that level of research, data and evidence that is needed. Way To Health is at the forefront of this movement. 
 
-2) 50% Decrease in specialty care
-
-3) 20% Decrease in primary care visits
-
-4) 35% Decrease in hospital admissions
-
-These are the metrics of success – at the core of patient engagement and healthcare delivery – at scale.
-
-This last June, however, I saw reference to a decidedly different model of patient engagement. This one isn't truly patient-centered. Instead, this one simply leverages the patient in a kind of "outsource" model of self administration, treatment, care or cost.
-
-The heretofore unspoken truth to which I refer is that for some, patient engagement is not about getting patients to do what's in their own best interest ... but rather doing what’s in the self interest of policy makers, payers and perhaps providers. Patient engagement for those that think this way begins with policy makers, payers and administrators looking for ways of offloading tasks (of their choosing) to the patient (e.g., lowest pay grade), irrespective of the patient’s willingness, knowledge or ability to comply. Stephen Wilkins, MPH - Mind the Gap Blog (here)
-
-Stephen doesn't believe that most people operate this way, and neither do I, but as patients, it's important to understand the distinction between these vastly different approaches. We will absolutely see both. As patients, we're not only the final frontier in this long and winding experiment – we're quickly becoming the final wallet. Whatever the Affordable Care Act does or doesn't do, it most definitely didn't remove the profit incentive around healthcare delivery.
-
-True patient engagement has metrics of demonstrable success – at scale – over time. We now know what it looks like. Patient outsourcing (for lack of a better term) is often an unproven business model (at small scale) that winds up shifting some healthcare burden (either administrative function, cost or actual service delivery) directly to us as consumers. At its core, it's just marketing spin to offload a healthcare burden or cost. One red flag is that these catchy phrases are often paired with "disruptive" or "transformative" as another way to mask their lack of authenticity. When you have the real metrics – you don't need bold qualifiers to trumpet success.
-
-The more we become data driven around healthcare outcomes the easier it will be for everyone to make these important distinctions. In the meantime, patient engagement remains a fully loaded and often fully leveraged phrase. Look for the real metrics – and watch your wallet.
+No one can predict the future but we believe that evidence based patient engagement is sure to play a huge role in improving quality of care while still controlling costs.

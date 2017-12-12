@@ -1,15 +1,19 @@
 baseurl = "/"
 languageCode = "en-us"
 #languageLang = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 title = "Way To Health"
 
 [params]
-description = "Way To Health is a platform for researching, developing and deploying evidence based patient engagement strategies"
+description = "Way To Health is a platform to research, develop and deploy evidence based patient engagement strategies"
 author="Mohan Balachandran"
-robots="noindex, nofollow"
+robots="index, follow"
 
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disable404 =  false
+#googleAnalytics = "UA-111066412-1"

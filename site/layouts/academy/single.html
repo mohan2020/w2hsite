@@ -1,54 +1,26 @@
-{{ partial "header" . }}
+{{ partial "header" .}}
 
-<main id="main-container">    
-    <div class="bg-primary-dark">
-        <br/><br/>
-        <section class="content content-boxed overflow-hidden">
-            <div class="push-150-t push-50 text-center">
-                <h1 class="text-white push-10">{{.Params.title}}</h1>
-            </div>   
-            <div class="row items-push-2x text-center" style="display: flex; justify-content: space-between;">
-                <div class="col-sm-4">
-                    <img class="img-avatar img-avatar-thumb" src="{{.Params.authorimage}}" alt="">
-                    <div class="h4 text-white-op push-10-t push-5">{{.Params.authorname}}</div>
-                </div>           
-            </div>
-        </section>
-    </div>
-    <!-- Story Content -->
-    <div class="bg-white">
-        <section class="content content-boxed">
-            <!-- Section Content -->
-            <div class="row push-50-t push-50 nice-copy-story">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <h4 class="push-10">The Goal: {{.Params.summary}}</h4>
-                    <p>{{.Content}}</p>
-
-                    <!-- Actions >
-                    <div class="push-50-t clearfix">
-                        <div class="btn-toolbar pull-right">
-                            <a class="btn btn-default" data-toggle="tooltip" title="Like Story" href="javascript:void(0)"><i class="fa fa-thumbs-o-up"></i></a>
-                            <div class="btn-group dropup">
-                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown"  href="javascript:void(0)"><i class="fa fa-share-alt"></i> Share</a>
-                                <ul class="dropdown-menu dropdown-menu-right">
-                                    <li>
-                                        <a tabindex="-1" href="javascript:void(0)"><i class="fa fa-fw fa-twitter pull-right"></i> Twitter</a>
-                                    </li>
-                                    <li>
-                                        <a tabindex="-1" href="javascript:void(0)"><i class="fa fa-fw fa-linkedin pull-right"></i> LinkedIn</a>
-                                    </li>
-                                </ul>
+    <!-- Main Container -->
+<main id="podcast" style="background-color: {{.Params.bgcolor}};" >
+    {{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
+        <div class="content content-boxed overflow-hidden animated fadeIn">
+            <div class="row text-center push">
+                <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+                    <div class="bg-black-op">
+                        <div class="block block-transparent">
+                            <div class="block-content block-content-full bg-black-op">
+                                <h1 class="text-white push-20-t push-5"><i class="fa fa-power-off text-warning"></i></h1>
+                                <h2 class="h4 text-gray push-20">Stay Tuned!</h2>
+                            </div>
+                            <div class="block-content block-content-full">
+                                <!-- Countdown.js (class is initialized in js/pages/base_pages_coming_soon.js), for more examples you can check out https://github.com/hilios/jQuery.countdown -->
+                                <div class="js-countdown"></div>
                             </div>
                         </div>
-                        <a class="btn btn-success" href="javascript:void(0)"><i class="fa fa-heart push-5-r"></i> Recommend</a>
                     </div>
-                    <!-- END Actions -->
                 </div>
             </div>
-            <!-- END Section Content -->
-        </section>
-    </div>
-    <!-- END Story Content -->    
+        </div>
 </main>
 
-{{ partial "footer" . }}
+{{ partial "footer" .}} 

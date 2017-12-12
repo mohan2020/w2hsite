@@ -5,20 +5,20 @@ Deployed via netlify.
 Netlify CMS is also integrated.
 
 ## TO DOs
-
+- [ ] Add content for ABC
+- [ ] Add content for company blog
+- [x] ~~Add FAQ page~~
 - [ ] Migrate to actual domain name
 - [ ] Add GA tags
 - [ ] Turn on indexing
 - [ ] Verify front-end checklist (https://github.com/thedaviddias/Front-End-Checklist)
-- [ ] Add page for device and other integrations - under Platform
-- [ ] Add content for ABC
-- [ ] Add FAQ page
-- [ ] Add content for company blog
-- [ ] Add content for engg blog or remove for now
+- [ ] Add page for devices under Platform. Doing later.
+- [ ] Add page for integrations under Platform. Doing later.
+- [ ] Need a 404 page. In place but need to get Hugo to use the designed page instead of the default.
+- [x] Add content for engg blog or remove for now (removed for now)
 - [x] Add more case studies. This is an ongoing task. Added 4. Marking as complete for now
 - [x] ~~Create images for each section of platform page~~
 - [x] ~~Add images and ensure views are responsive~~
-- [x] ~~Need a 404 page~~
 - [x] ~~Add all publications - Done. Pulled from SF primarily.~~
 - [x] ~~Add press references - Done. Pulled from multiple sources~~
 - [x] ~~Add search to case studies~~

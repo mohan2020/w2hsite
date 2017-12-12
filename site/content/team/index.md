@@ -13,47 +13,48 @@ leadership:
       text: >
         Mohan currently leads the Way to Health team. He is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities. <br><br>
         He has substantial experience in multiple domains such as supply chain management, master data management, oncology, revenue cycle management, mobile technologies, cloud based software, cybersecurity and compliance. He is a YCombinator Summer 2012 alum.
-    - name: Michael Kopinsky
+    - name: Mike Kopinsky
       title: Engineering Lead
       twitter: mkopinsky
       linkedin: mkopinsky
       bgpic: /img/bg/photo3.jpg
       pic: /img/team/kopinsky.jpg
       text: >
-        Michael Kopinsky leads the Way to Health development team. He is passionate about building high quality software and teams, and has been doing so here at Penn/Way to Health since 2014 when he moved to Philadelphia.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania, and a certificate in Clinical Informatics at Oregon Health and Science University.
+        Michael Kopinsky is a senior software developer at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics.  Specifically, Michael works to expand the reach of Way to Health platform while reducing cost and increasing quality.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania.
+    - name: Christianne Sevinc
       title: Operations Lead
       twitter: 
-      linkedin: 
+      linkedin: christianne-sevinc-0982b911 
       bgpic: /img/bg/photo8.jpg
       pic: /img/team/sevinc.jpg
       text: >
-        Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. Working closely with the development team, Christianne identifies and prioritizes enhancements and manages project timelines.  She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
+        Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
 engineering:
   member:
     - name: John Bergandino
       title: Software Developer
       twitter: 
-      linkedin: 
+      linkedin: johnbergandino
       bgpic: /img/bg/photo2.jpg
       pic: /img/team/bergandino.jpg
       text: >
         John is a software developer. He collaborates with the department’s faculty and research staff to build cutting-edge technical features on a multitude of medical research projects. Prior to joining the University of Pennsylvania, John spent 6 months backpacking throughout Australia and a few years working in the Fortune 500 global supply chain industry.
     - name: Aaron Leitner
-      title: Software Developer
+      title: Associate Software Developer
       twitter: 
-      linkedin: 
+      linkedin: aleitner 
       bgpic: /img/bg/photo4.jpg
       pic: /img/team/leitner.jpg
       text: >
-        Aaron Leitner is a software developer at the Penn Medicine Center for Health Care Innovation.  In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor's degree in environmental studies from Ursinus College and is currently pursuing a master’s in health informatics at Drexel University.
+        Aaron Leitner is a software developer at the Penn Medicine Center for Health Care Innovation.  In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor's degree in environmental studies from Ursinus College.
     - name: Conor Lydon
       title: Software Developer
       twitter: 
-      linkedin: 
+      linkedin: lydonc
       bgpic: /img/bg/photo5.jpg
       pic: /img/team/lydon.jpg
       text: >
-        Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. Notably in one of his past career ventures, Conor was a driving force in bringing a travel company which was once only printed media into a modern and competitive online presence.
+        Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. 
     - name: Kyle McGrogan
       title: Software Developer
       twitter: mcgrogan91
@@ -61,11 +62,11 @@ engineering:
       bgpic: /img/bg/photo6.jpg
       pic: /img/team/mcgrogan.jpg
       text: >
-        Kyle McGrogan is a software developer for the Way to Health team.  In this role, he works to maintain and improve the platform through the use and adoption of best practices and interesting technologies.  He has a bachelor’s degree in software engineering from Shippensburg University of Pennsylvania, and has worked for multiple organizations in the healthcare space.
+        Kyle McGrogan is a software developer for the Way to Health team.  In this role, he works to maintain and improve the platform through the use and adoption of best practices and interesting technologies.  He has a bachelors degree in software engineering from Shippensburg University of Pennsylvania, and has worked for multiple organizations in the healthcare space. 
     - name: Benjamin Rosenbach
       title: Software Developer
-      twitter: 
-      linkedin: 
+      twitter: FreshRegular
+      linkedin: ben-rosenbach-533b80a
       bgpic: /img/bg/photo7.jpg
       pic: /img/team/rosenbach.jpg
       text: >
@@ -79,8 +80,8 @@ implementation:
       bgpic: /img/bg/photo9.jpg
       pic: /img/team/taylor.jpg
       text: >
-        Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania. 
-    - name: Stephanie Brown
+        Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania.
+    - name: Stephanie Brown 
       title: Clinical Operations
       twitter: 
       linkedin: snb42

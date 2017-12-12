@@ -20,7 +20,7 @@ leadership:
       bgpic: /img/bg/photo3.jpg
       pic: /img/team/kopinsky.jpg
       text: >
-          Michael Kopinsky leads the Way to Health development team. He is passionate about building high quality software and teams, and has been doing so here at Penn/Way to Health since 2014 when he moved to Philadelphia.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania, and a certificate in Clinical Informatics at Oregon Health and Science University.
+        Michael Kopinsky leads the Way to Health development team. He is passionate about building high quality software and teams, and has been doing so here at Penn/Way to Health since 2014 when he moved to Philadelphia.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania, and a certificate in Clinical Informatics at Oregon Health and Science University.
       title: Operations Lead
       twitter: 
       linkedin: 

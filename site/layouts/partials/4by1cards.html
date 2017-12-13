@@ -39,7 +39,7 @@
                         <tbody>
                             {{ range .Params.results}}
                             <tr>
-                                <td><strong>{{ .result }}</strong></td>
+                                <td><strong>{{ .result | markdownify}}</strong></td>
                             </tr>
                             {{ end }}
                         </tbody>

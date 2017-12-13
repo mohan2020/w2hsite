@@ -76,7 +76,7 @@ h6,
 .h5,
 .h6 {
   margin: 0;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   color: inherit;
@@ -12045,3 +12045,32 @@ img.center {
     margin: auto;
     width: 40%;
 }
+
+@font-face {
+  font-family: 'Sparkbar';
+  src: url('../fonts/spark-bar-medium.eot');
+  src: url('../fonts/spark-bar-medium.eot') format('embedded-opentype'), url('../fonts/spark-bar-medium.woff2') format('woff2'), url('../fonts/spark-bar-medium.woff') format('woff'), url('../fonts/spark-bar-medium.ttf') format('truetype'), url('../fonts/spark-bar-medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*@font-face {
+  font-family: 'Sparkdotline';
+  src: url('../fonts/spark-dotline-medium.eot');
+  src: url('../fonts/spark-dotline-medium.eot') format('embedded-opentype'), url('../fonts/spark-dotline-medium.woff2') format('woff2'), url('../fonts/spark-dotline-medium.woff') format('woff'), url('../fonts/spark-dotline-medium.ttf') format('truetype'), url('../fonts/spark-dotline-medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+
+.spark-bar-medium {
+  font-family: "Sparkbar";
+  letter-spacing: 0em;
+  font-size: 200%;
+}
+
+/*.spark-dotline-medium {
+  font-family: "Sparkdotline";
+  letter-spacing: 0em;
+  font-size: 100%;
+}*/

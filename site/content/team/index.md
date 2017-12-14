@@ -13,14 +13,14 @@ leadership:
       text: >
         Mohan currently leads the Way to Health team. He is an engineer by training, passionate about healthcare, data and technology. He is a firm believer in “connecting the dots.” He co-founded Datica to help bring change to healthcare, and spent four years guiding the company before moving onto new opportunities. <br><br>
         He has substantial experience in multiple domains such as supply chain management, master data management, oncology, revenue cycle management, mobile technologies, cloud based software, cybersecurity and compliance. He is a YCombinator Summer 2012 alum.
-    - name: Mike Kopinsky
+    - name: Michael Kopinsky
       title: Engineering Lead
       twitter: mkopinsky
       linkedin: mkopinsky
       bgpic: /img/bg/photo3.jpg
       pic: /img/team/kopinsky.jpg
       text: >
-        Michael Kopinsky leads the Way to Health development team. He is passionate about building high quality software and teams, and has been doing so here at Penn/Way to Health since 2014 when he moved to Philadelphia.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania, and a certificate in Clinical Informatics at Oregon Health and Science University.
+        Michael Kopinsky leads the Way to Health engineering team. He is passionate about building high quality software and teams, and has been doing so here at Penn/Way to Health since 2014 when he moved to Philadelphia.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania, and a certificate in Clinical Informatics at Oregon Health and Science University.
     - name: Christianne Sevinc
       title: Operations Lead
       twitter: 

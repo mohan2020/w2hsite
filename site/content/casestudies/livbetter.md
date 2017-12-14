@@ -5,7 +5,7 @@ subdomain: Cirrhosis & Transplants
 area: clinical
 authors:
   - authorimage: /img/uploads/khungar-vandana.jpg
-    authorname: Vandana Khungar, MD, MSc
+    authorname: Vandana Khungar,MD,MSc
     authorrole: Clinical Lead
   - authorimage: /img/team/brown.jpeg
     authorname: Stephanie Brown, BS

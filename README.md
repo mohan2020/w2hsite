@@ -44,3 +44,5 @@ Netlify CMS is also integrated.
 - [ ] Re-design case studies view for research
 - [ ] Add search to publications. Maybe add Algolia later
 - [ ] Add preview to content editor
+- [ ] Page per study
+- [ ] Anti-portfolio page e.g. Heartstrong

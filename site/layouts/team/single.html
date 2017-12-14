@@ -1,11 +1,11 @@
 {{ partial "header" .}}
 
-<main id="main-container">
+<main id="main-container bg-white">
     {{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" "") }}    
     <!-- Hero Content -->
     <!-- END Hero Content -->
     <!-- leadership -->
-    <div class="bg-gray-lighter">
+    <div class="bg-white">
         <section class="content content-boxed">
         <p class="lead">Leadership</p>
     {{ with .Params.leadership }}            
@@ -24,7 +24,7 @@
     </div>
     <!-- END leadership -->
     <!-- implementation -->
-    <div class="bg-gray-lighter">
+    <div class="bg-white">
         <section class="content content-boxed">
         <p class="lead">Implementation</p>
     {{ with .Params.implementation }}            
@@ -43,7 +43,7 @@
     </div>
     <!-- END implementation -->
     <!-- engineering -->
-    <div class="bg-gray-lighter">
+    <div class="bg-white">
         <section class="content content-boxed">
         <p class="lead">Engineering</p>            
     {{ with .Params.engineering }}            
@@ -62,7 +62,7 @@
     </div>
     <!-- END engineering -->        
     <!-- Advisory -->
-    <div class="bg-gray-lighter">
+    <div class="bg-white">
         <section class="content content-boxed">
     {{ with .Params.advisory }}            
         <h3 class="h3 push-20 visibility-hidden" data-toggle="appear">{{ .role }}</h3>            

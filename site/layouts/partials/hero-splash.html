@@ -1,15 +1,15 @@
 <!-- Hero Content -->
 {{ if .imageUrl }}
-<div class="bg-image bg-image-cover angle--bottom-right" style="background-image: url('{{.imageUrl}}');">
+<div class="bg-image bg-image-cover angle--bottom-right img-responsive" style="background-image: url('{{.imageUrl}}');">
     {{else }}
-<div class="bg-image bg-image-cover angle--bottom-right" style="background-color: {{.bgcolor}}; color: white">
+<div class="bg-image bg-image-cover angle--bottom-right img-responsive" style="background-color: {{.bgcolor}}; color: white">
 {{ end }}
     <div>
         <section class="content content-full content-boxed overflow-hidden">
             <!-- Section Content -->
             <div class="push-150-t push-150 text-center">
                 {{ if .biglogo }}
-                <img src="{{.biglogo}}">
+                <img class="img-responsive"  src="{{.biglogo}}">
                 {{ end }}
                 <h1 class=" text-white push-50 push-50-t visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">{{.title}}</h1>
                 {{ if .subtitle}}

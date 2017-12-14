@@ -70,14 +70,14 @@ engineering:
       bgpic: /img/bg/photo7.jpg
       pic: /img/team/rosenbach.jpg
       text: >
-        Ben is a software engineer with a particular passion for web development. He believes it presents the greatest opportunity for new and unique ways of interaction with users. He feels that he is at his dream job because he's constantly challenged to be as creative as possible and also given an opportunity to explore new technologies. He has a bachelors degree in Computer Software Engineering from Drexel University ans has worked with multiple organizations in the software development and engineering space. 
+        Ben is a software engineer with a particular passion for web development. He believes it presents the greatest opportunity for new and unique ways of interaction with users. He feels that he is at his dream job because he's constantly challenged to be as creative as possible and also given an opportunity to explore new technologies. He has a bachelors degree in Computer Software Engineering from Drexel University and has worked with multiple organizations in the software development and engineering space. 
 implementation:
   member:
     - name: Devon Taylor
       title: Research Operations
       twitter: devonhtaylor
       linkedin: devon-taylor-mph-43b8177a
-      bgpic: /img/bg/photo9.jpg
+      bgpic: /img/photos/photo34.jpg
       pic: /img/team/taylor.jpg
       text: >
         Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania.

@@ -13,7 +13,7 @@ authors:
 summary: >-
   Shared physician and patient incentives are more effective in reducing levels of low-density lipoprotein cholesterol (LDL-C) among patients with high CVD risk.
 results:
-  - result: Reduced LDL-C by by 33%
+  - result: Reduced LDL-C by 33%
   - result: Aligned patient and provider incentives
 spotlight: true
 keywords:

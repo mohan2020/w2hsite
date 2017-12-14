@@ -2188,7 +2188,8 @@ a.list-group-item:focus {
   border-bottom-color: #f4d8d4;
 }
 .img-responsive {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -12043,16 +12044,16 @@ header h1 {
 img.center {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 80%;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Sparkbar';
   src: url('../fonts/spark-bar-medium.eot');
   src: url('../fonts/spark-bar-medium.eot') format('embedded-opentype'), url('../fonts/spark-bar-medium.woff2') format('woff2'), url('../fonts/spark-bar-medium.woff') format('woff'), url('../fonts/spark-bar-medium.ttf') format('truetype'), url('../fonts/spark-bar-medium.svg') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 /*@font-face {
   font-family: 'Sparkdotline';
@@ -12063,11 +12064,11 @@ img.center {
 }*/
 
 
-.spark-bar-medium {
+/*.spark-bar-medium {
   font-family: "Sparkbar";
   letter-spacing: 0em;
   font-size: 200%;
-}
+}*/
 
 /*.spark-dotline-medium {
   font-family: "Sparkdotline";

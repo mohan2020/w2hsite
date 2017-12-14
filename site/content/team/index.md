@@ -20,7 +20,7 @@ leadership:
       bgpic: /img/bg/photo3.jpg
       pic: /img/team/kopinsky.jpg
       text: >
-        Michael Kopinsky is a senior software developer at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics.  Specifically, Michael works to expand the reach of Way to Health platform while reducing cost and increasing quality.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania.
+        Michael Kopinsky leads the Way to Health development team. He is passionate about building high quality software and teams, and has been doing so here at Penn/Way to Health since 2014 when he moved to Philadelphia.<br><br>Prior to joining the team, Michael worked for the Department of Pathology at Montefiore Medical Center, building systems to better integrate the laboratory with the clinical setting. Michael received his bachelor's degree in bioengineering at the University of Pennsylvania, and a certificate in Clinical Informatics at Oregon Health and Science University.
     - name: Christianne Sevinc
       title: Operations Lead
       twitter: 

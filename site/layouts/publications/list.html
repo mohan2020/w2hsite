@@ -2,9 +2,9 @@
 
 <main id="blog">
     {{ partial "hero-splash" (dict "imageUrl" "/img/bg/pubs3-min.jpg" "title" "Peer reviewed publications using the Way To Health platform" "subtitle" "Innovative research and evidence based publications" "bgcolor" "") }}
-    <div class="bg-white">
+    <div class="bg-white content content-boxed overflow-hidden">
         <br/><br/>
-        <section class="content content-boxed">
+        <section class="content content-boxed overflow-hidden">
 {{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
             <div class="push-50-t push-50">
                 <div class="row">

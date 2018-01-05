@@ -42,7 +42,8 @@ The LivBetter program utilizes Way To Health for:
 - **Alerts**: To providers or other care providers in case of violations
 
 
-Using the Way To Health offering:
+Using the Way To Health services:
+
 - 90% of messages were managed by the Way to Health platform alone and did not require follow-up
 - Messages that did require attention were first triaged by a patient liaison and then escalated to an RN as needed
 - Finally, less than 4% of messages were escalated further and required MD / PA involvement

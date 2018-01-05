@@ -17,12 +17,12 @@ patientcommunication:
       iconcolor: "#49A078"    
       feature: Two way Texting
       text: >
-        Texting (SMS) has been shown repeatedly to be a very effective way of communicating with patients since it works irrespective of the kind of phone the patient has. Texts can be sent out based on set schedules and / or rules. These configuration rules can be as simple as responding with a personalized "Great job, John Appleseed" or as complex as evaluating blood pressure values and responding with an provider or nurse alert
+        Texting (SMS) has repeatedly been demonstrated to be a very effective way of communicating with patients since it works irrespective of the kind of phone the patient has. Texts can be sent out based on set schedules and / or rules. These configuration rules can be as simple as responding with a personalized "Great job, John Appleseed" or as complex as evaluating blood pressure values and responding with an provider or nurse alert
     - icon: list-alt
       iconcolor: "#49A078"
       feature: Integrated Survey Management
       text: >
-        In cases where more data needs to be collected where a form or a survey makes more sense - demographics, symptoms etc., the system offers that ability too. You can either integrate with Qualtrics or create your own surveys from scratch using the built-in survey creation and deployment tool. These surveys can be sent out to patients based on specific schedules and simple or complex rules
+        In cases where more data needs to be collected (demographics, symptoms, etc.), the system offers the ability to create a survey. You can either integrate the survey with Qualtrics or create your own survey from scratch using the built-in survey creation and deployment tool. These surveys can be sent out to patients based on specific schedules and simple or complex rules.
 
 deviceintegration:
   featureset: Device Integration
@@ -42,7 +42,7 @@ deviceintegration:
         It is our belief that EHRs should be the system of record for all patient data. Additionally, any provider action needed should also be done via the EHR. With this in mind, the platform provides bi-directional integration currently with Epic (and additional EHRs on request).
 
 rct:
-  featureset: Randomized Control Trials
+  featureset: Randomized Controlled Trials
   header: There are plenty of clinical trials management software (CTMS) solutions out there. However, they are either built for pharmaceutical / drug discovery (Velos, Oncore etc.) or are very general purpose (e.g. Redcap). Way To Health is a tool purpose built to design and deploy behavioral change and interventional (bedside to home) research . 
   featureicon: code-fork
   featureimage: img/peng/rct.jpg
@@ -56,7 +56,7 @@ rct:
       iconcolor: "#49A078"
       header: Arms & Randomization
       text: >
-        Setup multiple arms for studies, including of course, the control arm. The platform also offers multiple computerized randomization of participants, including the configurable choices for stratified, blocked, weighted, and adaptive randomization strategies. Ongoing management of participants via a "triage" view is also available out-of-the-box. 
+        Setup multiple arms for studies including a control arm. The platform also offers multiple computerized randomization of participants, including the configurable choices for stratified, blocked, weighted, and adaptive randomization strategies. Ongoing management of participants via a "triage" view is also available out-of-the-box. 
 
 be:
   featureset: Behavioral Economics
@@ -73,7 +73,7 @@ be:
       iconcolor: "#49A078"
       header: Gamification & Social
       text: > 
-        Given recent trends, it is safe to assume that games and social media are significant drivers of human behavior. The platform allows patients to earn points, level up, use lifelines and more. Now combine this with peers or support partners and the results can be eye-opening. 
+        Games and social media are significant drivers of human behavior. The platform allows patients to earn points, level up, use lifelines and more. These features can be combined with peer competition or support.
 
 rulesengine:
   featureset: Rules Engine
@@ -90,5 +90,5 @@ rulesengine:
       iconcolor: "#49A078"
       header: Alerts & Incidents
       text: > 
-        Pay attention to only exceptions and only when you are alerted about them. The Way To Health platform allows for the creation of incidents whenever certain criteria are met. Configure notifications depending on the users role.
+         The Way To Health platform allows for the creation of incidents whenever certain criteria ("exception criteria") are met. Configure notifications depending on the users role.
 ---

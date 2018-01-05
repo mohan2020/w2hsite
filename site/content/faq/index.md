@@ -61,7 +61,7 @@ rulesengine:
         This is a self-service capability with a user interface to allow you to quickly create new rules. We are happy to help guide you through the process of setting up and testing rules. 
 be:
   itemset: Behavioral Economics
-  intro: Way to Health's patient engagement strategies are on the cutting edge of behavioral science, and have been proved effective through years of rigorous research studies.
+  intro: Way to Health's patient engagement strategies are at the cutting edge of behavioral science, and have been proved effective through years of rigorous research studies.
   icon: comments
   items:
     - item: 1. What kinds of behavioral economics tools are available?
@@ -73,7 +73,7 @@ be:
       text: >
         Yes. We manage and support the full lifecyle including check or debit card payments.
 rct:
-  itemset: Randomized Control Trials
+  itemset: Randomized Controlled Trials
   intro: Way to Health is built to accomodate the needs of small pilot studies, large research studies, or clinical roll-outs.
   icon: comments
   items:

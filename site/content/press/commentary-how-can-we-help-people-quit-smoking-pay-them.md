@@ -1,6 +1,6 @@
 ---
 title: 'Commentary: How Can We Help People Quit Smoking? Pay Them.'
-date: '2017-11-16 02:23pm'
+date: '2017-11-16'
 summary: >-
   Anti-smoking advocates need to disseminate advice about effective behavior
   change strategies and encourage health plan benefit designs that invest in

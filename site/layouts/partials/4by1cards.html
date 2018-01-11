@@ -3,7 +3,7 @@
         <div class="grid-item {{.Params.area}} col-sm-6 col-lg-4">
             <!-- Developer Plan -->
              {{ if .Params.spotlight }}
-            <a class="block text-center block-bordered" href="{{.Permalink}}">
+            <a class="block text-center block-rounded block-bordered" href="{{.Permalink}}">
                 <div class="block-header bg-success"> 
             {{ else }}
             <a class="block text-center block-bordered" href="javascript:void(0)">
@@ -31,20 +31,21 @@
                         </tbody>
                     </table>            
                 </div>
-                <div class="block-header">
+                <div class="block-header bg-gray-dark text-white">
                     <h3 class="block-title">Outcomes</h3>
                 </div> 
-                <div class="block-content">
+                <div class="block-content bg-gray-dark text-white">
                     <table class="table table-borderless table-condensed">
                         <tbody>
                             {{ range .Params.results}}
                             <tr>
-                                <td><strong>{{ .result | markdownify}}</strong></td>
+                                <td>{{ .result | markdownify}}</td>
                             </tr>
                             {{ end }}
                         </tbody>
                     </table>
-                </div>                            
+                    <p class="btn btn-rounded btn-noborder btn-sm btn-success">View Details</p>
+                </div>
             </a>
         </div>
 <!--    </div>

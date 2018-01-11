@@ -40,12 +40,14 @@ The Behavioral Economics Framingham Incentive Trial (BE FIT) was a randomized cl
 **Main Outcomes and Measures** - The primary outcome was the proportion of participant-days that step goals were achieved during the intervention period. Secondary outcomes included the proportion of participant-days that step goals were achieved during the follow-up period and the change in the mean daily steps during the intervention and follow-up periods.
 
 ## Way to Health use
-Way to Health was used to:
 
-- Enroll and randomize participants across the study arms
-- Collect data from the devices by patient
-- Set and monitor activity and achievement vs targets
-- Award points and levels
+- **Study Enrollment**: Enroll and randomize participants across the study arms
+
+- **Device Integration**: Collect data from the devices by patient
+
+- **Rules Engine**: Set and monitor activity and achievement vs targets
+
+- **Gamification**: Award points and levels
 
 
 ## Findings and conclusions

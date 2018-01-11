@@ -42,12 +42,14 @@ This was one of our larger trials and included about 2500 participants.
 **Main Outcomes and Measures** - The primary outcome that was measured was smoking cessation rates and ongoing reduction post incentives.
 
 ## Way to Health use
-Way to Health was used to:
 
-- Enroll and randomize participants across the study arms
-- Collect data from the devices by patient
-- Set and monitor activity and achievement vs targets
-- Award cash incentives by study arm
+- **Enrollment**: Enroll and randomize participants across the study arms
+
+- **Device Integration**: Collect data from the devices by patient
+
+- **Rules Engine**: Set and monitor activity and achievement vs targets
+
+- **Behavioral Economics**: Award cash incentives by study arm
 
 
 ## Findings and conclusions

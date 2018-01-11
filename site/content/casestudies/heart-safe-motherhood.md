@@ -47,11 +47,14 @@ Heart Safe Motherhood makes remote monitoring easy so that providers can focus o
 
 ![alt Heart Safe Motherhood Approach](/img/peng/hsm.png)
 
-The HSM program utilizes Way To Health for:
+## Way to Health use
 
 - **Two way texting**: SMS for reminders and also to receive BP data
-- **Rules**: Implementation of a clinician designed algorithm to detect abnormalities for follow-up
+
+- **Rules Engine**: Implementation of a clinician designed algorithm to detect abnormalities for follow-up
+
 - **Alerts**: To providers or other care providers in case of violations
+
 - **EHR Integrations**: Two way integration to Epic to auto-enroll patients into the program and push data back into the patient flowsheet.
 
 

@@ -27,6 +27,16 @@ Objective was to determine the effect of daily financial incentives on glucose m
 
 The primary outcome was change in HbA1c levels at 3 months. Secondary outcomes included adherence to glucose monitoring and change in HbA1c levels at 6 months. All analyses were by intention to treat.
 
+## Way to Health use
+
+- **Enrollment**: Enroll and randomize participants across the study arms
+
+- **Device Integration**: Collect data from the devices by patient
+
+- **Rules Engine**: Set and monitor activity and achievement vs targets
+
+- **Behavioral Economics**: Award cash incentives by study arm
+
 ## Results / Outcomes
 
 **Effectiveness of financial incentives**:This area shows promise in the adolescent population which has been traditionally difficult to target.

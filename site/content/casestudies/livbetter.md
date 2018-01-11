@@ -35,10 +35,12 @@ Way to Health was then utilized as the solution to automate the above process. A
 
 <img class="center" src="/img/peng/livbetter.png" />
 
-The LivBetter program utilizes Way To Health for:
+## Way to Health use
 
 - **Two way texting**: SMS for medication reminders and also to receive BP and other data
-- **Rules**: Implementation of a clinician designed algorithm to detect abnormalities for follow-up
+
+- **Rules Engine**: Implementation of a clinician designed algorithm to detect abnormalities for follow-up
+
 - **Alerts**: To providers or other care providers in case of violations
 
 

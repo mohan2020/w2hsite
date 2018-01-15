@@ -15,10 +15,10 @@
                     <div class="h4 font-w700 push-10">{{ .Title}}</div>
                 </div>
                     <div class="row text-center" style="display: flex; justify-content: space-between;">
-                        {{range first 2 .Params.authors}}
+                        {{ range first 2 .Params.authors }}
                         <div class="col-sm-4">
                             <img class="img-avatar img-avatar-thumb" src="{{.authorimage}}" alt="">
-                            <div class="h6 push-10-t push-5">{{.authorname}}</div>
+                            <div class="h6 push-10-t push-5">{{ .authorname }}</div>
                         </div>
                         {{end}}              
                     </div>        

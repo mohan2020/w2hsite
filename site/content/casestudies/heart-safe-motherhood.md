@@ -18,7 +18,6 @@ authors:
 results:
   - result: ACOG guideline adherence - 0% to 85%
   - result: 7 day readmission - 5% to 1.5%
-  - result: Avg. patient satisfaction - 100%
 spotlight: true
 features:
   - feature: 2 way texting
@@ -34,8 +33,11 @@ Preeclampsia is a disorder of pregnancy that results in hypertension and protein
 The burden of preeclampsia is extraordinary. 1 in 5 maternal deaths are linked to preeclampsia each year.
 
 - **5% to 8%** of all pregnancies in the U.S. are affected 
+
 - **25%** increase in incidence in the past two decades 
+
 - **4x** increase in lifetime risk of hypertension
+
 - **2x** increase in lifetime risk of heart attack and stroke
 
 The American College of Obstetricians and Gynecologists (ACOG) recommends monitoring BP at 72 hours and 7 to 10 days postpartum in women diagnosed with a hypertensive disorder
@@ -50,6 +52,8 @@ Heart Safe Motherhood makes remote monitoring easy so that providers can focus o
 
 ## Way to Health use
 
+The Way to Health Platform was used to support the Heart Safe Motherhood Program in the following ways:
+
 - **Two way texting**: SMS for reminders and also to receive BP data
 
 - **Rules Engine**: Implementation of a clinician designed algorithm to detect abnormalities for follow-up
@@ -61,5 +65,13 @@ Heart Safe Motherhood makes remote monitoring easy so that providers can focus o
 
 ## Results / Outcomes
 
-- **Reduced readmissions from 4% to 0%**
-- **Improved adherence to ACOG guidelines from 0% to 82%**
+![alt Heart Safe Motherhood Approach](/img/peng/hsm.logo.png)
+
+Based on these following results, 
+
+- **Reduced readmissions from 5% to 1.5%**
+- **Improved adherence to ACOG guidelines from 0% to 85%**
+- **Average customer satisfaction scores consistently 100%**
+
+the HSM program has now been rolled out across the University Of Pennsylvania Health System. Additional hospitals and health plans are interested in the program and are in the process of rolling them out nationally.
+

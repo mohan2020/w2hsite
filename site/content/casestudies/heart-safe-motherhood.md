@@ -16,8 +16,9 @@ authors:
     authorimage: /img/team/mahraj.jpg
     authorrole: Innovation Manager
 results:
-  - result: ACOG guideline adherence - 0% to 82%
-  - result: 7 day readmission - 4% to 0%
+  - result: ACOG guideline adherence - 0% to 85%
+  - result: 7 day readmission - 5% to 1.5%
+  - result: Avg. patient satisfaction - 100%
 spotlight: true
 features:
   - feature: 2 way texting

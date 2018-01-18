@@ -59,8 +59,8 @@ customers:
     - logo: /img/logos/penn.png
       organizationName: The University Of Pennsylvania
       caseStudyLink:
-    - logo: /img/logos/washu.jpeg
-      organizationName: Washington University in St. Louis
+    - logo: /img/logos/columbia.png
+      organizationName: Columbia University
       caseStudyLink:
     - logo: /img/logos/duke1.png
       organizationName: Duke University 
@@ -71,8 +71,8 @@ customers:
     - logo: /img/logos/jhu.png
       organizationName: Johns Hopkins
       caseStudyLink:
-    - logo: /img/logos/mayo.png
-      organizationName: Mayo Clinic
+    - logo: /img/logos/chop.jpg
+      organizationName: Children's Hospital
       caseStudyLink:
 whydosomething:
   intro: Patient engagement has been called the [blockbuster drug of the 21st century](http://healthstandards.com/blog/2012/08/28/drug-of-the-century/). But it continues to elude a solution and in the meantime, the problem continues to grow. 

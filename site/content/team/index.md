@@ -46,7 +46,7 @@ engineering:
       bgpic: /img/bg/photo4.jpg
       pic: /img/team/leitner.jpg
       text: >
-        Aaron Leitner is a software developer at the Penn Medicine Center for Health Care Innovation.  In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor's degree in environmental studies from Ursinus College.
+        Aaron Leitner is a software developer at the Penn Medicine Center for Health Care Innovation. In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor’s degree in environmental studies from Ursinus College and is currently working towards a Master’s in Health Informatics at Drexel University.
     - name: Conor Lydon
       title: Software Developer
       twitter: 
@@ -54,7 +54,7 @@ engineering:
       bgpic: /img/bg/photo5.jpg
       pic: /img/team/lydon.jpg
       text: >
-        Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. 
+        Conor Lydon is an Associate Software Developer at the Penn Medicine Center for Health Care Innovation. His role includes advancing the Way To Health platform with quality features and robust architecture. Prior to joining the team, Conor received his Bachelor's of Science majoring in Computer Science at Wentworth Institute of Technology in Boston, MA. <br/><br/><br/>
     - name: Kyle McGrogan
       title: Software Developer
       twitter: mcgrogan91
@@ -62,7 +62,7 @@ engineering:
       bgpic: /img/bg/photo6.jpg
       pic: /img/team/mcgrogan.jpg
       text: >
-        Kyle McGrogan is a software developer for the Way to Health team.  In this role, he works to maintain and improve the platform through the use and adoption of best practices and interesting technologies.  He has a bachelors degree in software engineering from Shippensburg University of Pennsylvania, and has worked for multiple organizations in the healthcare space. 
+        Kyle McGrogan is a software developer for the Way to Health team. In this role, he works to maintain and improve the platform through the use and adoption of best practices and interesting technologies. He has a bachelors degree in software engineering from Shippensburg University of Pennsylvania, and has worked for multiple organizations in the healthcare space.
     - name: Benjamin Rosenbach
       title: Software Developer
       twitter: FreshRegular
@@ -70,7 +70,7 @@ engineering:
       bgpic: /img/bg/photo7.jpg
       pic: /img/team/rosenbach.jpg
       text: >
-        Ben is a software engineer with a particular passion for web development. He believes it presents the greatest opportunity for new and unique ways of interaction with users. He feels that he is at his dream job because he's constantly challenged to be as creative as possible and also given an opportunity to explore new technologies. He has a bachelors degree in Computer Software Engineering from Drexel University and has worked with multiple organizations in the software development and engineering space. 
+        Ben is a software engineer with a particular passion for web development. He believes it presents the greatest opportunity for new and unique ways of interaction with users. He feels that he is at his dream job because he's constantly challenged to be as creative as possible and also given an opportunity to explore new technologies. He has a bachelors degree in Computer Software Engineering from Drexel University and has worked with multiple organizations in the software development and engineering space.
 implementation:
   member:
     - name: Devon Taylor

@@ -1,8 +1,7 @@
 ---
 title: Heart Safe Motherhood
-articletitle: >-
-  Rapid-Cycle Innovation Testing of Text-Based Monitoring for Management of
-  Postpartum Hypertension
+articlename: >-
+  Rapid-Cycle Innovation Testing of Text-Based Monitoring for Management of Postpartum Hypertension
 date: '2017-02-01'
 summary: >-
   Our results suggest that remote blood pressure monitoring via text message

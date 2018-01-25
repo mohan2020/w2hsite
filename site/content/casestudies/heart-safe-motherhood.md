@@ -33,11 +33,8 @@ Preeclampsia is a disorder of pregnancy that results in hypertension and protein
 The burden of preeclampsia is extraordinary. 1 in 5 maternal deaths are linked to preeclampsia each year.
 
 - **5% to 8%** of all pregnancies in the U.S. are affected 
-
 - **25%** increase in incidence in the past two decades 
-
 - **4x** increase in lifetime risk of hypertension
-
 - **2x** increase in lifetime risk of heart attack and stroke
 
 The American College of Obstetricians and Gynecologists (ACOG) recommends monitoring BP at 72 hours and 7 to 10 days postpartum in women diagnosed with a hypertensive disorder
@@ -55,23 +52,19 @@ Heart Safe Motherhood makes remote monitoring easy so that providers can focus o
 The Way to Health Platform was used to support the Heart Safe Motherhood Program in the following ways:
 
 - **Two way texting**: SMS for reminders and also to receive BP data
-
 - **Rules Engine**: Implementation of a clinician designed algorithm to detect abnormalities for follow-up
-
 - **Alerts**: To providers or other care providers in case of violations
-
-- **EHR Integrations**: Two way integration to Epic to auto-enroll patients into the program and push data back into the patient flowsheet.
-
+- **EHR Integrations**: Two way integration to Epic to auto-enroll patients into the program and push data back into the patient flowsheet.  
+  
 
 ## Results / Outcomes
 
 ![alt Heart Safe Motherhood Approach](/img/peng/hsm.logo.png)
 
-Based on these following results, 
+Based on these following results, the HSM program has now been rolled out across the University Of Pennsylvania Health System. Additional hospitals and health plans are interested in the program and are in the process of rolling them out nationally.
 
 - **Reduced readmissions from 5% to 1.5%**
 - **Improved adherence to ACOG guidelines from 0% to 85%**
 - **Average customer satisfaction scores consistently 100%**
 
-the HSM program has now been rolled out across the University Of Pennsylvania Health System. Additional hospitals and health plans are interested in the program and are in the process of rolling them out nationally.
 

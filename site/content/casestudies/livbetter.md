@@ -39,11 +39,10 @@ Way to Health was then utilized as the solution to automate the above process. A
 <img class="center" src="/img/peng/livbetter.png" />
 
 ## Way to Health use
+The Way to Health Platform was used to support the LiveBetter Program in the following ways:
 
 - **Two way texting**: SMS for medication reminders and also to receive BP and other data
-
 - **Rules Engine**: Implementation of a clinician designed algorithm to detect abnormalities for follow-up
-
 - **Alerts**: To providers or other care providers in case of violations
 
 
@@ -56,6 +55,8 @@ Using the Way To Health services:
 - Most importantly, the refined intervention resulted in a 43% reduction in 30-day readmissions among the pilot population.  At scale, these results are projected to lead to a $6.8 million reduction in costs related to cirrhosis 30-day readmission costs, and a $2.2 million reduction in costs for 30-day liver transplant readmissions annually.
 
 ## Results / Outcomes
+
+Based on the following results, the team aims to test this intervention further in a year-long pragmatic trial before making this the standard of care at Penn Medicine. 
 
 - **Reduced 7 day readmissions by 43%**
 - **Reduced preventable readmits by 75%**

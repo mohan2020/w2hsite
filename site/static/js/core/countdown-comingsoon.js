@@ -1,7 +1,7 @@
 var comingsoon = function() {
     // Init Countdown.js, for more examples you can check out https://github.com/hilios/jQuery.countdown
     var initCounter = function(){
-        jQuery('.js-countdown').countdown('2018/01/30', function(event) {
+        jQuery('.js-countdown').countdown('2018/02/15', function(event) {
             jQuery(this).html(event.strftime('<div class="row items-push text-center">'
                     + '<div class="col-xs-6 col-sm-3"><div class="font-s48 font-w700 text-white">%-D</div><div class="font-w600 text-gray">DAYS</div></div>'
                     + '<div class="col-xs-6 col-sm-3"><div class="font-s48 font-w700 text-white">%H</div><div class="font-w600 text-gray">HOURS</div></div>'

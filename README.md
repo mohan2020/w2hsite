@@ -8,13 +8,13 @@ Netlify CMS is also integrated.
 - [x] Add content for ABC. Replaced with coming soon page for now.
 - [x] ~~Add content for company blog~~
 - [x] ~~Add FAQ page~~
-- [ ] Migrate to actual domain name
+- [x] ~~Migrate to actual domain name~~
 - [x] ~~Add GA tags~~
 - [x] ~~Turn on indexing~~
 - [ ] Verify front-end checklist (https://github.com/thedaviddias/Front-End-Checklist)
-- [ ] Add page for devices under Platform. Doing later.
-- [ ] Add page for integrations under Platform. Doing later.
-- [x] Need a 404 page. In place but need to get Hugo to use the designed page instead of the default.
+- [x] ~~Add page for devices under Platform. Doing later.~~
+- [x] ~~Add page for integrations under Platform. Doing later.~~
+- [x] Need a 404 page. In place but need to get Hugo to use the designed page instead of the default. Done with designed page~~
 - [x] Add content for engg blog or remove for now (removed for now)
 - [x] Add more case studies. This is an ongoing task. Added 4. Marking as complete for now
 - [x] ~~Create images for each section of platform page~~
@@ -44,5 +44,5 @@ Netlify CMS is also integrated.
 - [ ] Re-design case studies view for research
 - [ ] Add search to publications. Maybe add Algolia later
 - [ ] Add preview to content editor
-- [ ] Page per study
-- [ ] Anti-portfolio page e.g. Heartstrong
+- [ ] Site per study
+- [ ] Anti-portfolio page

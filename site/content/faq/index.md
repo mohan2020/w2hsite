@@ -41,7 +41,7 @@ deviceintegration:
     - item: What devices have you integrated to?
       itemid: di1
       text: >
-        Way to Health connects with a variety of biometric devices for streamlined automated hovering. Current device integrations track physical activity, heart rate, blood pressure, blood glucose, medication adherence, sleep, and weight. See this link for a current list of devices integrated into the Way To Health platform. More devices are being added continually. 
+        Way to Health connects with a variety of biometric devices for streamlined automated hovering. Current device integrations track physical activity, heart rate, blood pressure, blood glucose, medication adherence, sleep, and weight. See [this link](/integrations) for a current list of devices integrated into the Way To Health platform. More devices are being added continually. 
     - item: Can you integrate my device?
       itemid: di2
       text: >

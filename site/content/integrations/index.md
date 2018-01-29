@@ -13,13 +13,13 @@ datasources:
       domains: glucose
     - name: Nokia
       logo: /img/devices/nokia.png
-      domains: weight activity
+      domains: weight activity bp sleep
     - name: Fitbit
       logo: /img/devices/fitbit.png
       domains: activity sleep
     - name: Misfit
       logo: /img/devices/misfit.png
-      domains: activity
+      domains: activity sleep
     - name: Hidrate Spark
       logo: /img/devices/hidrate-spark.png
       domains: hydration

@@ -1,0 +1,72 @@
+{{ partial "header" .}}
+
+<!-- <main id="podcast" style="background-color: {{.Params.bgcolor}};" >
+    {{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
+        <div class="content content-boxed overflow-hidden animated fadeIn">
+            <div class="row text-center push">
+                <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+                    <div class="bg-black-op">
+                        <div class="block block-transparent">
+                            <div class="block-content block-content-full bg-black-op">
+                                <h1 class="text-white push-20-t push-5"><i class="fa fa-power-off text-warning"></i></h1>
+                                <h2 class="h4 text-gray push-20">Stay Tuned!</h2>
+                            </div>
+                            <div class="block-content block-content-full">
+                                <div class="js-countdown"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main> -->
+
+
+{{ partial "header" . }}
+
+<main id="blog">
+    {{ partial "hero-splash" (dict "imageUrl" "/img/bg/change.jpg" "title" "The Academy for Behavioral Change" "subtitle" "Patient engagement and behavioral change is difficult. Learn the ABCs from experts in the field." "bgcolor" "#140f0b") }}
+
+    <div class="bg-white">
+        <br/><br/>
+        <section class="content content-boxed">
+{{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
+            <!-- List Content -->
+                <!-- Section Content -->
+                <div class="push-50-t push-50">
+                    <div class="row">
+                            <!-- Story -->
+                            <div class="block">
+                                <div class="block-content">
+                                    <div class="row items-push">
+                                        <div class="col-md-4">
+                                            <a href="{{.Permalink}}">
+                                            <img class="img-responsive" src="{{.Params.image}}" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="col-md-8">
+                                            <div class="font-s12 push-10">
+                                                <em class="pull-right">10 min</em>
+                                                By {{.Params.authorname}} on {{ .Date.Format "Mon Jan 2, 2006" }}
+                                            </div>
+                                            <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Permalink}}">{{.Params.title}}</a></h4>
+                                            <p class="push-20">{{.Params.summary}}</p>
+                                            <div class="btn-group btn-group-sm">
+                                                <!--a class="btn btn-default" href="javascript:void(0)"><i class="fa fa-share-alt push-5-r"></i> Share</a-->
+                                                <a class="btn btn-default" href="{{.Permalink}}">Continue Reading..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END Story -->
+                    </div>
+                </div>
+{{ end }} 
+
+{{ template "_internal/pagination.html" . }}
+        </section>
+    </div>
+</main>
+
+{{ partial "footer" . }}

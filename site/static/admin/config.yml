@@ -48,9 +48,9 @@ collections:
       - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
       - {label: "Author image", name: "authorimage", widget: "image"} # background image
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study
-  - name: "institute" # Used in routes, e.g., /admin/collections/blog
-    label: "Institute Posts" # Used in the UI
-    folder: "site/content/institute" # The path to the folder where the documents are stored
+  - name: "academy" # Used in routes, e.g., /admin/collections/blog
+    label: "Academy Posts" # Used in the UI
+    folder: "site/content/academy" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter

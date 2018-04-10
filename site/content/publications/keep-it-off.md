@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Pamela A Shaw, William S Yancy, Jr, Lisa Wesby, Victoria Ulrich, Andrea B Troxel, David Huffman, Gary D Foster, Kevin Volpp
 source: 'http://journals.sagepub.com/doi/abs/10.1177/1740774516669679'
+journal: Ann Intern Med.
 ---

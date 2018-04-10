@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Charlene A. Wong, MD, MSHP; Victoria A. Miller, PhD; Kathryn Murphy, PhD; Dylan Small, PhD; Carol A. Ford, MD; Steven M. Willi, MD; Jordyn Feingold, MAPP; Alexander Morris, BS; Yoonhee P. Ha, MSc, MPhil; Jingsan Zhu, MS, MBA2; Wenli Wang, MS2; Mitesh S. Patel, MD, MBA, MS2
 source: 'https://jamanetwork.com/journals/jamapediatrics/article-abstract/2657311'
+journal: JAMA Pediatr.
 ---

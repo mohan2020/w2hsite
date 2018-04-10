@@ -11,11 +11,12 @@
                     <div class="block">
                         <div class="block-content">
                             <div class="row items-push">
-                                <em class="pull-right">{{ .Date.Format "Jan 2006" }}</em>
+                                <h5 class="pull-right">{{.Params.journal}}</h5>
                                 <h4 class="text-uppercase push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.articlename}}</a></h4>
+                                <em class="pull-right">{{ .Date.Format "Jan 2006" }}</em>
                                 <div class="font-s12 push-20">
                                     {{.Params.authors}}
-                                </div>                                    
+                                </div>
                                 <p class="push-20">{{.Params.summary | markdownify}}</p>
                             </div>
                         </div>

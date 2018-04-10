@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Becker NV, Asch DA, Kullgren JT, Bellamy SL, Sen AP, Volpp KG.
 source: 'https://www.ncbi.nlm.nih.gov/pubmed/26517587'
+journal: Am J Health Promot.
 ---

@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Judith A. Long, MD, Erica C. Jahnle, BA, Diane M. Richardson, PhD, George Loewenstein, PhD, and Kevin G. Volpp, MD, PhD
 source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475415/'
+journal: Ann Intern Med
 ---

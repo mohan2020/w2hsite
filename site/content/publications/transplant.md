@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Peter P. Reese, MD, MSCE, Roy D. Bloom, MD, Jennifer Trofe-Clark, PharmD, Adam Mussell, MA, Daniel Leidy, BA, Simona Levsky, BS, Jingsan Zhu, MS, MBA, Lin Yang, MS, Wenli Wang, MS, Andrea Troxel, ScD, Harold I. Feldman, MD, MSCE, Kevin Volpp, MD, PhD
 source: 'http://www.sciencedirect.com/science/article/pii/S0272638616305972'
+journal: Am. J. Kidney Dis.
 ---

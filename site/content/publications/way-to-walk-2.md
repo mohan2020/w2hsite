@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Kristin A.HarkinsBA, Jeffrey T.Kullgren MD, MS, MPH; Scarlett L.Bellamy ScD; Jason Karlawish MD; Karen Glanz PhD, MPH
 source: 'http://www.sciencedirect.com/science/article/pii/S0749379716306122'
+journal: Am J Prev Med.
 ---

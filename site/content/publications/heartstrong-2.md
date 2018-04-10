@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Andrea B. Troxel, ScD; Andrea B. Troxel, ScD; Andrea B. Troxel, David A. Asch, MD, MBA, Shivan J. Mehta, MD, MBA, MSHP, Laurie Norton, MA, Devon Taylor, BS, Tirza A. Calderon, MPH, Raymond Lim, MA, Jingsan Zhu, MS, MBA, Daniel M. Kolansky, MD, Brian M. Drachman, MD, Kevin G. Volpp, MD, PhD
 source: 'http://www.ahjonline.com/article/S0002-8703(16)30093-X/abstract'
+journal: AHJ
 ---

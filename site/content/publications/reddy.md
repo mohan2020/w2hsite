@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Ashok Reddy, Tiffany L. Huseman, Anne Canamucio, Steven C. Marcus, David A. AschK, evin Volpp, Judith A. Long
 source: 'https://link.springer.com/article/10.1007%2Fs11606-016-3858-0'
+journal: J Gen Intern Med
 ---

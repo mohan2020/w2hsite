@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Samuel T. Kuna, MD;  David Shuttleworth  Luqi Chi, MD;  Sharon Schutte-Rodin, MD; Eliot Friedman, MD; Hengyi Guo;  Sandeep Dhand, MD;  Lin Yang, MS; Jingsan Zhu, MS, MBA;  Scarlett L. Bellamy, ScD;  Kevin G. Volpp, MD, PhD; David A. Asch, MD, MBA
 source: 'https://academic.oup.com/sleep/article/38/8/1229/2417958'
+journal: Sleep
 ---

@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   George L. Anesi, Scott D. Halpern, Michael O. Harhay, Kevin G. Volpp, Kathryn Saulsgiver
 source: 'https://link.springer.com/article/10.1007%2Fs10865-017-9868-5'
+journal: J Beh Med
 ---

@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Haff N, Patel MS, Lim R, Zhu J, Troxel AB, Asch DA, Volpp KG.
 source: 'https://www.ncbi.nlm.nih.gov/pubmed/25928816'
+journal: Am J Health Promot
 ---

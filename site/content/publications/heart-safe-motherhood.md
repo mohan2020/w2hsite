@@ -14,5 +14,6 @@ authors: >-
   K. Srinivas,MD,MSCE
 source: >-
   https://www.mdedge.com/jcomjournal/article/146153/womens-health/rapid-cycle-innovation-testing-text-based-monitoring
+journal: J of Clin Out Mgmt.
 ---
 

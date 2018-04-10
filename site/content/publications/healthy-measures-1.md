@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Aditi P. Sen, Taylor B. Sewell, E. Brooks Riley, Beth Stearman, Scarlett L. Bellamy, Michelle F. Hu, Yuanyuan Tao, Jingsan Zhu, James D. Park, George Loewenstein, David A. Asch, Kevin G. Volpp
 source: 'https://link.springer.com/article/10.1007%2Fs11606-014-2778-0'
+journal: J Gen Intern Med
 ---

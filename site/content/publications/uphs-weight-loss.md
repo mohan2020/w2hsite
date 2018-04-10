@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Mitesh S. Patel, David A. Asch, Andrea B. Troxel, Michele Fletcher, Rosemary Osman-Koss, Jennifer Brady, Lisa Wesby, Victoria Hilbert, Jingsan Zhu, Wenli Wang, and Kevin G. Volpp
 source: 'http://content.healthaffairs.org/content/35/1/71.long'
+journal: Health Aff
 ---

@@ -12,5 +12,6 @@ authors: >-
   Haff N, Lee SM, Wesby L, Hoffer K, Shuttleworth D, Taylor DH, Hilbert V, Zhu
   J, Yang L, Wang X, Asch DA
 source: 'https://www.ncbi.nlm.nih.gov/pubmed/29534597'
+journal: Am J Health Promot.
 ---
 

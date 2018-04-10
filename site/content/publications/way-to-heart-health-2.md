@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Tianyu Liu, David A.Asch, Kevin G.Volpp, Jingsan Zhu, Wenli Wang, Andrea B.Troxel, Aderinola Adejare, Darra D.Finnerty, Karen Hoffer, Judy A.Shea
 source: 'http://www.sciencedirect.com/science/article/pii/S221307641630001X'
+journal: Healthcare
 ---

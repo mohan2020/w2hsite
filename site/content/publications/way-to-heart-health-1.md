@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   David A. Asch, MD; Andrea B. Troxel, ScD; Walter F. Stewart, PhD, MPH; Thomas D. Sequist, MD, MPH; James B. Jones, PhD; AnneMarie G. Hirsch, PhD, MPH; Karen Hoffer, BS; Jingsan Zhu, MBA; Wenli Wang, MS; Amanda Hodlofski, MPH; Antonette B. Frasch, MD; Mark G. Weiner, MD; Darra D. Finnerty, BS; Meredith B. Rosenthal, PhD; Kelsey Gangemi, MPH; Kevin G. Volpp, MD, PhD
 source: 'http://jamanetwork.com/journals/jama/fullarticle/2468891'
+journal: JAMA.
 ---

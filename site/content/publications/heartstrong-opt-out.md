@@ -8,4 +8,5 @@ summary: >-
 authors: >-
   Shivan J. Mehta, MD, MBA, MSHP; Andrea B. Troxel, ScD; Noora Marcus, MA; Christina Jameson, BS; Devon Taylor, BS; David A. Asch, MD, MBA; Kevin G. Volpp, MD, PhD
 source: 'http://jamanetwork.com/journals/jamacardiology/article-abstract/2549969'
+journal: JAMA Cardiol.
 ---

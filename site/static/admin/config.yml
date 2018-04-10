@@ -84,6 +84,4 @@ collections:
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
       - {label: "Authors", name: "authors", widget: "string"} # publication authors
       - {label: "Source", name: "source", widget: "string"} #Author Name
-      - {label: "Journal Abbrev.", name: "journal", widget: "string"} #Abbreviated Journal name in citation
-
-
+      - {label: "Journal Abbr", name: "journal", widget: "string"} #Abbreviated Journal name in citation

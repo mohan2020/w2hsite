@@ -1,28 +1,28 @@
 ---
 title: Be Fit
-date: 2017-11-13
-subdomain: Activity Gamification
+date: 2017-11-13T00:00:00.000Z
 area: research
+subdomain: Activity Gamification
 authors:
   - authorimage: /img/team/patel.jpg
-    authorname: Mitesh Patel, MD, MBA, MS
+    authorname: 'Mitesh Patel, MD, MBA, MS'
     authorrole: Principal Investigator
+  - authorimage: /img/uploads/volpp.jpg
+    authorname: 'Kevin Volpp, MD, PhD'
+    authorrole: Co-PI
   - authorimage: /img/uploads/Tori.Hilbert.jpg
-    authorname: Tori Hilbert, MPH, RD
+    authorname: 'Tori Hilbert, MPH, RD'
     authorrole: Operations Manager
   - authorimage: /img/team/taylor.jpg
-    authorname: Devon Taylor, MPH
-    authorrole: Implementation Lead    
+    authorname: 'Devon Taylor, MPH'
+    authorrole: Implementation Lead
 summary: >-
-  Gamification designed to leverage insights from behavioral economics offers a promising approach to improve daily health behaviors at low cost
+  Gamification designed to leverage insights from behavioral economics offers a
+  promising approach to improve daily health behaviors at low cost
 results:
   - result: Increased activity achievement by 50%
   - result: Post study activity increased by 27%
 spotlight: true
-keywords:
-  - keyword: diabetes
-  - keyword: gamification
-  - keyword: activity
 ---
 
 ## Aim and key question

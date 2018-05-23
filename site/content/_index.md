@@ -2,7 +2,7 @@
 title: Evidence Based Patient Engagement
 bgcolor: "#2e376b"
 image:
-biglogo: /img/logos/w2h-ShieldwWhitetext.png 
+biglogo: /img/logos/logo.tag.side_3x.png 
 summary: Research and apply personalized engagement strategies to improve health outcomes
 oldsummary: Way to Health is a web-based platform that enables and automates research into healthy behavior interventions. Interventions found to be successful can be applied to various populations and rolled out at scale quickly.
 

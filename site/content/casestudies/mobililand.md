@@ -17,6 +17,8 @@ results:
 features:
   - feature: Gamification
   - feature: Support Partner
+  - feature: Bi-Directional Texting
+  - feature: Survey Administration
 spotlight: 'NO'
 ---
 '

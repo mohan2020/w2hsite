@@ -31,22 +31,6 @@ leadership:
         Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
 engineering:
   member:
-    - name: John Bergandino
-      title: Software Developer
-      twitter: 
-      linkedin: johnbergandino
-      bgpic: /img/bg/photo2.jpg
-      pic: /img/team/bergandino.jpg
-      text: >
-        John is a software developer. He collaborates with the department’s faculty and research staff to build cutting-edge technical features on a multitude of medical research projects. Prior to joining the University of Pennsylvania, John spent 6 months backpacking throughout Australia and a few years working in the Fortune 500 global supply chain industry.
-    - name: Aaron Leitner
-      title: Software Developer
-      twitter: 
-      linkedin: aleitner 
-      bgpic: /img/bg/photo4.jpg
-      pic: /img/team/leitner.jpg
-      text: >
-        Aaron Leitner is a software developer at the Penn Medicine Center for Health Care Innovation. In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor’s degree in environmental studies from Ursinus College and is currently working towards a Master’s in Health Informatics at Drexel University.
     - name: Conor Lydon
       title: Software Developer
       twitter: 
@@ -71,16 +55,16 @@ engineering:
       pic: /img/team/rosenbach.jpg
       text: >
         Ben is a software engineer with a particular passion for web development. He believes it presents the greatest opportunity for new and unique ways of interaction with users. He feels that he is at his dream job because he's constantly challenged to be as creative as possible and also given an opportunity to explore new technologies. He has a bachelors degree in Computer Software Engineering from Drexel University and has worked with multiple organizations in the software development and engineering space.
+    - name: Aaron Leitner
+      title: Software Developer
+      twitter: 
+      linkedin: aleitner 
+      bgpic: /img/bg/photo4.jpg
+      pic: /img/team/leitner.jpg
+      text: >
+        Aaron Leitner is a software developer at the Penn Medicine Center for Health Care Innovation. In this role, Aaron works to improve and maintain the Way to Health platform. Prior to joining the team, Aaron worked for a number of startups specializing in web and mobile development. Aaron received his bachelor’s degree in environmental studies from Ursinus College and is currently working towards a Master’s in Health Informatics at Drexel University.        
 implementation:
   member:
-    - name: Devon Taylor
-      title: Research Operations
-      twitter: devonhtaylor
-      linkedin: devon-taylor-mph-43b8177a
-      bgpic: /img/photos/photo34.jpg
-      pic: /img/team/taylor.jpg
-      text: >
-        Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania.
     - name: Stephanie Brown 
       title: Clinical Operations
       twitter: 
@@ -133,3 +117,20 @@ advisory:
       text: >
         Mitesh is the director of the Penn Medicine Nudge Unit, a faculty member at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics, and a staff physician at the Philadelphia VA Medical Center.  Mitesh is also an assistant professor of medicine at the Perelman School of Medicine and an assistant professor of health care management at the Wharton School at the University of Pennsylvania.<br><br>Mitesh's research leverages concepts from behavioral economics to design connected health approaches to improve individual health behaviors. He has led several randomized, controlled trials that used wearable devices, smartphone applications, and workplace weight scales to track health behaviors.  These studies evaluate interventions designed using financial and social incentives to change health behaviors.  His work also evaluates how information technology-based interventions can be designed to use concepts from behavioral economics change physician behaviors to reduce low-value services and increase the delivery of high-value care.
 ---
+
+    - name: John Bergandino
+      title: Software Developer
+      twitter: 
+      linkedin: johnbergandino
+      bgpic: /img/bg/photo2.jpg
+      pic: /img/team/bergandino.jpg
+      text: >
+        John is a software developer. He collaborates with the department’s faculty and research staff to build cutting-edge technical features on a multitude of medical research projects. Prior to joining the University of Pennsylvania, John spent 6 months backpacking throughout Australia and a few years working in the Fortune 500 global supply chain industry.
+    - name: Devon Taylor
+      title: Research Operations
+      twitter: devonhtaylor
+      linkedin: devon-taylor-mph-43b8177a
+      bgpic: /img/photos/photo34.jpg
+      pic: /img/team/taylor.jpg
+      text: >
+        Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania.        

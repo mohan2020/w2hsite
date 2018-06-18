@@ -72,7 +72,15 @@ implementation:
       bgpic: /img/bg/photo10.jpg
       pic: /img/team/brown.jpeg
       text: >
-        Stephanie is the Way to Health Clinical Operations Specialist at the Center for Health Initiatives and Behavioral Economics. She is responsible for collaborating with clinical project teams to develop protocols geared towards increasing positive clinical outcomes and leads teams. Stephanie has worked in both private and public practice clinical settings addressing health disparities as a program assistant, chronic disease care manager and patient-centered medical home coordinator. <br/> <br/>Stephanie received her bachelor’s degree in psychology, with a minor in biology and corporate and public relations from Drexel University and is currently pursuing a Master’s in Public Health from the University of Pennsylvania.        
+        Stephanie is the Way to Health Clinical Operations Specialist at the Center for Health Initiatives and Behavioral Economics. She is responsible for collaborating with clinical project teams to develop protocols geared towards increasing positive clinical outcomes and leads teams. Stephanie has worked in both private and public practice clinical settings addressing health disparities as a program assistant, chronic disease care manager and patient-centered medical home coordinator. <br/> <br/>Stephanie received her bachelor’s degree in psychology, with a minor in biology and corporate and public relations from Drexel University and is currently pursuing a Master’s in Public Health from the University of Pennsylvania.
+    - name: Neda Khan 
+      title: Research Operations
+      twitter: 
+      linkedin: neda-khan-946672100
+      bgpic: /img/bg/photo12.jpg
+      pic: /img/team/neda.png
+      text: >
+        Neda is a Way to Health Applications Specialist for the Center for Health Initiatives and Behavioral Economics. She works with research teams to design, implement, and support their behavioral health intervention studies on the Way to Health platform. Prior to working with Way to Health, she was a clinical research coordinator under Dr. Peter Reese’s Lab. <br/> <br/>She managed a behavioral health clinical trial to encourage kidney stone patients to drink more water. She received her Bachelor’s degree from Drexel University in Biological Sciences with a minor in Psychology.
 advisory:
   role: Advisory Board
   member:

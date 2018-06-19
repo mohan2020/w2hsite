@@ -14,9 +14,6 @@ authors:
   - authorimage: /img/uploads/Tori.Hilbert.jpg
     authorname: 'Tori Hilbert, MPH, RD'
     authorrole: Operations Manager
-  - authorimage: /img/team/taylor.jpg
-    authorname: 'Devon Taylor, MPH'
-    authorrole: Implementation Lead
 summary: >-
   Gamification designed to leverage insights from behavioral economics offers a
   promising approach to improve daily health behaviors at low cost

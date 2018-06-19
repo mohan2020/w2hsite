@@ -35,7 +35,7 @@ The key question being researched was what incentive models would deliver the hi
 
 This was one of our larger trials and included about 2500 participants. 
 
-<img class="center" src="/img/peng/cvs.study.design.jpg" />
+<img src="/img/peng/cvs.study.design.jpg" width="100%">
 
 **Interventions** - CVS Caremark employees and their relatives and friends were randomly assigned to one of four incentive programs or to usual care for smoking cessation. Two of the incentive programs targeted individuals, and two targeted groups of six participants. One of the individual-oriented programs and one of the group-oriented programs entailed rewards of approximately $800 for smoking cessation; the others entailed refundable deposits of $150 plus $650 in reward payments for successful participants. Usual care included informational resources and free smoking-cessation aids.
 
@@ -54,9 +54,11 @@ This was one of our larger trials and included about 2500 participants.
 
 ## Findings and conclusions
 
+<img src="/img/peng/cvs.cessation.png" width="50%">
+
 2,538 employees of CVS were randomized to rewards vs opportunity to deposit own money and receive match
 
 - Of the 90% were willing to enter a reward program, **17.1%** of those quit
 - Of the 13.7% were willing to put their own money down, **52.3%** of those quit
 
-<img class="center" src="/img/peng/cvs.cessation.png" />
+<!--img class="center" src="/img/peng/cvs.cessation.png" /-->

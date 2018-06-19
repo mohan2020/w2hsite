@@ -36,7 +36,7 @@ In 2014, the **American College of Obstetricians and Gynecologists (ACOG) issued
 
 Heart Safe Motherhood is a novel approach to care delivery that leverages connected health technology and a new role for Obstetrical providers to transform the quality, safety, experience, and cost of care during women’s transition from hospital admission after delivery to home.  The goal of Heart Safe Motherhood is to drive better maternal outcomes, improve the care experience, and reduce the total cost of care for women with pregnancy-related and chronic hypertension in the immediate postpartum period.  Through text-based remote monitoring, Heart Safe motherhood reduces the burden of preeclampsia.
 
-![alt Heart Safe Motherhood Approach](/img/peng/HSM_CareModel.PNG)
+<img src="/img/peng/HSM_CareModel.png" width="100%">
 
 ## Way to Health use
 
@@ -54,7 +54,7 @@ Key Way To Health features used:
 
 ## Results / Outcomes
 
-![alt Heart Safe Motherhood Approach](/img/peng/HSM_Logo.jpg)
+<img src="/img/peng/HSM_Logo.jpg" width="100%">
 
 In 2017, we completed a randomized, controlled trial comparing Heart Safe Motherhood to office visits.  **We found an increase in our ability to meet guidelines in up to 80% of our patients using text messaging.  Readmissions dropped to zero percent among monitored women.**  In addition, women enrolled in the program were more likely to attend their postpartum visit.  Our clinical trial results were [published in BMJ Quality and Safety](http://qualitysafety.bmj.com/content/early/2018/04/26/bmjqs-2018-007837). 
 

@@ -17,6 +17,11 @@ mission:
         Good technology must join not just patient and physician journeys, but also their existing technology, such as legacy EHR systems i.e. be available  in the context of their life and their “workflow”. Tighter integration with EHRs is necessary. Health systems have spent millions deploying and customizing EHRs. They are looking for ways to maximize the ROI. This will be a platform available to all irrespective of the EHR of choice.
 timeline:
   milestones:
+    - date: June 2018
+      icon: line-chart
+      iconcolor: green
+      milestone: 100 study milestone
+      text: Way To Health continues to go from strength to strength. It currently has managed a total of a 101 studies with many more in the pipeline.
     - date: December 2017
       icon: arrow-up
       iconcolor: blue

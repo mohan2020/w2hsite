@@ -12,7 +12,7 @@ mission:
     - title: Successes derived from research should be easily translated into practice
       description: >
         Even as more research and successes are published, its application in the real world still lags as systems and plans don’t quite know how to apply it in their context. THe goal is to reduce the time it takes for interventional research to be applied in specific patient contexts as short as possible. We want to take a leadership position in tactical research and deployment of evidence based research.
-    - title: EHRs should an integral part of any patient or provider engagement strategy
+    - title: EHRs should be an integral part of any patient or provider engagement strategy
       description: >
         Good technology must join not just patient and physician journeys, but also their existing technology, such as legacy EHR systems i.e. be available  in the context of their life and their “workflow”. Tighter integration with EHRs is necessary. Health systems have spent millions deploying and customizing EHRs. They are looking for ways to maximize the ROI. This will be a platform available to all irrespective of the EHR of choice.
 timeline:

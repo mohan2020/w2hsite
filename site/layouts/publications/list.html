@@ -4,6 +4,9 @@
     {{ partial "hero-splash" (dict "imageUrl" "/img/bg/pubs3-min.jpg" "title" "Peer reviewed publications using the Way To Health platform" "subtitle" "Innovative research and evidence based publications" "bgcolor" "") }}
     <div class="bg-white content content-boxed overflow-hidden">
         <br/><br/>
+        {{ $pubs := (where .Data.Pages "Section" "!=" "page") }}
+        {{ $pubcount := len $pubs }}
+        <h3 class="text-uppercase"> {{$pubcount}} publications and counting</h3>
         <section class="content content-boxed overflow-hidden">
 {{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
             <div class="push-50-t push-50">

@@ -7,7 +7,7 @@ authors:
   - authorimage: /img/uploads/kullgren-small_image.jpg
     authorname: 'Jeffrey T. Kullgren, MD, MS, MPH'
     authorrole: Principal Investigator
-  - authorimage: /img/uploads/loewenstein-hi-res1-996x1024.jpg
+  - authorimage: /img/uploads/loewenstein-hi-res1-996x1024-min.jpg
     authorname: 'George Lowenstein, PhD'
     authorrole: Investigator
 summary: >-

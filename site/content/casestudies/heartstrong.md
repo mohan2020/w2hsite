@@ -7,9 +7,9 @@ authors:
   - authorimage: /img/uploads/mehta-300x300.jpg
     authorname: 'Shivan Mehta, MD, MBA, MSHP'
     authorrole: Investigator
-  - authorimage: /img/uploads/asch-david.jpg
-    authorname: 'David Asch, MD, MBA'
-    authorrole: Project Manager
+  - authorimage: /img/uploads/volpp.jpg
+    authorname: 'Kevin Volpp, MD, PhD'
+    authorrole: Investigator
 summary: >-
   Determine whether a system of medication reminders using financial incentives
   and social support delays subsequent vascular events in patients.

@@ -31,8 +31,10 @@
 [[redirects]]
   from = "/userguide"
   to = "https://atlas.waytohealth.upenn.edu/confluence"
-
 [[redirects]]
   from = "http://userguide.waytohealth.org"
+  to = "https://atlas.waytohealth.upenn.edu/confluence"
+[[redirects]]
+  from = "https://userguide.waytohealth.org"
   to = "https://atlas.waytohealth.upenn.edu/confluence"
 

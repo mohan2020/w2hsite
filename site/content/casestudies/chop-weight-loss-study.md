@@ -7,6 +7,9 @@ authors:
   - authorimage: /img/uploads/kullgren-small_image.jpg
     authorname: 'Jeffrey Kullgren, MD, MS, MPH'
     authorrole: Principal Investigator
+  - authorimage: /img/uploads/troxel-hi-res1-292x300.jpg
+    authorname: 'Andrea B. Troxel, ScD'
+    authorrole: Investigator
 summary: >-
   Test Effectiveness of two financial incentive designs for promoting weight
   loss among obese employees

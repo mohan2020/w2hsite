@@ -4,3 +4,29 @@
 
 [context.deploy-preview]
   command = "npm run build-preview"
+
+# Redirects to JIRA service desk
+[[redirects]]
+  from = "/helpdesk"
+  to = "https://waytohealth.atlassian.net/servicedesk"
+[[redirects]]
+  from = "/support"
+  to = "https://waytohealth.atlassian.net/servicedesk"
+
+[[redirects]]
+  from = "http://helpdesk.waytohealth.org"
+  to = "https://waytohealth.atlassian.net/servicedesk"
+[[redirects]]
+  from = "http://support.waytohealth.org"
+  to = "https://waytohealth.atlassian.net/servicedesk"
+
+
+# Redirects to Confluence (server)
+[[redirects]]
+  from = "/userguide"
+  to = "https://atlas.waytohealth.upenn.edu/confluence"
+
+[[redirects]]
+  from = "http://userguide.waytohealth.org"
+  to = "https://atlas.waytohealth.upenn.edu/confluence"
+

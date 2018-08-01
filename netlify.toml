@@ -9,11 +9,13 @@
 [[redirects]]
   from = "/helpdesk"
   to = "https://waytohealth.atlassian.net/servicedesk"
+[[redirects]]
+  from = "/support"
+  to = "https://waytohealth.atlassian.net/servicedesk"
 
 [[redirects]]
   from = "http://helpdesk.waytohealth.org"
   to = "https://waytohealth.atlassian.net/servicedesk"
-
 [[redirects]]
   from = "http://support.waytohealth.org"
   to = "https://waytohealth.atlassian.net/servicedesk"

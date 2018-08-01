@@ -14,7 +14,13 @@
   to = "https://waytohealth.atlassian.net/servicedesk"
 
 [[redirects]]
+  from = "https://helpdesk.waytohealth.org"
+  to = "https://waytohealth.atlassian.net/servicedesk"
+[[redirects]]
   from = "http://helpdesk.waytohealth.org"
+  to = "https://waytohealth.atlassian.net/servicedesk"
+[[redirects]]
+  from = "https://support.waytohealth.org"
   to = "https://waytohealth.atlassian.net/servicedesk"
 [[redirects]]
   from = "http://support.waytohealth.org"

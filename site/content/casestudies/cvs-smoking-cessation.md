@@ -1,28 +1,25 @@
 ---
-title: CVS Smoking Cessation
-date: 2015-05-13
-subdomain: Smoking Cessation
+title: Way to Quit
+date: 2015-05-13T00:00:00.000Z
 area: research
+subdomain: Smoking Cessation
 authors:
   - authorimage: /img/team/halpern.jpg
-    authorname: Scott Halpern, MD, PhD
+    authorname: 'Scott Halpern, MD, PhD'
     authorrole: Principal Investigator
   - authorimage: /img/team/asch.jpg
-    authorname: David Asch, MD, MBA
+    authorname: 'David Asch, MD, MBA'
     authorrole: Principal Investigator
   - authorimage: /img/team/volpp.jpg
-    authorname: Kevin Volpp, MD, PhD
+    authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Principal Investigator
 summary: >-
-  Financial incentives to quit smoking work and even more so when own money is staked. Program rolled out across all CVS employees. 
+  Financial incentives to quit smoking work and even more so when own money is
+  staked. Program rolled out across all CVS employees. 
 results:
   - result: Rewards quit rate - 17.1%
   - result: Personal stake quit rate - 52.3%
 spotlight: true
-keywords:
-  - keyword: Smoking cessation
-  - keyword: incentives
-  - keyword: preventive
 ---
 
 ## Aim and key question

@@ -7,12 +7,9 @@ authors:
   - authorimage: /img/uploads/kuna3683.jpg
     authorname: 'Samuel T. Kuna, MD'
     authorrole: Principal Investigator
-  - authorimage: /img/uploads/volpp.jpg
-    authorname: 'Kevin Volpp, MD, PhD'
-    authorrole: Co-Investigator
-  - authorimage: /img/uploads/asch-david.jpg
-    authorname: 'David Asch, MD, MBA'
-    authorrole: Co-Investigator
+  - authorimage: /img/uploads/luqi_chi.jpg
+    authorname: 'Luqi Chi, MD'
+    authorrole: Investigator
 summary: >-
   Improve adherence and functional outcomes of adults adults with Obstructive
   Sleep Apnea (OSA) using daily Web-based access to their positive airway

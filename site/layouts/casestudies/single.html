@@ -25,6 +25,10 @@
                 <div class="col-sm-8 col-sm-offset-2">
                     <!--h4 class="push-10">The Goal: {{.Params.summary}}</h4-->
                     <p>{{.Content}}</p>
+                    <h4>Publications</h4><br>
+                    {{range .Params.pubs}}
+                    <a href="{{.pubURL}}">{{.pubname}}</a>
+                    {{end}}
                 </div>
             </div>
         </section>

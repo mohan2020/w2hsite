@@ -23,6 +23,11 @@ features:
   - feature: Financial Incentives
   - feature: Text Messaging
 spotlight: true
+pubs:
+  - pubURL: 'https://www.nejm.org/doi/full/10.1056/NEJMsa1715757'
+    pubname: >-
+      A Pragmatic Trial of E-Cigarettes, Incentives, and Drugs for Smoking
+      Cessation
 ---
 ## BACKGROUND
 

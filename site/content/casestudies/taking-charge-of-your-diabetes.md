@@ -6,6 +6,7 @@ subdomain: Diabetes
 authors:
   - authorname: 'Jaya Aysola, MD, DTMH, MPH'
     authorrole: Investigator
+    authorimage: /img/uploads/aysola.jpg
   - authorimage: /img/uploads/troxel-hi-res1-292x300.jpg
     authorname: 'Andrea B. Troxel, ScD'
     authorrole: Investigator

@@ -22,7 +22,7 @@ results:
 features:
   - feature: Financial Incentives
   - feature: Text Messaging
-spotlight: 'NO'
+spotlight: true
 ---
 ## BACKGROUND
 

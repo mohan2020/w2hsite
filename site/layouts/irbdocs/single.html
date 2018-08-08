@@ -1,0 +1,41 @@
+{{ partial "header" .}}
+
+    <!-- Main Container -->
+<main id="about">
+	{{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
+
+    <div class="content bg-white">
+        <section class="content content-boxed">
+            <p class="lead">{{ .Params.introduction }}</p>
+                <div class="block">
+                    <div class="block-content">
+                        <table class="table table-bordered table-striped">
+                            <thead class="text-white" style="background-color: #00b894">
+                                <tr>
+                                    <th>Document Name</th>
+                                    <th style="width: 60%">Intent</th>
+                                    <th>Download Link</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{ with .Params.irb }}
+                                    {{ range .docs }}
+                                    <tr>
+                                        <td>{{.name}}</td>
+                                        <td>{{.description | markdownify}}</td>
+                                        <td><a href="{{.link}}">Word File</a></td>
+                                    </tr>
+                                    {{ end }}
+                                {{ end }}
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+    	</section>
+    </div>
+</main>
+
+{{ partial "footer" .}} 

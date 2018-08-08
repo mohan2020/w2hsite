@@ -2,7 +2,7 @@
 title: Institutional Review Board Documents
 image: 
 bgcolor: "#00b894"
-subtitle: Way To Health spcific documents & templates for IRB submission
+subtitle: Way To Health specific documents & templates for IRB submission
 introduction: All research studies need to submit documentation around the appropriate policies and procedures implemented to protect the rights and welfare of humans participating as subjects in the research. To accomplish this purpose, IRBs use a group process to review research protocols and related materials (e.g., informed consent documents and investigator brochures) to ensure protection of the rights and welfare of human subjects of research. For research studies using the Way To Health platform, we have prepared a set of documents and templates to accompany the submission. 
 irb:
   docs:

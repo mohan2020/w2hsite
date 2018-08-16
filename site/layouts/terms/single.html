@@ -6,7 +6,7 @@
 
     <div class="content bg-white">
         <section class="content content-boxed">
-            <p class="lead">{{ .Params.introduction }}</p>
+            <p class="lead">{{ .Params.introduction | markdownify}}</p>
                 <div class="block">
                     <div class="block-content">
                     <h1 class="h2 w600">WTH Data Security User Agreement</h1><br>

@@ -1,0 +1,36 @@
+{{ partial "header" .}}
+
+    <!-- Main Container -->
+<main id="about">
+	{{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor) }}
+
+    <div class="content bg-white">
+        <section class="content content-boxed">
+            <p class="lead">{{ .Params.introduction }}</p>
+                <div class="block">
+                    <div class="block-content">
+                    <h1 class="h2 w600">WTH Data Security User Agreement</h1><br>
+                    <h2 class=" h3 w600">For Users Managing Participant and Patient Data on the Way to Health Platform</h2><br>
+                    <h3 class="h4 w600">Version: March 14, 2017</h3><br>
+                    <p class="lead">Background</h4>
+                    <p>The Way to Health web-based platform has developed an infrastructure to automate the process of electronic data collection from study participants and patients directly to Way to Health in an efficient and secure manner.The Way to Health platform enables the collection of a variety of participant and patient data including protected health information (PHI) and personal financial information. (Link: What constitutes PHI and personal financial information?)</p><br>
+                    <p>Way to Health users (Project Managers, Research Coordinators, Research Assistants, Statisticians, Clinicians etc.) need access to some or all of the study participant or patient data related to their individual projects.</p>
+                    <p class="lead">Purpose and Scope</p>
+                    <p>The purpose of this Data Security Agreement is to ensure Way to Health users agree to appropriately use, store and protect study participant and patient data, including PHI.  For research studies, the Principal Investigator (PI) assumes ultimate responsibility for use of the data generated through his/her study. In the event that the PI is not an employee of the Penn Medicine or the University of Pennsylvania (“Penn”), the Co-Investigator who is employed at Penn will assume ultimate responsibility for use of the data generated through the study.  Hereafter, the terminology “Responsible Investigator” refers to the PI him/herself or, if the PI is not a Penn employee, the Co-Investigator who is employed at Penn. For clinical projects, the clinical project lead assumes ultimate responsibility for use of the data generated through his/her project.</p><br>
+                    <p class="lead">Agreement for Working with Data in Way to Health</p>
+                    <p>All users of Way to Health must agree to follow University of Pennsylvania policies regarding confidentiality, data integrity, maintenance and transmission of electronic records, including (Link: <a href="https://irb.upenn.edu/sites/default/files/IRBRequirements_PHISecurity_Storage_07252016.pdf">UPenn Electronic Data Protection Requirements for Research Involving the Use of PHI</a>)</p>
+                    <ul>
+                      <li>The Responsible Investigator or clinical project lead will determine which Way to Health users require access to participant or patient data in support of various roles and functions. The Responsible Investigator or clinical project lead will ensure that all Way to Health users who are given access to Way to Health data are current with HIPAA Training and all required Human Subjects and Good Clinical Practice trainings. If a research study is involved, all Way to Health users must be approved research staff in the IRB protocol.</li>
+                      <li>Way to Health users may only access Way to Health data in connection with the research or clinical project that they are involved in. Use of Way to Health data for personal purposes is prohibited.  All downloaded data from Way to Health that contains PHI or other protected personal information must be stored on approved secure servers with file encryption, or if necessary and approved by the Responsible Investigator or clinical project lead, onto an approved, appropriately encrypted and password protected computer/laptop or other drive to ensure data security.</li>
+                      <li>Note that Penn Medicine Information Security can provide encrypted USB/flash drives if approved by the Responsible Investigator or clinical project lead.  If users need to access Way to Health data off site, they will need to use a VPN service to remotely and securely access their secure shared drives at work.  Way to Health data cannot be emailed or shared unless using an encrypted email server, through an approved secure share service (such as Secure Share service at Penn) or a secure ftp site.  Way to Health data cannot be shared unless the person with whom the data is to be shared has the authority to receive it under HIPAA and, for research uses, as approved by the IRB and has agreed in writing to be bound by the terms of this Agreement.</li>
+                      <li>Way to Health users must not share their log-in credentials with another person.  Way to Health users are responsible for any action taken with their user ID and password such as inappropriate access to records.   Way to Health users must immediately notify the Responsible Investigator, clinical project lead, in writing of any use of Way to Health data that is inconsistent with the terms above of which they become aware.</li>
+                      <li>Please note that the Qualtrics Survey Builder is not HIPAA compliant. If the Qualtrics Survey Builder is used within Way to Health, you cannot use Qualtrics Survey Builder to collect PHI. Please refer to the <a href="https://www.med.upenn.edu/pmacswebteam/qualtrics.html">PMACS Qualtrics guidelines</a> for more details.</li>
+                    </ul> <br>
+                    <p>It is the responsibility of each Way To Health user to ensure that all data, even if deidentified, are treated with the security standards and safeguards required by the Penn Medicine and Good Clinical Practice.</p>
+                    </div>
+                </div>
+    	</section>
+    </div>
+</main>
+
+{{ partial "footer" .}} 

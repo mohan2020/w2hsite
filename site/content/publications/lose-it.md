@@ -3,7 +3,7 @@ title: LOSE-IT
 articlename: >-
   Social Incentives and Gamification to Promote Weight Loss: The LOSE IT
   Randomized, Controlled Trial
-date: '2018-08-16'
+date: '2018-07-12'
 summary: >-
   Using digital health devices to track behavior with a partner led to
   significant weight loss through 36 weeks, but the gamification interventions

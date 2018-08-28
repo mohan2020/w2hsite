@@ -3,7 +3,6 @@ title: Be Fit
 date: 2017-11-13T00:00:00.000Z
 area: research
 subdomain: Activity Gamification
-otherdomains: Cardio, Wellness
 authors:
   - authorimage: /img/team/patel.jpg
     authorname: 'Mitesh Patel, MD, MBA, MS'
@@ -21,6 +20,12 @@ results:
   - result: Increased activity achievement by 50%
   - result: Post study activity increased by 27%
 spotlight: true
+pubs:
+  - pubURL: 'http://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2655242'
+    pubname: >-
+      Effect of a Game-Based Intervention Designed to Enhance Social Incentives
+      to Increase Physical Activity Among Families The BE FIT Randomized
+      Clinical Trial
 ---
 
 ## Aim and key question

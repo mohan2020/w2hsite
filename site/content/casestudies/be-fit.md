@@ -28,13 +28,13 @@ pubs:
       Clinical Trial
 ---
 
-## Aim and key question
+## Aim and Key Question
 
 Gamification, the application of game design elements such as points and levels in nongame contexts, is often used in digital health interventions, but evidence on its effectiveness is limited. 
 
 Does gamification, the application of game design elements such as points and levels in nongame contexts, that uses insights from behavioral economics to enhance social incentives increase physical activity among families in the community? The objective of the study was to test the effectiveness of a gamification intervention designed using insights from behavioral economics to enhance social incentives within families to increase physical activity.
 
-## Intervention and design
+## Intervention and Design
 
 The Behavioral Economics Framingham Incentive Trial (BE FIT) was a randomized clinical trial with a 12-week intervention period and a 12-week follow-up period. The investigation was a community-based study between December 7, 2015, and August 14, 2016. Participants in the modified intent-to-treat analysis were adults enrolled in the Framingham Heart Study, a long-standing cohort of families.
 
@@ -42,7 +42,7 @@ The Behavioral Economics Framingham Incentive Trial (BE FIT) was a randomized cl
 
 **Main Outcomes and Measures** - The primary outcome was the proportion of participant-days that step goals were achieved during the intervention period. Secondary outcomes included the proportion of participant-days that step goals were achieved during the follow-up period and the change in the mean daily steps during the intervention and follow-up periods.
 
-## Way to Health use
+## Way to Health Use
 
 - **Study Enrollment**: Enroll and randomize participants across the study arms
 
@@ -53,7 +53,7 @@ The Behavioral Economics Framingham Incentive Trial (BE FIT) was a randomized cl
 - **Gamification**: Award points and levels
 
 
-## Findings and conclusions
+## Findings and Conclusions
 
 In this randomized clinical trial of 200 adults comprising 94 families, participants in the gamification arm had significantly greater physical activity during the 12-week intervention than participants in the control arm, including the proportion of days that step goals were achieved and the change in the mean daily steps.
 

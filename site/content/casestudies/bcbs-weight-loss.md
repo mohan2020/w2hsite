@@ -46,7 +46,7 @@ The study conducted a 36-week parallel design randomized trial (24 intervention 
 
 **Main Outcomes and Measures** - The primary outcome measure was weight loss after 24 weeks. The main secondary outcome measure was participation in deposit contracts. Other secondary outcomes included weight loss at 36 weeks (ie, 12 weeks after deposit contract opportunities ended) and changes in potential mediators of weight loss such as physical activity, eating behaviors, and participation in weight-related wellness programs from baseline to primary outcome measurement at 24 weeks. 
 
-## Way to Health Use:
+## Way to Health Use
 
 - **Study Enrollment and Block Stratification Randomization**: Enroll participants across all study arms through block stratification randomization
 
@@ -56,7 +56,7 @@ The study conducted a 36-week parallel design randomized trial (24 intervention 
 
 - **Deposit Contracts**: Collect deposits from participants
 
-## Findings and Conclusions:
+## Findings and Conclusions
 
 Among participants eligible to make deposits, 29% made ≥1 deposit and matching did not increase participation. At 24 weeks, control participants gained an average of 1.0 pound, whereas 1:1 match participants lost an average of 5.3 pounds (P = .005). After 36 weeks, control participants gained an average of 2.1 pounds, whereas no match participants lost an average of 5.1 pounds (P = .008).
 

@@ -19,6 +19,11 @@ features:
   - feature: Financial Incentive
   - feature: Peer Mentor
 spotlight: 'NO'
+pubs:
+  - pubURL: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475415/'
+    pubname: >-
+      Peer Mentoring and Financial Incentives to Improve Glucose Control in
+      African American Veterans: A Randomized, Controlled Trial
 ---
 ## Background
 

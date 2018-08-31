@@ -1,5 +1,5 @@
 ---
-title: Merck PROMOTE and Support Study
+title: Merck Promote and Support
 date: '2016-04-01'
 area: research
 subdomain: Cholesterol

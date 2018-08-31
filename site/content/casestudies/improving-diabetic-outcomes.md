@@ -35,6 +35,8 @@ Aim was to determine whether peer mentors or financial incentives are superior t
 
 A six month randomized controlled trial with a patient population of African American veterans, age 50-70 years old, with persistently poor diabetes control.
 
+![](/img/uploads/nihms-410510-f0001.jpg)
+
 **Intervention** - 118 participants were randomized to one of the three arms. Usual care participants were notified of their starting HbA1c and recommended goals for HbA1c. Those in the peer mentor arm were assigned a peer mentor who formerly had poor glycemic control but now had good control (HbA1c < 7.5%) who was asked to talk with the participant at least once a week. Peer mentors were matched on race, sex, and age. Those in the financial incentive arm could earn $100 by dropping their HbA1c by one point and $200 by dropping it by two points or to a HbA1c of 6.5%.
 
 **Main Outcomes and Measures** - Primary pre-specified outcome was change in assessed HbA1c with treatment assignments as randomized and incorporating all available data. When available, HbA1c values drawn during routine clinical practice and within 30 days of the intended study end date were used for patients who missed their study follow-up appointment: otherwise we imputed follow-up values.
@@ -45,7 +47,7 @@ A six month randomized controlled trial with a patient population of African Ame
 
 - **Financial Incentives**: Provide financial incentives to participants for adherent behavior
 
-- **Support Partners**: Provide peer mentors to participants for behavior reinforcment
+- **Support Partners**: Provide peer mentors to participants for behavior reinforcement
 
 ## Findings and Conclusion
 

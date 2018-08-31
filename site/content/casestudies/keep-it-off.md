@@ -25,6 +25,12 @@ features:
   - feature: Financial incentives
   - feature: Lottery
 spotlight: 'NO'
+pubs:
+  - pubURL: >-
+      http://journals.sagepub.com/doi/abs/10.1177/1740774516669679?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed&
+    pubname: >-
+      The Design and Conduct of Keep It Off: An Online Randomized Trial of
+      Financial Incentives for Weight-Loss Maintenance
 ---
 ## Background
 

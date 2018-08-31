@@ -40,15 +40,12 @@ Two randomized controlled pilot trials called PROMOTE and SUPPORT. Participants 
 
 ## Way to Health Use
 
-- **Study Enrollment**: Enroll and randomize participants in the study
+* **Study Enrollment**: Enroll and randomize participants in the study
+* **Device Integration**: Collect data from wireless pill bottles
+* **Survey Administration**: Administer and collect survey responses
+* **Support Partners**: Provide participants with support partners for reinforcement
 
-- **Device Integration**: Collect data from wireless pill bottles
-
-- **Survey Administration**: Administer and collect survey responses
-
-- **Support Partners**: Provide participants with support partners for reinforcement
-
-![](/img/uploads/11606_2015_3540_fig1_html.gif)
+![null](/img/uploads/11606_2015_3540_fig1_html-1-.gif)
 
 ## Findings and Conclusions
 

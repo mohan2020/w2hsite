@@ -1,25 +1,36 @@
 ---
 title: Way To Heart Health
-date: 2015-11-10
-subdomain: Cardiovascular Disease Management
+date: 2015-11-10T00:00:00.000Z
 area: research
+subdomain: Cardiovascular Disease Management
 authors:
   - authorimage: /img/team/asch.jpg
-    authorname: David Asch, MD, MBA
+    authorname: 'David Asch, MD, MBA'
     authorrole: Principal Investigator
   - authorimage: /img/team/volpp.jpg
-    authorname: Kevin Volpp, MD, PhD
+    authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Principal Investigator
 summary: >-
-  Shared physician and patient incentives are more effective in reducing levels of low-density lipoprotein cholesterol (LDL-C) among patients with high CVD risk.
+  Shared physician and patient incentives are more effective in reducing levels
+  of low-density lipoprotein cholesterol (LDL-C) among patients with high CVD
+  risk.
 results:
   - result: Reduced LDL-C by 33%
   - result: Aligned patient and provider incentives
 spotlight: true
-keywords:
-  - keyword: CVD
-  - keyword: incentives
-  - keyword: primary care
+pubs:
+  - pubURL: 'http://jamanetwork.com/journals/jama/fullarticle/2468891'
+    pubname: >-
+      Effect of Financial Incentives to Physicians, Patients, or Both on Lipid
+      Levels
+  - pubURL: 'http://www.sciencedirect.com/science/article/pii/S221307641630001X'
+    pubname: >-
+      Physician Attitudes Toward Participating in a Financial Incentive Program
+      for LDL Reduction are Associated with Patient Outcomes
+  - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/28817301'
+    pubname: >-
+      Patients' Views of a Behavioral Intervention including Financial
+      Incentives
 ---
 
 ## Aim and key question

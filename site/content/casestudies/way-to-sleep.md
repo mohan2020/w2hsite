@@ -50,9 +50,11 @@ One hundred thirty-eight adults with newly diagnosed OSA starting PAP treatment 
 
 ## Way to Health Use
 
-* **Study Enrollment**: Enroll and randomize participants in the study
-* **Device Integration**: Collect data from participants' medical-device
-* **Survey Administration**: Administer and collect survey responses
+- **Study Enrollment**: Enroll and randomize participants in the study
+
+- **Device Integration**: Collect data from participants' medical-device
+
+- **Survey Administration**: Administer and collect survey responses
 
 ## Findings and Conclusions
 

@@ -1,5 +1,5 @@
 ---
-title: CHOP Weight Loss Study
+title: CHOP Weight Loss
 date: '2014-04-22'
 area: research
 subdomain: Obesity

@@ -15,12 +15,8 @@ summary: >-
   incentive, and control of daily feedback without any incentive for weight-loss
   maintenance.
 results:
-  - result: >-
-      Pragmatic designs can be implemented successfully to evaluate
-      interventions to achieve or maintain weight loss
-  - result: >-
-      Integrated recruitment, enrollment, and follow-up procedures into a
-      digital platform that required little staff effort to implement and manage
+  - result: ' 12% of candidates created an account on the study website'
+  - result: Yielded 191 randomized participants
 features:
   - feature: Financial incentives
   - feature: Lottery

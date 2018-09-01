@@ -2,7 +2,7 @@
 title: Way to Be Active - UPenn
 date: '2016-03-15'
 area: research
-subdomain: Obesity
+subdomain: Physical Activity
 authors:
   - authorimage: /img/uploads/pate4085.jpg
     authorname: 'Mitesh S. Patel, MD, MBA, MS'

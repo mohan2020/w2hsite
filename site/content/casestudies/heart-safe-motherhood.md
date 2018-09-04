@@ -1,29 +1,36 @@
 ---
 title: Heart Safe Motherhood
-date: 2017-01-04
+date: 2017-01-04T00:00:00.000Z
+area: clinical
 subdomain: Pre-eclampsia
-area: clinical 
-summary: >-
-  Reduce 7-day readmissions for hypertension among postpartum women and creating a national leadership model to meet ACOG guidelines
 authors:
-  - authorname: Sindhu Srinivas, MD, MSCE
-    authorimage: /img/team/srinivas.jpg
+  - authorimage: /img/team/srinivas.jpg
+    authorname: 'Sindhu Srinivas, MD, MSCE'
     authorrole: Clinical Lead
-  - authorname: Adi Hirshberg, MD
-    authorimage: /img/uploads/hirshberg_adi.jpg
+  - authorimage: /img/uploads/hirshberg_adi.jpg
+    authorname: 'Adi Hirshberg, MD'
     authorrole: Co-Clinical Lead
-  - authorname: Katy Mahraj, MSI
-    authorimage: /img/team/mahraj.jpg
+  - authorimage: /img/team/mahraj.jpg
+    authorname: 'Katy Mahraj, MSI'
     authorrole: Innovation Manager
+summary: >-
+  Reduce 7-day readmissions for hypertension among postpartum women and creating
+  a national leadership model to meet ACOG guidelines
 results:
   - result: Increased guideline adherence by 80%
   - result: Reduced 7 day readmission by 80%
-spotlight: true
 features:
   - feature: 2 way texting
   - feature: Blood pressure cuff
   - feature: Automated alerts
   - feature: Epic integration
+spotlight: true
+pubs:
+  - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/29703800'
+    pubname: >-
+      Comparing standard office-based follow-up with text-based remote
+      monitoring in the management of postpartum hypertension: a randomised
+      clinical trial.
 ---
 
 ## The Challenge

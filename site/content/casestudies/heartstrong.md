@@ -32,6 +32,10 @@ pubs:
     pubname: >-
       Rationale and Design of a Randomized Trial of Automated Hovering for
       Post-Myocardial Infarction Patients: The HeartStrong Program
+  - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/30045159'
+    pubname: >-
+      Comparison of Pharmacy Claims and Electronic Pill Bottles for Measurement
+      of Medication Adherence Among Myocardial Infarction Patients
 ---
 ## Background and Aim 
 

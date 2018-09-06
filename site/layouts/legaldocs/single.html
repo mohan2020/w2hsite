@@ -1,0 +1,34 @@
+{{ partial "header" . }}
+
+<main id="main-container">    
+    <div class="bg-image" style="background-image: url('{{.Params.image}}')">
+        <br/><br/>
+        <section class="content content-boxed overflow-hidden">
+            <div class="push-150-t push-50 text-center">
+                <h1 class="text-white push-10">{{.Params.title}}</h1>
+            </div>   
+            <div class="row items-push-2x text-center" style="display: flex; justify-content: space-between;">
+                <div class="col-sm-4">
+                    <img class="img-avatar img-avatar-thumb" src="{{.Params.authorimage}}" alt="">
+                    <div class="h4 text-white-op push-10-t push-5">{{.Params.authorname}}</div>
+                </div>           
+            </div>
+        </section>
+    </div>
+    <!-- Story Content -->
+    <div class="bg-white">
+        <section class="content content-boxed">
+            <!-- Section Content -->
+            <div class="row push-50-t push-50 nice-copy-story">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h4 class="push-10">{{.Params.summary}}</h4>
+                    <p>{{.Content}}</p>
+                </div>
+            </div>
+            <!-- END Section Content -->
+        </section>
+    </div>
+    <!-- END Story Content -->    
+</main>
+
+{{ partial "footer" . }}

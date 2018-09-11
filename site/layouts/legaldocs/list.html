@@ -1,4 +1,4 @@
-{{ partial "header" . }}
+<!-- {{ partial "header" . }}
 
 <main id="blog">
     {{ partial "hero-splash" (dict "imageUrl" "/img/bg/book.jpg" "title" "Legal" "subtitle" "Terms and Conditions governing the access and use of Way To Health" "bgcolor" "") }}
@@ -7,35 +7,30 @@
         <br/><br/>
         <section class="content content-boxed">
 {{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
-            <!-- List Content -->
-                <!-- Section Content -->
                 <div class="push-50-t push-50">
                     <div class="row">
-                            <!-- Story -->
-                            <div class="block">
-                                <div class="block-content">
-                                    <div class="row items-push">
-                                        <div class="col-md-4">
-                                            <a href="{{.Permalink}}">
-                                            <img class="img-responsive" src="{{.Params.image}}" alt="">
-                                            </a>
-                                        </div> 
-                                        <div class="col-md-8">
-                                            <div class="font-s12 push-10">
-                                                <em class="pull-right">10 min</em>
-                                                By {{.Params.authorname}} on {{ .Date.Format "Mon Jan 2, 2006" }}
-                                            </div>
-                                            <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Permalink}}">{{.Params.title}}</a></h4>
-                                            <p class="push-20">{{.Params.summary}}</p>
-                                            <div class="btn-group btn-group-sm">
-                                                <!--a class="btn btn-default" href="javascript:void(0)"><i class="fa fa-share-alt push-5-r"></i> Share</a-->
-                                                <a class="btn btn-default" href="{{.Permalink}}">Continue Reading..</a>
-                                            </div>
+                        <div class="block">
+                            <div class="block-content">
+                                <div class="row items-push">
+                                    <div class="col-md-4">
+                                        <a href="{{.Permalink}}">
+                                        <img class="img-responsive" src="{{.Params.image}}" alt="">
+                                        </a>
+                                    </div> 
+                                    <div class="col-md-8">
+                                        <div class="font-s12 push-10">
+                                            <em class="pull-right">10 min</em>
+                                            By {{.Params.authorname}} on {{ .Date.Format "Mon Jan 2, 2006" }}
+                                        </div>
+                                        <h4 class="text-uppercase push-10"><a class="text-primary-dark" href="{{.Permalink}}">{{.Params.title}}</a></h4>
+                                        <p class="push-20">{{.Params.summary}}</p>
+                                        <div class="btn-group btn-group-sm">
+                                            <a class="btn btn-default" href="{{.Permalink}}">Continue Reading..</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- END Story -->
+                        </div>
                     </div>
                 </div>
 {{ end }} 
@@ -45,4 +40,42 @@
     </div>
 </main>
 
-{{ partial "footer" . }}
+{{ partial "footer" . }} -->
+
+
+{{ partial "header" .}}
+
+    <!-- Main Container -->
+<main id="about">
+    {{ partial "hero-splash" (dict "imageUrl" "/img/bg/book.jpg" "title" "Legal" "subtitle" "Terms and Conditions governing the access and use of Way To Health" "bgcolor" "") }}
+
+    <div class="content bg-white">
+        <section class="content content-boxed">
+            <p class="lead">Test Legal Docs</p>
+                <div class="block">
+                    <div class="block-content">
+                        <table class="table table-bordered table-striped">
+                            <thead class="text-white" style="background-color: #00b894">
+                                <tr>
+                                    <th>Document Name</th>
+                                    <th style="width: 60%">Description</th>
+                                    <th>Last Updated</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+{{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
+                                    <tr>
+                                        <td><a href="{{ .Params.link }}" target="_blank">{{.Params.title}}</a></td>
+                                        <td>{{.Params.summary}}</td>
+                                        <td>{{ .Date.Format "Jan 2, 2006" }}</td>
+                                    </tr>
+{{ end }}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+        </section>
+    </div>
+</main>
+
+{{ partial "footer" .}} 

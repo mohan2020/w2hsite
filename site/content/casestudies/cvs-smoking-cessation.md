@@ -20,6 +20,19 @@ results:
   - result: Rewards quit rate - 17.1%
   - result: Personal stake quit rate - 52.3%
 spotlight: true
+pubs:
+  - pubURL: 'http://www.nejm.org/doi/full/10.1056/NEJMoa1414293#t=article'
+    pubname: >-
+      Randomized Trial of Four Financial-Incentive Programs for Smoking
+      Cessation
+  - pubURL: 'http://www.atsjournals.org/doi/full/10.1164/rccm.201601-0108OC'
+    pubname: >-
+      Heterogeneity in the Effects of Reward- and Deposit-based Financial
+      Incentives on Smoking Cessation
+  - pubURL: 'https://link.springer.com/article/10.1007%2Fs10865-017-9868-5'
+    pubname: >-
+      Time to Selected Quit Date and Subsequent Rates of Sustained Smoking
+      Abstinence
 ---
 
 ## Aim and key question

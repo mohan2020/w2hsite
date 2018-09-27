@@ -7,17 +7,14 @@ authors:
   - authorimage: /img/uploads/17goug3o_400x400.jpeg
     authorname: 'Scott D. Halpern, MD, PhD'
     authorrole: Investigator
-  - authorimage: /img/uploads/harhay-michael200x200.jpg
-    authorname: 'Michael O. Harhay, PhD, MPH'
+  - authorimage: /img/uploads/volpp.jpg
+    authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Investigator
 summary: >-
   Financial incentives, pharmacologic therapies, and electronic cigarettes
   (e-cigarettes) to promote smoking cessation
 results:
-  - result: >-
-      Sustained abstinence rates were 0.1% in the usual-care group, 0.5% in the
-      free cessation aids group, 1.0% in the free e-cigarettes group, 2.0% in
-      the rewards group, and 2.9% in the redeemable deposit group
+  - result: Large scale pragmatic trial using opt-out for enrollment
   - result: Redeemable deposits and rewards were superior to free cessation aids
 features:
   - feature: Financial Incentives

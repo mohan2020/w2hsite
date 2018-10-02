@@ -46,7 +46,7 @@
 {{ partial "header" .}}
 
     <!-- Main Container -->
-<main id="about">
+<main id="legal">
     {{ partial "hero-splash" (dict "imageUrl" "/img/bg/book.jpg" "title" "Legal" "subtitle" "Terms and Conditions governing the access and use of Way To Health" "bgcolor" "") }}
 
     <div class="content bg-white">
@@ -65,7 +65,7 @@
                             <tbody>
 {{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
                                     <tr>
-                                        <td><a href="{{ .Params.link }}" target="_blank">{{.Params.title}}</a></td>
+                                        <td><a href="{{ .Permalink }}">{{.Params.title}}</a></td>
                                         <td>{{.Params.summary}}</td>
                                         <td>{{ .Date.Format "Jan 2, 2006" }}</td>
                                     </tr>

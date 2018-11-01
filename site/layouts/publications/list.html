@@ -8,7 +8,7 @@
         {{ $pubcount := len $pubs }}
         <h3 class="text-uppercase"> {{$pubcount}} publications and counting</h3>
         <section class="content content-boxed overflow-hidden">
-{{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
+{{ range (where .Data.Pages "Section" "!=" "page") }}
             <div class="push-50-t push-50">
                 <div class="row">
                     <div class="block">
@@ -27,7 +27,7 @@
                 </div>
             </div>
 {{ end }} 
-{{ template "_internal/pagination.html" . }}
+<!-- {{ template "_internal/pagination.html" . }} -->
         </section>
     </div>
 </main>

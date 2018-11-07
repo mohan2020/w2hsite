@@ -17,6 +17,15 @@ datasources:
     - name: Fitbit
       logo: /img/devices/fitbit.png
       domains: activity sleep
+    - name: Epic
+      logo: /img/devices/epic.png
+      domains: ehr
+    - name: SMS
+      logo: /img/devices/sms.jpg
+      domains: bp glucose medadherence
+    - name: MMS
+      logo: /img/devices/mms.png
+      domains: bp glucose medadherence
     - name: Misfit
       logo: /img/devices/misfit.png
       domains: activity sleep
@@ -29,13 +38,4 @@ datasources:
     - name: Adheretech
       logo: /img/devices/AdhereTechLogo.png
       domains: medadherence
-    - name: Epic
-      logo: /img/devices/epic.png
-      domains: ehr
-    - name: SMS
-      logo: /img/devices/sms.jpg
-      domains: bp glucose medadherence
-    - name: MMS
-      logo: /img/devices/mms.png
-      domains: bp glucose medadherence
 ---

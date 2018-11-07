@@ -11,8 +11,8 @@ datasources:
     - name: iHealth
       logo: /img/devices/ihealth.png
       domains: glucose
-    - name: Nokia
-      logo: /img/devices/nokia.png
+    - name: Withings
+      logo: /img/devices/logo_withings_black.png
       domains: weight activity bp sleep
     - name: Fitbit
       logo: /img/devices/fitbit.png

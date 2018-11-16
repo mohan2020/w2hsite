@@ -3,7 +3,7 @@ title: ADAPT-ing Way To Health
 date: 2018-05-03
 summary: >-
   Way to Health has been used to test the effectiveness of patient financial incentives in improving outcomes in a variety of health contexts. Now, many of the functions deployed in those studies, including text messaging, will be used by researchers for PENN’s National Institute of Advanced Laboratories for Accelerating the Reach and Impact of Treatments for Youth and Adults with Mental Illness (ALACRITY) Center. Read on to understand how texting and other functions of Way to Health will be deployed in research among patients newly diagnosed with depression.        
-image: /img/bg/adapt.png
+image: /img/bg/adapt.jpg
 authorname: Mohan Balachandran
 authorimage: /img/team/balachandran.png
 ---

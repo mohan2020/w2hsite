@@ -25,10 +25,11 @@
 {{ partial "header" . }}
 
 <main id="blog">
-    {{ partial "hero-splash" (dict "imageUrl" "/img/bg/change.jpg" "title" "The Academy for Behavioral Change" "subtitle" "Patient engagement and behavioral change is difficult. Learn the ABCs from experts in the field." "bgcolor" "#140f0b") }}
+    {{ partial "hero-splash" (dict "imageUrl" "/img/bg/change.jpg" "title" "The Academy for Behavioral Change" "subtitle2" "Learn the ABCs from experts in the field." "bgcolor" "#140f0b") }}
 
     <div class="bg-white">
         <br/><br/>
+        <h3 class="text-center push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown"> Behavioral Economics In Real Life #BEIRL</h3>
         <section class="content content-boxed">
 {{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
             <!-- List Content -->

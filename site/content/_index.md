@@ -52,7 +52,7 @@ stats:
     - title: Patients Engaged
       metric: 54000
     - title: Peer Reviewed Publications
-      metric: 40
+      metric: 50
 customers:
   title: TRUSTED BY LEADING RESEARCH AND CLINICAL ORGANIZATIONS
   logos:

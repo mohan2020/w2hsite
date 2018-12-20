@@ -3,7 +3,6 @@ title: BE 102 - Status quo bias in decision making (Part 1)
 date: 2018-12-10
 summary: >-
   rational decision making in the presence of transition costs or uncertainty, cognitive misperceptions, psych commitments stemming from misperceived sunk costs, regret avoidance, drive for consistency.
-Example  from Neal Stephenson book re operating systems. - sunk costs / transition costs  
 image: /img/uploads/bshock.jpg
 authorname: Mohan Balachandran
 authorimage: /img/team/balachandran.png

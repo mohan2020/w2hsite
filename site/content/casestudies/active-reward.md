@@ -33,6 +33,7 @@ pubs:
 Regular physical activity reduces the risk of cardiovascular events, but most ischemic heart disease (IHD) patients do not obtain enough. ACTIVE REWARD (A Clinical Trial Investigating Effects of a Randomized Evaluation of Wearable Activity Trackers with Financial Rewards) aims to improve cardiac outcomes after heart attacks and cardiac stent placements through the use of financial incentives and a wearable sleep and step tracking device.
 
 ## Intervention and Design
+
 Active Reward was a 24-week home-based, remotely monitored, randomized trial with a 16-week intervention (8-week ramp-up incentive phase and 8-week maintenance incentive phase) and an 8-week follow-up. Patients used wearable devices to track step counts and establish a baseline. 
 
 **Intervention** - Patients in control received no other interventions. Patients in the incentive arm received personalized step goals and daily feedback for all 24 weeks. In the ramp-up incentive phase, daily step goals increased weekly by 15% from baseline with a maximum of 10 000 steps and then remained fixed. Each week, $14 was allocated to a virtual account; $2 could be lost per day for not achieving step goals. 
@@ -41,14 +42,14 @@ Active Reward was a 24-week home-based, remotely monitored, randomized trial wit
 
 ## Way to Health Use
 
-- **Study Enrollment**: Enroll and randomize participants in the study
-
-- **Device Integration**: Collect data from participants' pedometers
-
-- **Financial Incentives**: Provide participants with incentives for meeting step goals
-
+* **Study Enrollment**: Enroll and randomize participants in the study
+* **Device Integration**: Collect data from participants' pedometers
+* **Financial Incentives**: Provide participants with incentives for meeting step goals
 
 ## Findings and Conclusions
-Compared with control, patients in the incentive arm had a significantly greater increase in mean daily steps from baseline during ramp-up (1388 versus 385; adjusted difference, 1061 [95% confidence interval, 386-1736]; P<0.01), maintenance (1501 versus 264; adjusted difference, 1368 [95% confidence interval, 571-2164]; P<0.001), and follow-up (1066 versus 92; adjusted difference, 1154 [95% confidence interval, 282-2027]; P<0.01).
+
+![Incentive vs. control arm](/img/uploads/activereward.png)
+
+Compared with control, patients in the incentive arm had a significantly greater increase in mean daily steps from baseline during ramp-up (1388 versus 385; adjusted difference, 1061 \[95% confidence interval, 386-1736]; P<0.01), maintenance (1501 versus 264; adjusted difference, 1368 \[95% confidence interval, 571-2164]; P<0.001), and follow-up (1066 versus 92; adjusted difference, 1154 \[95% confidence interval, 282-2027]; P<0.01).
 
 Loss-framed financial incentives with personalized goal setting significantly increased physical activity among ischemic heart disease patients using wearable devices during the 16-week intervention, and effects were sustained during the 8-week follow-up.

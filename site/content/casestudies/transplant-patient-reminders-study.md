@@ -20,7 +20,7 @@ results:
 features:
   - feature: Pill-Bottle Device Configuration
   - feature: Automated Message Reminders
-spotlight: 'NO'
+spotlight: 'false'
 pubs:
   - pubURL: 'http://www.sciencedirect.com/science/article/pii/S0272638616305972'
     pubname: >-

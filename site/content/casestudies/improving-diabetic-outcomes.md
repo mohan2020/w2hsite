@@ -18,7 +18,7 @@ results:
 features:
   - feature: Financial Incentive
   - feature: Peer Mentor
-spotlight: 'NO'
+spotlight: 'false'
 pubs:
   - pubURL: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475415/'
     pubname: >-

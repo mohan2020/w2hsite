@@ -6,7 +6,7 @@
             <a class="block text-center block-rounded block-bordered" href="{{.Permalink}}">
                 <div class="block-header bg-success"> 
             {{ else }}
-            <a class="block text-center block-bordered" href="javascript:void(0)">
+            <a class="block text-center block-bordered">
                 <div class="block-header bg-primary">  
             {{ end }}
                     <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
@@ -44,7 +44,9 @@
                             {{ end }}
                         </tbody>
                     </table>
+                    {{ if .Params.spotlight}}                    
                     <p class="btn btn-rounded btn-noborder btn-sm btn-success">View Details</p>
+                    {{ end }}
                 </div>
             </a>
         </div>

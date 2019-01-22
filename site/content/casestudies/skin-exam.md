@@ -15,8 +15,7 @@ summary: >-
   body photography (TBP) to increase skin self-examination (SSE) rates and pilot
   the effectiveness of examination reminders and accountability partners.
 results:
-  - result: SSE rates increased significantly from 58% at baseline to 83% at 6 months
-  - result: No SSE rates' difference among the intervention groups
+  - result: SSE rates increased from 58% to 83% at 6 months in intervention groups
 features:
   - feature: Text Reminders
   - feature: Support Partners

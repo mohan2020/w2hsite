@@ -16,8 +16,8 @@ results:
   - result: Ongoing Study
 features:
   - feature: Device Integrations
-  - feature: Patient Reported Outcomes
-  - feature: Financial Incentives
+  - feature: Gamification
+  - feature: Social & Financial Incentives
 spotlight: false
 pubs:
 ---

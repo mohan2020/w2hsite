@@ -3,6 +3,7 @@ title: VA Osteoarthritis - Physical Activity
 date: '2018-07-30'
 area: inprogress
 subdomain: Medication Adherence
+status: Active
 authors:
   - authorimage: /img/uploads/bake7292.jpg
     authorname: 'Joshua F. Baker, MD'
@@ -11,12 +12,12 @@ authors:
     authorname: 'Neda kHan, MS'
     authorrole: Implementation Lead
 summary: >-
-  Randomized crossover trial of different types of intra-articular injections in osteoarthritic patients. Way To Health to be used to monitor physical activity and patient-reported outcomes over 3 months after each injection. Financial incentives will also be used to promote adherence to the completion of the patient-reported outcomes.
+  Randomized crossover trial of different types of intra-articular injections in osteoarthritic patients. Monitor physical activity and patient-reported outcomes over 3 months after each injection. Financial incentives will also be used to promote adherence to the completion of the patient-reported outcomes.
 results:
-  - result: Ongoing Study
+  - result:
 features:
   - feature: Device Integrations
-  - feature: Patient Reported Outcomes
+  - feature: Surveys & 2-way texting
   - feature: Financial Incentives
 spotlight: false
 pubs:

@@ -4,10 +4,10 @@ date: '2016-01-01'
 area: research
 subdomain: Obesity
 authors:
-  - authorimage: /img/uploads/pate4085.jpg
+  - authorimage: /img/team/Mitesh_0.jpg
     authorname: 'Mitesh S. Patel, MD, MBA, MS'
     authorrole: Investigator
-  - authorimage: /img/uploads/asch-david.jpg
+  - authorimage: /img/team/Asch_1.jpg
     authorname: 'David A. Asch, MD, MBA'
     authorrole: Investigator
 summary: Premium-based financial incentives to promote workplace weight loss

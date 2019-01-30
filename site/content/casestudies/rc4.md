@@ -4,10 +4,10 @@ date: 2015-11-10T00:00:00.000Z
 area: research
 subdomain: Cardiovascular Disease Management
 authors:
-  - authorimage: /img/team/asch.jpg
+  - authorimage: /img/team/Asch_1.jpg
     authorname: 'David Asch, MD, MBA'
     authorrole: Principal Investigator
-  - authorimage: /img/team/volpp.jpg
+  - authorimage: /img/team/Volpp_1.jpg
     authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Principal Investigator
 summary: >-

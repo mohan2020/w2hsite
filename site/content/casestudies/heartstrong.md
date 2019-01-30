@@ -4,10 +4,10 @@ date: '2017-08-01'
 area: research
 subdomain: Myocardial Infection
 authors:
-  - authorimage: /img/uploads/mehta-300x300.jpg
+  - authorimage: /img/team/Shivan.jpg
     authorname: 'Shivan Mehta, MD, MBA, MSHP'
     authorrole: Investigator
-  - authorimage: /img/uploads/volpp.jpg
+  - authorimage: /img/team/Volpp_1.jpg
     authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Investigator
 summary: >-

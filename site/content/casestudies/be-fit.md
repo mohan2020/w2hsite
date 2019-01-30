@@ -4,10 +4,10 @@ date: 2017-11-13T00:00:00.000Z
 area: research
 subdomain: Activity Gamification
 authors:
-  - authorimage: /img/team/patel.jpg
+  - authorimage: /img/team/Mitesh_0.jpg
     authorname: 'Mitesh Patel, MD, MBA, MS'
     authorrole: Principal Investigator
-  - authorimage: /img/uploads/volpp.jpg
+  - authorimage: /img/team/Volpp_1.jpg
     authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Co-PI
   - authorimage: /img/uploads/Tori.Hilbert.jpg

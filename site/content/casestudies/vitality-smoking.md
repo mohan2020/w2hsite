@@ -7,7 +7,7 @@ authors:
   - authorimage: /img/uploads/17goug3o_400x400.jpeg
     authorname: 'Scott D. Halpern, MD, PhD'
     authorrole: Investigator
-  - authorimage: /img/uploads/volpp.jpg
+  - authorimage: /img/team/Volpp_1.jpg
     authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Investigator
 summary: >-

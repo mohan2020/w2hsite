@@ -4,10 +4,10 @@ date: '2016-07-15'
 area: research
 subdomain: Physical Activity
 authors:
-  - authorimage: /img/uploads/pate4085.jpg
+  - authorimage: /img/team/Mitesh_0.jpg
     authorname: 'Mitesh S. Patel, MD, MBA, MS'
     authorrole: Principal Investigator
-  - authorimage: /img/uploads/volpp.jpg
+  - authorimage: /img/team/Volpp_1.jpg
     authorname: 'Kevin G. Volpp, MD, PhD'
     authorrole: Investigator
 summary: >-

@@ -7,10 +7,10 @@ authors:
   - authorimage: /img/team/halpern.jpg
     authorname: 'Scott Halpern, MD, PhD'
     authorrole: Principal Investigator
-  - authorimage: /img/team/asch.jpg
+  - authorimage: /img/team/Asch_1.jpg
     authorname: 'David Asch, MD, MBA'
     authorrole: Principal Investigator
-  - authorimage: /img/team/volpp.jpg
+  - authorimage: /img/team/Volpp_1.jpg
     authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Principal Investigator
 summary: >-

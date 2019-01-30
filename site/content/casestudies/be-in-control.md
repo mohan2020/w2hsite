@@ -2,7 +2,7 @@
 title: Be In Control
 date: 2017-11-27T00:00:00.000Z
 area: research
-subdomain: Diabetes Management
+subdomain: Diabetes
 authors:
   - authorimage: /img/uploads/wong.jpg
     authorname: 'Charlene Wong, MD, MSHP'

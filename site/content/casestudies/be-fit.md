@@ -2,7 +2,7 @@
 title: Be Fit
 date: 2017-11-13T00:00:00.000Z
 area: research
-subdomain: Activity Gamification
+subdomain: Physical Activity
 authors:
   - authorimage: /img/team/Mitesh_0.jpg
     authorname: 'Mitesh Patel, MD, MBA, MS'

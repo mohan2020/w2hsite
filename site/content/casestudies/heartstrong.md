@@ -2,7 +2,7 @@
 title: Heartstrong
 date: '2017-08-01'
 area: research
-subdomain: Myocardial Infection
+subdomain: Cardiovascular Disease Management
 authors:
   - authorimage: /img/team/Shivan.jpg
     authorname: 'Shivan Mehta, MD, MBA, MSHP'

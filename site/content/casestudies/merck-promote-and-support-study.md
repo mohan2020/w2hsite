@@ -2,7 +2,7 @@
 title: Merck Promote and Support
 date: '2016-04-01'
 area: research
-subdomain: Cholesterol
+subdomain: Cardiovascular Disease Management
 authors:
   - authorimage: /img/uploads/rees3825.jpg
     authorname: 'Peter P. Reese, MD, MSCE'

@@ -9,7 +9,7 @@ authors:
     authorname: 'Joshua F. Baker, MD'
     authorrole: Principal Investigator
   - authorimage: /img/team/neda.jpg
-    authorname: 'Neda kHan, MS'
+    authorname: 'Neda Khan, MS'
     authorrole: Implementation Lead
 summary: >-
   Randomized crossover trial of different types of intra-articular injections in osteoarthritic patients. Monitor physical activity and patient-reported outcomes over 3 months after each injection. Financial incentives will also be used to promote adherence to the completion of the patient-reported outcomes.

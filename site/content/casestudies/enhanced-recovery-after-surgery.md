@@ -26,7 +26,7 @@ features:
   - feature: Bi-Directional Texting
 spotlight: true
 pubs:
-  - pubURL: ''
+  - pubURL: 'https://thejns.org/spine/view/journals/j-neurosurg-spine/aop/article-10.3171-2018.9.SPINE18681.xml'
     pubname: >-
       Enhanced Recovery After Elective Spinal and Peripheral Nerve Surgery:
       Pilot Study from a Single Institution

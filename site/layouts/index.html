@@ -86,13 +86,13 @@
                 <div class="row push-20-t push-20">
                     <div class="grid">
                         <!--h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Clinical Highlights</h2><br/><br/-->
-                            {{ range first 4 $filteredclinical }}
+                            {{ range first 3 $filteredresearch }}
                              {{ partial "3by1cards" . }} 
                             {{ end }}
                     <!--/div>
                     <div class="row push-20-t push-20"> 
                          <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Research Highlights</h2><br/><br/-->
-                            {{ range first 4 $filteredresearch }}
+                            {{ range first 3 $filteredclinical }}
                              {{ partial "3by1cards" . }} 
                             {{ end }} 
                     </div>

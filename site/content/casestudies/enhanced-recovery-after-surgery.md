@@ -24,7 +24,7 @@ results:
 features:
   - feature: Discharge Date Finder
   - feature: Bi-Directional Texting
-spotlight: 'false'
+spotlight: true
 pubs:
   - pubURL: ''
     pubname: >-

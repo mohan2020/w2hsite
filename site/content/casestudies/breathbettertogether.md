@@ -1,7 +1,7 @@
 ---
 title: BreathBetterTogether
 date: 2017-11-30
-area: clinical
+area: inprogress
 subdomain: Pulmonology
 status: Active
 authors:

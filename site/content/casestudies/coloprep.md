@@ -1,7 +1,7 @@
 ---
 title: ColoPrep
 date: 2018-04-16
-area: clinical
+area: inprogress
 subdomain: GI
 status: Active
 authors:

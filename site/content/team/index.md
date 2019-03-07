@@ -30,6 +30,14 @@ leadership:
         Christianne Sevinc is an application analyst at the Penn Medicine Center for Health Care Innovation.  In this role, Christianne provides leadership and direction to ensure the overall success of the Way to Health platform. She also serves as a liaison for research and clinical teams using the platform.<br><br>Prior to joining the team, Christianne worked as a program manager at Public Health Management Corporation. Her work centered around applying shared services principles in the early care and education industry. Christianne received her bachelor’s degree in political science from Dickinson College and a master’s degree in public health from Drexel University.
 engineering:
   member:
+    - name: Skip Coon
+      title: Software Developer
+      twitter: 
+      linkedin: skip-coon-21aaa05
+      1bgpic: /img/bg/photo5.jpg
+      pic: /img/team/coon.jpg
+      text: >
+        Skip Coon is a software developer for the Way to Health platform.  He brings over 15 years of experience accumulated from various industries.  Before joining the team, Skip worked with pharmaceutical companies to implement clinical trials with software that produced higher quality data submissions. He also supported numerous social service agencies in adopting EHR tools to enable them to better serve their population. Skip received his bachelor's degree in computer science from Temple University. 
     - name: Conor Lydon
       title: Software Developer
       twitter: 

@@ -30,11 +30,11 @@
 # Redirects to Confluence (server)
 [[redirects]]
   from = "/userguide"
-  to = "https://atlas.waytohealth.upenn.edu/confluence"
+  to = "https://waytohealth.atlassian.net/wiki/spaces/WTHST/overview"
 [[redirects]]
   from = "http://userguide.waytohealth.org"
-  to = "https://atlas.waytohealth.upenn.edu/confluence"
+  to = "https://waytohealth.atlassian.net/wiki/spaces/WTHST/overview"
 [[redirects]]
   from = "https://userguide.waytohealth.org"
-  to = "https://atlas.waytohealth.upenn.edu/confluence"
+  to = "https://waytohealth.atlassian.net/wiki/spaces/WTHST/overview"
 

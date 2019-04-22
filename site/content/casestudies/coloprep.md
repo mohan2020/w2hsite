@@ -21,7 +21,7 @@ results:
 features:
   - feature: Bi-directional texting
   - feature: Epic integration
-spotlight: true
+spotlight: 'false'
 ---
 ## Background
 
@@ -43,6 +43,5 @@ Aim 2: To compare the effectiveness of a text-message navigation program on show
 ## Preliminary Results of Feasibility Pilot
 
 Of the 21 patients enrolled in the pilot:
-
 - 19 showed up for appointments, 2 cancelled prior to the appointment, and **zero** patients were no shows. Current rate at the pilot site is around 40% no show rate.
 - 84% came to the appointment with good to excellent prep quality by following instructions administered in the text messaging.

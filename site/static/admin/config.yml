@@ -20,7 +20,7 @@ collections:
       - {label: "Summary", name: "summary", widget: "string"} # summary of the study
       - {label: "Outcomes (minimum of two required)", name: "results", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}]}
       - {label: "Features Used (minimum of two required)", name: "features", widget: "list", fields: [{label: "Feature", name: "feature", widget: "string"}], required: false}
-      - {label: "Spotlight (true (lowercase) to show on main page and will have a dedicated details page, false if not)", name: "spotlight", widget: "string" }
+      - {label: "Spotlight (use lowercase "true or false". Use "true" if you want a full page description of study)", name: "spotlight", widget: "string" }
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study
       - {label: "Publication(s)", name: "pubs", widget: "list", fields: [{label: "Publication Title", name: "pubname", widget: "string"},{label: "Publication URL", name: "pubURL", widget: "string"}], required: false}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog

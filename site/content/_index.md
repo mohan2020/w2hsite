@@ -48,7 +48,7 @@ keyfeatures:
 stats:
   highlights:
     - title: Supported Projects
-      metric: 106
+      metric: 116
     - title: Patients Engaged
       metric: 54000
     - title: Peer Reviewed Publications

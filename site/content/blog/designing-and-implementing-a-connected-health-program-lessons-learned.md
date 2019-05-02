@@ -14,10 +14,11 @@ The Way To Health team works with a variety of investigators – behavioral econ
 
 Examples of questions and hypotheses include:
 
-* > “How do I get my employees to be more physically active, and those with high BMIs to lose weight?”
-* > “How can I get more of my patients to properly prepare for a colonoscopy? And more importantly, how can I ensure that they even show up?” This question led to the design of a pilot study and its success had led to the design and current deployment of a  broader randomized control trial: The [ColoPrep pilot study](https://www.waytohealth.org/casestudies/coloprep/). The pilot study showed by simply texting patients prior to their scheduled colonoscopy, they could reduce no show rates by 100% (current no show rates at Penn Medicine are around 40%).
-* > “Will the application of gamification with enhanced social supports improve activity levels among patients with Parkinson’s? And subsequently can increased physical activity reduce apathy, a common symptom in this population? The BE FIT trial showed substantial increase in physical activity among the general population. Can this be applied and be effective in different populations?
-  > Nabila Dahodwala is currently testing this hypothesis with the Motivate PD Trial (include link).
+- “How do I get my employees to be more physically active, and those with high BMIs to lose weight?”
+
+- “How can I get more of my patients to properly prepare for a colonoscopy? And more importantly, how can I ensure that they even show up?” This question led to the design of a pilot study and its success had led to the design and current deployment of a  broader randomized control trial: The [ColoPrep pilot study](https://www.waytohealth.org/casestudies/coloprep/). The pilot study showed by simply texting patients prior to their scheduled colonoscopy, they could reduce no show rates by 100% (current no show rates at Penn Medicine are around 40%).
+
+- “Will the application of gamification with enhanced social supports improve activity levels among patients with Parkinson’s? And subsequently can increased physical activity reduce apathy, a common symptom in this population? The BE FIT trial showed substantial increase in physical activity among the general population. Can this be applied and be effective in different populations? There are ongoing studies to test this hypothesis. 
 
 These seemingly simple questions and hypotheses are actually quite complex because humans don’t always act in our own best interest, especially in regard to our health. Luckily technology provides a way to interact and connect with people in their daily lives to keep them on track.
 
@@ -25,7 +26,7 @@ So, the investigator has an idea that goes something like this: _“I want to te
 
 The Way To Health team has run a lot of these trials, 116 to be precise. We like to think of ourselves as an implementation focused behavioral economists by trade. As such, here are some of our learnings:
 
-**Walk a mile in someone else's shoes. **We encourage our teams to pretend to be the participant. 
+**Walk a mile in someone else's shoes**: We encourage our teams to pretend to be the participant. 
 
 - Walk through the enrollment process, whether it be in clinic, or completed remotely by sending a link over email to participate. 
 - Next, try the intervention on for size. Are you annoyed by the frequency of the daily texts? Was the content of the text message appropriate for the age group? 

@@ -25,7 +25,7 @@ So, the investigator has an idea that goes something like this: _“I want to te
 
 The Way To Health team has run a lot of these trials, 116 to be precise. We like to think of ourselves as an implementation focused behavioral economists by trade. As such, here are some of our learnings:
 
-**Walk a mile in someone else's shoes. **We encourage our teams to pretend to be the participant. 
+**Walk a mile in someone else's shoes**: We encourage our teams to pretend to be the participant. 
 
 - Walk through the enrollment process, whether it be in clinic, or completed remotely by sending a link over email to participate. 
 - Next, try the intervention on for size. Are you annoyed by the frequency of the daily texts? Was the content of the text message appropriate for the age group? 

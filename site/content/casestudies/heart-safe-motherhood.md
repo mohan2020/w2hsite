@@ -31,6 +31,11 @@ pubs:
       Comparing standard office-based follow-up with text-based remote
       monitoring in the management of postpartum hypertension: a randomised
       clinical trial.
+  - pubURL: >-
+      https://catalyst.nejm.org/heart-safe-motherhood-blood-pressure-monitoring-maternal/
+    pubname: >-
+      Heart Safe Motherhood: Applying Innovation Methodology for Improved
+      Maternal Outcomes
 ---
 
 ## The Challenge

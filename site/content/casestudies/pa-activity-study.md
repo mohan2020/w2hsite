@@ -1,7 +1,7 @@
 ---
 title: PA Activity Study
 date: 2016-11-01T00:00:00.000Z
-area: inprogress
+area: Research
 subdomain: Physical Activity
 authors:
   - authorimage: /img/team/Mitesh_0.jpg

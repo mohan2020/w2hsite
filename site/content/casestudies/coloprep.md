@@ -1,6 +1,6 @@
 ---
 title: ColoPrep
-date: '2019-09-03'
+date: '2019-08-20'
 area: clinical
 subdomain: Gastroenterology
 authors:

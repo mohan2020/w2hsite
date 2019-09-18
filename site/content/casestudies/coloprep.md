@@ -22,6 +22,10 @@ features:
   - feature: Bi-directional texting
   - feature: Epic integration
 spotlight: 'false'
+pubs:
+  - pubURL: 'https://journals.sagepub.com/doi/10.1177/1090198119869964'
+    pubname: >-
+      An Automated Text Message Navigation Program Improves the Show Rate for Outpatient Colonoscopy
 ---
 ## Background
 

@@ -26,10 +26,9 @@ features:
   - feature: Bi-Directional Texting
 spotlight: true
 pubs:
-  - pubURL: 'https://thejns.org/spine/view/journals/j-neurosurg-spine/aop/article-10.3171-2018.9.SPINE18681.xml'
+  - pubURL: 'https://journals.sagepub.com/doi/10.1177/1090198119869964'
     pubname: >-
-      Enhanced Recovery After Elective Spinal and Peripheral Nerve Surgery:
-      Pilot Study from a Single Institution
+      An Automated Text Message Navigation Program Improves the Show Rate for Outpatient Colonoscopy
 ---
 ## Background
 

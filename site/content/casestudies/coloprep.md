@@ -1,51 +1,61 @@
 ---
 title: ColoPrep
-date: 2018-04-16T00:00:00.000Z
+date: '2019-09-03'
 area: clinical
-subdomain: GI
+subdomain: Gastroenterology
 authors:
-  - authorimage: /img/team/mehta.jpg
+  - authorimage: >-
+      /img/uploads/cj040rl0k005wbjle66dtc60t-shivan-mehta-original.0.75.2319.2269.full.jpg
     authorname: 'Shivan Mehta, MD, MBA, MSHP'
-    authorrole: Clinical Lead
-  - authorimage: /img/uploads/nadim.mahmud.jpg
-    authorname: 'Nadim Mahmud, MD, MS, MPH'
-    authorrole: Clinical Fellow
-summary: >
-  Interested in using WTH as a tool to send reminder texts for prep steps and
-  appointments for Penn Medicine patients who are scheduled for colonoscopies
-  across the health system.
+    authorrole: Principal Investigator
+  - authorimage: /img/uploads/cathy_reitz_2500x2500-1024x1024.jpg
+    authorname: 'Catherine Reitz, MPH'
+    authorrole: Project Manager
+summary: Piloted a text message navigation program to improve colonoscopy adherence.
 results:
-  - result: 90% show rate vs 62% in control arm
-  - result: 84% with good/excellent prep
-  - result: High patient satisfaction and ease of use
+  - result: ' Intervention patients were significantly more likely to show for colonoscopy (90% vs. 62% show rate; p = .049)'
+  - result: >-
+      2 cancellations and 0 no-shows in the intervention group as compared with
+      14 cancellations and 5 no-shows in the comparison group
 features:
-  - feature: Bi-directional texting
-  - feature: Epic integration
+  - feature: Automated Text Messaging
+  - feature: Randomization
 spotlight: 'false'
 pubs:
-  - pubURL: 'https://journals.sagepub.com/doi/10.1177/1090198119869964'
+  - pubURL: >-
+      https://journals.sagepub.com/doi/full/10.1177/1090198119869964?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed
     pubname: >-
-      An Automated Text Message Navigation Program Improves the Show Rate for Outpatient Colonoscopy
+      An Automated Text Message Navigation Program Improves the Show Rate for
+      Outpatient Colonoscopy
 ---
-## Background
+## Aim and Key Question
 
-Colorectal cancer is the second leading cause of cancer death in the US, yet there are effective screening and treatment strategies that allow for early detection and treatment. Colonoscopy requires a complex process to identify an escort, purchase the preparation, take a day off from work, adhere to a clear liquid diet, and complete the split-dose preparation as recommended. This results in a significant no-show and cancellation rate, along with suboptimal preparation quality, which can lead to non-adherence and incomplete screening.
+Numerous barriers to outpatient colonoscopy completion exist, causing undue procedure cancellations and poor bowel preparation.
+
+Current approaches to engaging patients include pre-procedure phone calls or patient navigators. Both interventions are challenging and costly, making them less scalable. Other interventions such as instructional videos or mobile applications have been hampered by poor user experience or limited patient engagement. They hypothesized that a bidirectional messaging approach informed by principles of behavioral science might foster improved engagement and improve outpatient colonoscopy show rates.
 
 ## Intervention and Design
 
-The intent is to design, develop, and evaluate an automated colonoscopy engagement service that is integrated with routine clinical care. The researchers will evaluate the effect of this automated navigation program on show rate with adequate preparation quality. The initial user testing on 21 patients to evaluate feasibility and inform the design of the messaging content. The next step will be to conduct a randomized controlled trial comparing the intervention to usual care control. This proposal has the following aims:
+They conducted a prospective study at an urban academic endoscopy center. Based on power calculations to enable detection of a ~30% difference in the primary outcome, we offered a text messaging program using the Way to Health platform to 22 patients scheduled for outpatient colonoscopy (for any indication) in the first 2 weeks of April 2018 and compared them with 50 comparison patients in the last 2 weeks of April 2018.  They included patients aged 18 to 75 years who were scheduled for outpatient colonoscopy within 2 months of initial contact and excluded patients on any diabetic medications due to differences in the bowel preparation process.
 
-Aim 1: To assess feasibility and conduct user testing for an automated text-message navigation program focused on colonoscopy preparation.
+![](/img/uploads/10.1177_1090198119869964-table1.gif)
 
-Aim 2: To compare the effectiveness of a text-message navigation program on show rate and preparation quality, as compared to usual care.
+**Interventions** - Intervention patients were enrolled via telephone using a script approved by our institutional review board. Comparison patients were not contacted for this study. All patients were selected using a random number generator. Patients in the comparison arm received usual care, consisting of paper instructions and a phone call in the week prior to colonoscopy. Intervention patients also received these measures. For each patient, basic demographic and clinical comorbidity data, appointment adherence (show, no-show, cancelation), bowel preparation quality (excellent, good, fair, poor), and colonoscopy completion (cecum reached) were obtained through electronic medical record review. 
+
+**Main Outcomes and Measures** - The primary outcome was appointment adherence. The secondary outcomes were bowel preparation quality and colonoscopy completion between groups.
 
 ## Way to Health Use
 
-- Enrollment through Epic EHR to simplify recruitment efforts
-- Outbound and bi-directional text messaging to engage patients four days prior to colonoscopy appointment with preparation guidelines and instructions.
+* **Study Enrollment**: Enroll and randomize participants across the study arms
+* **Automated Messaging**: Send participants automated text messages
+* **Randomization**: Randomize participants into one of two groups
 
-## Preliminary Results of Feasibility Pilot
+## Findings and Conclusions
 
-Of the 21 patients enrolled in the pilot:
-- 19 showed up for appointments, 2 cancelled prior to the appointment, and **zero** patients were no shows. Current rate at the pilot site is around 40% no show rate.
-- 84% came to the appointment with good to excellent prep quality by following instructions administered in the text messaging.
+Of 22 patients successfully contacted, 21 agreed to participate in the text message intervention (one declined because of reported familiarity with the colonoscopy process), and 50 patients were randomly selected as the comparison arm. There were no significant differences in demographics or comorbidities between groups (Table 2). Intervention patients were significantly more likely to show for colonoscopy (90% vs. 62% show rate; p = .049). This difference persisted on secondary analysis when the patient who declined the intervention was included (91% vs. 62% show rate, p = .040). There were 2 cancellations and 0 no-shows in the intervention group as compared with 14 cancellations and 5 no-shows in the comparison group. Among those who showed, there were no significant differences in preparation quality or completeness between arms (p = .12 and p = .43, respectively).
+
+![](/img/uploads/10.1177_1090198119869964-table2.gif)
+
+A total 16 of 21 (76.2%) intervention patients responded to automated texts. The most common questions pertained to the timing of bowel preparation components and food restrictions on the day before the procedure. Poststudy survey results indicated excellent patient satisfaction (100% high/very high), reported ease of use (92% high/very high), and perceived usefulness of the text messaging program (95% high/very high).
+
+In this prospective study, we found that patients enrolled in a bidirectional, automated text message navigation program had significantly higher colonoscopy show rates as compared with patients receiving usual care. Among those who completed the procedure, the preparation quality was comparable. The texting program was well-received and survey responses indicated high patient satisfaction and good user experience.

@@ -22,12 +22,10 @@ summary: >-
   bidirectional, automated texting navigation program improved colonoscopy
   adherence rates as compared with usual care.
 authors: >-
-  Nadim Mahmud 1University of Pennsylvania, Philadelphia, PA, USA View ORCID
-  profile See all articles by this author Search Google Scholar for this author
-  , Sahil D. Doshi, MD, Mary S. Coniglio, MBA, Michelle Clermont, MD, Donna
-  Bernard, MSN, Catherine Reitz, MPH, Vandana Khungar, MD, MSc, David A. Asch,
-  MD, MBA, Shivan J. Mehta, MD, MBA, MSHP
+  Nadim Mahmud, MD, MS, MPH, Sahil D. Doshi, MD, Mary S. Coniglio, MBA, Michelle
+  Clermont, MD, Donna Bernard, MSN, Catherine Reitz, MPH, Vandana Khungar, MD,
+  MSc, David A. Asch, MD, MBA, Shivan J. Mehta, MD, MBA, MSHP
 source: 'https://doi.org/10.1177/1090198119869964'
-journal: Sage Journals
+journal: HEB
 ---
 

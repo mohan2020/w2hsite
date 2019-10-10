@@ -48,32 +48,50 @@ keyfeatures:
 stats:
   highlights:
     - title: Supported Projects
-      metric: 116
+      metric: 150
     - title: Patients Engaged
-      metric: 54000
+      metric: 60000
     - title: Peer Reviewed Publications
-      metric: 60
+      metric: 66
 customers:
   title: TRUSTED BY LEADING RESEARCH AND CLINICAL ORGANIZATIONS
   logos:
-    - logo: /img/logos/penn.png
-      organizationName: The University Of Pennsylvania
-      caseStudyLink:
     - logo: /img/logos/columbia.png
-      organizationName: Columbia University
+      organizationName: 
       caseStudyLink:
     - logo: /img/logos/duke1.png
-      organizationName: Duke University 
+      organizationName: 
       caseStudyLink:
     - logo: /img/logos/harvard.jpeg
-      organizationName: Harvard University
+      organizationName: 
       caseStudyLink:
     - logo: /img/logos/jhu.png
-      organizationName: Johns Hopkins
+      organizationName: 
       caseStudyLink:
     - logo: /img/logos/chop.jpg
-      organizationName: Children's Hospital
+      organizationName: 
       caseStudyLink:
+    - logo: /img/logos/womans.png
+      organizationName: 
+      caseStudyLink:
+    - logo: /img/logos/cornell.png
+      organizationName:  
+      caseStudyLink:
+    - logo: /img/logos/mskcc.png
+      organizationName: 
+      caseStudyLink:
+    - logo: /img/logos/nwell.png
+      organizationName: 
+      caseStudyLink:
+    - logo: /img/logos/ucla.png
+      organizationName: 
+      caseStudyLink:
+    - logo: /img/logos/wustl.png
+      organizationName: 
+      caseStudyLink:
+    - logo: /img/logos/penn.png
+      organizationName: 
+      caseStudyLink:      
 whydosomething:
   intro: Patient engagement has been called the [blockbuster drug of the 21st century](http://healthstandards.com/blog/2012/08/28/drug-of-the-century/). But it continues to elude a solution and in the meantime, the problem continues to grow. 
   problems:

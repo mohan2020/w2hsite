@@ -2,7 +2,7 @@
 title: Be Active
 date: '2019-04-10'
 area: inprogress
-subdomain: General Care
+subdomain: Physical Activity
 authors:
   - authorimage: /img/uploads/pate4085.jpg
     authorname: 'Mitesh Patel, MD, MBA, MS'

@@ -2,7 +2,7 @@
 title: TAICAM Trial
 date: '2019-08-15'
 area: inprogress
-subdomain: General Care
+subdomain: Asthma
 authors:
   - authorimage: /img/uploads/kenyon.jpg
     authorname: 'Chen Kenyon, BA, MD, MSHP'

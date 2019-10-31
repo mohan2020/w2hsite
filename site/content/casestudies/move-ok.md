@@ -3,6 +3,7 @@ title: MOVE-OK
 date: '2019-08-26'
 area: inprogress
 subdomain: Orthopedics
+status: Enrolling
 authors:
   - authorimage: /img/uploads/bake7292.jpg
     authorname: 'Joshua Baker, MD, MSCE'
@@ -18,6 +19,6 @@ features:
   - feature: Survey Administration
   - feature: Gamification
   - feature: Financial Incentives
-spotlight: 'false'
+spotlight: 'true'
 ---
 

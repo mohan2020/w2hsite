@@ -2,7 +2,7 @@
 title: EpiPrompt
 date: 2018-06-01
 area: inprogress
-subdomain: 'Allergy & Immunology'
+subdomain: Allergy & Immunology
 status: Active
 authors:
   - 

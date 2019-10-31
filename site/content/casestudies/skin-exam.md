@@ -2,7 +2,7 @@
 title: Skin Exam
 date: '2018-07-30'
 area: research
-subdomain: Skin Cancer
+subdomain: Oncology
 authors:
   - authorimage: /img/uploads/andrew-marek.jpg
     authorname: 'Andrew Marek, MD, MS'

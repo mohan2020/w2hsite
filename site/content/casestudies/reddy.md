@@ -2,7 +2,7 @@
 title: Statin Medication Adherence
 date: '2017-03-01'
 area: research
-subdomain: Coronary Artery Disease
+subdomain: Cardiovascular Disease Management
 authors:
   - authorimage: /img/uploads/reddy-ashok.resized.jpg
     authorname: 'Ashok Reddy, MD'

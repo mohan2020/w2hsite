@@ -3,6 +3,7 @@ title: Bloom
 date: '2019-02-26'
 area: inprogress
 subdomain: Gestation Care
+status: Enrolling
 authors:
   - authorimage: /img/uploads/krukowskirebecca_301743.jpg
     authorname: 'Rebecca Krukowski, PhD'

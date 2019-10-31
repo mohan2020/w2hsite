@@ -3,6 +3,7 @@ title: MOVE-OK
 date: '2019-08-26'
 area: inprogress
 subdomain: Orthopedics
+status: Enrolling
 authors:
   - authorimage: /img/uploads/bake7292.jpg
     authorname: 'Joshua Baker, MD, MSCE'

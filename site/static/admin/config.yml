@@ -16,7 +16,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Study Type", name: "area", widget: "select", options: ["clinical", "inprogress", "research"], required: false}
       - {label: "Clinical Domain", name: "subdomain", widget: "string"} # Specific clinical or ops area
-      - {label: "Status", name: "status", widget: "select", options: ["Design", "Enrolling", "Analysis"], required: false}
       - {label: "Authors (minimum of two required)", name: "authors", widget: "list", fields: [{label: "PI Name", name: "authorname", widget: "string"},{label: "PI image", name: "authorimage", widget: "image"},{label: "Role", name: "authorrole", widget: "string"}]} #Author Name
       - {label: "Summary", name: "summary", widget: "string"} # summary of the study
       - {label: "Outcomes (minimum of two required)", name: "results", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}], required: false}

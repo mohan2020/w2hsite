@@ -2,7 +2,7 @@
 title: Habit Formation
 date: '2019-05-31'
 area: research
-subdomain: Cholesterol
+subdomain: Medication Adherence
 authors:
   - authorimage: /img/uploads/putt7815.jpg
     authorname: 'Mary E. Putt, PhD, ScD'

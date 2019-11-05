@@ -2,8 +2,8 @@
 title: 'Engaged Recovery at Penn - Colo'
 date: 2016-02-02
 area: inprogress
-subdomain: Colorectal Surgery
-status: Analysis
+subdomain: Surgery
+status: Active
 authors:
   - 
     authorimage: /img/uploads/bar.jpg

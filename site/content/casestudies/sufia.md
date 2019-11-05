@@ -2,7 +2,7 @@
 title: SUFIA
 date: 2016-06-01
 area: inprogress
-subdomain: Orthopaedics
+subdomain: Physical Activity
 status: Active
 authors:
   - 

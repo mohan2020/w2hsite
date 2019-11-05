@@ -2,8 +2,8 @@
 title: 'Heart Safe Motherhood - HUP/PAH'
 date: 2018-09-18
 area: inprogress
-subdomain: "Women's Health"
-status: Analysis
+subdomain: Womens Health
+status: Active
 authors:
   - 
     authorimage: /img/uploads/hirshberg_adi.jpg

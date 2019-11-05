@@ -16,6 +16,6 @@ summary: >-
 features:
   - feature: Propeller Device Integration
   - feature: Financial Incentives
-spotlight: 'false'
+spotlight: false
 ---
 

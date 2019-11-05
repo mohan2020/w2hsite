@@ -28,7 +28,7 @@ features:
   - feature: Fitbit Device Integration
   - feature: Goal Selection Survey
   - feature: Commitment Contract
-spotlight: 'false'
+spotlight: true
 pubs:
   - pubURL: 'https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2749761'
     pubname: >-

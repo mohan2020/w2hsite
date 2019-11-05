@@ -16,6 +16,6 @@ summary: >-
 features:
   - feature: Gamification
   - feature: Conversations
-spotlight: 'false'
+spotlight: false
 ---
 

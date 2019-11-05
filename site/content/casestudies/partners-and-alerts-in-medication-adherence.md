@@ -20,7 +20,7 @@ results:
 features:
   - feature: Support Partners
   - feature: Medication Alerts
-spotlight: 'false'
+spotlight: false
 pubs:
   - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/29546659'
     pubname: 'Partners and Alerts in Medication Adherence: A Randomized Clinical Trial'

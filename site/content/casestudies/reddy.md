@@ -20,7 +20,7 @@ features:
   - feature: Medication adherence feedback
   - feature: Support partners
   - feature: Pill-monitoring device
-spotlight: 'false'
+spotlight: false
 pubs:
   - pubURL: 'https://link.springer.com/article/10.1007%2Fs11606-016-3858-0'
     pubname: >-

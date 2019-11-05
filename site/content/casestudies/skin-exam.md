@@ -19,7 +19,7 @@ results:
 features:
   - feature: Text Reminders
   - feature: Support Partners
-spotlight: 'false'
+spotlight: false
 pubs:
   - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/30062632'
     pubname: >-

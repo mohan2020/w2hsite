@@ -28,7 +28,7 @@ features:
   - feature: ' Activity and Sleep Monitor Integration '
   - feature: 'Financial Incentives '
   - feature: 'Bi-Directional Text '
-spotlight: 'false'
+spotlight: false
 pubs:
   - pubURL: >-
       https://www.contemporaryclinicaltrials.com/article/S1551-7144(19)30127-2/fulltext

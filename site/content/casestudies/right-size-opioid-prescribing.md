@@ -18,6 +18,6 @@ summary: >-
 features:
   - feature: Survey Administration
   - feature: Rules Engine
-spotlight: 'false'
+spotlight: false
 ---
 

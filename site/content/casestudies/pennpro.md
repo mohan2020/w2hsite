@@ -3,7 +3,7 @@ title: PennPRO
 date: 2018-01-01
 area: inprogress
 subdomain: Oncology
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/uploads/takvorian.jpg

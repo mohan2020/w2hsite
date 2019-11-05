@@ -3,7 +3,7 @@ title: MOVE IT
 date: 2017-06-01
 area: inprogress
 subdomain: Physical Activity
-status: Active
+status: Enrolling
 authors:
   - 
     authorimage: /img/uploads/17goug3o_400x400.o.jpeg

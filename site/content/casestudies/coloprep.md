@@ -20,7 +20,7 @@ results:
 features:
   - feature: Automated Text Messaging
   - feature: Randomization
-spotlight: 'false'
+spotlight: true
 pubs:
   - pubURL: >-
       https://journals.sagepub.com/doi/full/10.1177/1090198119869964?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed

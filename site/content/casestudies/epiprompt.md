@@ -3,7 +3,7 @@ title: EpiPrompt
 date: 2018-06-01
 area: inprogress
 subdomain: 'Allergy & Immunology'
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/team/volpp.jpg

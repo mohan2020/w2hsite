@@ -3,7 +3,7 @@ title: Fitbit-PD
 date: 2018-10-03
 area: inprogress
 subdomain: Neurology
-status: Active
+status: Enrolling
 authors:
   - 
     authorimage: /img/avatars/avatar1.jpg

@@ -3,7 +3,7 @@ title: Stepping Into Survivorship
 date: 2018-01-01
 area: inprogress
 subdomain: Oncology
-status: Active
+status: Enrolling
 authors:
   - 
     authorimage: /img/team/Mitesh_0.jpg

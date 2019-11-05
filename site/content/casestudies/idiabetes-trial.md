@@ -3,7 +3,7 @@ title: iDiabetes Trial
 date: 2016-07-01
 area: inprogress
 subdomain: Diabetes
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/team/Mitesh_0.jpg

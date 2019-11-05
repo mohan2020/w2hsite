@@ -3,7 +3,7 @@ title: RECOUPS
 date: 2016-06-01
 area: inprogress
 subdomain: Physical Activity
-status: Active
+status: Enrolling
 authors:
   - 
     authorimage: /img/uploads/weibe.jpg

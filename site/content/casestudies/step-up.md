@@ -3,7 +3,7 @@ title: STEP UP
 date: 2017-04-28
 area: inprogress
 subdomain: Physical Activity
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/team/Mitesh_0.jpg

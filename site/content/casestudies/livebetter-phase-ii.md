@@ -3,7 +3,7 @@ title: LiveBetter Phase II
 date: 2017-10-11
 area: inprogress
 subdomain: Hepatology
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/uploads/khungar-vandana.jpg

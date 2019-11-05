@@ -3,7 +3,7 @@ title: 'Engaged Recovery at Penn - Gyn'
 date: 2017-06-01
 area: inprogress
 subdomain: Colorectal Surgery
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/uploads/kim.jpg

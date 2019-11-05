@@ -3,7 +3,7 @@ title: EMPOWER
 date: 2015-04-01
 area: inprogress
 subdomain: Cardiology
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/team/volpp.jpg

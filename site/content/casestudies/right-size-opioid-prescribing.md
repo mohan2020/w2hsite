@@ -3,6 +3,7 @@ title: Right Size Opioid Prescribing
 date: '2019-05-21'
 area: inprogress
 subdomain: Emergency Medicine
+status: Analysis
 authors:
   - authorimage: /img/uploads/delgado-kit.jpg
     authorname: 'M. Kit Delgado, MD, MS'

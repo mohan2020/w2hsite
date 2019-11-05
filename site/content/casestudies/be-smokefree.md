@@ -3,7 +3,7 @@ title: BE Smokefree
 date: 2018-01-01
 area: inprogress
 subdomain: General Care
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/uploads/jenssen.jpg

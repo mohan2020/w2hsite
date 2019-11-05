@@ -3,7 +3,7 @@ title: PA and CVD
 date: 2018-01-01
 area: inprogress
 subdomain: Cardiology
-status: Active
+status: Enrolling
 authors:
   - 
     authorimage: /img/team/Mitesh_0.jpg

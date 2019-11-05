@@ -3,7 +3,7 @@ title: STEPP
 date: 2016-06-01
 area: inprogress
 subdomain: Oncology
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/uploads/tasian.jpg

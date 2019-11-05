@@ -3,7 +3,7 @@ title: PHiT Study
 date: 2017-06-01
 area: inprogress
 subdomain: Addiction
-status: Active
+status: Enrolling
 authors:
   - 
     authorimage: /img/uploads/lbrown.jpg

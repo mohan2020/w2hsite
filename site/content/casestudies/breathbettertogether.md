@@ -3,7 +3,7 @@ title: BreathBetterTogether
 date: 2017-11-30
 area: inprogress
 subdomain: Pulmonology
-status: Active
+status: Analysis
 authors:
   - 
     authorimage: /img/uploads/ahya.jpg

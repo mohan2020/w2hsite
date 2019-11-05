@@ -3,7 +3,7 @@ title: ADAPT
 date: 2017-09-01
 area: inprogress
 subdomain: Mental Health
-status: Active
+status: Enrolling
 authors:
   - 
     authorimage: /img/uploads/marcus.jpg

@@ -19,6 +19,5 @@ features:
   - feature: Survey Administration
   - feature: Gamification
   - feature: Financial Incentives
-spotlight: false
 ---
 

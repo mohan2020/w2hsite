@@ -17,6 +17,6 @@ summary: >-
 features:
   - feature: Survey Administration
   - feature: Nokia Scale Device Integration
-spotlight: 'false'
+spotlight: false
 ---
 

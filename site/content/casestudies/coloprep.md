@@ -28,6 +28,7 @@ pubs:
       An Automated Text Message Navigation Program Improves the Show Rate for
       Outpatient Colonoscopy
 ---
+
 ## Aim and Key Question
 
 Numerous barriers to outpatient colonoscopy completion exist, causing undue procedure cancellations and poor bowel preparation.
@@ -38,7 +39,7 @@ Current approaches to engaging patients include pre-procedure phone calls or pat
 
 They conducted a prospective study at an urban academic endoscopy center. Based on power calculations to enable detection of a ~30% difference in the primary outcome, we offered a text messaging program using the Way to Health platform to 22 patients scheduled for outpatient colonoscopy (for any indication) in the first 2 weeks of April 2018 and compared them with 50 comparison patients in the last 2 weeks of April 2018.  They included patients aged 18 to 75 years who were scheduled for outpatient colonoscopy within 2 months of initial contact and excluded patients on any diabetic medications due to differences in the bowel preparation process.
 
-![](/img/uploads/10.1177_1090198119869964-table1.gif)
+![]( /img/uploads/10.1177_1090198119869964-table1.gif )
 
 **Interventions** - Intervention patients were enrolled via telephone using a script approved by our institutional review board. Comparison patients were not contacted for this study. All patients were selected using a random number generator. Patients in the comparison arm received usual care, consisting of paper instructions and a phone call in the week prior to colonoscopy. Intervention patients also received these measures. For each patient, basic demographic and clinical comorbidity data, appointment adherence (show, no-show, cancelation), bowel preparation quality (excellent, good, fair, poor), and colonoscopy completion (cecum reached) were obtained through electronic medical record review. 
 

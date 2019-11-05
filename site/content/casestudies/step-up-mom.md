@@ -3,7 +3,7 @@ title: STEP UP Mom
 date: '2019-10-10'
 area: inprogress
 subdomain: Hypertension
-status: Enrolling
+status: Active
 authors:
   - authorimage: /img/uploads/lewey_jennifer.jpg
     authorname: 'Jennifer Lewey, MD, MPH'
@@ -18,6 +18,6 @@ features:
   - feature: Gamification
   - feature: Bonus Points
   - feature: Lifelines
-spotlight: 'false'
+spotlight: false
 ---
 

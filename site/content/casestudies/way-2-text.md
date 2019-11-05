@@ -25,7 +25,7 @@ results:
 features:
   - feature: Device Integration
   - feature: Bi-Directional Text Messaging
-spotlight: 'false'
+spotlight: true
 pubs:
   - pubURL: 'https://link.springer.com/article/10.1007%2Fs11606-019-05241-x'
     pubname: >-

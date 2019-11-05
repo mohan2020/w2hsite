@@ -20,7 +20,7 @@ results:
 features:
   - feature: Device Integration
   - feature: Financial Incentives
-spotlight: 'false'
+spotlight: true
 pubs:
   - pubURL: 'https://www.ncbi.nlm.nih.gov/pubmed/29899015'
     pubname: >-

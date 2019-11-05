@@ -22,6 +22,6 @@ features:
   - feature: Lottery
   - feature: Financial Incentives
   - feature: Wisepill Device Integration
-spotlight: 'false'
+spotlight: false
 ---
 

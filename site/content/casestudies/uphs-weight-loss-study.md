@@ -19,7 +19,7 @@ results:
 features:
   - feature: Lottery
   - feature: Financial Incetives
-spotlight: 'false'
+spotlight: true
 pubs:
   - pubURL: 'http://content.healthaffairs.org/content/35/1/71.long'
     pubname: >-

@@ -2,7 +2,7 @@
 title: CHI/HCS/NBR/SIT
 date: '2019-11-14'
 area: research
-subdomain: General Care
+subdomain: Clinical Psychology
 authors:
   - authorimage: /img/uploads/download.jpeg
     authorname: 'Rebecca Ashare, PhD'

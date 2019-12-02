@@ -4,7 +4,7 @@ date: '2019-11-14'
 area: research
 subdomain: Clinical Psychology
 authors:
-  - authorimage: /img/uploads/download.jpeg
+  - authorimage: ''
     authorname: 'Rebecca Ashare, PhD'
     authorrole: Principal Investigator
   - authorname: Leah Bernardo

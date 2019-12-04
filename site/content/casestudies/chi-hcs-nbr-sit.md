@@ -4,10 +4,11 @@ date: '2019-11-14'
 area: research
 subdomain: Clinical Psychology
 authors:
-  - authorimage: /img/uploads/download.jpeg
+  - authorimage: /img/uploads/ashare.jpg
     authorname: 'Rebecca Ashare, PhD'
     authorrole: Principal Investigator
-  - authorname: Leah Bernardo
+  - authorimage: /img/uploads/avatar16.jpg
+    authorname: Leah Bernardo
     authorrole: Project Manager
 summary: >-
   Test the effectiveness of text-based recruitment strategies to increase

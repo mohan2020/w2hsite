@@ -2,7 +2,7 @@
 title: Be Active
 date: '2019-04-10'
 area: inprogress
-subdomain: Physical Activity
+subdomain: Wellness
 authors:
   - authorimage: /img/uploads/pate4085.jpg
     authorname: 'Mitesh Patel, MD, MBA, MS'
@@ -17,6 +17,5 @@ features:
   - feature: Financial Incentives
   - feature: Gamification
   - feature: Support Partners
-spotlight: 'false'
 ---
 

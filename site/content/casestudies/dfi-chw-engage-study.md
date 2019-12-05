@@ -3,6 +3,7 @@ title: DFI CHW Engage Study
 date: '2019-05-15'
 area: inprogress
 subdomain: Diabetes
+status: Active
 authors:
   - authorimage: /img/uploads/kangovi-shreya.jpg
     authorname: 'Shreya Kangovi, MD, MSHP'

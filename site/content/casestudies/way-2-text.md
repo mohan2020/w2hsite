@@ -15,11 +15,11 @@ summary: >-
   bidirectional text messaging on improving hypertension control.
 results:
   - result: >-
-      mean change values in systolic blood pressure were − 4.7 (23.4) mmHg in
+      Mean change values in systolic blood pressure were − 4.7 (23.4) mmHg in
       usual care, − 4.3 (21.5) mmHg in the pill bottle arm, and − 4.6 (19.8)
       mmHg in the text arm
   - result: >-
-      no significant change in systolic blood pressure between control and the
+      No significant change in systolic blood pressure between control and the
       pill bottle arm
 features:
   - feature: Device Integration

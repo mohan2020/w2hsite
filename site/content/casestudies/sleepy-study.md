@@ -7,7 +7,8 @@ authors:
   - authorimage: /img/uploads/mitchell.jpg
     authorname: 'Jonathan Mitchell, PhD'
     authorrole: Principal Investigator
-  - authorname: Nicholas Huffnagle
+  - authorimage: /img/uploads/avatar16.jpg
+    authorname: Nicholas Huffnagle
     authorrole: Project Manager
 summary: >-
   Testing a 2x2x2x2x2 factorial design to optimize components for a sleep
@@ -16,6 +17,5 @@ features:
   - feature: Fitbit Device Integration
   - feature: Survey Administration
   - feature: Automated Text Messaging
-spotlight: 'false'
 ---
 

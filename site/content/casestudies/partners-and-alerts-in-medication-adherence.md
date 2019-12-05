@@ -1,7 +1,7 @@
 ---
 title: Partners and Alerts in Medication Adherence
 date: '2018-09-01'
-area: research
+area: inprogress
 subdomain: Cardiovascular Disease Management
 authors:
   - authorimage: /img/uploads/kessler-judd.jpg

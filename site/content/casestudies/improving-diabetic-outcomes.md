@@ -1,13 +1,14 @@
 ---
 title: Improving Diabetic Outcomes
 date: '2012-03-20'
-area: research
+area: Research
 subdomain: Diabetes
 authors:
   - authorimage: /img/uploads/long-judith.jpeg
     authorname: 'Judith A. Long, MD'
     authorrole: Principal Investigator
-  - authorname: 'Diane M. Richardson, PhD'
+  - authorimage: /img/uploads/avatar16.jpg
+    authorname: 'Diane M. Richardson, PhD'
     authorrole: Investigator
 summary: >-
   Determine whether peer mentors or financial incentives are superior to usual
@@ -18,12 +19,12 @@ results:
 features:
   - feature: Financial Incentive
   - feature: Peer Mentor
-spotlight: true
 pubs:
   - pubURL: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475415/'
     pubname: >-
       Peer Mentoring and Financial Incentives to Improve Glucose Control in
       African American Veterans: A Randomized, Controlled Trial
+spotlight: 'true'
 ---
 ## Background and Aim
 

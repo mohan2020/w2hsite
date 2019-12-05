@@ -18,6 +18,5 @@ features:
   - feature: Gamification
   - feature: Support Partners
   - feature: Survey Administration
-spotlight: 'false'
 ---
 

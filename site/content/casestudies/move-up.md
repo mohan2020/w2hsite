@@ -12,7 +12,7 @@ authors:
     authorrole: Investigator
 summary: ' To evaluate the effectiveness of behavioral economic approaches to increase patient mobility and reduce mobility disability and postoperative complications.'
 features:
-  - feature: PennChart X Integration
+  - feature: EPIC Integration
   - feature: Gamification
   - feature: Support Partners
 ---

@@ -4,8 +4,7 @@ date: '2019-08-08'
 area: research
 subdomain: Hypertension
 authors:
-  - authorimage: >-
-      /img/uploads/cj040rl0k005wbjle66dtc60t-shivan-mehta-original.0.75.2319.2269.full.jpg
+  - authorimage: /img/team/Shivan.jpg
     authorname: 'Shivan Mehta, MD, MBA'
     authorrole: Principal Investigator
   - authorimage: /img/uploads/download.jpeg

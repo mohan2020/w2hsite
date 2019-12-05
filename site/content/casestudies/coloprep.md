@@ -4,8 +4,7 @@ date: '2019-09-03'
 area: clinical
 subdomain: Gastroenterology
 authors:
-  - authorimage: >-
-      /img/uploads/cj040rl0k005wbjle66dtc60t-shivan-mehta-original.0.75.2319.2269.full.jpg
+  - authorimage: /img/team/Shivan.jpg
     authorname: 'Shivan Mehta, MD, MBA, MSHP'
     authorrole: Principal Investigator
   - authorimage: /img/uploads/cathy_reitz_2500x2500-1024x1024.jpg

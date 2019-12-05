@@ -21,7 +21,7 @@ results:
 features:
   - feature: Financial Incentives
   - feature: Lottery
-spotlight: 'false'
+spotlight: 'true'
 pubs:
   - pubURL: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2753790'
     pubname: >-

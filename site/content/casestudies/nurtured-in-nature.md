@@ -7,7 +7,8 @@ authors:
   - authorimage: /img/uploads/garvin-gina.jpg
     authorname: 'Eugenia South, MD, MSHP'
     authorrole: Principal Investigator
-  - authorname: Kehinde Oyekanmi
+  - authorimage: /img/uploads/avatar16.jpg
+    authorname: Kehinde Oyekanmi
     authorrole: Project Manager
 summary: >-
   The broad objective of this study is to develop and test a digital health

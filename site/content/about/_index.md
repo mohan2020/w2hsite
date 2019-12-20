@@ -17,6 +17,16 @@ mission:
         Good technology must join not just patient and physician journeys, but also their existing technology, such as legacy EHR systems i.e. be available  in the context of their life and their “workflow”. Tighter integration with EHRs is necessary. Health systems have spent millions deploying and customizing EHRs. They are looking for ways to maximize the ROI. This will be a platform available to all irrespective of the EHR of choice.
 timeline:
   milestones:
+    - date: December 2019
+      icon: trophy
+      iconcolor: green
+      milestone: 150+ studies and 60,000+ patients
+      text: Improvements in the platform now allow accelerated deployments at an average rate of 2-3 studies per week.
+    - date: July 2019
+      icon: arrow-up
+      iconcolor: blue
+      milestone: 125 studies and accelerating
+      text: Our user base continues to diversity with multiple external organizations across the country starting up projects independently from Penn. 
     - date: June 2018
       icon: line-chart
       iconcolor: green

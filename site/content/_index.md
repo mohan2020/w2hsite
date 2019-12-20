@@ -50,9 +50,9 @@ stats:
     - title: Supported Projects
       metric: 150
     - title: Patients Engaged
-      metric: 60000
+      metric: 66000
     - title: Peer Reviewed Publications
-      metric: 66
+      metric: 70
 customers:
   title: TRUSTED BY LEADING RESEARCH AND CLINICAL ORGANIZATIONS
   logos:

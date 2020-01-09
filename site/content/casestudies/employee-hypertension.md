@@ -1,7 +1,7 @@
 ---
 title: 'Employee Hypertension '
 date: '2019-11-13'
-area: inprogress
+area: clinical
 subdomain: 'Primary Care '
 authors:
   - authorimage: /img/uploads/rusk_matthew.jpg
@@ -19,5 +19,6 @@ results:
 features:
   - feature: 'Bi-directional Texting '
   - feature: 'Epic Integration '
+spotlight: 'false'
 ---
 

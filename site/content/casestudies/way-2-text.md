@@ -7,7 +7,7 @@ authors:
   - authorimage: /img/team/Shivan.jpg
     authorname: 'Shivan Mehta, MD, MBA'
     authorrole: Principal Investigator
-  - authorimage: /img/uploads/download.jpeg
+  - authorimage: /img/uploads/volpp.jpg
     authorname: 'Kevin Volpp, MD, PhD'
     authorrole: Co-Investigator
 summary: >-

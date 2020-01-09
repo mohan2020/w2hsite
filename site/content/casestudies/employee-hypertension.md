@@ -1,13 +1,13 @@
 ---
 title: 'Employee Hypertension '
 date: '2019-11-13'
-area: inprogress
+area: clinical
 subdomain: 'Primary Care '
 authors:
   - authorimage: /img/uploads/rusk_matthew.jpg
     authorname: 'Matthew Rusk, MD'
     authorrole: 'Clinician '
-  - authorimage: /img/uploads/0-1.jpg
+  - authorimage: /img/uploads/nmchenry.png
     authorname: 'Nicole McHenry, RN '
     authorrole: Clinician
 summary: 'Hypertension monitoring text messaging program for Penn Medicine employees. '
@@ -19,5 +19,6 @@ results:
 features:
   - feature: 'Bi-directional Texting '
   - feature: 'Epic Integration '
+spotlight: 'false'
 ---
 

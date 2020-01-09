@@ -4,7 +4,7 @@ date: '2019-11-13'
 area: inprogress
 subdomain: 'Women''s Health '
 authors:
-  - authorimage: /img/uploads/0-1.jpg
+  - authorimage: /img/uploads/wbender.png
     authorname: 'Whitney Bender, MD'
     authorrole: 'PI '
   - authorimage: /img/uploads/durnwald_celestemd.jpg

@@ -20,6 +20,5 @@ features:
   - feature: Fitbit Device Integration
   - feature: Financial Incentives
   - feature: Support Partners
-spotlight: 'false'
 ---
 

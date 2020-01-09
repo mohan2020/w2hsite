@@ -1,7 +1,7 @@
 ---
 title: 'Employee Hypertension '
 date: '2019-11-13'
-area: clinical
+area: inprogress
 subdomain: 'Primary Care '
 authors:
   - authorimage: /img/uploads/rusk_matthew.jpg

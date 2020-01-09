@@ -17,6 +17,5 @@ summary: >-
 features:
   - feature: Conversations
   - feature: Nature Coach Alert
-spotlight: 'false'
 ---
 

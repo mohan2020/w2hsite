@@ -17,6 +17,5 @@ summary: >-
 features:
   - feature: Blood Pressure Receiver
   - feature: Health Coach Alerts
-spotlight: 'false'
 ---
 

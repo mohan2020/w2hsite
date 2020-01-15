@@ -12,6 +12,9 @@ authors:
     authorrole: >-
       Director of Divisional Administration for the Division of General
       Obstetrics & Gynecology
+  - authorimage: /img/uploads/graseck_anna.jpg
+    authorname: Anna Graseck
+    authorrole: 'Clinical Lead '
 summary: >-
   Weekly text message blood pressure monitoring for pregnant women without
   complications in order to replace office visits through at home monitoring. 

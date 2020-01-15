@@ -13,7 +13,7 @@ authors:
 summary: >-
   Text intervention prompting and monitoring participants to share their social
   media posts and information with their therapists during their scheduled
-  appointment.
+  appointments.
 results:
   - result: 'Increased discussion of social media presence in therapy sessions. '
   - result: >-

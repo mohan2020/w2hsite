@@ -7,7 +7,7 @@ authors:
   - authorimage: /img/uploads/lauren.jpg
     authorname: 'Lauren Southwick '
     authorrole: 'Program Manager '
-  - authorimage: /img/uploads/merc5835.jpg
+  - authorimage: /img/uploads/merchant1.jpg
     authorname: 'Raina Merchant, MD MSHP FAHA'
     authorrole: Research Coordinator
 summary: >-

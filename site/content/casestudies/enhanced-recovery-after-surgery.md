@@ -26,9 +26,10 @@ features:
   - feature: Bi-Directional Texting
 spotlight: true
 pubs:
-  - pubURL: 'https://journals.sagepub.com/doi/10.1177/1090198119869964'
+  - pubURL: 'https://doi.org/10.3171/2018.9.SPINE18681'
     pubname: >-
-      An Automated Text Message Navigation Program Improves the Show Rate for Outpatient Colonoscopy
+      Enhanced recovery after elective spinal and peripheral nerve surgery:
+      pilot study from a single institution
 ---
 ## Background
 

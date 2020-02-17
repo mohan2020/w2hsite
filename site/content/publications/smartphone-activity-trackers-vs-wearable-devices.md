@@ -1,5 +1,5 @@
 ---
-title: Smartphone Activity Trackers Vs. Wearable Devices
+title: Patients Stick with Smartphone Activity Trackers
 articlename: Patients Stick with Smartphone Activity Trackers Longer Than Wearable Devices
 date: '2020-02-17'
 summary: >-

@@ -1,7 +1,9 @@
 ---
-title: Patients Stick with Smartphone Activity Trackers
+title: >-
+  Smartphones vs Wearable Devices for Remotely Monitoring Physical Activity
+  After Hospital Discharge
 articlename: Patients Stick with Smartphone Activity Trackers Longer Than Wearable Devices
-date: '2020-02-17'
+date: '2020-02-07'
 summary: >-
   According to a new Penn Medicine Study, doctors who track their patients’
   physical activity might have more luck doing it with smartphones than wearable
@@ -13,8 +15,7 @@ summary: >-
 authors: >-
   Mitesh Patel, MD, MBA, MS; Daniel Polsky, PhD; Kevin Volpp, MD, PhD; Edward H.
   Kennedy, PhD; Dylan S. Small, PhD; Chalanda Evans; Charles Rareshide
-source: >-
-  https://www.pennmedicine.org/news/news-releases/2020/february/patients-stick-with-smartphone-activity-trackers-longer-than-wearable-devices?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news
-journal: 'Penn Med '
+source: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2760436'
+journal: JAMA Netw Open
 ---
 

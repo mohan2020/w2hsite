@@ -1,5 +1,5 @@
 ---
-title: PA Activity Study
+title: ' PREDICT '
 articlename: >-
   Smartphones vs Wearable Devices for Remotely Monitoring Physical Activity
   After Hospital Discharge

@@ -4,10 +4,10 @@ date: '2019-12-12'
 area: research
 subdomain: Physical Activity
 authors:
-  - authorimage: /img/uploads/greysen.jpg
+  - authorimage: /img/uploads/greysen_ryan_expert.jpg
     authorname: 'Ryan Greysen, MD, MHS, MA'
     authorrole: Principal Investigator
-  - authorimage: /img/uploads/pate4085.jpg
+  - authorimage: /img/uploads/mitesh_0.jpg
     authorname: 'Mitesh Patel, MD, MBA'
     authorrole: Investigator
 summary: >-

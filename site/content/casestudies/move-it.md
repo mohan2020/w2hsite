@@ -25,7 +25,7 @@ features:
   - feature: ' Activity and Sleep Monitor Integration '
   - feature: 'EPIC Discharge Date Finder '
   - feature: 'Gamification '
-spotlight: ''
+spotlight: 'true'
 ---
 ## Background
 

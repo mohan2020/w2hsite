@@ -10,8 +10,8 @@ This Master Software as a Service Agreement (“Agreement”) references and ful
 
 1. The Service Order that describes the Services the Customer is buying, along with related fees;
 2. These General Terms and Conditions containing the general terms and conditions applicable to all Services;
-3. The Acceptable Use Policy as described [here](http://localhost:3000/legal/acceptableuse/);
-4. The Service Level Agreement as described [here](http://localhost:3000/legal/sla/);
+3. The Acceptable Use Policy as described [here](http://waytohealth.upenn.edu/legal/acceptableuse/);
+4. The Service Level Agreement as described [here](http://waytohealth.upenn.edu/legal/sla/);
 5. The Business Associate Agreement - mutually signed. Available on request;
 
 

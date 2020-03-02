@@ -10,9 +10,9 @@ This Master Software as a Service Agreement (“Agreement”) references and ful
 
 1. The Service Order that describes the Services the Customer is buying, along with related fees;
 2. These General Terms and Conditions containing the general terms and conditions applicable to all Services;
-3. The Acceptable Use Policy as described [here]();
-4. The Service Level Agreement as described [here]();
-5. The Business Associate Agreement as described [here]();
+3. The Acceptable Use Policy as described [here](http://localhost:3000/legal/acceptableuse/);
+4. The Service Level Agreement as described [here](http://localhost:3000/legal/sla/);
+5. The Business Associate Agreement - mutually signed. Available on request;
 
 
 This Agreement is effective as of the date that Customer signs the Service Order and is entered into as of that date (the “Effective Date”), by and between The Trustees of the University of Pennsylvania, a Pennsylvania non-profit corporation, owner and operator of the University of Pennsylvania Health System, with an office at 3400 Spruce Street, Philadelphia, Pennsylvania 19104 (“Provider”), and Customer, each sometimes referred to herein individually as a “Party” and collectively as the “Parties”.

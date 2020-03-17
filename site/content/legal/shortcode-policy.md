@@ -7,12 +7,12 @@ summary: >-
 ---
 
 Penn Medicine SMS based remote monitoring programs:
-- COVID-19 WATCH
+
+## COVID-19 WATCH
 
 1. When you opt-in to the service, we will send you an SMS message to confirm your signup.
 
 2. When you enroll into the program, participants will receive the following message (subject to minor modifications):
-
 ```
 Hello {{first name}}. Welcome to the Penn Medicine Home Symptom Tracker. This is for people with cold or flu like symptoms. During this COVID-19 outbreak, we understand you are concerned. In this program, we will text you twice a day to see how you are feeling and make sure you get the care you need.
 
@@ -21,7 +21,6 @@ Please note that texting is not 100% secure so it is possible for someone else t
 Reply OK if you agree
 Reply END if you do not want to be supported by this Penn Medicine program
 ```
-
 3. You can cancel the SMS service at any time. Just text "END" to the short code. After you send the SMS message "END" to us, you will be unsubscribed from the program. After this, you will no longer receive SMS messages from us. If you want to join again, a care provider will have to enroll you back into the program. 
 
 4. If at any time you forget what keywords are supported, just text "HELP" to the short code. After you send the SMS message "HELP" to us, we will respond with instructions on how to use our service as well as how to unsubscribe.
@@ -33,4 +32,4 @@ Reply END if you do not want to be supported by this Penn Medicine program
 
 6. As always, message and data rates may apply for any messages sent to you from us and to us from you. You will receive messages twice a day. If you have any questions about your text plan or data plan, it is best to contact your wireless provider. For all questions about the services provided by this short code, you can send an email to waytohealth@pennmedicine.upenn.edu.
 
-7. If you have any questions regarding privacy, please read our privacy policy ]here](https://www.pennmedicine.org/for-patients-and-visitors/patient-information/hipaa-and-privacy/privacy-statement)
+7. If you have any questions regarding privacy, please read our privacy policy [here](https://www.pennmedicine.org/for-patients-and-visitors/patient-information/hipaa-and-privacy/privacy-statement)

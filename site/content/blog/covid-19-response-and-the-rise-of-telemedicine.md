@@ -7,7 +7,7 @@ summary: >-
   up support for projects in our portfolio that are especially relevant in light
   of the new normal - interventions that leverage telemedicine, remotely monitor
   patients to keep them safe at home, or move care into the home altogether. 
-image: /img/uploads/b889954d-9286-4d24-829c-1c9e37100135.sized-1000x1000.jpg
+image: /img/uploads/skm4org57jfj5pu5nvpizflf54.jpg
 authorname: Smriti Shah
 authorimage: /img/uploads/author-pic.jpg
 ---

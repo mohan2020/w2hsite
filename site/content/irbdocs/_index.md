@@ -9,7 +9,7 @@ irb:
     - name: Way to Health Summary of Data Protections
       description: > 
         This document outlines how Protected Health Information is stored, secured and accessed on the Way to Health platform.
-      link: /files/W2H.Summary.of.Data.Protections.docx
+      link: /files/W2H.Summary.of.Data.Protections_2020-06-03.docx
       link2:
     - name: Sample Documents for Way to Health Studies
       description: >

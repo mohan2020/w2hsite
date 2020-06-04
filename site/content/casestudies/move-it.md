@@ -1,7 +1,7 @@
 ---
 title: MOVE IT
 date: '2019-12-12'
-area: research
+area: inprogress
 subdomain: Physical Activity
 authors:
   - authorimage: /img/uploads/greysen_ryan_expert.jpg

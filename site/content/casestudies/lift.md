@@ -1,7 +1,7 @@
 ---
 title: LIFT
 date: '2020-01-10'
-area: research
+area: inprogress
 subdomain: Hepatology
 authors:
   - authorimage: /img/uploads/serp0682.jpg
@@ -16,6 +16,6 @@ summary: >-
 features:
   - feature: Financial Incentives
   - feature: Misfit Pedometer Integration
-spotlight: 'false'
+spotlight: ''
 ---
 

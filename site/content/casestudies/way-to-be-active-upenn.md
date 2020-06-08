@@ -28,6 +28,10 @@ pubs:
     pubname: >-
       Framing Financial Incentives to Increase Physical Activity Among
       Overweight and Obese Adults: A Randomized, Controlled Trial
+  - pubURL: 'https://pubmed.ncbi.nlm.nih.gov/32396866/'
+    pubname: >-
+      Framing Social Comparison Feedback With Financial Incentives for Physical
+      Activity Promotion: A Randomized Trial
 ---
 ## Background and Aim:
 Financial incentive designs to increase physical activity have not been well-examined. Aim was to test the effectiveness of 3 methods to frame financial incentives to increase physical activity among overweight and obese adults.

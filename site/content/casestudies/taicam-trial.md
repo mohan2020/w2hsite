@@ -17,5 +17,10 @@ features:
   - feature: Propeller Device Integration
   - feature: Financial Incentives
 spotlight: false
+pubs:
+  - pubURL: 'https://pubmed.ncbi.nlm.nih.gov/32396866/'
+    pubname: >-
+      The Tailored Adherence Incentives for Childhood Asthma Medications
+      Randomized Trial: A Research Protocol for Children With High-Risk Asthma
 ---
 

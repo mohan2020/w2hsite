@@ -1,7 +1,7 @@
 ---
 title: COVID-19 Watch
 date: '2020-06-10'
-area: inprogress
+area: clinical
 subdomain: COVID-19
 authors: []
 summary: >-
@@ -12,6 +12,7 @@ summary: >-
   COVID-19.  
 features:
   - feature: Bidirectional Texting
-  - {}
+  - feature: EHR integration
+spotlight: 'true'
 ---
 

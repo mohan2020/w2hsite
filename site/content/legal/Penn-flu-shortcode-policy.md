@@ -1,6 +1,6 @@
 ---
 title: Penn Flu Shot Shortcode Terms of Service Policy
-date: 2020-03-17
+date: 2020-08-05
 link:
 summary: >-
    Policies and rules required to comply with carrier compliance requirements, industry standards, and applicable law.

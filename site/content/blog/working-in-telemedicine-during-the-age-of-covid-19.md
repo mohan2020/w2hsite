@@ -2,20 +2,17 @@
 title: Working in telemedicine during the age of COVID-19
 date: '2020-08-31'
 summary: >-
-  2020 has led to many changes— transitioning to remote work being one of them.
-  Many of us are still getting used to our new reality of telecommuting with
-  about half of employed adults currently working from home. Telecommuting has
-  been on the rise over the last several years and has accelerated exponentially
-  since the pandemic first began. Drawing a direct parallel to this, the field
-  of telemedicine has had a similar claim to fame. Put these two together and
-  working on telemedicine programs for a health system in the midst of a
-  pandemic can be a whole other ball game. I sat down with some integral members
-  of the Way to Health Team to talk about the COVID-19 pandemic and just how it
-  impacted their work here.
+  COVID has impacted us all. Working remotely has been a challenge. This is set
+  of conversations with implementation, engineering and management to gain some
+  insights into their work during these challenging times. 
 image: /img/uploads/screen-shot-2020-08-31-at-3.45.10-pm.png
 authorname: Smriti Shah
 authorimage: /img/uploads/author-pic.jpg
 ---
+2020 has led to many changes— transitioning to remote work being one of them. Many of us are still getting used to our new reality of telecommuting with about half of employed adults currently working from home. Telecommuting has been on the rise over the last several years and has accelerated exponentially since the pandemic first began. Drawing a direct parallel to this, the field of telemedicine has had a similar claim to fame. Put these two together and working on telemedicine programs for a health system in the midst of a pandemic can be a whole other ball game. I sat down with some integral members of the Way to Health Team to talk about the COVID-19 pandemic and just how it impacted their work here.
+
+
+
 **Neda Khan, Senior Applications Specialist**
 
 _Has your work become more meaningful in any way?_
@@ -54,10 +51,12 @@ We have always done a combination of research and clinical work. With COVID Watc
 
 _If the economy takes a serious hit, how does it impact our customers?_
 
-The economy has already taken a serious hit. Way to Health is part of Penn Medicine so anything that impacts Penn Med will impact us as well. Budgets are constrained across the board. But we can some gradual recovery as patient volumes come back up to pre-COVID levels. Health care is an essential service. It's not like you can put off chemotherapy infusions or CABG surgeries indefinetely. 
+The economy has already taken a serious hit. Way to Health is part of Penn Medicine so anything that impacts Penn Med will impact us as well. Budgets are constrained across the board. Health care is an essential service. It's not like you can put off chemotherapy infusions or CABG surgeries indefinetely. So we can now see gradual recovery as patient volumes come back up to pre-COVID levels.
 
-We have two sets of customers - researchers and health care organizations. Research has definitely been impacted with studies paused (but now restarting). Clinical projects have accelerated quite a bit as remote monitoring and telemedicine have taken off. Both were severely impacted over the past few months but they seem to be recovering slowly but surely. 
+We have two sets of customers - researchers and health care organizations. Research has definitely been impacted with studies paused but are now restarting. Clinical projects have accelerated quite a bit as remote monitoring and telemedicine have taken off. Both were severely impacted over the past few months but they seem to be recovering slowly but surely. 
 
 _What big opportunities exist for W2H born out of this situation?_
 
-We are in the process of pulling together the next big set of projects. We’ve been receiving requests from everyone asking about the work we’ve done, and this challenges us to keep moving forward. And we will keep moving forward and do what we’re doing really well. In general, we will be able to establish closer ties with internal Penn teams to be aligned with them so they can look upon us as partners.
+As I mentioned earlier, COVID has accelerated the need and support for telemedicine and remote monitoring efforts. We have been working on ways to automate results reporting, especially negatives to reduce the burden on nursing staff. With the University reopening, we expect the volumes to jump dramatically. All of our existing projects are ramping up faster and we have a large set of incoming projects. 
+
+Given those changes, we expect that we will be more closely linked to the electronic health record. The intent here is for us to be working in the background so that clinicians don't have to worry about logging into one more system. We are also increasingly working closer with clinical and research teams on program design given the vast amount of experience we have with the variety of programs we work with.

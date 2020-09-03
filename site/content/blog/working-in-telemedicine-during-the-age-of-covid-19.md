@@ -10,8 +10,8 @@ summary: >-
   of telemedicine has had a similar claim to fame. Put these two together and
   working on telemedicine programs for a health system in the midst of a
   pandemic can be a whole other ball game. I sat down with some integral members
-  of the Way to Health Team to talk about the COVID-19 pandemic and just how
-  it’s impacted their work here at Way to Health. 
+  of the Way to Health Team to talk about the COVID-19 pandemic and just how it
+  impacted their work here.
 image: /img/uploads/screen-shot-2020-08-31-at-3.45.10-pm.png
 authorname: Smriti Shah
 authorimage: /img/uploads/author-pic.jpg
@@ -30,8 +30,6 @@ _What makes the service Way to Health provides unique?_
 
 Way to Health is really set apart from our competition due to a couple factors. We have seamless integration with EPIC that makes it easy for providers to enroll patients into different programs. Since we’ve been around for so long, we have a ton of experience with what works and what patients respond to in texting and remote monitoring programs. We have the ability to integrate with connected care devices —  this makes a huge impact, and we have the data and metrics to show just how successful it can be. 
 
-
-
 **Kyle McGrogan, Software Developer **
 
 _Have you identified any areas in your work that have been fast-tracked or accelerated with quicker input/output time compared to pre-pandemic structure?_
@@ -42,25 +40,23 @@ _What is one silver lining you have noticed amongst all the uncertainty and unre
 
 One silver lining I’ve noticed is that a lot of red tape got cut away. People are focusing on what we need to do to get care to the people who need it most. I think everyone realized there was a need and started asking, “How can we actually do this?” For instance, integrating with Lancaster General Hospital usually would’ve taken 1-2 months to get approval up the chain whereas now, it happened in a week. Everyone’s coming together to recognize that need for care and how we can get things done quickly. 
 
-
-
 **Michael Kopinsky, Engineering Lead**
 
 _Shifting to remote work - how has the operational response and needs of HUP & other clients impacted your work? What does your “new normal” look like?_
 
-Since we already had occasional remote work we had the tools in place in terms of Slack and Zoom and knowing how to communicate with each other. Our COVID Watch program would normally have taken a few months of working with stakeholders, clinical partners, implementation, and product development, but it took 2.5 weeks instead. In the past we’ve had to scramble to get things done, but now the order of magnitude speeds up the process. For example, a lot of decisions we’ve agonized over now due to time constraints we go forward with what works. And we find solutions that don’t put our other projects at risk. 
+Since we already had occasional remote work we had the tools in place in terms of Slack and Zoom and knowing how to communicate with each other. Our COVID Watch program would normally have taken a few months of working with stakeholders, clinical partners, implementation, and product development, but it took 2.5 weeks instead. In the past we’ve had to scramble to get things done, but now the order of magnitude speeds up the process. For example, decisions we would have agonized over, now due to time constraints we go forward with what works. And we find solutions that don’t put our other projects at risk. 
 
 _Has your work become more meaningful in any way?_
 
 We have always done a combination of research and clinical work. With COVID Watch, we are much closer to patients and patient-specific needs. Normally we’re looking for an elegant solution that meets lots of people's needs, or we stop to consider heavily what clinicians and patients want. Now it's more like, “Here's the specific problem these people are having, and how do we solve it?” In the past we haven't really been involved in running programs. We just support the program and help it launch. With COVID Watch, we’re intimately involved with tracking data daily and closely monitoring what our patients are doing. We can say they're our patients when in the past they’ve been likened to our “customers.” It’s definitely more meaningful. 
 
-
-
 **Mohan Balachandran, COO**
 
 _If the economy takes a serious hit, how does it impact our customers?_
 
-It will impact us across the board. If you look at our client base, anything research-related will continue as usual, since there are lots of NIH grants to sponsor. As long as we are front and center in submissions, we will do well. Research volume is definitely going to go up. If you look at our clients, we work with major health systems. Health plans for a while now have had an increasing amount of interest. We should be in good shape, but the healthcare industry might take a hit.
+The economy has already taken a serious hit. Way to Health is part of Penn Medicine so anything that impacts Penn Med will impact us as well. Budgets are constrained across the board. But we can some gradual recovery as patient volumes come back up to pre-COVID levels. Health care is an essential service. It's not like you can put off chemotherapy infusions or CABG surgeries indefinetely. 
+
+We have two sets of customers - researchers and health care organizations. Research has definitely been impacted with studies paused (but now restarting). Clinical projects have accelerated quite a bit as remote monitoring and telemedicine have taken off. Both were severely impacted over the past few months but they seem to be recovering slowly but surely. 
 
 _What big opportunities exist for W2H born out of this situation?_
 

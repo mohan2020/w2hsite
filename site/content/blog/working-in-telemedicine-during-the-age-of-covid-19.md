@@ -25,9 +25,11 @@ We’ve adopted a much quicker output time —  we’re now building programs, t
 
 _What makes the service Way to Health provides unique?_
 
-Way to Health is really set apart from our competition due to a couple factors. We have seamless integration with EPIC that makes it easy for providers to enroll patients into different programs. Since we’ve been around for so long, we have a ton of experience with what works and what patients respond to in texting and remote monitoring programs. We have the ability to integrate with connected care devices —  this makes a huge impact, and we have the data and metrics to show just how successful it can be. 
+Way to Health is really set apart from our competition due to a couple factors. We have seamless integration with EPIC that makes it easy for providers to enroll patients into different programs. Since we’ve been around for so long, we have a ton of experience with what works and what patients respond to in texting and remote monitoring programs. We have the ability to integrate with connected care devices —  this makes a huge impact, and we have the data and metrics to show just how successful it can be.
 
-**Kyle McGrogan, Software Developer **
+
+
+**Kyle McGrogan, Software Developer**
 
 _Have you identified any areas in your work that have been fast-tracked or accelerated with quicker input/output time compared to pre-pandemic structure?_
 
@@ -36,6 +38,8 @@ From a developer point of view, we’ve created a whole new ticket type for fast
 _What is one silver lining you have noticed amongst all the uncertainty and unrest?_
 
 One silver lining I’ve noticed is that a lot of red tape got cut away. People are focusing on what we need to do to get care to the people who need it most. I think everyone realized there was a need and started asking, “How can we actually do this?” For instance, integrating with Lancaster General Hospital usually would’ve taken 1-2 months to get approval up the chain whereas now, it happened in a week. Everyone’s coming together to recognize that need for care and how we can get things done quickly. 
+
+
 
 **Michael Kopinsky, Engineering Lead**
 

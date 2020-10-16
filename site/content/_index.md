@@ -50,7 +50,7 @@ stats:
     - title: Supported Projects
       metric: 280
     - title: Patients Engaged
-      metric: 100000
+      metric: 175000
     - title: Peer Reviewed Publications
       metric: 74
 customers:

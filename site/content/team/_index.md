@@ -72,22 +72,23 @@ engineering:
         Skip Coon is a software developer for the Way to Health platform.  He brings over 15 years of experience accumulated from various industries.  Before joining the team, Skip worked with pharmaceutical companies to implement clinical trials with software that produced higher quality data submissions. He also supported numerous social service agencies in adopting EHR tools to enable them to better serve their population. Skip received his bachelor's degree in computer science from Temple University.           
 implementation:
   member:
-    - name: Stephanie Brown 
-      title: Clinical Operations
-      twitter: 
-      linkedin: snb42
-      1bgpic: /img/bg/photo10.jpg
-      pic: /img/team/stephanie.jpg
-      text: >
-        Stephanie is the Way to Health Clinical Operations Specialist at the Center for Health Initiatives and Behavioral Economics. She is responsible for collaborating with clinical project teams to develop protocols geared towards increasing positive clinical outcomes and leads teams. Stephanie has worked in both private and public practice clinical settings addressing health disparities as a program assistant, chronic disease care manager and patient-centered medical home coordinator. <br/> <br/>Stephanie received her bachelor’s degree in psychology, with a minor in biology and corporate and public relations from Drexel University and is currently pursuing a Master’s in Public Health from the University of Pennsylvania.
     - name: Neda Khan 
-      title: Research Operations
+      title: Sr. Analyst
       twitter: 
       linkedin: neda-khan-946672100
       1bgpic: /img/bg/photo12.jpg
       pic: /img/team/neda.jpg
       text: >
         Neda is a Way to Health Applications Specialist for the Center for Health Initiatives and Behavioral Economics. She works with research teams to design, implement, and support their behavioral health intervention studies on the Way to Health platform. Prior to working with Way to Health, she was a clinical research coordinator under Dr. Peter Reese’s Lab. <br/> <br/>She managed a behavioral health clinical trial to encourage kidney stone patients to drink more water. She received her Bachelor’s degree from Drexel University in Biological Sciences with a minor in Psychology.
+  member:
+    - name: Michael Joseph 
+      title: Application Specialist
+      twitter: 
+      linkedin:
+      1bgpic: /img/bg/photo12.jpg
+      pic: /img/team/michaelj.jpg
+      text: >
+        Michael Josephs is an applications specialist. He works with clinical and research teams to design, implement, and support behavioral health interventions. He previously worked as a clinical research coordinator for Drs. Volpp and Asch on the EMPOWER trial. Michael received his bachelor’s degree in biology from the University of Pennsylvania.
 advisory:
   role: Advisory Board
   member:
@@ -149,3 +150,11 @@ advisory:
       pic: /img/team/taylor.jpg
       text: >
         Devon Taylor is the Way to Health Operations Specialist at the Center for Health Initiatives and Behavioral Economics. Devon used the Way to Health platform for study and patient management and gained extensive experience building and managing various studies prior to joining the Way to Health team full time in March 2016. She consults with research and clinical project teams to determine project feasibility, refine protocols, and increase project quality by assisting teams in the building and testing of platforms. <br><br>Devon received her bachelor’s degree in biology from Lehigh University and graduated with a Master’s in Public Health from the University of Pennsylvania.        
+    - name: Stephanie Brown 
+      title: Clinical Operations
+      twitter: 
+      linkedin: snb42
+      1bgpic: /img/bg/photo10.jpg
+      pic: /img/team/stephanie.jpg
+      text: >
+        Stephanie is the Way to Health Clinical Operations Specialist at the Center for Health Initiatives and Behavioral Economics. She is responsible for collaborating with clinical project teams to develop protocols geared towards increasing positive clinical outcomes and leads teams. Stephanie has worked in both private and public practice clinical settings addressing health disparities as a program assistant, chronic disease care manager and patient-centered medical home coordinator. <br/> <br/>Stephanie received her bachelor’s degree in psychology, with a minor in biology and corporate and public relations from Drexel University and is currently pursuing a Master’s in Public Health from the University of Pennsylvania.    

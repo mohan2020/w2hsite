@@ -13,7 +13,7 @@ summary: >-
   phenotypes and evaluated differential responses to a physical activity
   intervention. Engagement varies significantly across the identified
   phenotypes. The hope is to levarege this methodology to improve patient
-  engagement across multiple clinical domains
+  engagement across multiple clinical domains.
 authors: >-
   Xisui Shirley Chen , Sujatha Changolkar, Amol S. Navathe,  Kristin A. Linn,
   Gregory Reh, Gregory Szwartz, David Steier, Sarah Godby, Mohan Balachandran,
